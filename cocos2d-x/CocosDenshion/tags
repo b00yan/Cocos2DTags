@@ -1,0 +1,23 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CocosDenshion	include/SimpleAudioEngine.h	/^namespace CocosDenshion {$/;"	n
+EXPORT_DLL	include/Export.h	11;"	d
+EXPORT_DLL	include/Export.h	13;"	d
+EXPORT_DLL	include/Export.h	17;"	d
+EXPORT_DLL	include/Export.h	19;"	d
+EXPORT_DLL	include/Export.h	21;"	d
+EXPORT_DLL	include/Export.h	6;"	d
+EXPORT_DLL	include/Export.h	9;"	d
+SimpleAudioEngine	include/SimpleAudioEngine.h	/^class EXPORT_DLL SimpleAudioEngine : public TypeInfo$/;"	c	namespace:CocosDenshion
+TypeInfo	include/SimpleAudioEngine.h	/^class TypeInfo$/;"	c	namespace:CocosDenshion
+_SIMPLE_AUDIO_ENGINE_H_	include/SimpleAudioEngine.h	27;"	d
+__EXPORT_COMMON__	include/Export.h	2;"	d
+getClassTypeInfo	include/SimpleAudioEngine.h	/^    virtual long getClassTypeInfo() {$/;"	f	class:CocosDenshion::SimpleAudioEngine
+getHashCodeByString	include/SimpleAudioEngine.h	/^static inline unsigned int getHashCodeByString(const char *key)$/;"	f	namespace:CocosDenshion
+playBackgroundMusic	include/SimpleAudioEngine.h	/^    void playBackgroundMusic(const char* pszFilePath) {$/;"	f	class:CocosDenshion::SimpleAudioEngine
+playEffect	include/SimpleAudioEngine.h	/^    unsigned int playEffect(const char* pszFilePath) {$/;"	f	class:CocosDenshion::SimpleAudioEngine
+stopBackgroundMusic	include/SimpleAudioEngine.h	/^    void stopBackgroundMusic() {$/;"	f	class:CocosDenshion::SimpleAudioEngine

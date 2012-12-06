@@ -1,0 +1,1296 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	src/cpBBTree.c	64;"	d	file:
+B	src/cpBBTree.c	65;"	d	file:
+BBQuery	src/cpSpaceQuery.c	/^BBQuery(struct BBQueryContext *context, cpShape *shape, void *data)$/;"	f	file:
+BBQueryContext	src/cpSpaceQuery.c	/^struct BBQueryContext {$/;"	s	file:
+BBToBounds	src/cpSweep1D.c	/^BBToBounds(cpSweep1D *sweep, cpBB bb)$/;"	f	file:
+BodyIteratorFunc	src/chipmunk.c	/^static void BodyIteratorFunc(cpBody *body, void *ptr, void (^block)(void *ptr)){block(ptr);}$/;"	f	file:
+Bounds	src/cpSweep1D.c	/^typedef struct Bounds {$/;"	s	file:
+Bounds	src/cpSweep1D.c	/^} Bounds;$/;"	t	typeref:struct:Bounds	file:
+BoundsOverlap	src/cpSweep1D.c	/^BoundsOverlap(Bounds a, Bounds b)$/;"	f	file:
+Bytes	include/chipmunk/chipmunk_types.h	/^			unsigned __int8 Bytes[4];$/;"	m	union:MSVC_EVIL_FLOAT_HACK
+CHIPMUNK_HEADER	include/chipmunk/chipmunk.h	23;"	d
+CHIPMUNK_UNSAFE_HEADER	include/chipmunk/chipmunk_unsafe.h	40;"	d
+CP_ALLOW_PRIVATE_ACCESS	include/chipmunk/chipmunk.h	33;"	d
+CP_ALLOW_PRIVATE_ACCESS	include/chipmunk/chipmunk_private.h	22;"	d
+CP_ALL_LAYERS	include/chipmunk/chipmunk_types.h	198;"	d
+CP_ARBITER_GET_BODIES	include/chipmunk/cpArbiter.h	163;"	d
+CP_ARBITER_GET_SHAPES	include/chipmunk/cpArbiter.h	151;"	d
+CP_BODY_FOREACH_ARBITER	include/chipmunk/chipmunk_private.h	63;"	d
+CP_BODY_FOREACH_COMPONENT	include/chipmunk/chipmunk_private.h	69;"	d
+CP_BODY_FOREACH_CONSTRAINT	include/chipmunk/chipmunk_private.h	54;"	d
+CP_BODY_FOREACH_SHAPE	include/chipmunk/chipmunk_private.h	66;"	d
+CP_BUFFER_BYTES	include/chipmunk/chipmunk.h	66;"	d
+CP_CIRCLE_SHAPE	include/chipmunk/cpShape.h	/^	CP_CIRCLE_SHAPE,$/;"	e	enum:cpShapeType
+CP_CONTACTS_BUFFER_SIZE	src/cpSpaceStep.c	110;"	d	file:
+CP_CONVEX_HULL	include/chipmunk/chipmunk.h	172;"	d
+CP_DeclareShapeGetter	include/chipmunk/cpShape.h	177;"	d
+CP_DefineArbiterStructGetter	include/chipmunk/cpArbiter.h	108;"	d
+CP_DefineArbiterStructProperty	include/chipmunk/cpArbiter.h	114;"	d
+CP_DefineArbiterStructSetter	include/chipmunk/cpArbiter.h	111;"	d
+CP_DefineBodyStructGetter	include/chipmunk/cpBody.h	157;"	d
+CP_DefineBodyStructProperty	include/chipmunk/cpBody.h	167;"	d
+CP_DefineBodyStructSetter	include/chipmunk/cpBody.h	160;"	d
+CP_DefineClassGetter	include/chipmunk/constraints/util.h	26;"	d
+CP_DefineClassGetter	src/constraints/cpDampedRotarySpring.c	/^CP_DefineClassGetter(cpDampedRotarySpring)$/;"	f
+CP_DefineClassGetter	src/constraints/cpDampedSpring.c	/^CP_DefineClassGetter(cpDampedSpring)$/;"	f
+CP_DefineClassGetter	src/constraints/cpGearJoint.c	/^CP_DefineClassGetter(cpGearJoint)$/;"	f
+CP_DefineClassGetter	src/constraints/cpGrooveJoint.c	/^CP_DefineClassGetter(cpGrooveJoint)$/;"	f
+CP_DefineClassGetter	src/constraints/cpPinJoint.c	/^CP_DefineClassGetter(cpPinJoint)$/;"	f
+CP_DefineClassGetter	src/constraints/cpPivotJoint.c	/^CP_DefineClassGetter(cpPivotJoint)$/;"	f
+CP_DefineClassGetter	src/constraints/cpRatchetJoint.c	/^CP_DefineClassGetter(cpRatchetJoint)$/;"	f
+CP_DefineClassGetter	src/constraints/cpRotaryLimitJoint.c	/^CP_DefineClassGetter(cpRotaryLimitJoint)$/;"	f
+CP_DefineClassGetter	src/constraints/cpSimpleMotor.c	/^CP_DefineClassGetter(cpSimpleMotor)$/;"	f
+CP_DefineClassGetter	src/constraints/cpSlideJoint.c	/^CP_DefineClassGetter(cpSlideJoint)$/;"	f
+CP_DefineConstraintGetter	include/chipmunk/constraints/cpConstraint.h	135;"	d
+CP_DefineConstraintProperty	include/chipmunk/constraints/cpConstraint.h	148;"	d
+CP_DefineConstraintSetter	include/chipmunk/constraints/cpConstraint.h	141;"	d
+CP_DefineConstraintStructGetter	include/chipmunk/constraints/cpConstraint.h	98;"	d
+CP_DefineConstraintStructProperty	include/chipmunk/constraints/cpConstraint.h	109;"	d
+CP_DefineConstraintStructSetter	include/chipmunk/constraints/cpConstraint.h	102;"	d
+CP_DefineShapeGetter	src/cpShape.c	/^CP_DefineShapeGetter(cpCircleShape, cpVect, c, Offset)$/;"	f
+CP_DefineShapeGetter	src/cpShape.c	/^CP_DefineShapeGetter(cpSegmentShape, cpVect, a, A)$/;"	f
+CP_DefineShapeGetter	src/cpShape.c	25;"	d	file:
+CP_DefineShapeStructGetter	include/chipmunk/cpShape.h	144;"	d
+CP_DefineShapeStructProperty	include/chipmunk/cpShape.h	153;"	d
+CP_DefineShapeStructSetter	include/chipmunk/cpShape.h	147;"	d
+CP_DefineSpaceStructGetter	include/chipmunk/cpSpace.h	120;"	d
+CP_DefineSpaceStructProperty	include/chipmunk/cpSpace.h	126;"	d
+CP_DefineSpaceStructSetter	include/chipmunk/cpSpace.h	123;"	d
+CP_HASH_COEF	include/chipmunk/chipmunk_private.h	25;"	d
+CP_HASH_PAIR	include/chipmunk/chipmunk_private.h	26;"	d
+CP_MAX_CONTACTS_PER_ARBITER	include/chipmunk/cpArbiter.h	53;"	d
+CP_NO_GROUP	include/chipmunk/chipmunk_types.h	193;"	d
+CP_NUM_SHAPES	include/chipmunk/cpShape.h	/^	CP_NUM_SHAPES$/;"	e	enum:cpShapeType
+CP_POLY_SHAPE	include/chipmunk/cpShape.h	/^	CP_POLY_SHAPE,$/;"	e	enum:cpShapeType
+CP_PRIVATE	include/chipmunk/chipmunk.h	37;"	d
+CP_PRIVATE	include/chipmunk/chipmunk.h	39;"	d
+CP_SEGMENT_SHAPE	include/chipmunk/cpShape.h	/^	CP_SEGMENT_SHAPE,$/;"	e	enum:cpShapeType
+CP_USE_CGPOINTS	include/chipmunk/chipmunk_types.h	8;"	d
+CP_USE_DOUBLES	include/chipmunk/chipmunk_types.h	19;"	d
+CP_USE_DOUBLES	include/chipmunk/chipmunk_types.h	21;"	d
+CP_USE_DOUBLES	include/chipmunk/chipmunk_types.h	27;"	d
+CP_VERSION_MAJOR	include/chipmunk/chipmunk.h	110;"	d
+CP_VERSION_MINOR	include/chipmunk/chipmunk.h	111;"	d
+CP_VERSION_RELEASE	include/chipmunk/chipmunk.h	112;"	d
+ComponentActivate	src/cpSpaceComponent.c	/^ComponentActivate(cpBody *root)$/;"	f	file:
+ComponentActive	src/cpSpaceComponent.c	/^ComponentActive(cpBody *root, cpFloat threshold)$/;"	f	file:
+ComponentAdd	src/cpSpaceComponent.c	/^ComponentAdd(cpBody *root, cpBody *body){$/;"	f	file:
+ComponentRoot	src/cpSpaceComponent.c	/^ComponentRoot(cpBody *body)$/;"	f	file:
+FloodFillComponent	src/cpSpaceComponent.c	/^FloodFillComponent(cpBody *root, cpBody *body)$/;"	f	file:
+GetBB	src/cpBBTree.c	/^GetBB(cpBBTree *tree, void *obj)$/;"	f	file:
+GetMasterTree	src/cpBBTree.c	/^GetMasterTree(cpBBTree *tree)$/;"	f	file:
+GetRootIfTree	src/cpBBTree.c	/^GetRootIfTree(cpSpatialIndex *index){$/;"	f	file:
+GetTree	src/cpBBTree.c	/^GetTree(cpSpatialIndex *index)$/;"	f	file:
+INFINITY	include/chipmunk/chipmunk_types.h	70;"	d
+INFINITY	include/chipmunk/chipmunk_types.h	74;"	d
+INFINITY	include/chipmunk/chipmunk_types.h	78;"	d
+INFINITY_HACK	include/chipmunk/chipmunk_types.h	/^		static union MSVC_EVIL_FLOAT_HACK INFINITY_HACK = {{0x00, 0x00, 0x80, 0x7F}};$/;"	v	typeref:union:MSVC_EVIL_FLOAT_HACK
+IncrementStamp	src/cpBBTree.c	/^IncrementStamp(cpBBTree *tree)$/;"	f	file:
+IteratorFunc	src/chipmunk.c	/^static void IteratorFunc(void *ptr, void (^block)(void *ptr)){block(ptr);}$/;"	f	file:
+Klass	src/cpBBTree.c	/^static inline cpSpatialIndexClass *Klass(){return &klass;}$/;"	f	file:
+Klass	src/cpSpaceHash.c	/^static inline cpSpatialIndexClass *Klass(){return &klass;}$/;"	f	file:
+Klass	src/cpSweep1D.c	/^static inline cpSpatialIndexClass *Klass(){return &klass;}$/;"	f	file:
+LeafAddPairs	src/cpBBTree.c	/^LeafAddPairs(Node *leaf, cpBBTree *tree)$/;"	f	file:
+LeafNew	src/cpBBTree.c	/^LeafNew(cpBBTree *tree, void *obj, cpBB bb)$/;"	f	file:
+LeafUpdate	src/cpBBTree.c	/^LeafUpdate(Node *leaf, cpBBTree *tree)$/;"	f	file:
+MAKE_PROPERTIES_REF	include/chipmunk/chipmunk_ffi.h	16;"	d
+MAKE_REF	include/chipmunk/chipmunk_ffi.h	10;"	d
+MAKE_REF	include/chipmunk/chipmunk_ffi.h	13;"	d
+MAKE_REF	include/chipmunk/chipmunk_ffi.h	8;"	d
+MSVC_EVIL_FLOAT_HACK	include/chipmunk/chipmunk_types.h	/^		union MSVC_EVIL_FLOAT_HACK$/;"	u
+M_E	include/chipmunk/chipmunk_types.h	87;"	d
+M_PI	include/chipmunk/chipmunk_types.h	83;"	d
+MakeTableCell	src/cpSweep1D.c	/^MakeTableCell(cpSweep1D *sweep, void *obj)$/;"	f	file:
+MarkContext	src/cpBBTree.c	/^typedef struct MarkContext {$/;"	s	file:
+MarkContext	src/cpBBTree.c	/^} MarkContext;$/;"	t	typeref:struct:MarkContext	file:
+MarkLeaf	src/cpBBTree.c	/^MarkLeaf(Node *leaf, MarkContext *context)$/;"	f	file:
+MarkLeafQuery	src/cpBBTree.c	/^MarkLeafQuery(Node *subtree, Node *leaf, cpBool left, MarkContext *context)$/;"	f	file:
+MarkSubtree	src/cpBBTree.c	/^MarkSubtree(Node *subtree, MarkContext *context)$/;"	f	file:
+NearestPointQuery	src/cpSpaceQuery.c	/^NearestPointQuery(struct NearestPointQueryContext *context, cpShape *shape, void *data)$/;"	f	file:
+NearestPointQueryContext	src/cpSpaceQuery.c	/^struct NearestPointQueryContext {$/;"	s	file:
+NearestPointQueryIteratorFunc	src/chipmunk.c	/^static void NearestPointQueryIteratorFunc(cpShape *shape, cpFloat distance, cpVect point, cpSpaceNearestPointQueryBlock block){block(shape, distance, point);}$/;"	f	file:
+NearestPointQueryNearest	src/cpSpaceQuery.c	/^NearestPointQueryNearest(struct NearestPointQueryContext *context, cpShape *shape, cpNearestPointQueryInfo *out)$/;"	f	file:
+Node	src/cpBBTree.c	/^struct Node {$/;"	s	file:
+Node	src/cpBBTree.c	/^typedef struct Node Node;$/;"	t	typeref:struct:Node	file:
+NodeFromPool	src/cpBBTree.c	/^NodeFromPool(cpBBTree *tree)$/;"	f	file:
+NodeIsLeaf	src/cpBBTree.c	/^NodeIsLeaf(Node *node)$/;"	f	file:
+NodeNew	src/cpBBTree.c	/^NodeNew(cpBBTree *tree, Node *a, Node *b)$/;"	f	file:
+NodeOther	src/cpBBTree.c	/^NodeOther(Node *node, Node *child)$/;"	f	file:
+NodeRecycle	src/cpBBTree.c	/^NodeRecycle(cpBBTree *tree, Node *node)$/;"	f	file:
+NodeRender	src/cpBBTree.c	/^NodeRender(Node *node, int depth)$/;"	f	file:
+NodeReplaceChild	src/cpBBTree.c	/^NodeReplaceChild(Node *parent, Node *child, Node *value, cpBBTree *tree)$/;"	f	file:
+NodeSetA	src/cpBBTree.c	/^NodeSetA(Node *node, Node *value)$/;"	f	file:
+NodeSetB	src/cpBBTree.c	/^NodeSetB(Node *node, Node *value)$/;"	f	file:
+PAIRS	src/cpBBTree.c	67;"	d	file:
+Pair	src/cpBBTree.c	/^struct Pair { Thread a, b; };$/;"	s	file:
+Pair	src/cpBBTree.c	/^typedef struct Pair Pair;$/;"	t	typeref:struct:Pair	file:
+PairFromPool	src/cpBBTree.c	/^PairFromPool(cpBBTree *tree)$/;"	f	file:
+PairInsert	src/cpBBTree.c	/^PairInsert(Node *a, Node *b, cpBBTree *tree)$/;"	f	file:
+PairRecycle	src/cpBBTree.c	/^PairRecycle(cpBBTree *tree, Pair *pair)$/;"	f	file:
+PairsClear	src/cpBBTree.c	/^PairsClear(Node *leaf, cpBBTree *tree)$/;"	f	file:
+PointQuery	src/cpSpaceQuery.c	/^PointQuery(struct PointQueryContext *context, cpShape *shape, void *data)$/;"	f	file:
+PointQueryContext	src/cpSpaceQuery.c	/^struct PointQueryContext {$/;"	s	file:
+PointQueryFirst	src/cpSpaceQuery.c	/^PointQueryFirst(cpShape *shape, cpShape **outShape)$/;"	f	file:
+PostStepDoNothing	src/cpSpaceStep.c	/^static void PostStepDoNothing(cpSpace *space, void *obj, void *data){}$/;"	f	file:
+QHullPartition	src/chipmunk.c	/^QHullPartition(cpVect *verts, int count, cpVect a, cpVect b, cpFloat tol)$/;"	f	file:
+QHullReduce	src/chipmunk.c	/^QHullReduce(cpFloat tol, cpVect *verts, int count, cpVect a, cpVect pivot, cpVect b, cpVect *result)$/;"	f	file:
+ResizeTable	src/cpSweep1D.c	/^ResizeTable(cpSweep1D *sweep, int size)$/;"	f	file:
+STAMP	src/cpBBTree.c	66;"	d	file:
+STR	src/chipmunk.c	45;"	d	file:
+SWAP	src/chipmunk.c	179;"	d	file:
+SegmentQuery	src/cpSpaceQuery.c	/^SegmentQuery(struct SegmentQueryContext *context, cpShape *shape, void *data)$/;"	f	file:
+SegmentQueryContext	src/cpSpaceQuery.c	/^struct SegmentQueryContext {$/;"	s	file:
+SegmentQueryFirst	src/cpSpaceQuery.c	/^SegmentQueryFirst(struct SegmentQueryContext *context, cpShape *shape, cpSegmentQueryInfo *out)$/;"	f	file:
+SegmentQueryIteratorFunc	src/chipmunk.c	/^static void SegmentQueryIteratorFunc(cpShape *shape, cpFloat t, cpVect n, cpSpaceSegmentQueryBlock block){block(shape, t, n);}$/;"	f	file:
+ShapeQuery	src/cpSpaceQuery.c	/^ShapeQuery(cpShape *a, cpShape *b, struct ShapeQueryContext *context)$/;"	f	file:
+ShapeQueryContext	src/cpSpaceQuery.c	/^struct ShapeQueryContext {$/;"	s	file:
+ShapeQueryIteratorFunc	src/chipmunk.c	/^static void ShapeQueryIteratorFunc(cpShape *shape, cpContactPointSet *points, cpSpaceShapeQueryBlock block){block(shape, points);}$/;"	f	file:
+SubtreeInsert	src/cpBBTree.c	/^SubtreeInsert(Node *subtree, Node *leaf, cpBBTree *tree)$/;"	f	file:
+SubtreeQuery	src/cpBBTree.c	/^SubtreeQuery(Node *subtree, void *obj, cpBB bb, cpSpatialIndexQueryFunc func, void *data)$/;"	f	file:
+SubtreeRecycle	src/cpBBTree.c	/^SubtreeRecycle(cpBBTree *tree, Node *node)$/;"	f	file:
+SubtreeRemove	src/cpBBTree.c	/^SubtreeRemove(Node *subtree, Node *leaf, cpBBTree *tree)$/;"	f	file:
+SubtreeSegmentQuery	src/cpBBTree.c	/^SubtreeSegmentQuery(Node *subtree, void *obj, cpVect a, cpVect b, cpFloat t_exit, cpSpatialIndexSegmentQueryFunc func, void *data)$/;"	f	file:
+TableCell	src/cpSweep1D.c	/^typedef struct TableCell {$/;"	s	file:
+TableCell	src/cpSweep1D.c	/^} TableCell;$/;"	t	typeref:struct:TableCell	file:
+TableSort	src/cpSweep1D.c	/^TableSort(TableCell *a, TableCell *b)$/;"	f	file:
+Thread	src/cpBBTree.c	/^typedef struct Thread {$/;"	s	file:
+Thread	src/cpBBTree.c	/^} Thread;$/;"	t	typeref:struct:Thread	file:
+ThreadUnlink	src/cpBBTree.c	/^ThreadUnlink(Thread thread)$/;"	f	file:
+Value	include/chipmunk/chipmunk_types.h	/^			float Value;$/;"	m	union:MSVC_EVIL_FLOAT_HACK
+VoidQueryFunc	src/cpBBTree.c	/^static void VoidQueryFunc(void *obj1, void *obj2, void *data){}$/;"	f	file:
+XSTR	src/chipmunk.c	46;"	d	file:
+a	include/chipmunk/chipmunk_types.h	/^	cpFloat a, b, c, d;$/;"	m	struct:cpMat2x2
+a	include/chipmunk/constraints/cpConstraint.h	/^	cpBody *a;$/;"	m	struct:cpConstraint
+a	include/chipmunk/cpArbiter.h	/^	cpCollisionType a;$/;"	m	struct:cpCollisionHandler
+a	include/chipmunk/cpBody.h	/^	cpFloat a;$/;"	m	struct:cpBody
+a	include/chipmunk/cpShape.h	/^	cpVect a, b, n;$/;"	m	struct:cpSegmentShape
+a	src/cpBBTree.c	/^		struct { Node *a, *b; } children;$/;"	m	struct:Node::__anon2::__anon3	file:
+a	src/cpBBTree.c	/^struct Pair { Thread a, b; };$/;"	m	struct:Pair	file:
+a_tangent	include/chipmunk/cpShape.h	/^	cpVect a_tangent, b_tangent;$/;"	m	struct:cpSegmentShape
+activateTouchingHelper	src/cpSpaceComponent.c	/^activateTouchingHelper(cpShape *shape, cpContactPointSet *points, cpShape *other){$/;"	f	file:
+allocatedBuffers	src/cpBBTree.c	/^	cpArray *allocatedBuffers;$/;"	m	struct:cpBBTree	file:
+allocatedBuffers	src/cpHashSet.c	/^	cpArray *allocatedBuffers;$/;"	m	struct:cpHashSet	file:
+allocatedBuffers	src/cpSpaceHash.c	/^	cpArray *allocatedBuffers;$/;"	m	struct:cpSpaceHash	file:
+alwaysCollide	src/cpSpace.c	/^static cpBool alwaysCollide(cpArbiter *arb, cpSpace *space, void *data){return 1;}$/;"	f	file:
+anchr1	include/chipmunk/constraints/cpDampedSpring.h	/^	cpVect anchr1, anchr2;$/;"	m	struct:cpDampedSpring
+anchr1	include/chipmunk/constraints/cpPinJoint.h	/^	cpVect anchr1, anchr2;$/;"	m	struct:cpPinJoint
+anchr1	include/chipmunk/constraints/cpPivotJoint.h	/^	cpVect anchr1, anchr2;$/;"	m	struct:cpPivotJoint
+anchr1	include/chipmunk/constraints/cpSlideJoint.h	/^	cpVect anchr1, anchr2;$/;"	m	struct:cpSlideJoint
+anchr2	include/chipmunk/constraints/cpDampedSpring.h	/^	cpVect anchr1, anchr2;$/;"	m	struct:cpDampedSpring
+anchr2	include/chipmunk/constraints/cpGrooveJoint.h	/^	cpVect  anchr2;$/;"	m	struct:cpGrooveJoint
+anchr2	include/chipmunk/constraints/cpPinJoint.h	/^	cpVect anchr1, anchr2;$/;"	m	struct:cpPinJoint
+anchr2	include/chipmunk/constraints/cpPivotJoint.h	/^	cpVect anchr1, anchr2;$/;"	m	struct:cpPivotJoint
+anchr2	include/chipmunk/constraints/cpSlideJoint.h	/^	cpVect anchr1, anchr2;$/;"	m	struct:cpSlideJoint
+angle	include/chipmunk/constraints/cpRatchetJoint.h	/^	cpFloat angle, phase, ratchet;$/;"	m	struct:cpRatchetJoint
+anyCollision	src/cpSpaceQuery.c	/^	cpBool anyCollision;$/;"	m	struct:ShapeQueryContext	file:
+applyCachedImpulse	include/chipmunk/constraints/cpConstraint.h	/^	cpConstraintApplyCachedImpulseImpl applyCachedImpulse;$/;"	m	struct:cpConstraintClass
+applyCachedImpulse	src/constraints/cpDampedRotarySpring.c	/^static void applyCachedImpulse(cpDampedRotarySpring *spring, cpFloat dt_coef){}$/;"	f	file:
+applyCachedImpulse	src/constraints/cpDampedSpring.c	/^static void applyCachedImpulse(cpDampedSpring *spring, cpFloat dt_coef){}$/;"	f	file:
+applyCachedImpulse	src/constraints/cpGearJoint.c	/^applyCachedImpulse(cpGearJoint *joint, cpFloat dt_coef)$/;"	f	file:
+applyCachedImpulse	src/constraints/cpGrooveJoint.c	/^applyCachedImpulse(cpGrooveJoint *joint, cpFloat dt_coef)$/;"	f	file:
+applyCachedImpulse	src/constraints/cpPinJoint.c	/^applyCachedImpulse(cpPinJoint *joint, cpFloat dt_coef)$/;"	f	file:
+applyCachedImpulse	src/constraints/cpPivotJoint.c	/^applyCachedImpulse(cpPivotJoint *joint, cpFloat dt_coef)$/;"	f	file:
+applyCachedImpulse	src/constraints/cpRatchetJoint.c	/^applyCachedImpulse(cpRatchetJoint *joint, cpFloat dt_coef)$/;"	f	file:
+applyCachedImpulse	src/constraints/cpRotaryLimitJoint.c	/^applyCachedImpulse(cpRotaryLimitJoint *joint, cpFloat dt_coef)$/;"	f	file:
+applyCachedImpulse	src/constraints/cpSimpleMotor.c	/^applyCachedImpulse(cpSimpleMotor *joint, cpFloat dt_coef)$/;"	f	file:
+applyCachedImpulse	src/constraints/cpSlideJoint.c	/^applyCachedImpulse(cpSlideJoint *joint, cpFloat dt_coef)$/;"	f	file:
+applyImpulse	include/chipmunk/constraints/cpConstraint.h	/^	cpConstraintApplyImpulseImpl applyImpulse;$/;"	m	struct:cpConstraintClass
+applyImpulse	src/constraints/cpDampedRotarySpring.c	/^applyImpulse(cpDampedRotarySpring *spring, cpFloat dt)$/;"	f	file:
+applyImpulse	src/constraints/cpDampedSpring.c	/^applyImpulse(cpDampedSpring *spring, cpFloat dt)$/;"	f	file:
+applyImpulse	src/constraints/cpGearJoint.c	/^applyImpulse(cpGearJoint *joint, cpFloat dt)$/;"	f	file:
+applyImpulse	src/constraints/cpGrooveJoint.c	/^applyImpulse(cpGrooveJoint *joint, cpFloat dt)$/;"	f	file:
+applyImpulse	src/constraints/cpPinJoint.c	/^applyImpulse(cpPinJoint *joint, cpFloat dt)$/;"	f	file:
+applyImpulse	src/constraints/cpPivotJoint.c	/^applyImpulse(cpPivotJoint *joint, cpFloat dt)$/;"	f	file:
+applyImpulse	src/constraints/cpRatchetJoint.c	/^applyImpulse(cpRatchetJoint *joint, cpFloat dt)$/;"	f	file:
+applyImpulse	src/constraints/cpRotaryLimitJoint.c	/^applyImpulse(cpRotaryLimitJoint *joint, cpFloat dt)$/;"	f	file:
+applyImpulse	src/constraints/cpSimpleMotor.c	/^applyImpulse(cpSimpleMotor *joint, cpFloat dt)$/;"	f	file:
+applyImpulse	src/constraints/cpSlideJoint.c	/^applyImpulse(cpSlideJoint *joint, cpFloat dt)$/;"	f	file:
+apply_bias_impulse	include/chipmunk/constraints/util.h	/^apply_bias_impulse(cpBody *body, cpVect j, cpVect r)$/;"	f
+apply_bias_impulses	include/chipmunk/constraints/util.h	/^apply_bias_impulses(cpBody *a , cpBody *b, cpVect r1, cpVect r2, cpVect j)$/;"	f
+apply_impulse	include/chipmunk/constraints/util.h	/^apply_impulse(cpBody *body, cpVect j, cpVect r){$/;"	f
+apply_impulses	include/chipmunk/constraints/util.h	/^apply_impulses(cpBody *a , cpBody *b, cpVect r1, cpVect r2, cpVect j)$/;"	f
+arbiterFilterContext	src/cpSpace.c	/^struct arbiterFilterContext {$/;"	s	file:
+arbiterSetEql	src/cpSpace.c	/^arbiterSetEql(cpShape **shapes, cpArbiter *arb)$/;"	f	file:
+arr	include/chipmunk/chipmunk_private.h	/^	void **arr;$/;"	m	struct:cpArray
+b	include/chipmunk/chipmunk_types.h	/^	cpFloat a, b, c, d;$/;"	m	struct:cpMat2x2
+b	include/chipmunk/constraints/cpConstraint.h	/^	cpBody *b;$/;"	m	struct:cpConstraint
+b	include/chipmunk/cpArbiter.h	/^	cpCollisionType b;$/;"	m	struct:cpCollisionHandler
+b	include/chipmunk/cpBB.h	/^	cpFloat l, b, r ,t;$/;"	m	struct:cpBB
+b	include/chipmunk/cpShape.h	/^	cpVect a, b, n;$/;"	m	struct:cpSegmentShape
+b	src/cpBBTree.c	/^		struct { Node *a, *b; } children;$/;"	m	struct:Node::__anon2::__anon3	file:
+b	src/cpBBTree.c	/^struct Pair { Thread a, b; };$/;"	m	struct:Pair	file:
+b_tangent	include/chipmunk/cpShape.h	/^	cpVect a_tangent, b_tangent;$/;"	m	struct:cpSegmentShape
+bb	include/chipmunk/cpShape.h	/^	cpBB bb;$/;"	m	struct:cpShape
+bb	src/cpBBTree.c	/^	cpBB bb;$/;"	m	struct:Node	file:
+bb	src/cpSpaceQuery.c	/^	cpBB bb;$/;"	m	struct:BBQueryContext	file:
+bbfunc	include/chipmunk/cpSpatialIndex.h	/^	cpSpatialIndexBBFunc bbfunc;$/;"	m	struct:cpSpatialIndex
+bbfunc	src/cpSpatialIndex.c	/^	cpSpatialIndexBBFunc bbfunc;$/;"	m	struct:dynamicToStaticContext	file:
+begin	include/chipmunk/cpArbiter.h	/^	cpCollisionBeginFunc begin;$/;"	m	struct:cpCollisionHandler
+bias	include/chipmunk/chipmunk_private.h	/^	cpFloat bias;$/;"	m	struct:cpContact
+bias	include/chipmunk/constraints/cpGearJoint.h	/^	cpFloat bias;$/;"	m	struct:cpGearJoint
+bias	include/chipmunk/constraints/cpGrooveJoint.h	/^	cpVect bias;$/;"	m	struct:cpGrooveJoint
+bias	include/chipmunk/constraints/cpPinJoint.h	/^	cpFloat bias;$/;"	m	struct:cpPinJoint
+bias	include/chipmunk/constraints/cpPivotJoint.h	/^	cpVect bias;$/;"	m	struct:cpPivotJoint
+bias	include/chipmunk/constraints/cpRatchetJoint.h	/^	cpFloat bias;$/;"	m	struct:cpRatchetJoint
+bias	include/chipmunk/constraints/cpRotaryLimitJoint.h	/^	cpFloat bias;$/;"	m	struct:cpRotaryLimitJoint
+bias	include/chipmunk/constraints/cpSlideJoint.h	/^	cpFloat bias;$/;"	m	struct:cpSlideJoint
+bias_coef	include/chipmunk/constraints/util.h	/^bias_coef(cpFloat errorBias, cpFloat dt)$/;"	f
+body	include/chipmunk/cpShape.h	/^	cpBody *body;$/;"	m	struct:cpShape
+body	src/cpSpace.c	/^	cpBody *body;$/;"	m	struct:arbiterFilterContext	file:
+bounce	include/chipmunk/chipmunk_private.h	/^	cpFloat nMass, tMass, bounce;$/;"	m	struct:cpContact
+bounds	src/cpSweep1D.c	/^	Bounds bounds;$/;"	m	struct:TableCell	file:
+builtinCollisionFuncs	src/cpCollision.c	/^static const collisionFunc builtinCollisionFuncs[9] = {$/;"	v	file:
+c	include/chipmunk/chipmunk_types.h	/^	cpFloat a, b, c, d;$/;"	m	struct:cpMat2x2
+c	include/chipmunk/cpShape.h	/^	cpVect c, tc;$/;"	m	struct:cpCircleShape
+cacheData	include/chipmunk/cpShape.h	/^	cpShapeCacheDataImpl cacheData;$/;"	m	struct:cpShapeClass
+cachedArbitersFilter	src/cpSpace.c	/^cachedArbitersFilter(cpArbiter *arb, struct arbiterFilterContext *context)$/;"	f	file:
+celldim	src/cpSpaceHash.c	/^	cpFloat celldim;$/;"	m	struct:cpSpaceHash	file:
+children	src/cpBBTree.c	/^		struct { Node *a, *b; } children;$/;"	m	union:Node::__anon2	typeref:struct:Node::__anon2::__anon3	file:
+circle2circle	src/cpCollision.c	/^circle2circle(const cpShape *shape1, const cpShape *shape2, cpContact *arr)$/;"	f	file:
+circle2circleQuery	src/cpCollision.c	/^circle2circleQuery(const cpVect p1, const cpVect p2, const cpFloat r1, const cpFloat r2, cpContact *con)$/;"	f	file:
+circle2poly	src/cpCollision.c	/^circle2poly(const cpShape *shape1, const cpShape *shape2, cpContact *con)$/;"	f	file:
+circle2segment	src/cpCollision.c	/^circle2segment(const cpCircleShape *circleShape, const cpSegmentShape *segmentShape, cpContact *con)$/;"	f	file:
+circleSegmentQuery	src/cpShape.c	/^circleSegmentQuery(cpShape *shape, cpVect center, cpFloat r, cpVect a, cpVect b, cpSegmentQueryInfo *info)$/;"	f	file:
+clamp	include/chipmunk/constraints/cpGrooveJoint.h	/^	cpFloat clamp;$/;"	m	struct:cpGrooveJoint
+clearTable	src/cpSpaceHash.c	/^clearTable(cpSpaceHash *hash)$/;"	f	file:
+clearTableCell	src/cpSpaceHash.c	/^clearTableCell(cpSpaceHash *hash, int idx)$/;"	f	file:
+colfuncs	src/cpCollision.c	/^static const collisionFunc *colfuncs = builtinCollisionFuncs;$/;"	v	file:
+collisionBias	include/chipmunk/cpSpace.h	/^	cpFloat collisionBias;$/;"	m	struct:cpSpace
+collisionFunc	src/cpCollision.c	/^typedef int (*collisionFunc)(const cpShape *, const cpShape *, cpContact *);$/;"	t	file:
+collisionPersistence	include/chipmunk/cpSpace.h	/^	cpTimestamp collisionPersistence;$/;"	m	struct:cpSpace
+collisionSlop	include/chipmunk/cpSpace.h	/^	cpFloat collisionSlop;$/;"	m	struct:cpSpace
+collision_type	include/chipmunk/cpShape.h	/^	cpCollisionType collision_type;$/;"	m	struct:cpShape
+constraint	include/chipmunk/constraints/cpDampedRotarySpring.h	/^	cpConstraint constraint;$/;"	m	struct:cpDampedRotarySpring
+constraint	include/chipmunk/constraints/cpDampedSpring.h	/^	cpConstraint constraint;$/;"	m	struct:cpDampedSpring
+constraint	include/chipmunk/constraints/cpGearJoint.h	/^	cpConstraint constraint;$/;"	m	struct:cpGearJoint
+constraint	include/chipmunk/constraints/cpGrooveJoint.h	/^	cpConstraint constraint;$/;"	m	struct:cpGrooveJoint
+constraint	include/chipmunk/constraints/cpPinJoint.h	/^	cpConstraint constraint;$/;"	m	struct:cpPinJoint
+constraint	include/chipmunk/constraints/cpPivotJoint.h	/^	cpConstraint constraint;$/;"	m	struct:cpPivotJoint
+constraint	include/chipmunk/constraints/cpRatchetJoint.h	/^	cpConstraint constraint;$/;"	m	struct:cpRatchetJoint
+constraint	include/chipmunk/constraints/cpRotaryLimitJoint.h	/^	cpConstraint constraint;$/;"	m	struct:cpRotaryLimitJoint
+constraint	include/chipmunk/constraints/cpSimpleMotor.h	/^	cpConstraint constraint;$/;"	m	struct:cpSimpleMotor
+constraint	include/chipmunk/constraints/cpSlideJoint.h	/^	cpConstraint constraint;$/;"	m	struct:cpSlideJoint
+contacts	src/cpSpaceStep.c	/^	cpContact contacts[CP_CONTACTS_BUFFER_SIZE];$/;"	m	struct:cpContactBuffer	file:
+contains	include/chipmunk/cpSpatialIndex.h	/^	cpSpatialIndexContainsImpl contains;$/;"	m	struct:cpSpatialIndexClass
+containsHandle	src/cpSpaceHash.c	/^containsHandle(cpSpaceHashBin *bin, cpHandle *hand)$/;"	f	file:
+copyShapes	src/cpSpace.c	/^copyShapes(cpShape *shape, cpSpatialIndex *index)$/;"	f	file:
+count	include/chipmunk/cpArbiter.h	/^	int count;$/;"	m	struct:cpContactPointSet
+count	include/chipmunk/cpSpatialIndex.h	/^	cpSpatialIndexCountImpl count;$/;"	m	struct:cpSpatialIndexClass
+cpArbiter	include/chipmunk/chipmunk.h	/^typedef struct cpArbiter cpArbiter;$/;"	t	typeref:struct:cpArbiter
+cpArbiter	include/chipmunk/cpArbiter.h	/^struct cpArbiter {$/;"	s
+cpArbiterApplyCachedImpulse	src/cpArbiter.c	/^cpArbiterApplyCachedImpulse(cpArbiter *arb, cpFloat dt_coef)$/;"	f
+cpArbiterApplyImpulse	src/cpArbiter.c	/^cpArbiterApplyImpulse(cpArbiter *arb)$/;"	f
+cpArbiterCallSeparate	include/chipmunk/chipmunk_private.h	/^cpArbiterCallSeparate(cpArbiter *arb, cpSpace *space)$/;"	f
+cpArbiterGetBodies	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpArbiterGetBodies);$/;"	v
+cpArbiterGetBodies	include/chipmunk/cpArbiter.h	/^static inline void cpArbiterGetBodies(const cpArbiter *arb, cpBody **a, cpBody **b)$/;"	f
+cpArbiterGetContactPointSet	src/cpArbiter.c	/^cpArbiterGetContactPointSet(const cpArbiter *arb)$/;"	f
+cpArbiterGetCount	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpArbiterGetCount);$/;"	v
+cpArbiterGetCount	src/cpArbiter.c	/^int cpArbiterGetCount(const cpArbiter *arb)$/;"	f
+cpArbiterGetDepth	src/cpArbiter.c	/^cpArbiterGetDepth(const cpArbiter *arb, int i)$/;"	f
+cpArbiterGetNormal	src/cpArbiter.c	/^cpArbiterGetNormal(const cpArbiter *arb, int i)$/;"	f
+cpArbiterGetPoint	src/cpArbiter.c	/^cpArbiterGetPoint(const cpArbiter *arb, int i)$/;"	f
+cpArbiterGetShapes	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpArbiterGetShapes);$/;"	v
+cpArbiterGetShapes	include/chipmunk/cpArbiter.h	/^static inline void cpArbiterGetShapes(const cpArbiter *arb, cpShape **a, cpShape **b)$/;"	f
+cpArbiterIgnore	src/cpArbiter.c	/^cpArbiterIgnore(cpArbiter *arb)$/;"	f
+cpArbiterInit	src/cpArbiter.c	/^cpArbiterInit(cpArbiter *arb, cpShape *a, cpShape *b)$/;"	f
+cpArbiterIsFirstContact	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpArbiterIsFirstContact);$/;"	v
+cpArbiterIsFirstContact	src/cpArbiter.c	/^cpBool cpArbiterIsFirstContact(const cpArbiter *arb)$/;"	f
+cpArbiterNext	include/chipmunk/chipmunk_private.h	/^cpArbiterNext(cpArbiter *node, cpBody *body)$/;"	f
+cpArbiterPreStep	src/cpArbiter.c	/^cpArbiterPreStep(cpArbiter *arb, cpFloat dt, cpFloat slop, cpFloat bias)$/;"	f
+cpArbiterState	include/chipmunk/cpArbiter.h	/^typedef enum cpArbiterState {$/;"	g
+cpArbiterState	include/chipmunk/cpArbiter.h	/^} cpArbiterState;$/;"	t	typeref:enum:cpArbiterState
+cpArbiterStateCached	include/chipmunk/cpArbiter.h	/^	cpArbiterStateCached,$/;"	e	enum:cpArbiterState
+cpArbiterStateFirstColl	include/chipmunk/cpArbiter.h	/^	cpArbiterStateFirstColl,$/;"	e	enum:cpArbiterState
+cpArbiterStateIgnore	include/chipmunk/cpArbiter.h	/^	cpArbiterStateIgnore,$/;"	e	enum:cpArbiterState
+cpArbiterStateNormal	include/chipmunk/cpArbiter.h	/^	cpArbiterStateNormal,$/;"	e	enum:cpArbiterState
+cpArbiterThread	include/chipmunk/cpArbiter.h	/^struct cpArbiterThread {$/;"	s
+cpArbiterThreadForBody	include/chipmunk/chipmunk_private.h	/^cpArbiterThreadForBody(cpArbiter *arb, cpBody *body)$/;"	f
+cpArbiterTotalImpulse	src/cpArbiter.c	/^cpArbiterTotalImpulse(const cpArbiter *arb)$/;"	f
+cpArbiterTotalImpulseWithFriction	src/cpArbiter.c	/^cpArbiterTotalImpulseWithFriction(const cpArbiter *arb)$/;"	f
+cpArbiterTotalKE	src/cpArbiter.c	/^cpArbiterTotalKE(const cpArbiter *arb)$/;"	f
+cpArbiterUnthread	src/cpArbiter.c	/^cpArbiterUnthread(cpArbiter *arb)$/;"	f
+cpArbiterUpdate	src/cpArbiter.c	/^cpArbiterUpdate(cpArbiter *arb, cpContact *contacts, int numContacts, cpCollisionHandler *handler, cpShape *a, cpShape *b)$/;"	f
+cpAreaForCircle	src/chipmunk.c	/^cpAreaForCircle(cpFloat r1, cpFloat r2)$/;"	f
+cpAreaForPoly	src/chipmunk.c	/^cpAreaForPoly(const int numVerts, const cpVect *verts)$/;"	f
+cpAreaForSegment	src/chipmunk.c	/^cpAreaForSegment(cpVect a, cpVect b, cpFloat r)$/;"	f
+cpArray	include/chipmunk/chipmunk.h	/^typedef struct cpArray cpArray;$/;"	t	typeref:struct:cpArray
+cpArray	include/chipmunk/chipmunk_private.h	/^struct cpArray {$/;"	s
+cpArrayContains	src/cpArray.c	/^cpArrayContains(cpArray *arr, void *ptr)$/;"	f
+cpArrayDeleteObj	src/cpArray.c	/^cpArrayDeleteObj(cpArray *arr, void *obj)$/;"	f
+cpArrayFree	src/cpArray.c	/^cpArrayFree(cpArray *arr)$/;"	f
+cpArrayFreeEach	src/cpArray.c	/^cpArrayFreeEach(cpArray *arr, void (freeFunc)(void*))$/;"	f
+cpArrayNew	src/cpArray.c	/^cpArrayNew(int size)$/;"	f
+cpArrayPop	src/cpArray.c	/^cpArrayPop(cpArray *arr)$/;"	f
+cpArrayPush	src/cpArray.c	/^cpArrayPush(cpArray *arr, void *object)$/;"	f
+cpAssertHard	include/chipmunk/chipmunk.h	56;"	d
+cpAssertSoft	include/chipmunk/chipmunk.h	50;"	d
+cpAssertSoft	include/chipmunk/chipmunk.h	52;"	d
+cpAssertSpaceUnlocked	src/cpSpace.c	186;"	d	file:
+cpAssertWarn	include/chipmunk/chipmunk.h	44;"	d
+cpAssertWarn	include/chipmunk/chipmunk.h	46;"	d
+cpBB	include/chipmunk/cpBB.h	/^typedef struct cpBB{$/;"	s
+cpBB	include/chipmunk/cpBB.h	/^} cpBB;$/;"	t	typeref:struct:cpBB
+cpBBArea	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpBBArea);$/;"	v
+cpBBArea	include/chipmunk/cpBB.h	/^static inline cpFloat cpBBArea(cpBB bb)$/;"	f
+cpBBClampVect	include/chipmunk/cpBB.h	/^cpBBClampVect(const cpBB bb, const cpVect v)$/;"	f
+cpBBContainsBB	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpBBContainsBB);$/;"	v
+cpBBContainsBB	include/chipmunk/cpBB.h	/^static inline cpBool cpBBContainsBB(const cpBB bb, const cpBB other)$/;"	f
+cpBBContainsVect	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpBBContainsVect);$/;"	v
+cpBBContainsVect	include/chipmunk/cpBB.h	/^static inline cpBool cpBBContainsVect(const cpBB bb, const cpVect v)$/;"	f
+cpBBExpand	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpBBExpand);$/;"	v
+cpBBExpand	include/chipmunk/cpBB.h	/^static inline cpBB cpBBExpand(const cpBB bb, const cpVect v){$/;"	f
+cpBBIntersects	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpBBIntersects);$/;"	v
+cpBBIntersects	include/chipmunk/cpBB.h	/^static inline cpBool cpBBIntersects(const cpBB a, const cpBB b)$/;"	f
+cpBBIntersectsSegment	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpBBIntersectsSegment);$/;"	v
+cpBBIntersectsSegment	include/chipmunk/cpBB.h	/^static inline cpBool cpBBIntersectsSegment(cpBB bb, cpVect a, cpVect b)$/;"	f
+cpBBMerge	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpBBMerge);$/;"	v
+cpBBMerge	include/chipmunk/cpBB.h	/^static inline cpBB cpBBMerge(const cpBB a, const cpBB b){$/;"	f
+cpBBMergedArea	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpBBMergedArea);$/;"	v
+cpBBMergedArea	include/chipmunk/cpBB.h	/^static inline cpFloat cpBBMergedArea(cpBB a, cpBB b)$/;"	f
+cpBBNew	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpBBNew);$/;"	v
+cpBBNew	include/chipmunk/cpBB.h	/^static inline cpBB cpBBNew(const cpFloat l, const cpFloat b, const cpFloat r, const cpFloat t)$/;"	f
+cpBBNewForCircle	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpBBNewForCircle);$/;"	v
+cpBBNewForCircle	include/chipmunk/cpBB.h	/^static inline cpBB cpBBNewForCircle(const cpVect p, const cpFloat r)$/;"	f
+cpBBProximity	src/cpBBTree.c	/^cpBBProximity(cpBB a, cpBB b)$/;"	f	file:
+cpBBSegmentQuery	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpBBSegmentQuery);$/;"	v
+cpBBSegmentQuery	include/chipmunk/cpBB.h	/^static inline cpFloat cpBBSegmentQuery(cpBB bb, cpVect a, cpVect b)$/;"	f
+cpBBTree	include/chipmunk/cpSpatialIndex.h	/^typedef struct cpBBTree cpBBTree;$/;"	t	typeref:struct:cpBBTree
+cpBBTree	src/cpBBTree.c	/^struct cpBBTree {$/;"	s	file:
+cpBBTreeAlloc	src/cpBBTree.c	/^cpBBTreeAlloc(void)$/;"	f
+cpBBTreeContains	src/cpBBTree.c	/^cpBBTreeContains(cpBBTree *tree, void *obj, cpHashValue hashid)$/;"	f	file:
+cpBBTreeCount	src/cpBBTree.c	/^cpBBTreeCount(cpBBTree *tree)$/;"	f	file:
+cpBBTreeDestroy	src/cpBBTree.c	/^cpBBTreeDestroy(cpBBTree *tree)$/;"	f	file:
+cpBBTreeEach	src/cpBBTree.c	/^cpBBTreeEach(cpBBTree *tree, cpSpatialIndexIteratorFunc func, void *data)$/;"	f	file:
+cpBBTreeInit	src/cpBBTree.c	/^cpBBTreeInit(cpBBTree *tree, cpSpatialIndexBBFunc bbfunc, cpSpatialIndex *staticIndex)$/;"	f
+cpBBTreeInsert	src/cpBBTree.c	/^cpBBTreeInsert(cpBBTree *tree, void *obj, cpHashValue hashid)$/;"	f	file:
+cpBBTreeNew	src/cpBBTree.c	/^cpBBTreeNew(cpSpatialIndexBBFunc bbfunc, cpSpatialIndex *staticIndex)$/;"	f
+cpBBTreeOptimize	src/cpBBTree.c	/^cpBBTreeOptimize(cpSpatialIndex *index)$/;"	f
+cpBBTreeQuery	src/cpBBTree.c	/^cpBBTreeQuery(cpBBTree *tree, void *obj, cpBB bb, cpSpatialIndexQueryFunc func, void *data)$/;"	f	file:
+cpBBTreeReindex	src/cpBBTree.c	/^cpBBTreeReindex(cpBBTree *tree)$/;"	f	file:
+cpBBTreeReindexObject	src/cpBBTree.c	/^cpBBTreeReindexObject(cpBBTree *tree, void *obj, cpHashValue hashid)$/;"	f	file:
+cpBBTreeReindexQuery	src/cpBBTree.c	/^cpBBTreeReindexQuery(cpBBTree *tree, cpSpatialIndexQueryFunc func, void *data)$/;"	f	file:
+cpBBTreeRemove	src/cpBBTree.c	/^cpBBTreeRemove(cpBBTree *tree, void *obj, cpHashValue hashid)$/;"	f	file:
+cpBBTreeRenderDebug	src/cpBBTree.c	/^cpBBTreeRenderDebug(cpSpatialIndex *index){$/;"	f
+cpBBTreeSegmentQuery	src/cpBBTree.c	/^cpBBTreeSegmentQuery(cpBBTree *tree, void *obj, cpVect a, cpVect b, cpFloat t_exit, cpSpatialIndexSegmentQueryFunc func, void *data)$/;"	f	file:
+cpBBTreeSetVelocityFunc	src/cpBBTree.c	/^cpBBTreeSetVelocityFunc(cpSpatialIndex *index, cpBBTreeVelocityFunc func)$/;"	f
+cpBBTreeVelocityFunc	include/chipmunk/cpSpatialIndex.h	/^typedef cpVect (*cpBBTreeVelocityFunc)(void *obj);$/;"	t
+cpBBWrapVect	src/cpBB.c	/^cpBBWrapVect(const cpBB bb, const cpVect v)$/;"	f
+cpBody	include/chipmunk/chipmunk.h	/^typedef struct cpBody cpBody;$/;"	t	typeref:struct:cpBody
+cpBody	include/chipmunk/cpBody.h	/^struct cpBody {$/;"	s
+cpBodyActivate	src/cpSpaceComponent.c	/^cpBodyActivate(cpBody *body)$/;"	f
+cpBodyActivateStatic	src/cpSpaceComponent.c	/^cpBodyActivateStatic(cpBody *body, cpShape *filter)$/;"	f
+cpBodyAddShape	src/cpBody.c	/^cpBodyAddShape(cpBody *body, cpShape *shape)$/;"	f
+cpBodyAlloc	src/cpBody.c	/^cpBodyAlloc(void)$/;"	f
+cpBodyApplyForce	src/cpBody.c	/^cpBodyApplyForce(cpBody *body, cpVect force, cpVect r)$/;"	f
+cpBodyApplyImpulse	src/cpBody.c	/^cpBodyApplyImpulse(cpBody *body, const cpVect j, const cpVect r)$/;"	f
+cpBodyArbiterIteratorFunc	include/chipmunk/cpBody.h	/^typedef void (*cpBodyArbiterIteratorFunc)(cpBody *body, cpArbiter *arbiter, void *data);$/;"	t
+cpBodyAssertSane	include/chipmunk/cpBody.h	121;"	d
+cpBodyAssertSane	include/chipmunk/cpBody.h	124;"	d
+cpBodyConstraintIteratorFunc	include/chipmunk/cpBody.h	/^typedef void (*cpBodyConstraintIteratorFunc)(cpBody *body, cpConstraint *constraint, void *data);$/;"	t
+cpBodyDestroy	src/cpBody.c	/^void cpBodyDestroy(cpBody *body){}$/;"	f
+cpBodyEachArbiter	src/cpBody.c	/^cpBodyEachArbiter(cpBody *body, cpBodyArbiterIteratorFunc func, void *data)$/;"	f
+cpBodyEachArbiter_b	src/chipmunk.c	/^void cpBodyEachArbiter_b(cpBody *body, void (^block)(cpArbiter *arbiter)){$/;"	f
+cpBodyEachConstraint	src/cpBody.c	/^cpBodyEachConstraint(cpBody *body, cpBodyConstraintIteratorFunc func, void *data)$/;"	f
+cpBodyEachConstraint_b	src/chipmunk.c	/^void cpBodyEachConstraint_b(cpBody *body, void (^block)(cpConstraint *constraint)){$/;"	f
+cpBodyEachShape	src/cpBody.c	/^cpBodyEachShape(cpBody *body, cpBodyShapeIteratorFunc func, void *data)$/;"	f
+cpBodyEachShape_b	src/chipmunk.c	/^void cpBodyEachShape_b(cpBody *body, void (^block)(cpShape *shape)){$/;"	f
+cpBodyFree	src/cpBody.c	/^cpBodyFree(cpBody *body)$/;"	f
+cpBodyGetAngle	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpBodyGetAngle);$/;"	v
+cpBodyGetMass	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpBodyGetMass);$/;"	v
+cpBodyGetMoment	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpBodyGetMoment);$/;"	v
+cpBodyGetPos	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpBodyGetPos);$/;"	v
+cpBodyGetRot	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpBodyGetRot);$/;"	v
+cpBodyGetVelAtLocalPoint	src/cpBody.c	/^cpBodyGetVelAtLocalPoint(cpBody *body, cpVect point)$/;"	f
+cpBodyGetVelAtPoint	src/cpBody.c	/^cpBodyGetVelAtPoint(cpBody *body, cpVect r)$/;"	f	file:
+cpBodyGetVelAtWorldPoint	src/cpBody.c	/^cpBodyGetVelAtWorldPoint(cpBody *body, cpVect point)$/;"	f
+cpBodyInit	src/cpBody.c	/^cpBodyInit(cpBody *body, cpFloat m, cpFloat i)$/;"	f
+cpBodyInitStatic	src/cpBody.c	/^cpBodyInitStatic(cpBody *body)$/;"	f
+cpBodyIsRogue	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpBodyIsRogue);$/;"	v
+cpBodyIsRogue	include/chipmunk/cpBody.h	/^static inline cpBool cpBodyIsRogue(const cpBody *body)$/;"	f
+cpBodyIsSleeping	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpBodyIsSleeping);$/;"	v
+cpBodyIsSleeping	include/chipmunk/cpBody.h	/^static inline cpBool cpBodyIsSleeping(const cpBody *body)$/;"	f
+cpBodyIsStatic	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpBodyIsStatic);$/;"	v
+cpBodyIsStatic	include/chipmunk/cpBody.h	/^static inline cpBool cpBodyIsStatic(const cpBody *body)$/;"	f
+cpBodyKineticEnergy	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpBodyKineticEnergy);$/;"	v
+cpBodyKineticEnergy	include/chipmunk/cpBody.h	/^static inline cpFloat cpBodyKineticEnergy(const cpBody *body)$/;"	f
+cpBodyLocal2World	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpBodyLocal2World);$/;"	v
+cpBodyLocal2World	include/chipmunk/cpBody.h	/^static inline cpVect cpBodyLocal2World(const cpBody *body, const cpVect v)$/;"	f
+cpBodyNew	src/cpBody.c	/^cpBodyNew(cpFloat m, cpFloat i)$/;"	f
+cpBodyNewStatic	src/cpBody.c	/^cpBodyNewStatic(void)$/;"	f
+cpBodyPositionFunc	include/chipmunk/cpBody.h	/^typedef void (*cpBodyPositionFunc)(cpBody *body, cpFloat dt);$/;"	t
+cpBodyPushArbiter	src/cpSpaceComponent.c	/^cpBodyPushArbiter(cpBody *body, cpArbiter *arb)$/;"	f	file:
+cpBodyRemoveConstraint	src/cpBody.c	/^cpBodyRemoveConstraint(cpBody *body, cpConstraint *constraint)$/;"	f
+cpBodyRemoveShape	src/cpBody.c	/^cpBodyRemoveShape(cpBody *body, cpShape *shape)$/;"	f
+cpBodyResetForces	src/cpBody.c	/^cpBodyResetForces(cpBody *body)$/;"	f
+cpBodySanityCheck	src/cpBody.c	/^cpBodySanityCheck(cpBody *body)$/;"	f
+cpBodySetAngle	src/cpBody.c	/^cpBodySetAngle(cpBody *body, cpFloat angle)$/;"	f
+cpBodySetMass	src/cpBody.c	/^cpBodySetMass(cpBody *body, cpFloat mass)$/;"	f
+cpBodySetMoment	src/cpBody.c	/^cpBodySetMoment(cpBody *body, cpFloat moment)$/;"	f
+cpBodySetPos	src/cpBody.c	/^cpBodySetPos(cpBody *body, cpVect pos)$/;"	f
+cpBodyShapeIteratorFunc	include/chipmunk/cpBody.h	/^typedef void (*cpBodyShapeIteratorFunc)(cpBody *body, cpShape *shape, void *data);$/;"	t
+cpBodySleep	src/cpSpaceComponent.c	/^cpBodySleep(cpBody *body)$/;"	f
+cpBodySleepWithGroup	src/cpSpaceComponent.c	/^cpBodySleepWithGroup(cpBody *body, cpBody *group){$/;"	f
+cpBodyUpdatePosition	src/cpBody.c	/^cpBodyUpdatePosition(cpBody *body, cpFloat dt)$/;"	f
+cpBodyUpdateVelocity	src/cpBody.c	/^cpBodyUpdateVelocity(cpBody *body, cpVect gravity, cpFloat damping, cpFloat dt)$/;"	f
+cpBodyVelocityFunc	include/chipmunk/cpBody.h	/^typedef void (*cpBodyVelocityFunc)(cpBody *body, cpVect gravity, cpFloat damping, cpFloat dt);$/;"	t
+cpBodyWorld2Local	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpBodyWorld2Local);$/;"	v
+cpBodyWorld2Local	include/chipmunk/cpBody.h	/^static inline cpVect cpBodyWorld2Local(const cpBody *body, const cpVect v)$/;"	f
+cpBool	include/chipmunk/chipmunk_types.h	/^	typedef CP_BOOL_TYPE cpBool;$/;"	t
+cpBool	include/chipmunk/chipmunk_types.h	/^	typedef int cpBool;$/;"	t
+cpBoxShapeInit	src/cpPolyShape.c	/^cpBoxShapeInit(cpPolyShape *poly, cpBody *body, cpFloat width, cpFloat height)$/;"	f
+cpBoxShapeInit2	src/cpPolyShape.c	/^cpBoxShapeInit2(cpPolyShape *poly, cpBody *body, cpBB box)$/;"	f
+cpBoxShapeNew	src/cpPolyShape.c	/^cpBoxShapeNew(cpBody *body, cpFloat width, cpFloat height)$/;"	f
+cpBoxShapeNew2	src/cpPolyShape.c	/^cpBoxShapeNew2(cpBody *body, cpBB box)$/;"	f
+cpCentroidForPoly	src/chipmunk.c	/^cpCentroidForPoly(const int numVerts, const cpVect *verts)$/;"	f
+cpCicleShapeNearestPointQuery	src/cpShape.c	/^cpCicleShapeNearestPointQuery(cpCircleShape *circle, cpVect p, cpNearestPointQueryInfo *info)$/;"	f	file:
+cpCircleShape	include/chipmunk/cpShape.h	/^typedef struct cpCircleShape {$/;"	s
+cpCircleShape	include/chipmunk/cpShape.h	/^} cpCircleShape;$/;"	t	typeref:struct:cpCircleShape
+cpCircleShapeAlloc	src/cpShape.c	/^cpCircleShapeAlloc(void)$/;"	f
+cpCircleShapeCacheData	src/cpShape.c	/^cpCircleShapeCacheData(cpCircleShape *circle, cpVect p, cpVect rot)$/;"	f	file:
+cpCircleShapeClass	src/cpShape.c	/^static const cpShapeClass cpCircleShapeClass = {$/;"	v	file:
+cpCircleShapeInit	src/cpShape.c	/^cpCircleShapeInit(cpCircleShape *circle, cpBody *body, cpFloat radius, cpVect offset)$/;"	f
+cpCircleShapeNew	src/cpShape.c	/^cpCircleShapeNew(cpBody *body, cpFloat radius, cpVect offset)$/;"	f
+cpCircleShapeSegmentQuery	src/cpShape.c	/^cpCircleShapeSegmentQuery(cpCircleShape *circle, cpVect a, cpVect b, cpSegmentQueryInfo *info)$/;"	f	file:
+cpCircleShapeSetOffset	src/cpShape.c	/^cpCircleShapeSetOffset(cpShape *shape, cpVect offset)$/;"	f
+cpCircleShapeSetRadius	src/cpShape.c	/^cpCircleShapeSetRadius(cpShape *shape, cpFloat radius)$/;"	f
+cpClosetPointOnSegment	include/chipmunk/chipmunk_private.h	/^cpClosetPointOnSegment(const cpVect p, const cpVect a, const cpVect b)$/;"	f
+cpCollideShapes	src/cpCollision.c	/^cpCollideShapes(const cpShape *a, const cpShape *b, cpContact *arr)$/;"	f
+cpCollisionBeginFunc	include/chipmunk/cpArbiter.h	/^typedef cpBool (*cpCollisionBeginFunc)(cpArbiter *arb, cpSpace *space, void *data);$/;"	t
+cpCollisionHandler	include/chipmunk/chipmunk.h	/^typedef struct cpCollisionHandler cpCollisionHandler;$/;"	t	typeref:struct:cpCollisionHandler
+cpCollisionHandler	include/chipmunk/cpArbiter.h	/^struct cpCollisionHandler {$/;"	s
+cpCollisionPostSolveFunc	include/chipmunk/cpArbiter.h	/^typedef void (*cpCollisionPostSolveFunc)(cpArbiter *arb, cpSpace *space, void *data);$/;"	t
+cpCollisionPreSolveFunc	include/chipmunk/cpArbiter.h	/^typedef cpBool (*cpCollisionPreSolveFunc)(cpArbiter *arb, cpSpace *space, void *data);$/;"	t
+cpCollisionSeparateFunc	include/chipmunk/cpArbiter.h	/^typedef void (*cpCollisionSeparateFunc)(cpArbiter *arb, cpSpace *space, void *data);$/;"	t
+cpCollisionType	include/chipmunk/chipmunk_types.h	/^	typedef CP_COLLISION_TYPE_TYPE cpCollisionType;$/;"	t
+cpCollisionType	include/chipmunk/chipmunk_types.h	/^	typedef uintptr_t cpCollisionType;$/;"	t
+cpComponentNode	include/chipmunk/cpBody.h	/^typedef struct cpComponentNode {$/;"	s
+cpComponentNode	include/chipmunk/cpBody.h	/^} cpComponentNode;$/;"	t	typeref:struct:cpComponentNode
+cpConstraint	include/chipmunk/chipmunk.h	/^typedef struct cpConstraint cpConstraint;$/;"	t	typeref:struct:cpConstraint
+cpConstraint	include/chipmunk/constraints/cpConstraint.h	/^struct cpConstraint {$/;"	s
+cpConstraintActivateBodies	include/chipmunk/constraints/cpConstraint.h	/^static inline void cpConstraintActivateBodies(cpConstraint *constraint)$/;"	f
+cpConstraintApplyCachedImpulseImpl	include/chipmunk/constraints/cpConstraint.h	/^typedef void (*cpConstraintApplyCachedImpulseImpl)(cpConstraint *constraint, cpFloat dt_coef);$/;"	t
+cpConstraintApplyImpulseImpl	include/chipmunk/constraints/cpConstraint.h	/^typedef void (*cpConstraintApplyImpulseImpl)(cpConstraint *constraint, cpFloat dt);$/;"	t
+cpConstraintCheckCast	include/chipmunk/constraints/cpConstraint.h	132;"	d
+cpConstraintClass	include/chipmunk/constraints/cpConstraint.h	/^struct cpConstraintClass {$/;"	s
+cpConstraintClass	include/chipmunk/constraints/cpConstraint.h	/^typedef struct cpConstraintClass cpConstraintClass;$/;"	t	typeref:struct:cpConstraintClass
+cpConstraintDestroy	src/constraints/cpConstraint.c	/^void cpConstraintDestroy(cpConstraint *constraint){}$/;"	f
+cpConstraintFree	src/constraints/cpConstraint.c	/^cpConstraintFree(cpConstraint *constraint)$/;"	f
+cpConstraintGetA	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpConstraintGetA);$/;"	v
+cpConstraintGetB	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpConstraintGetB);$/;"	v
+cpConstraintGetImpulse	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpConstraintGetImpulse);$/;"	v
+cpConstraintGetImpulse	include/chipmunk/constraints/cpConstraint.h	/^static inline cpFloat cpConstraintGetImpulse(cpConstraint *constraint)$/;"	f
+cpConstraintGetImpulseImpl	include/chipmunk/constraints/cpConstraint.h	/^typedef cpFloat (*cpConstraintGetImpulseImpl)(cpConstraint *constraint);$/;"	t
+cpConstraintInit	src/constraints/cpConstraint.c	/^cpConstraintInit(cpConstraint *constraint, const cpConstraintClass *klass, cpBody *a, cpBody *b)$/;"	f
+cpConstraintNext	include/chipmunk/chipmunk_private.h	/^cpConstraintNext(cpConstraint *node, cpBody *body)$/;"	f
+cpConstraintPostSolveFunc	include/chipmunk/constraints/cpConstraint.h	/^typedef void (*cpConstraintPostSolveFunc)(cpConstraint *constraint, cpSpace *space);$/;"	t
+cpConstraintPreSolveFunc	include/chipmunk/constraints/cpConstraint.h	/^typedef void (*cpConstraintPreSolveFunc)(cpConstraint *constraint, cpSpace *space);$/;"	t
+cpConstraintPreStepImpl	include/chipmunk/constraints/cpConstraint.h	/^typedef void (*cpConstraintPreStepImpl)(cpConstraint *constraint, cpFloat dt);$/;"	t
+cpContact	include/chipmunk/chipmunk_private.h	/^struct cpContact {$/;"	s
+cpContact	include/chipmunk/cpArbiter.h	/^typedef struct cpContact cpContact;$/;"	t	typeref:struct:cpContact
+cpContactBuffer	src/cpSpaceStep.c	/^typedef struct cpContactBuffer {$/;"	s	file:
+cpContactBuffer	src/cpSpaceStep.c	/^} cpContactBuffer;$/;"	t	typeref:struct:cpContactBuffer	file:
+cpContactBufferGetArray	src/cpSpaceStep.c	/^cpContactBufferGetArray(cpSpace *space)$/;"	f
+cpContactBufferHeader	include/chipmunk/cpSpace.h	/^typedef struct cpContactBufferHeader cpContactBufferHeader;$/;"	t	typeref:struct:cpContactBufferHeader
+cpContactBufferHeader	src/cpSpaceStep.c	/^struct cpContactBufferHeader {$/;"	s	file:
+cpContactBufferHeaderInit	src/cpSpaceStep.c	/^cpContactBufferHeaderInit(cpContactBufferHeader *header, cpTimestamp stamp, cpContactBufferHeader *splice)$/;"	f	file:
+cpContactInit	src/cpArbiter.c	/^cpContactInit(cpContact *con, cpVect p, cpVect n, cpFloat dist, cpHashValue hash)$/;"	f
+cpContactPointSet	include/chipmunk/cpArbiter.h	/^typedef struct cpContactPointSet {$/;"	s
+cpContactPointSet	include/chipmunk/cpArbiter.h	/^} cpContactPointSet;$/;"	t	typeref:struct:cpContactPointSet
+cpConvexHull	src/chipmunk.c	/^cpConvexHull(int count, cpVect *verts, cpVect *result, int *first, cpFloat tol)$/;"	f
+cpDampedRotarySpring	include/chipmunk/constraints/cpDampedRotarySpring.h	/^typedef struct cpDampedRotarySpring {$/;"	s
+cpDampedRotarySpring	include/chipmunk/constraints/cpDampedRotarySpring.h	/^} cpDampedRotarySpring;$/;"	t	typeref:struct:cpDampedRotarySpring
+cpDampedRotarySpringInit	src/constraints/cpDampedRotarySpring.c	/^cpDampedRotarySpringInit(cpDampedRotarySpring *spring, cpBody *a, cpBody *b, cpFloat restAngle, cpFloat stiffness, cpFloat damping)$/;"	f
+cpDampedRotarySpringNew	src/constraints/cpDampedRotarySpring.c	/^cpDampedRotarySpringNew(cpBody *a, cpBody *b, cpFloat restAngle, cpFloat stiffness, cpFloat damping)$/;"	f
+cpDampedRotarySpringTorqueFunc	include/chipmunk/constraints/cpDampedRotarySpring.h	/^typedef cpFloat (*cpDampedRotarySpringTorqueFunc)(struct cpConstraint *spring, cpFloat relativeAngle);$/;"	t
+cpDampedSpring	include/chipmunk/constraints/cpDampedSpring.h	/^struct cpDampedSpring {$/;"	s
+cpDampedSpring	include/chipmunk/constraints/cpDampedSpring.h	/^typedef struct cpDampedSpring cpDampedSpring;$/;"	t	typeref:struct:cpDampedSpring
+cpDampedSpringForceFunc	include/chipmunk/constraints/cpDampedSpring.h	/^typedef cpFloat (*cpDampedSpringForceFunc)(cpConstraint *spring, cpFloat dist);$/;"	t
+cpDampedSpringInit	src/constraints/cpDampedSpring.c	/^cpDampedSpringInit(cpDampedSpring *spring, cpBody *a, cpBody *b, cpVect anchr1, cpVect anchr2, cpFloat restLength, cpFloat stiffness, cpFloat damping)$/;"	f
+cpDampedSpringNew	src/constraints/cpDampedSpring.c	/^cpDampedSpringNew(cpBody *a, cpBody *b, cpVect anchr1, cpVect anchr2, cpFloat restLength, cpFloat stiffness, cpFloat damping)$/;"	f
+cpDataPointer	include/chipmunk/chipmunk_types.h	/^	typedef CP_DATA_POINTER_TYPE cpDataPointer;$/;"	t
+cpDataPointer	include/chipmunk/chipmunk_types.h	/^	typedef void * cpDataPointer;$/;"	t
+cpDefaultCollisionHandler	src/cpSpace.c	/^cpCollisionHandler cpDefaultCollisionHandler = {0, 0, alwaysCollide, alwaysCollide, nothing, nothing, NULL};$/;"	v
+cpEnableSegmentToSegmentCollisions	src/cpCollision.c	/^cpEnableSegmentToSegmentCollisions(void)$/;"	f
+cpFalse	include/chipmunk/chipmunk_types.h	153;"	d
+cpFloat	include/chipmunk/chipmunk_types.h	/^	typedef double cpFloat;$/;"	t
+cpFloat	include/chipmunk/chipmunk_types.h	/^	typedef float cpFloat;$/;"	t
+cpGearJoint	include/chipmunk/constraints/cpGearJoint.h	/^typedef struct cpGearJoint {$/;"	s
+cpGearJoint	include/chipmunk/constraints/cpGearJoint.h	/^} cpGearJoint;$/;"	t	typeref:struct:cpGearJoint
+cpGearJointGetRatio	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpGearJointGetRatio);$/;"	v
+cpGearJointInit	src/constraints/cpGearJoint.c	/^cpGearJointInit(cpGearJoint *joint, cpBody *a, cpBody *b, cpFloat phase, cpFloat ratio)$/;"	f
+cpGearJointNew	src/constraints/cpGearJoint.c	/^cpGearJointNew(cpBody *a, cpBody *b, cpFloat phase, cpFloat ratio)$/;"	f
+cpGearJointSetRatio	src/constraints/cpGearJoint.c	/^cpGearJointSetRatio(cpConstraint *constraint, cpFloat value)$/;"	f
+cpGrooveJoint	include/chipmunk/constraints/cpGrooveJoint.h	/^typedef struct cpGrooveJoint {$/;"	s
+cpGrooveJoint	include/chipmunk/constraints/cpGrooveJoint.h	/^} cpGrooveJoint;$/;"	t	typeref:struct:cpGrooveJoint
+cpGrooveJointGetGrooveA	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpGrooveJointGetGrooveA);$/;"	v
+cpGrooveJointGetGrooveB	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpGrooveJointGetGrooveB);$/;"	v
+cpGrooveJointInit	src/constraints/cpGrooveJoint.c	/^cpGrooveJointInit(cpGrooveJoint *joint, cpBody *a, cpBody *b, cpVect groove_a, cpVect groove_b, cpVect anchr2)$/;"	f
+cpGrooveJointNew	src/constraints/cpGrooveJoint.c	/^cpGrooveJointNew(cpBody *a, cpBody *b, cpVect groove_a, cpVect groove_b, cpVect anchr2)$/;"	f
+cpGrooveJointSetGrooveA	src/constraints/cpGrooveJoint.c	/^cpGrooveJointSetGrooveA(cpConstraint *constraint, cpVect value)$/;"	f
+cpGrooveJointSetGrooveB	src/constraints/cpGrooveJoint.c	/^cpGrooveJointSetGrooveB(cpConstraint *constraint, cpVect value)$/;"	f
+cpGroup	include/chipmunk/chipmunk_types.h	/^	typedef CP_GROUP_TYPE cpGroup;$/;"	t
+cpGroup	include/chipmunk/chipmunk_types.h	/^	typedef uintptr_t cpGroup;$/;"	t
+cpHandle	src/cpSpaceHash.c	/^struct cpHandle {$/;"	s	file:
+cpHandle	src/cpSpaceHash.c	/^typedef struct cpHandle cpHandle;$/;"	t	typeref:struct:cpHandle	file:
+cpHandleInit	src/cpSpaceHash.c	/^cpHandleInit(cpHandle *hand, void *obj)$/;"	f	file:
+cpHandleRelease	src/cpSpaceHash.c	/^cpHandleRelease(cpHandle *hand, cpArray *pooledHandles)$/;"	f	file:
+cpHandleRetain	src/cpSpaceHash.c	/^static inline void cpHandleRetain(cpHandle *hand){hand->retain++;}$/;"	f	file:
+cpHashSet	include/chipmunk/chipmunk.h	/^typedef struct cpHashSet cpHashSet;$/;"	t	typeref:struct:cpHashSet
+cpHashSet	src/cpHashSet.c	/^struct cpHashSet {$/;"	s	file:
+cpHashSetBin	src/cpHashSet.c	/^typedef struct cpHashSetBin {$/;"	s	file:
+cpHashSetBin	src/cpHashSet.c	/^} cpHashSetBin;$/;"	t	typeref:struct:cpHashSetBin	file:
+cpHashSetCount	src/cpHashSet.c	/^cpHashSetCount(cpHashSet *set)$/;"	f
+cpHashSetEach	src/cpHashSet.c	/^cpHashSetEach(cpHashSet *set, cpHashSetIteratorFunc func, void *data)$/;"	f
+cpHashSetEqlFunc	include/chipmunk/chipmunk_private.h	/^typedef cpBool (*cpHashSetEqlFunc)(void *ptr, void *elt);$/;"	t
+cpHashSetFilter	src/cpHashSet.c	/^cpHashSetFilter(cpHashSet *set, cpHashSetFilterFunc func, void *data)$/;"	f
+cpHashSetFilterFunc	include/chipmunk/chipmunk_private.h	/^typedef cpBool (*cpHashSetFilterFunc)(void *elt, void *data);$/;"	t
+cpHashSetFind	src/cpHashSet.c	/^cpHashSetFind(cpHashSet *set, cpHashValue hash, void *ptr)$/;"	f
+cpHashSetFree	src/cpHashSet.c	/^cpHashSetFree(cpHashSet *set)$/;"	f
+cpHashSetInsert	src/cpHashSet.c	/^cpHashSetInsert(cpHashSet *set, cpHashValue hash, void *ptr, void *data, cpHashSetTransFunc trans)$/;"	f
+cpHashSetIteratorFunc	include/chipmunk/chipmunk_private.h	/^typedef void (*cpHashSetIteratorFunc)(void *elt, void *data);$/;"	t
+cpHashSetNew	src/cpHashSet.c	/^cpHashSetNew(int size, cpHashSetEqlFunc eqlFunc)$/;"	f
+cpHashSetRemove	src/cpHashSet.c	/^cpHashSetRemove(cpHashSet *set, cpHashValue hash, void *ptr)$/;"	f
+cpHashSetResize	src/cpHashSet.c	/^cpHashSetResize(cpHashSet *set)$/;"	f	file:
+cpHashSetSetDefaultValue	src/cpHashSet.c	/^cpHashSetSetDefaultValue(cpHashSet *set, void *default_value)$/;"	f
+cpHashSetTransFunc	include/chipmunk/chipmunk_private.h	/^typedef void *(*cpHashSetTransFunc)(void *ptr, void *data);$/;"	t
+cpHashValue	include/chipmunk/chipmunk_types.h	/^typedef uintptr_t cpHashValue;$/;"	t
+cpInitChipmunk	src/chipmunk.c	/^cpInitChipmunk(void)$/;"	f
+cpLayers	include/chipmunk/chipmunk_types.h	/^	typedef CP_LAYERS_TYPE cpLayers;$/;"	t
+cpLayers	include/chipmunk/chipmunk_types.h	/^	typedef unsigned int cpLayers;$/;"	t
+cpLoopIndexes	src/chipmunk.c	/^cpLoopIndexes(cpVect *verts, int count, int *start, int *end)$/;"	f
+cpMat2x2	include/chipmunk/chipmunk_types.h	/^typedef struct cpMat2x2 {$/;"	s
+cpMat2x2	include/chipmunk/chipmunk_types.h	/^} cpMat2x2;$/;"	t	typeref:struct:cpMat2x2
+cpMat2x2New	include/chipmunk/cpVect.h	/^cpMat2x2New(cpFloat a, cpFloat b, cpFloat c, cpFloat d)$/;"	f
+cpMat2x2Transform	include/chipmunk/cpVect.h	/^cpMat2x2Transform(cpMat2x2 m, cpVect v)$/;"	f
+cpMessage	src/chipmunk.c	/^cpMessage(const char *condition, const char *file, int line, cpBool isError, cpBool isHardError, const char *message, ...)$/;"	f
+cpMomentForBox	src/chipmunk.c	/^cpMomentForBox(cpFloat m, cpFloat width, cpFloat height)$/;"	f
+cpMomentForBox2	src/chipmunk.c	/^cpMomentForBox2(cpFloat m, cpBB box)$/;"	f
+cpMomentForCircle	src/chipmunk.c	/^cpMomentForCircle(cpFloat m, cpFloat r1, cpFloat r2, cpVect offset)$/;"	f
+cpMomentForPoly	src/chipmunk.c	/^cpMomentForPoly(cpFloat m, const int numVerts, const cpVect *verts, cpVect offset)$/;"	f
+cpMomentForSegment	src/chipmunk.c	/^cpMomentForSegment(cpFloat m, cpVect a, cpVect b)$/;"	f
+cpNearestPointQueryInfo	include/chipmunk/cpShape.h	/^typedef struct cpNearestPointQueryInfo {$/;"	s
+cpNearestPointQueryInfo	include/chipmunk/cpShape.h	/^} cpNearestPointQueryInfo;$/;"	t	typeref:struct:cpNearestPointQueryInfo
+cpPinJoint	include/chipmunk/constraints/cpPinJoint.h	/^typedef struct cpPinJoint {$/;"	s
+cpPinJoint	include/chipmunk/constraints/cpPinJoint.h	/^} cpPinJoint;$/;"	t	typeref:struct:cpPinJoint
+cpPinJointInit	src/constraints/cpPinJoint.c	/^cpPinJointInit(cpPinJoint *joint, cpBody *a, cpBody *b, cpVect anchr1, cpVect anchr2)$/;"	f
+cpPinJointNew	src/constraints/cpPinJoint.c	/^cpPinJointNew(cpBody *a, cpBody *b, cpVect anchr1, cpVect anchr2)$/;"	f
+cpPivotJoint	include/chipmunk/constraints/cpPivotJoint.h	/^typedef struct cpPivotJoint {$/;"	s
+cpPivotJoint	include/chipmunk/constraints/cpPivotJoint.h	/^} cpPivotJoint;$/;"	t	typeref:struct:cpPivotJoint
+cpPivotJointInit	src/constraints/cpPivotJoint.c	/^cpPivotJointInit(cpPivotJoint *joint, cpBody *a, cpBody *b, cpVect anchr1, cpVect anchr2)$/;"	f
+cpPivotJointNew	src/constraints/cpPivotJoint.c	/^cpPivotJointNew(cpBody *a, cpBody *b, cpVect pivot)$/;"	f
+cpPivotJointNew2	src/constraints/cpPivotJoint.c	/^cpPivotJointNew2(cpBody *a, cpBody *b, cpVect anchr1, cpVect anchr2)$/;"	f
+cpPolyShape	include/chipmunk/cpPolyShape.h	/^typedef struct cpPolyShape {$/;"	s
+cpPolyShape	include/chipmunk/cpPolyShape.h	/^} cpPolyShape;$/;"	t	typeref:struct:cpPolyShape
+cpPolyShapeAlloc	src/cpPolyShape.c	/^cpPolyShapeAlloc(void)$/;"	f
+cpPolyShapeCacheData	src/cpPolyShape.c	/^cpPolyShapeCacheData(cpPolyShape *poly, cpVect p, cpVect rot)$/;"	f	file:
+cpPolyShapeContainsVert	include/chipmunk/chipmunk_private.h	/^cpPolyShapeContainsVert(const cpPolyShape *poly, const cpVect v)$/;"	f
+cpPolyShapeContainsVertPartial	include/chipmunk/chipmunk_private.h	/^cpPolyShapeContainsVertPartial(const cpPolyShape *poly, const cpVect v, const cpVect n)$/;"	f
+cpPolyShapeDestroy	src/cpPolyShape.c	/^cpPolyShapeDestroy(cpPolyShape *poly)$/;"	f	file:
+cpPolyShapeGetNumVerts	src/cpPolyShape.c	/^cpPolyShapeGetNumVerts(cpShape *shape)$/;"	f
+cpPolyShapeGetVert	src/cpPolyShape.c	/^cpPolyShapeGetVert(cpShape *shape, int idx)$/;"	f
+cpPolyShapeInit	src/cpPolyShape.c	/^cpPolyShapeInit(cpPolyShape *poly, cpBody *body, int numVerts, const cpVect *verts, cpVect offset)$/;"	f
+cpPolyShapeNearestPointQuery	src/cpPolyShape.c	/^cpPolyShapeNearestPointQuery(cpPolyShape *poly, cpVect p, cpNearestPointQueryInfo *info){$/;"	f	file:
+cpPolyShapeNew	src/cpPolyShape.c	/^cpPolyShapeNew(cpBody *body, int numVerts, cpVect *verts, cpVect offset)$/;"	f
+cpPolyShapeSegmentQuery	src/cpPolyShape.c	/^cpPolyShapeSegmentQuery(cpPolyShape *poly, cpVect a, cpVect b, cpSegmentQueryInfo *info)$/;"	f	file:
+cpPolyShapeSetVerts	src/cpPolyShape.c	/^cpPolyShapeSetVerts(cpShape *shape, int numVerts, cpVect *verts, cpVect offset)$/;"	f
+cpPolyShapeTransformAxes	src/cpPolyShape.c	/^cpPolyShapeTransformAxes(cpPolyShape *poly, cpVect p, cpVect rot)$/;"	f	file:
+cpPolyShapeTransformVerts	src/cpPolyShape.c	/^cpPolyShapeTransformVerts(cpPolyShape *poly, cpVect p, cpVect rot)$/;"	f	file:
+cpPolyShapeValueOnAxis	include/chipmunk/chipmunk_private.h	/^cpPolyShapeValueOnAxis(const cpPolyShape *poly, const cpVect n, const cpFloat d)$/;"	f
+cpPolyValidate	src/cpPolyShape.c	/^cpPolyValidate(const cpVect *verts, const int numVerts)$/;"	f
+cpPostStepCallback	include/chipmunk/chipmunk_private.h	/^typedef struct cpPostStepCallback {$/;"	s
+cpPostStepCallback	include/chipmunk/chipmunk_private.h	/^} cpPostStepCallback;$/;"	t	typeref:struct:cpPostStepCallback
+cpPostStepFunc	include/chipmunk/cpSpace.h	/^typedef void (*cpPostStepFunc)(cpSpace *space, void *key, void *data);$/;"	t
+cpRatchetJoint	include/chipmunk/constraints/cpRatchetJoint.h	/^typedef struct cpRatchetJoint {$/;"	s
+cpRatchetJoint	include/chipmunk/constraints/cpRatchetJoint.h	/^} cpRatchetJoint;$/;"	t	typeref:struct:cpRatchetJoint
+cpRatchetJointInit	src/constraints/cpRatchetJoint.c	/^cpRatchetJointInit(cpRatchetJoint *joint, cpBody *a, cpBody *b, cpFloat phase, cpFloat ratchet)$/;"	f
+cpRatchetJointNew	src/constraints/cpRatchetJoint.c	/^cpRatchetJointNew(cpBody *a, cpBody *b, cpFloat phase, cpFloat ratchet)$/;"	f
+cpRecenterPoly	src/chipmunk.c	/^cpRecenterPoly(const int numVerts, cpVect *verts){$/;"	f
+cpResetShapeIdCounter	src/cpShape.c	/^cpResetShapeIdCounter(void)$/;"	f
+cpRotaryLimitJoint	include/chipmunk/constraints/cpRotaryLimitJoint.h	/^typedef struct cpRotaryLimitJoint {$/;"	s
+cpRotaryLimitJoint	include/chipmunk/constraints/cpRotaryLimitJoint.h	/^} cpRotaryLimitJoint;$/;"	t	typeref:struct:cpRotaryLimitJoint
+cpRotaryLimitJointInit	src/constraints/cpRotaryLimitJoint.c	/^cpRotaryLimitJointInit(cpRotaryLimitJoint *joint, cpBody *a, cpBody *b, cpFloat min, cpFloat max)$/;"	f
+cpRotaryLimitJointNew	src/constraints/cpRotaryLimitJoint.c	/^cpRotaryLimitJointNew(cpBody *a, cpBody *b, cpFloat min, cpFloat max)$/;"	f
+cpSegmentQueryHitDist	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpSegmentQueryHitDist);$/;"	v
+cpSegmentQueryHitDist	include/chipmunk/cpShape.h	/^static inline cpFloat cpSegmentQueryHitDist(const cpVect start, const cpVect end, const cpSegmentQueryInfo info)$/;"	f
+cpSegmentQueryHitPoint	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpSegmentQueryHitPoint);$/;"	v
+cpSegmentQueryHitPoint	include/chipmunk/cpShape.h	/^static inline cpVect cpSegmentQueryHitPoint(const cpVect start, const cpVect end, const cpSegmentQueryInfo info)$/;"	f
+cpSegmentQueryInfo	include/chipmunk/cpShape.h	/^typedef struct cpSegmentQueryInfo {$/;"	s
+cpSegmentQueryInfo	include/chipmunk/cpShape.h	/^} cpSegmentQueryInfo;$/;"	t	typeref:struct:cpSegmentQueryInfo
+cpSegmentShape	include/chipmunk/cpShape.h	/^typedef struct cpSegmentShape {$/;"	s
+cpSegmentShape	include/chipmunk/cpShape.h	/^} cpSegmentShape;$/;"	t	typeref:struct:cpSegmentShape
+cpSegmentShapeCacheData	src/cpShape.c	/^cpSegmentShapeCacheData(cpSegmentShape *seg, cpVect p, cpVect rot)$/;"	f	file:
+cpSegmentShapeClass	src/cpShape.c	/^static const cpShapeClass cpSegmentShapeClass = {$/;"	v	file:
+cpSegmentShapeInit	src/cpShape.c	/^cpSegmentShapeInit(cpSegmentShape *seg, cpBody *body, cpVect a, cpVect b, cpFloat r)$/;"	f
+cpSegmentShapeNearestPointQuery	src/cpShape.c	/^cpSegmentShapeNearestPointQuery(cpSegmentShape *seg, cpVect p, cpNearestPointQueryInfo *info)$/;"	f	file:
+cpSegmentShapeNew	src/cpShape.c	/^cpSegmentShapeNew(cpBody *body, cpVect a, cpVect b, cpFloat r)$/;"	f
+cpSegmentShapeSegmentQuery	src/cpShape.c	/^cpSegmentShapeSegmentQuery(cpSegmentShape *seg, cpVect a, cpVect b, cpSegmentQueryInfo *info)$/;"	f	file:
+cpSegmentShapeSetEndpoints	src/cpShape.c	/^cpSegmentShapeSetEndpoints(cpShape *shape, cpVect a, cpVect b)$/;"	f
+cpSegmentShapeSetRadius	src/cpShape.c	/^cpSegmentShapeSetRadius(cpShape *shape, cpFloat radius)$/;"	f
+cpShape	include/chipmunk/chipmunk.h	/^typedef struct cpShape cpShape;$/;"	t	typeref:struct:cpShape
+cpShape	include/chipmunk/cpShape.h	/^struct cpShape {$/;"	s
+cpShapeActive	include/chipmunk/chipmunk_private.h	/^cpShapeActive(cpShape *shape)$/;"	f
+cpShapeCacheBB	src/cpShape.c	/^cpShapeCacheBB(cpShape *shape)$/;"	f
+cpShapeCacheDataImpl	include/chipmunk/cpShape.h	/^typedef cpBB (*cpShapeCacheDataImpl)(cpShape *shape, cpVect p, cpVect rot);$/;"	t
+cpShapeClass	include/chipmunk/cpShape.h	/^struct cpShapeClass {$/;"	s
+cpShapeClass	include/chipmunk/cpShape.h	/^typedef struct cpShapeClass cpShapeClass;$/;"	t	typeref:struct:cpShapeClass
+cpShapeDestroy	src/cpShape.c	/^cpShapeDestroy(cpShape *shape)$/;"	f
+cpShapeDestroyImpl	include/chipmunk/cpShape.h	/^typedef void (*cpShapeDestroyImpl)(cpShape *shape);$/;"	t
+cpShapeFree	src/cpShape.c	/^cpShapeFree(cpShape *shape)$/;"	f
+cpShapeGetBB	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpShapeGetBB);$/;"	v
+cpShapeIDCounter	src/cpShape.c	/^static cpHashValue cpShapeIDCounter = 0;$/;"	v	file:
+cpShapeInit	src/cpShape.c	/^cpShapeInit(cpShape *shape, const cpShapeClass *klass, cpBody *body)$/;"	f
+cpShapeNearestPointQuery	src/cpShape.c	/^cpShapeNearestPointQuery(cpShape *shape, cpVect p, cpNearestPointQueryInfo *info)$/;"	f
+cpShapeNearestPointQueryImpl	include/chipmunk/cpShape.h	/^typedef void (*cpShapeNearestPointQueryImpl)(cpShape *shape, cpVect p, cpNearestPointQueryInfo *info);$/;"	t
+cpShapePointQuery	src/cpShape.c	/^cpShapePointQuery(cpShape *shape, cpVect p){$/;"	f
+cpShapeSegmentQuery	src/cpShape.c	/^cpShapeSegmentQuery(cpShape *shape, cpVect a, cpVect b, cpSegmentQueryInfo *info){$/;"	f
+cpShapeSegmentQueryImpl	include/chipmunk/cpShape.h	/^typedef void (*cpShapeSegmentQueryImpl)(cpShape *shape, cpVect a, cpVect b, cpSegmentQueryInfo *info);$/;"	t
+cpShapeSetBody	src/cpShape.c	/^cpShapeSetBody(cpShape *shape, cpBody *body)$/;"	f
+cpShapeType	include/chipmunk/cpShape.h	/^typedef enum cpShapeType{$/;"	g
+cpShapeType	include/chipmunk/cpShape.h	/^} cpShapeType;$/;"	t	typeref:enum:cpShapeType
+cpShapeUpdate	src/cpShape.c	/^cpShapeUpdate(cpShape *shape, cpVect pos, cpVect rot)$/;"	f
+cpShapeUpdateFunc	src/cpSpaceStep.c	/^cpShapeUpdateFunc(cpShape *shape, void *unused)$/;"	f
+cpSimpleMotor	include/chipmunk/constraints/cpSimpleMotor.h	/^typedef struct cpSimpleMotor {$/;"	s
+cpSimpleMotor	include/chipmunk/constraints/cpSimpleMotor.h	/^} cpSimpleMotor;$/;"	t	typeref:struct:cpSimpleMotor
+cpSimpleMotorInit	src/constraints/cpSimpleMotor.c	/^cpSimpleMotorInit(cpSimpleMotor *joint, cpBody *a, cpBody *b, cpFloat rate)$/;"	f
+cpSimpleMotorNew	src/constraints/cpSimpleMotor.c	/^cpSimpleMotorNew(cpBody *a, cpBody *b, cpFloat rate)$/;"	f
+cpSlideJoint	include/chipmunk/constraints/cpSlideJoint.h	/^typedef struct cpSlideJoint {$/;"	s
+cpSlideJoint	include/chipmunk/constraints/cpSlideJoint.h	/^} cpSlideJoint;$/;"	t	typeref:struct:cpSlideJoint
+cpSlideJointInit	src/constraints/cpSlideJoint.c	/^cpSlideJointInit(cpSlideJoint *joint, cpBody *a, cpBody *b, cpVect anchr1, cpVect anchr2, cpFloat min, cpFloat max)$/;"	f
+cpSlideJointNew	src/constraints/cpSlideJoint.c	/^cpSlideJointNew(cpBody *a, cpBody *b, cpVect anchr1, cpVect anchr2, cpFloat min, cpFloat max)$/;"	f
+cpSpace	include/chipmunk/chipmunk.h	/^typedef struct cpSpace cpSpace;$/;"	t	typeref:struct:cpSpace
+cpSpace	include/chipmunk/cpSpace.h	/^struct cpSpace {$/;"	s
+cpSpaceActivateBody	src/cpSpaceComponent.c	/^cpSpaceActivateBody(cpSpace *space, cpBody *body)$/;"	f
+cpSpaceActivateShapesTouchingShape	src/cpSpaceComponent.c	/^cpSpaceActivateShapesTouchingShape(cpSpace *space, cpShape *shape){$/;"	f
+cpSpaceAddBody	src/cpSpace.c	/^cpSpaceAddBody(cpSpace *space, cpBody *body)$/;"	f
+cpSpaceAddCollisionHandler	src/cpSpace.c	/^cpSpaceAddCollisionHandler($/;"	f
+cpSpaceAddConstraint	src/cpSpace.c	/^cpSpaceAddConstraint(cpSpace *space, cpConstraint *constraint)$/;"	f
+cpSpaceAddPostStepCallback	src/cpSpaceStep.c	/^cpSpaceAddPostStepCallback(cpSpace *space, cpPostStepFunc func, void *key, void *data)$/;"	f
+cpSpaceAddShape	src/cpSpace.c	/^cpSpaceAddShape(cpSpace *space, cpShape *shape)$/;"	f
+cpSpaceAddStaticShape	src/cpSpace.c	/^cpSpaceAddStaticShape(cpSpace *space, cpShape *shape)$/;"	f
+cpSpaceAlloc	src/cpSpace.c	/^cpSpaceAlloc(void)$/;"	f
+cpSpaceAllocContactBuffer	src/cpSpaceStep.c	/^cpSpaceAllocContactBuffer(cpSpace *space)$/;"	f	file:
+cpSpaceArbiterApplyImpulseFunc	include/chipmunk/cpSpace.h	/^typedef void (*cpSpaceArbiterApplyImpulseFunc)(cpArbiter *arb);$/;"	t
+cpSpaceArbiterSetFilter	src/cpSpaceStep.c	/^cpSpaceArbiterSetFilter(cpArbiter *arb, cpSpace *space)$/;"	f
+cpSpaceArbiterSetTrans	src/cpSpaceStep.c	/^cpSpaceArbiterSetTrans(cpShape **shapes, cpSpace *space)$/;"	f	file:
+cpSpaceBBQuery	src/cpSpaceQuery.c	/^cpSpaceBBQuery(cpSpace *space, cpBB bb, cpLayers layers, cpGroup group, cpSpaceBBQueryFunc func, void *data)$/;"	f
+cpSpaceBBQueryFunc	include/chipmunk/cpSpace.h	/^typedef void (*cpSpaceBBQueryFunc)(cpShape *shape, void *data);$/;"	t
+cpSpaceBBQuery_b	src/chipmunk.c	/^void cpSpaceBBQuery_b(cpSpace *space, cpBB bb, cpLayers layers, cpGroup group, cpSpaceBBQueryBlock block){$/;"	f
+cpSpaceBodyIteratorFunc	include/chipmunk/cpSpace.h	/^typedef void (*cpSpaceBodyIteratorFunc)(cpBody *body, void *data);$/;"	t
+cpSpaceCollideShapes	src/cpSpaceStep.c	/^cpSpaceCollideShapes(cpShape *a, cpShape *b, cpSpace *space)$/;"	f
+cpSpaceConstraintIteratorFunc	include/chipmunk/cpSpace.h	/^typedef void (*cpSpaceConstraintIteratorFunc)(cpConstraint *constraint, void *data);$/;"	t
+cpSpaceContainsBody	src/cpSpace.c	/^cpBool cpSpaceContainsBody(cpSpace *space, cpBody *body)$/;"	f
+cpSpaceContainsConstraint	src/cpSpace.c	/^cpBool cpSpaceContainsConstraint(cpSpace *space, cpConstraint *constraint)$/;"	f
+cpSpaceContainsShape	src/cpSpace.c	/^cpBool cpSpaceContainsShape(cpSpace *space, cpShape *shape)$/;"	f
+cpSpaceDeactivateBody	src/cpSpaceComponent.c	/^cpSpaceDeactivateBody(cpSpace *space, cpBody *body)$/;"	f	file:
+cpSpaceDestroy	src/cpSpace.c	/^cpSpaceDestroy(cpSpace *space)$/;"	f
+cpSpaceEachBody	src/cpSpace.c	/^cpSpaceEachBody(cpSpace *space, cpSpaceBodyIteratorFunc func, void *data)$/;"	f
+cpSpaceEachBody_b	src/chipmunk.c	/^void cpSpaceEachBody_b(cpSpace *space, void (^block)(cpBody *body)){$/;"	f
+cpSpaceEachConstraint	src/cpSpace.c	/^cpSpaceEachConstraint(cpSpace *space, cpSpaceConstraintIteratorFunc func, void *data)$/;"	f
+cpSpaceEachConstraint_b	src/chipmunk.c	/^void cpSpaceEachConstraint_b(cpSpace *space, void (^block)(cpConstraint *constraint)){$/;"	f
+cpSpaceEachShape	src/cpSpace.c	/^cpSpaceEachShape(cpSpace *space, cpSpaceShapeIteratorFunc func, void *data)$/;"	f
+cpSpaceEachShape_b	src/chipmunk.c	/^void cpSpaceEachShape_b(cpSpace *space, void (^block)(cpShape *shape)){$/;"	f
+cpSpaceFilterArbiters	src/cpSpace.c	/^cpSpaceFilterArbiters(cpSpace *space, cpBody *body, cpShape *filter)$/;"	f
+cpSpaceFree	src/cpSpace.c	/^cpSpaceFree(cpSpace *space)$/;"	f
+cpSpaceGetCurrentTimeStep	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpSpaceGetCurrentTimeStep);$/;"	v
+cpSpaceGetPostStepCallback	src/cpSpaceStep.c	/^cpSpaceGetPostStepCallback(cpSpace *space, void *key)$/;"	f
+cpSpaceGetStaticBody	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpSpaceGetStaticBody);$/;"	v
+cpSpaceHash	include/chipmunk/cpSpatialIndex.h	/^typedef struct cpSpaceHash cpSpaceHash;$/;"	t	typeref:struct:cpSpaceHash
+cpSpaceHash	src/cpSpaceHash.c	/^struct cpSpaceHash {$/;"	s	file:
+cpSpaceHashAlloc	src/cpSpaceHash.c	/^cpSpaceHashAlloc(void)$/;"	f
+cpSpaceHashAllocTable	src/cpSpaceHash.c	/^cpSpaceHashAllocTable(cpSpaceHash *hash, int numcells)$/;"	f	file:
+cpSpaceHashBin	src/cpSpaceHash.c	/^struct cpSpaceHashBin {$/;"	s	file:
+cpSpaceHashBin	src/cpSpaceHash.c	/^typedef struct cpSpaceHashBin cpSpaceHashBin;$/;"	t	typeref:struct:cpSpaceHashBin	file:
+cpSpaceHashContains	src/cpSpaceHash.c	/^cpSpaceHashContains(cpSpaceHash *hash, void *obj, cpHashValue hashid)$/;"	f	file:
+cpSpaceHashCount	src/cpSpaceHash.c	/^cpSpaceHashCount(cpSpaceHash *hash)$/;"	f	file:
+cpSpaceHashDestroy	src/cpSpaceHash.c	/^cpSpaceHashDestroy(cpSpaceHash *hash)$/;"	f	file:
+cpSpaceHashEach	src/cpSpaceHash.c	/^cpSpaceHashEach(cpSpaceHash *hash, cpSpatialIndexIteratorFunc func, void *data)$/;"	f	file:
+cpSpaceHashInit	src/cpSpaceHash.c	/^cpSpaceHashInit(cpSpaceHash *hash, cpFloat celldim, int numcells, cpSpatialIndexBBFunc bbfunc, cpSpatialIndex *staticIndex)$/;"	f
+cpSpaceHashInsert	src/cpSpaceHash.c	/^cpSpaceHashInsert(cpSpaceHash *hash, void *obj, cpHashValue hashid)$/;"	f	file:
+cpSpaceHashNew	src/cpSpaceHash.c	/^cpSpaceHashNew(cpFloat celldim, int cells, cpSpatialIndexBBFunc bbfunc, cpSpatialIndex *staticIndex)$/;"	f
+cpSpaceHashQuery	src/cpSpaceHash.c	/^cpSpaceHashQuery(cpSpaceHash *hash, void *obj, cpBB bb, cpSpatialIndexQueryFunc func, void *data)$/;"	f	file:
+cpSpaceHashRehash	src/cpSpaceHash.c	/^cpSpaceHashRehash(cpSpaceHash *hash)$/;"	f	file:
+cpSpaceHashRehashObject	src/cpSpaceHash.c	/^cpSpaceHashRehashObject(cpSpaceHash *hash, void *obj, cpHashValue hashid)$/;"	f	file:
+cpSpaceHashReindexQuery	src/cpSpaceHash.c	/^cpSpaceHashReindexQuery(cpSpaceHash *hash, cpSpatialIndexQueryFunc func, void *data)$/;"	f	file:
+cpSpaceHashRemove	src/cpSpaceHash.c	/^cpSpaceHashRemove(cpSpaceHash *hash, void *obj, cpHashValue hashid)$/;"	f	file:
+cpSpaceHashRenderDebug	src/cpSpaceHash.c	/^cpSpaceHashRenderDebug(cpSpatialIndex *index)$/;"	f
+cpSpaceHashResize	src/cpSpaceHash.c	/^cpSpaceHashResize(cpSpaceHash *hash, cpFloat celldim, int numcells)$/;"	f
+cpSpaceHashSegmentQuery	src/cpSpaceHash.c	/^cpSpaceHashSegmentQuery(cpSpaceHash *hash, void *obj, cpVect a, cpVect b, cpFloat t_exit, cpSpatialIndexSegmentQueryFunc func, void *data)$/;"	f	file:
+cpSpaceInit	src/cpSpace.c	/^cpSpaceInit(cpSpace *space)$/;"	f
+cpSpaceIsLocked	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpSpaceIsLocked);$/;"	v
+cpSpaceIsLocked	include/chipmunk/cpSpace.h	/^cpSpaceIsLocked(cpSpace *space)$/;"	f
+cpSpaceLock	src/cpSpaceStep.c	/^cpSpaceLock(cpSpace *space)$/;"	f
+cpSpaceLookupHandler	include/chipmunk/chipmunk_private.h	/^cpSpaceLookupHandler(cpSpace *space, cpCollisionType a, cpCollisionType b)$/;"	f
+cpSpaceNearestPointQuery	src/cpSpaceQuery.c	/^cpSpaceNearestPointQuery(cpSpace *space, cpVect point, cpFloat maxDistance, cpLayers layers, cpGroup group, cpSpaceNearestPointQueryFunc func, void *data)$/;"	f
+cpSpaceNearestPointQueryFunc	include/chipmunk/cpSpace.h	/^typedef void (*cpSpaceNearestPointQueryFunc)(cpShape *shape, cpFloat distance, cpVect point, void *data);$/;"	t
+cpSpaceNearestPointQueryNearest	src/cpSpaceQuery.c	/^cpSpaceNearestPointQueryNearest(cpSpace *space, cpVect point, cpFloat maxDistance, cpLayers layers, cpGroup group, cpNearestPointQueryInfo *out)$/;"	f
+cpSpaceNearestPointQuery_b	src/chipmunk.c	/^void cpSpaceNearestPointQuery_b(cpSpace *space, cpVect point, cpFloat maxDistance, cpLayers layers, cpGroup group, cpSpaceNearestPointQueryBlock block){$/;"	f
+cpSpaceNew	src/cpSpace.c	/^cpSpaceNew(void)$/;"	f
+cpSpacePointQuery	src/cpSpaceQuery.c	/^cpSpacePointQuery(cpSpace *space, cpVect point, cpLayers layers, cpGroup group, cpSpacePointQueryFunc func, void *data)$/;"	f
+cpSpacePointQueryFirst	src/cpSpaceQuery.c	/^cpSpacePointQueryFirst(cpSpace *space, cpVect point, cpLayers layers, cpGroup group)$/;"	f
+cpSpacePointQueryFunc	include/chipmunk/cpSpace.h	/^typedef void (*cpSpacePointQueryFunc)(cpShape *shape, void *data);$/;"	t
+cpSpacePopContacts	src/cpSpaceStep.c	/^cpSpacePopContacts(cpSpace *space, int count){$/;"	f	file:
+cpSpaceProcessComponents	src/cpSpaceComponent.c	/^cpSpaceProcessComponents(cpSpace *space, cpFloat dt)$/;"	f
+cpSpacePushContacts	src/cpSpaceStep.c	/^cpSpacePushContacts(cpSpace *space, int count)$/;"	f
+cpSpacePushFreshContactBuffer	src/cpSpaceStep.c	/^cpSpacePushFreshContactBuffer(cpSpace *space)$/;"	f
+cpSpaceReindexShape	src/cpSpace.c	/^cpSpaceReindexShape(cpSpace *space, cpShape *shape)$/;"	f
+cpSpaceReindexShapesForBody	src/cpSpace.c	/^cpSpaceReindexShapesForBody(cpSpace *space, cpBody *body)$/;"	f
+cpSpaceReindexStatic	src/cpSpace.c	/^cpSpaceReindexStatic(cpSpace *space)$/;"	f
+cpSpaceRemoveBody	src/cpSpace.c	/^cpSpaceRemoveBody(cpSpace *space, cpBody *body)$/;"	f
+cpSpaceRemoveCollisionHandler	src/cpSpace.c	/^cpSpaceRemoveCollisionHandler(cpSpace *space, cpCollisionType a, cpCollisionType b)$/;"	f
+cpSpaceRemoveConstraint	src/cpSpace.c	/^cpSpaceRemoveConstraint(cpSpace *space, cpConstraint *constraint)$/;"	f
+cpSpaceRemoveShape	src/cpSpace.c	/^cpSpaceRemoveShape(cpSpace *space, cpShape *shape)$/;"	f
+cpSpaceRemoveStaticShape	src/cpSpace.c	/^cpSpaceRemoveStaticShape(cpSpace *space, cpShape *shape)$/;"	f
+cpSpaceSegmentQuery	src/cpSpaceQuery.c	/^cpSpaceSegmentQuery(cpSpace *space, cpVect start, cpVect end, cpLayers layers, cpGroup group, cpSpaceSegmentQueryFunc func, void *data)$/;"	f
+cpSpaceSegmentQueryFirst	src/cpSpaceQuery.c	/^cpSpaceSegmentQueryFirst(cpSpace *space, cpVect start, cpVect end, cpLayers layers, cpGroup group, cpSegmentQueryInfo *out)$/;"	f
+cpSpaceSegmentQueryFunc	include/chipmunk/cpSpace.h	/^typedef void (*cpSpaceSegmentQueryFunc)(cpShape *shape, cpFloat t, cpVect n, void *data);$/;"	t
+cpSpaceSegmentQuery_b	src/chipmunk.c	/^void cpSpaceSegmentQuery_b(cpSpace *space, cpVect start, cpVect end, cpLayers layers, cpGroup group, cpSpaceSegmentQueryBlock block){$/;"	f
+cpSpaceSetDefaultCollisionHandler	src/cpSpace.c	/^cpSpaceSetDefaultCollisionHandler($/;"	f
+cpSpaceShapeIteratorFunc	include/chipmunk/cpSpace.h	/^typedef void (*cpSpaceShapeIteratorFunc)(cpShape *shape, void *data);$/;"	t
+cpSpaceShapeQuery	src/cpSpaceQuery.c	/^cpSpaceShapeQuery(cpSpace *space, cpShape *shape, cpSpaceShapeQueryFunc func, void *data)$/;"	f
+cpSpaceShapeQueryFunc	include/chipmunk/cpSpace.h	/^typedef void (*cpSpaceShapeQueryFunc)(cpShape *shape, cpContactPointSet *points, void *data);$/;"	t
+cpSpaceShapeQuery_b	src/chipmunk.c	/^cpBool cpSpaceShapeQuery_b(cpSpace *space, cpShape *shape, cpSpaceShapeQueryBlock block){$/;"	f
+cpSpaceStep	src/cpSpaceStep.c	/^cpSpaceStep(cpSpace *space, cpFloat dt)$/;"	f
+cpSpaceUncacheArbiter	include/chipmunk/chipmunk_private.h	/^cpSpaceUncacheArbiter(cpSpace *space, cpArbiter *arb)$/;"	f
+cpSpaceUnlock	src/cpSpaceStep.c	/^cpSpaceUnlock(cpSpace *space, cpBool runPostStep)$/;"	f
+cpSpaceUseSpatialHash	src/cpSpace.c	/^cpSpaceUseSpatialHash(cpSpace *space, cpFloat dim, int count)$/;"	f
+cpSpatialIndex	include/chipmunk/cpSpatialIndex.h	/^struct cpSpatialIndex {$/;"	s
+cpSpatialIndex	include/chipmunk/cpSpatialIndex.h	/^typedef struct cpSpatialIndex cpSpatialIndex;$/;"	t	typeref:struct:cpSpatialIndex
+cpSpatialIndexBBFunc	include/chipmunk/cpSpatialIndex.h	/^typedef cpBB (*cpSpatialIndexBBFunc)(void *obj);$/;"	t
+cpSpatialIndexClass	include/chipmunk/cpSpatialIndex.h	/^struct cpSpatialIndexClass {$/;"	s
+cpSpatialIndexClass	include/chipmunk/cpSpatialIndex.h	/^typedef struct cpSpatialIndexClass cpSpatialIndexClass;$/;"	t	typeref:struct:cpSpatialIndexClass
+cpSpatialIndexCollideStatic	src/cpSpatialIndex.c	/^cpSpatialIndexCollideStatic(cpSpatialIndex *dynamicIndex, cpSpatialIndex *staticIndex, cpSpatialIndexQueryFunc func, void *data)$/;"	f
+cpSpatialIndexContains	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpSpatialIndexContains);$/;"	v
+cpSpatialIndexContains	include/chipmunk/cpSpatialIndex.h	/^static inline cpBool cpSpatialIndexContains(cpSpatialIndex *index, void *obj, cpHashValue hashid)$/;"	f
+cpSpatialIndexContainsImpl	include/chipmunk/cpSpatialIndex.h	/^typedef cpBool (*cpSpatialIndexContainsImpl)(cpSpatialIndex *index, void *obj, cpHashValue hashid);$/;"	t
+cpSpatialIndexCount	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpSpatialIndexCount);$/;"	v
+cpSpatialIndexCount	include/chipmunk/cpSpatialIndex.h	/^static inline int cpSpatialIndexCount(cpSpatialIndex *index)$/;"	f
+cpSpatialIndexCountImpl	include/chipmunk/cpSpatialIndex.h	/^typedef int (*cpSpatialIndexCountImpl)(cpSpatialIndex *index);$/;"	t
+cpSpatialIndexDestroy	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpSpatialIndexDestroy);$/;"	v
+cpSpatialIndexDestroy	include/chipmunk/cpSpatialIndex.h	/^static inline void cpSpatialIndexDestroy(cpSpatialIndex *index)$/;"	f
+cpSpatialIndexDestroyImpl	include/chipmunk/cpSpatialIndex.h	/^typedef void (*cpSpatialIndexDestroyImpl)(cpSpatialIndex *index);$/;"	t
+cpSpatialIndexEach	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpSpatialIndexEach);$/;"	v
+cpSpatialIndexEach	include/chipmunk/cpSpatialIndex.h	/^static inline void cpSpatialIndexEach(cpSpatialIndex *index, cpSpatialIndexIteratorFunc func, void *data)$/;"	f
+cpSpatialIndexEachImpl	include/chipmunk/cpSpatialIndex.h	/^typedef void (*cpSpatialIndexEachImpl)(cpSpatialIndex *index, cpSpatialIndexIteratorFunc func, void *data);$/;"	t
+cpSpatialIndexFree	src/cpSpatialIndex.c	/^cpSpatialIndexFree(cpSpatialIndex *index)$/;"	f
+cpSpatialIndexInit	src/cpSpatialIndex.c	/^cpSpatialIndexInit(cpSpatialIndex *index, cpSpatialIndexClass *klass, cpSpatialIndexBBFunc bbfunc, cpSpatialIndex *staticIndex)$/;"	f
+cpSpatialIndexInsert	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpSpatialIndexInsert);$/;"	v
+cpSpatialIndexInsert	include/chipmunk/cpSpatialIndex.h	/^static inline void cpSpatialIndexInsert(cpSpatialIndex *index, void *obj, cpHashValue hashid)$/;"	f
+cpSpatialIndexInsertImpl	include/chipmunk/cpSpatialIndex.h	/^typedef void (*cpSpatialIndexInsertImpl)(cpSpatialIndex *index, void *obj, cpHashValue hashid);$/;"	t
+cpSpatialIndexIteratorFunc	include/chipmunk/cpSpatialIndex.h	/^typedef void (*cpSpatialIndexIteratorFunc)(void *obj, void *data);$/;"	t
+cpSpatialIndexQuery	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpSpatialIndexQuery);$/;"	v
+cpSpatialIndexQuery	include/chipmunk/cpSpatialIndex.h	/^static inline void cpSpatialIndexQuery(cpSpatialIndex *index, void *obj, cpBB bb, cpSpatialIndexQueryFunc func, void *data)$/;"	f
+cpSpatialIndexQueryFunc	include/chipmunk/cpSpatialIndex.h	/^typedef void (*cpSpatialIndexQueryFunc)(void *obj1, void *obj2, void *data);$/;"	t
+cpSpatialIndexQueryImpl	include/chipmunk/cpSpatialIndex.h	/^typedef void (*cpSpatialIndexQueryImpl)(cpSpatialIndex *index, void *obj, cpBB bb, cpSpatialIndexQueryFunc func, void *data);$/;"	t
+cpSpatialIndexReindex	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpSpatialIndexReindex);$/;"	v
+cpSpatialIndexReindex	include/chipmunk/cpSpatialIndex.h	/^static inline void cpSpatialIndexReindex(cpSpatialIndex *index)$/;"	f
+cpSpatialIndexReindexImpl	include/chipmunk/cpSpatialIndex.h	/^typedef void (*cpSpatialIndexReindexImpl)(cpSpatialIndex *index);$/;"	t
+cpSpatialIndexReindexObject	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpSpatialIndexReindexObject);$/;"	v
+cpSpatialIndexReindexObject	include/chipmunk/cpSpatialIndex.h	/^static inline void cpSpatialIndexReindexObject(cpSpatialIndex *index, void *obj, cpHashValue hashid)$/;"	f
+cpSpatialIndexReindexObjectImpl	include/chipmunk/cpSpatialIndex.h	/^typedef void (*cpSpatialIndexReindexObjectImpl)(cpSpatialIndex *index, void *obj, cpHashValue hashid);$/;"	t
+cpSpatialIndexReindexQuery	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpSpatialIndexReindexQuery);$/;"	v
+cpSpatialIndexReindexQuery	include/chipmunk/cpSpatialIndex.h	/^static inline void cpSpatialIndexReindexQuery(cpSpatialIndex *index, cpSpatialIndexQueryFunc func, void *data)$/;"	f
+cpSpatialIndexReindexQueryImpl	include/chipmunk/cpSpatialIndex.h	/^typedef void (*cpSpatialIndexReindexQueryImpl)(cpSpatialIndex *index, cpSpatialIndexQueryFunc func, void *data);$/;"	t
+cpSpatialIndexRemove	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpSpatialIndexRemove);$/;"	v
+cpSpatialIndexRemove	include/chipmunk/cpSpatialIndex.h	/^static inline void cpSpatialIndexRemove(cpSpatialIndex *index, void *obj, cpHashValue hashid)$/;"	f
+cpSpatialIndexRemoveImpl	include/chipmunk/cpSpatialIndex.h	/^typedef void (*cpSpatialIndexRemoveImpl)(cpSpatialIndex *index, void *obj, cpHashValue hashid);$/;"	t
+cpSpatialIndexSegmentQuery	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpSpatialIndexSegmentQuery);$/;"	v
+cpSpatialIndexSegmentQuery	include/chipmunk/cpSpatialIndex.h	/^static inline void cpSpatialIndexSegmentQuery(cpSpatialIndex *index, void *obj, cpVect a, cpVect b, cpFloat t_exit, cpSpatialIndexSegmentQueryFunc func, void *data)$/;"	f
+cpSpatialIndexSegmentQueryFunc	include/chipmunk/cpSpatialIndex.h	/^typedef cpFloat (*cpSpatialIndexSegmentQueryFunc)(void *obj1, void *obj2, void *data);$/;"	t
+cpSpatialIndexSegmentQueryImpl	include/chipmunk/cpSpatialIndex.h	/^typedef void (*cpSpatialIndexSegmentQueryImpl)(cpSpatialIndex *index, void *obj, cpVect a, cpVect b, cpFloat t_exit, cpSpatialIndexSegmentQueryFunc func, void *data);$/;"	t
+cpSplittingPlane	include/chipmunk/cpPolyShape.h	/^typedef struct cpSplittingPlane {$/;"	s
+cpSplittingPlane	include/chipmunk/cpPolyShape.h	/^} cpSplittingPlane;$/;"	t	typeref:struct:cpSplittingPlane
+cpSplittingPlaneCompare	include/chipmunk/chipmunk_private.h	/^cpSplittingPlaneCompare(cpSplittingPlane plane, cpVect v)$/;"	f
+cpSplittingPlaneNew	include/chipmunk/chipmunk_private.h	/^cpSplittingPlaneNew(cpVect a, cpVect b)$/;"	f
+cpStaticBodySingleton	src/cpBody.c	/^cpBody cpStaticBodySingleton;$/;"	v
+cpSweep1D	include/chipmunk/cpSpatialIndex.h	/^typedef struct cpSweep1D cpSweep1D;$/;"	t	typeref:struct:cpSweep1D
+cpSweep1D	src/cpSweep1D.c	/^struct cpSweep1D$/;"	s	file:
+cpSweep1DAlloc	src/cpSweep1D.c	/^cpSweep1DAlloc(void)$/;"	f
+cpSweep1DContains	src/cpSweep1D.c	/^cpSweep1DContains(cpSweep1D *sweep, void *obj, cpHashValue hashid)$/;"	f	file:
+cpSweep1DCount	src/cpSweep1D.c	/^cpSweep1DCount(cpSweep1D *sweep)$/;"	f	file:
+cpSweep1DDestroy	src/cpSweep1D.c	/^cpSweep1DDestroy(cpSweep1D *sweep)$/;"	f	file:
+cpSweep1DEach	src/cpSweep1D.c	/^cpSweep1DEach(cpSweep1D *sweep, cpSpatialIndexIteratorFunc func, void *data)$/;"	f	file:
+cpSweep1DInit	src/cpSweep1D.c	/^cpSweep1DInit(cpSweep1D *sweep, cpSpatialIndexBBFunc bbfunc, cpSpatialIndex *staticIndex)$/;"	f
+cpSweep1DInsert	src/cpSweep1D.c	/^cpSweep1DInsert(cpSweep1D *sweep, void *obj, cpHashValue hashid)$/;"	f	file:
+cpSweep1DNew	src/cpSweep1D.c	/^cpSweep1DNew(cpSpatialIndexBBFunc bbfunc, cpSpatialIndex *staticIndex)$/;"	f
+cpSweep1DQuery	src/cpSweep1D.c	/^cpSweep1DQuery(cpSweep1D *sweep, void *obj, cpBB bb, cpSpatialIndexQueryFunc func, void *data)$/;"	f	file:
+cpSweep1DReindex	src/cpSweep1D.c	/^cpSweep1DReindex(cpSweep1D *sweep)$/;"	f	file:
+cpSweep1DReindexObject	src/cpSweep1D.c	/^cpSweep1DReindexObject(cpSweep1D *sweep, void *obj, cpHashValue hashid)$/;"	f	file:
+cpSweep1DReindexQuery	src/cpSweep1D.c	/^cpSweep1DReindexQuery(cpSweep1D *sweep, cpSpatialIndexQueryFunc func, void *data)$/;"	f	file:
+cpSweep1DRemove	src/cpSweep1D.c	/^cpSweep1DRemove(cpSweep1D *sweep, void *obj, cpHashValue hashid)$/;"	f	file:
+cpSweep1DSegmentQuery	src/cpSweep1D.c	/^cpSweep1DSegmentQuery(cpSweep1D *sweep, void *obj, cpVect a, cpVect b, cpFloat t_exit, cpSpatialIndexSegmentQueryFunc func, void *data)$/;"	f	file:
+cpTimestamp	include/chipmunk/chipmunk_types.h	/^	typedef CP_TIMESTAMP_TYPE cpTimestamp;$/;"	t
+cpTimestamp	include/chipmunk/chipmunk_types.h	/^	typedef unsigned int cpTimestamp;$/;"	t
+cpTrue	include/chipmunk/chipmunk_types.h	148;"	d
+cpVect	include/chipmunk/chipmunk_types.h	/^	typedef CGPoint cpVect;$/;"	t
+cpVect	include/chipmunk/chipmunk_types.h	/^	typedef struct cpVect{cpFloat x,y;} cpVect;$/;"	s
+cpVect	include/chipmunk/chipmunk_types.h	/^	typedef struct cpVect{cpFloat x,y;} cpVect;$/;"	t	typeref:struct:cpVect
+cpVersionString	src/chipmunk.c	/^const char *cpVersionString = XSTR(CP_VERSION_MAJOR)"."XSTR(CP_VERSION_MINOR)"."XSTR(CP_VERSION_RELEASE);$/;"	v
+cpcalloc	include/chipmunk/chipmunk.h	71;"	d
+cpfabs	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpfabs);$/;"	v
+cpfabs	include/chipmunk/chipmunk_types.h	/^static inline cpFloat cpfabs(cpFloat f)$/;"	f
+cpfacos	include/chipmunk/chipmunk_types.h	41;"	d
+cpfacos	include/chipmunk/chipmunk_types.h	53;"	d
+cpfatan2	include/chipmunk/chipmunk_types.h	42;"	d
+cpfatan2	include/chipmunk/chipmunk_types.h	54;"	d
+cpfceil	include/chipmunk/chipmunk_types.h	47;"	d
+cpfceil	include/chipmunk/chipmunk_types.h	59;"	d
+cpfclamp	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpfclamp);$/;"	v
+cpfclamp	include/chipmunk/chipmunk_types.h	/^static inline cpFloat cpfclamp(cpFloat f, cpFloat min, cpFloat max)$/;"	f
+cpfclamp01	include/chipmunk/chipmunk_types.h	/^static inline cpFloat cpfclamp01(cpFloat f)$/;"	f
+cpfcompare	src/cpBBTree.c	/^cpfcompare(const cpFloat *a, const cpFloat *b){$/;"	f	file:
+cpfcos	include/chipmunk/chipmunk_types.h	40;"	d
+cpfcos	include/chipmunk/chipmunk_types.h	52;"	d
+cpfexp	include/chipmunk/chipmunk_types.h	44;"	d
+cpfexp	include/chipmunk/chipmunk_types.h	56;"	d
+cpffloor	include/chipmunk/chipmunk_types.h	46;"	d
+cpffloor	include/chipmunk/chipmunk_types.h	58;"	d
+cpflerp	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpflerp);$/;"	v
+cpflerp	include/chipmunk/chipmunk_types.h	/^static inline cpFloat cpflerp(cpFloat f1, cpFloat f2, cpFloat t)$/;"	f
+cpflerpconst	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpflerpconst);$/;"	v
+cpflerpconst	include/chipmunk/chipmunk_types.h	/^static inline cpFloat cpflerpconst(cpFloat f1, cpFloat f2, cpFloat d)$/;"	f
+cpfmax	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpfmax);$/;"	v
+cpfmax	include/chipmunk/chipmunk_types.h	/^static inline cpFloat cpfmax(cpFloat a, cpFloat b)$/;"	f
+cpfmin	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpfmin);$/;"	v
+cpfmin	include/chipmunk/chipmunk_types.h	/^static inline cpFloat cpfmin(cpFloat a, cpFloat b)$/;"	f
+cpfmod	include/chipmunk/chipmunk_types.h	43;"	d
+cpfmod	include/chipmunk/chipmunk_types.h	55;"	d
+cpfpow	include/chipmunk/chipmunk_types.h	45;"	d
+cpfpow	include/chipmunk/chipmunk_types.h	57;"	d
+cpfree	include/chipmunk/chipmunk.h	81;"	d
+cpfsin	include/chipmunk/chipmunk_types.h	39;"	d
+cpfsin	include/chipmunk/chipmunk_types.h	51;"	d
+cpfsqrt	include/chipmunk/chipmunk_types.h	38;"	d
+cpfsqrt	include/chipmunk/chipmunk_types.h	50;"	d
+cprealloc	include/chipmunk/chipmunk.h	76;"	d
+cpv	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpv); \/\/ makes a variable named _cpv that contains the function pointer for cpv()$/;"	v
+cpv	include/chipmunk/cpVect.h	/^static inline cpVect cpv(const cpFloat x, const cpFloat y)$/;"	f
+cpv_assert_infinite	src/cpBody.c	/^static void cpv_assert_infinite(cpVect v, char *message){cpAssertSoft(cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY, message);}$/;"	f	file:
+cpv_assert_nan	src/cpBody.c	/^static void cpv_assert_nan(cpVect v, char *message){cpAssertSoft(v.x == v.x && v.y == v.y, message);}$/;"	f	file:
+cpv_assert_sane	src/cpBody.c	/^static void cpv_assert_sane(cpVect v, char *message){cpv_assert_nan(v, message); cpv_assert_infinite(v, message);}$/;"	f	file:
+cpvadd	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpvadd);$/;"	v
+cpvadd	include/chipmunk/cpVect.h	/^static inline cpVect cpvadd(const cpVect v1, const cpVect v2)$/;"	f
+cpvclamp	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpvclamp);$/;"	v
+cpvclamp	include/chipmunk/cpVect.h	/^static inline cpVect cpvclamp(const cpVect v, const cpFloat len)$/;"	f
+cpvcross	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpvcross);$/;"	v
+cpvcross	include/chipmunk/cpVect.h	/^static inline cpFloat cpvcross(const cpVect v1, const cpVect v2)$/;"	f
+cpvdist	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpvdist);$/;"	v
+cpvdist	include/chipmunk/cpVect.h	/^static inline cpFloat cpvdist(const cpVect v1, const cpVect v2)$/;"	f
+cpvdistsq	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpvdistsq);$/;"	v
+cpvdistsq	include/chipmunk/cpVect.h	/^static inline cpFloat cpvdistsq(const cpVect v1, const cpVect v2)$/;"	f
+cpvdot	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpvdot);$/;"	v
+cpvdot	include/chipmunk/cpVect.h	/^static inline cpFloat cpvdot(const cpVect v1, const cpVect v2)$/;"	f
+cpveql	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpveql);$/;"	v
+cpveql	include/chipmunk/cpVect.h	/^static inline cpBool cpveql(const cpVect v1, const cpVect v2)$/;"	f
+cpvforangle	include/chipmunk/cpVect.h	/^static inline cpVect cpvforangle(const cpFloat a)$/;"	f
+cpvlength	include/chipmunk/cpVect.h	/^static inline cpFloat cpvlength(const cpVect v)$/;"	f
+cpvlengthsq	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpvlengthsq);$/;"	v
+cpvlengthsq	include/chipmunk/cpVect.h	/^static inline cpFloat cpvlengthsq(const cpVect v)$/;"	f
+cpvlerp	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpvlerp);$/;"	v
+cpvlerp	include/chipmunk/cpVect.h	/^static inline cpVect cpvlerp(const cpVect v1, const cpVect v2, const cpFloat t)$/;"	f
+cpvlerpconst	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpvlerpconst);$/;"	v
+cpvlerpconst	include/chipmunk/cpVect.h	/^static inline cpVect cpvlerpconst(cpVect v1, cpVect v2, cpFloat d)$/;"	f
+cpvmult	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpvmult);$/;"	v
+cpvmult	include/chipmunk/cpVect.h	/^static inline cpVect cpvmult(const cpVect v, const cpFloat s)$/;"	f
+cpvnear	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpvnear);$/;"	v
+cpvnear	include/chipmunk/cpVect.h	/^static inline cpBool cpvnear(const cpVect v1, const cpVect v2, const cpFloat dist)$/;"	f
+cpvneg	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpvneg);$/;"	v
+cpvneg	include/chipmunk/cpVect.h	/^static inline cpVect cpvneg(const cpVect v)$/;"	f
+cpvnormalize	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpvnormalize);$/;"	v
+cpvnormalize	include/chipmunk/cpVect.h	/^static inline cpVect cpvnormalize(const cpVect v)$/;"	f
+cpvnormalize_safe	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpvnormalize_safe);$/;"	v
+cpvnormalize_safe	include/chipmunk/cpVect.h	/^static inline cpVect cpvnormalize_safe(const cpVect v)$/;"	f
+cpvperp	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpvperp);$/;"	v
+cpvperp	include/chipmunk/cpVect.h	/^static inline cpVect cpvperp(const cpVect v)$/;"	f
+cpvproject	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpvproject);$/;"	v
+cpvproject	include/chipmunk/cpVect.h	/^static inline cpVect cpvproject(const cpVect v1, const cpVect v2)$/;"	f
+cpvrotate	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpvrotate);$/;"	v
+cpvrotate	include/chipmunk/cpVect.h	/^static inline cpVect cpvrotate(const cpVect v1, const cpVect v2)$/;"	f
+cpvrperp	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpvrperp);$/;"	v
+cpvrperp	include/chipmunk/cpVect.h	/^static inline cpVect cpvrperp(const cpVect v)$/;"	f
+cpvslerp	src/cpVect.c	/^cpvslerp(const cpVect v1, const cpVect v2, const cpFloat t)$/;"	f
+cpvslerpconst	src/cpVect.c	/^cpvslerpconst(const cpVect v1, const cpVect v2, const cpFloat a)$/;"	f
+cpvstr	src/cpVect.c	/^cpvstr(const cpVect v)$/;"	f
+cpvsub	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpvsub);$/;"	v
+cpvsub	include/chipmunk/cpVect.h	/^static inline cpVect cpvsub(const cpVect v1, const cpVect v2)$/;"	f
+cpvtoangle	include/chipmunk/cpVect.h	/^static inline cpFloat cpvtoangle(const cpVect v)$/;"	f
+cpvunrotate	include/chipmunk/chipmunk_ffi.h	/^MAKE_REF(cpvunrotate);$/;"	v
+cpvunrotate	include/chipmunk/cpVect.h	/^static inline cpVect cpvunrotate(const cpVect v1, const cpVect v2)$/;"	f
+cpvzero	include/chipmunk/cpVect.h	/^static const cpVect cpvzero = {0.0f,0.0f};$/;"	v
+d	include/chipmunk/chipmunk_types.h	/^	cpFloat a, b, c, d;$/;"	m	struct:cpMat2x2
+d	include/chipmunk/cpPolyShape.h	/^	cpFloat d;$/;"	m	struct:cpSplittingPlane
+d	include/chipmunk/cpShape.h	/^	cpFloat d;$/;"	m	struct:cpNearestPointQueryInfo
+damping	include/chipmunk/constraints/cpDampedRotarySpring.h	/^	cpFloat damping;$/;"	m	struct:cpDampedRotarySpring
+damping	include/chipmunk/constraints/cpDampedSpring.h	/^	cpFloat damping;$/;"	m	struct:cpDampedSpring
+damping	include/chipmunk/cpSpace.h	/^	cpFloat damping;$/;"	m	struct:cpSpace
+data	include/chipmunk/chipmunk_private.h	/^	void *data;$/;"	m	struct:cpPostStepCallback
+data	include/chipmunk/constraints/cpConstraint.h	/^	cpDataPointer data;$/;"	m	struct:cpConstraint
+data	include/chipmunk/cpArbiter.h	/^	cpDataPointer data;$/;"	m	struct:cpArbiter
+data	include/chipmunk/cpArbiter.h	/^	void *data;$/;"	m	struct:cpCollisionHandler
+data	include/chipmunk/cpBody.h	/^	cpDataPointer data;$/;"	m	struct:cpBody
+data	include/chipmunk/cpShape.h	/^	cpDataPointer data;$/;"	m	struct:cpShape
+data	include/chipmunk/cpSpace.h	/^	cpDataPointer data;$/;"	m	struct:cpSpace
+data	src/cpBBTree.c	/^	void *data;$/;"	m	struct:MarkContext	file:
+data	src/cpBBTree.c	/^	void *data;$/;"	m	struct:eachContext	file:
+data	src/cpSpace.c	/^	void *data;$/;"	m	struct:spaceShapeContext	file:
+data	src/cpSpaceHash.c	/^	void *data;$/;"	m	struct:eachContext	file:
+data	src/cpSpaceHash.c	/^	void *data;$/;"	m	struct:queryRehashContext	file:
+data	src/cpSpaceQuery.c	/^	void *data;$/;"	m	struct:PointQueryContext	file:
+data	src/cpSpaceQuery.c	/^	void *data;$/;"	m	struct:ShapeQueryContext	file:
+data	src/cpSpatialIndex.c	/^	void *data;$/;"	m	struct:dynamicToStaticContext	file:
+defaultSpringForce	src/constraints/cpDampedSpring.c	/^defaultSpringForce(cpDampedSpring *spring, cpFloat dist){$/;"	f	file:
+defaultSpringTorque	src/constraints/cpDampedRotarySpring.c	/^defaultSpringTorque(cpDampedRotarySpring *spring, cpFloat relativeAngle){$/;"	f	file:
+default_value	src/cpHashSet.c	/^	void *default_value;$/;"	m	struct:cpHashSet	file:
+destroy	include/chipmunk/cpShape.h	/^	cpShapeDestroyImpl destroy;$/;"	m	struct:cpShapeClass
+destroy	include/chipmunk/cpSpatialIndex.h	/^	cpSpatialIndexDestroyImpl destroy;$/;"	m	struct:cpSpatialIndexClass
+dist	include/chipmunk/chipmunk_private.h	/^	cpFloat dist;$/;"	m	struct:cpContact
+dist	include/chipmunk/constraints/cpPinJoint.h	/^	cpFloat dist;$/;"	m	struct:cpPinJoint
+dist	include/chipmunk/cpArbiter.h	/^		cpFloat dist;$/;"	m	struct:cpContactPointSet::__anon1
+distance	include/chipmunk/chipmunk.h	/^typedef void (^cpSpaceNearestPointQueryBlock)(cpShape *shape, cpFloat distance, cpVect point);$/;"	v
+dynamicIndex	include/chipmunk/cpSpatialIndex.h	/^	cpSpatialIndex *staticIndex, *dynamicIndex;$/;"	m	struct:cpSpatialIndex
+dynamicToStaticContext	src/cpSpatialIndex.c	/^typedef struct dynamicToStaticContext {$/;"	s	file:
+dynamicToStaticContext	src/cpSpatialIndex.c	/^} dynamicToStaticContext;$/;"	t	typeref:struct:dynamicToStaticContext	file:
+dynamicToStaticIter	src/cpSpatialIndex.c	/^dynamicToStaticIter(void *obj, dynamicToStaticContext *context)$/;"	f	file:
+e	include/chipmunk/cpArbiter.h	/^	cpFloat e;$/;"	m	struct:cpArbiter
+e	include/chipmunk/cpShape.h	/^	cpFloat e;$/;"	m	struct:cpShape
+each	include/chipmunk/cpSpatialIndex.h	/^	cpSpatialIndexEachImpl each;$/;"	m	struct:cpSpatialIndexClass
+eachContext	src/cpBBTree.c	/^typedef struct eachContext {$/;"	s	file:
+eachContext	src/cpBBTree.c	/^} eachContext;$/;"	t	typeref:struct:eachContext	file:
+eachContext	src/cpSpaceHash.c	/^typedef struct eachContext {$/;"	s	file:
+eachContext	src/cpSpaceHash.c	/^} eachContext;$/;"	t	typeref:struct:eachContext	file:
+eachHelper	src/cpSpaceHash.c	/^static void eachHelper(cpHandle *hand, eachContext *context){context->func(hand->obj, context->data);}$/;"	f	file:
+each_helper	src/cpBBTree.c	/^static void each_helper(Node *node, eachContext *context){context->func(node->obj, context->data);}$/;"	f	file:
+elt	src/cpHashSet.c	/^	void *elt;$/;"	m	struct:cpHashSetBin	file:
+enableContactGraph	include/chipmunk/cpSpace.h	/^	cpBool enableContactGraph;$/;"	m	struct:cpSpace
+end	src/cpSpaceQuery.c	/^	cpVect start, end;$/;"	m	struct:SegmentQueryContext	file:
+entries	src/cpHashSet.c	/^	unsigned int entries, size;$/;"	m	struct:cpHashSet	file:
+eql	src/cpHashSet.c	/^	cpHashSetEqlFunc eql;$/;"	m	struct:cpHashSet	file:
+errorBias	include/chipmunk/constraints/cpConstraint.h	/^	cpFloat errorBias;$/;"	m	struct:cpConstraint
+f	include/chipmunk/cpBody.h	/^	cpVect f;$/;"	m	struct:cpBody
+fillNodeArray	src/cpBBTree.c	/^fillNodeArray(Node *node, Node ***cursor){$/;"	f	file:
+filterConstraints	src/cpBody.c	/^filterConstraints(cpConstraint *node, cpBody *body, cpConstraint *filter)$/;"	f	file:
+findMSA	src/cpCollision.c	/^findMSA(const cpPolyShape *poly, const cpSplittingPlane *planes, const int num, cpFloat *min_out)$/;"	f	file:
+findPointsBehindSeg	src/cpCollision.c	/^findPointsBehindSeg(cpContact *arr, int *num, const cpSegmentShape *seg, const cpPolyShape *poly, const cpFloat pDist, const cpFloat coef) $/;"	f	file:
+findVerts	src/cpCollision.c	/^findVerts(cpContact *arr, const cpPolyShape *poly1, const cpPolyShape *poly2, const cpVect n, const cpFloat dist)$/;"	f	file:
+findVertsFallback	src/cpCollision.c	/^findVertsFallback(cpContact *arr, const cpPolyShape *poly1, const cpPolyShape *poly2, const cpVect n, const cpFloat dist)$/;"	f	file:
+floor_int	src/cpSpaceHash.c	/^floor_int(cpFloat f)$/;"	f	file:
+freeWrap	src/cpSpace.c	/^static void freeWrap(void *ptr, void *unused){cpfree(ptr);}$/;"	f	file:
+func	include/chipmunk/chipmunk_private.h	/^	cpPostStepFunc func;$/;"	m	struct:cpPostStepCallback
+func	src/cpBBTree.c	/^	cpSpatialIndexIteratorFunc func;$/;"	m	struct:eachContext	file:
+func	src/cpBBTree.c	/^	cpSpatialIndexQueryFunc func;$/;"	m	struct:MarkContext	file:
+func	src/cpSpace.c	/^	cpSpaceShapeIteratorFunc func;$/;"	m	struct:spaceShapeContext	file:
+func	src/cpSpaceHash.c	/^	cpSpatialIndexIteratorFunc func;$/;"	m	struct:eachContext	file:
+func	src/cpSpaceHash.c	/^	cpSpatialIndexQueryFunc func;$/;"	m	struct:queryRehashContext	file:
+func	src/cpSpaceQuery.c	/^	cpSpaceBBQueryFunc func;$/;"	m	struct:BBQueryContext	file:
+func	src/cpSpaceQuery.c	/^	cpSpaceNearestPointQueryFunc func;$/;"	m	struct:NearestPointQueryContext	file:
+func	src/cpSpaceQuery.c	/^	cpSpacePointQueryFunc func;$/;"	m	struct:PointQueryContext	file:
+func	src/cpSpaceQuery.c	/^	cpSpaceSegmentQueryFunc func;$/;"	m	struct:SegmentQueryContext	file:
+func	src/cpSpaceQuery.c	/^	cpSpaceShapeQueryFunc func;$/;"	m	struct:ShapeQueryContext	file:
+getEmptyBin	src/cpSpaceHash.c	/^getEmptyBin(cpSpaceHash *hash)$/;"	f	file:
+getImpulse	include/chipmunk/constraints/cpConstraint.h	/^	cpConstraintGetImpulseImpl getImpulse;$/;"	m	struct:cpConstraintClass
+getImpulse	src/constraints/cpDampedRotarySpring.c	/^getImpulse(cpConstraint *constraint)$/;"	f	file:
+getImpulse	src/constraints/cpDampedSpring.c	/^getImpulse(cpConstraint *constraint)$/;"	f	file:
+getImpulse	src/constraints/cpGearJoint.c	/^getImpulse(cpGearJoint *joint)$/;"	f	file:
+getImpulse	src/constraints/cpGrooveJoint.c	/^getImpulse(cpGrooveJoint *joint)$/;"	f	file:
+getImpulse	src/constraints/cpPinJoint.c	/^getImpulse(cpPinJoint *joint)$/;"	f	file:
+getImpulse	src/constraints/cpPivotJoint.c	/^getImpulse(cpConstraint *joint)$/;"	f	file:
+getImpulse	src/constraints/cpRatchetJoint.c	/^getImpulse(cpRatchetJoint *joint)$/;"	f	file:
+getImpulse	src/constraints/cpRotaryLimitJoint.c	/^getImpulse(cpRotaryLimitJoint *joint)$/;"	f	file:
+getImpulse	src/constraints/cpSimpleMotor.c	/^getImpulse(cpSimpleMotor *joint)$/;"	f	file:
+getImpulse	src/constraints/cpSlideJoint.c	/^getImpulse(cpConstraint *joint)$/;"	f	file:
+getUnusedBin	src/cpHashSet.c	/^getUnusedBin(cpHashSet *set)$/;"	f	file:
+gravity	include/chipmunk/cpSpace.h	/^	cpVect gravity;$/;"	m	struct:cpSpace
+grooveConstrain	src/constraints/cpGrooveJoint.c	/^grooveConstrain(cpGrooveJoint *joint, cpVect j, cpFloat dt){$/;"	f	file:
+group	include/chipmunk/cpShape.h	/^	cpGroup group;$/;"	m	struct:cpShape
+group	src/cpSpaceQuery.c	/^	cpGroup group;$/;"	m	struct:BBQueryContext	file:
+group	src/cpSpaceQuery.c	/^	cpGroup group;$/;"	m	struct:NearestPointQueryContext	file:
+group	src/cpSpaceQuery.c	/^	cpGroup group;$/;"	m	struct:PointQueryContext	file:
+group	src/cpSpaceQuery.c	/^	cpGroup group;$/;"	m	struct:SegmentQueryContext	file:
+grv_a	include/chipmunk/constraints/cpGrooveJoint.h	/^	cpVect grv_n, grv_a, grv_b;$/;"	m	struct:cpGrooveJoint
+grv_b	include/chipmunk/constraints/cpGrooveJoint.h	/^	cpVect grv_n, grv_a, grv_b;$/;"	m	struct:cpGrooveJoint
+grv_n	include/chipmunk/constraints/cpGrooveJoint.h	/^	cpVect grv_n, grv_a, grv_b;$/;"	m	struct:cpGrooveJoint
+grv_tn	include/chipmunk/constraints/cpGrooveJoint.h	/^	cpVect grv_tn;$/;"	m	struct:cpGrooveJoint
+handle	src/cpSpaceHash.c	/^	cpHandle *handle;$/;"	m	struct:cpSpaceHashBin	file:
+handleSet	src/cpSpaceHash.c	/^	cpHashSet *handleSet;$/;"	m	struct:cpSpaceHash	file:
+handleSetEql	src/cpSpaceHash.c	/^static int handleSetEql(void *obj, cpHandle *hand){return (obj == hand->obj);}$/;"	f	file:
+handleSetTrans	src/cpSpaceHash.c	/^handleSetTrans(void *obj, cpSpaceHash *hash)$/;"	f	file:
+handlerSetEql	src/cpSpace.c	/^handlerSetEql(cpCollisionHandler *check, cpCollisionHandler *pair)$/;"	f	file:
+handlerSetTrans	src/cpSpace.c	/^handlerSetTrans(cpCollisionHandler *handler, void *unused)$/;"	f	file:
+hash	include/chipmunk/chipmunk_private.h	/^	cpHashValue hash;$/;"	m	struct:cpContact
+hash	src/cpHashSet.c	/^	cpHashValue hash;$/;"	m	struct:cpHashSetBin	file:
+hash	src/cpSpaceHash.c	/^	cpSpaceHash *hash;$/;"	m	struct:queryRehashContext	file:
+hashHandle	src/cpSpaceHash.c	/^hashHandle(cpSpaceHash *hash, cpHandle *hand, cpBB bb)$/;"	f	file:
+hash_func	src/cpSpaceHash.c	/^hash_func(cpHashValue x, cpHashValue y, cpHashValue n)$/;"	f	file:
+header	src/cpSpaceStep.c	/^	cpContactBufferHeader header;$/;"	m	struct:cpContactBuffer	file:
+i	include/chipmunk/cpBody.h	/^	cpFloat i;$/;"	m	struct:cpBody
+iSum	include/chipmunk/constraints/cpDampedRotarySpring.h	/^	cpFloat iSum;$/;"	m	struct:cpDampedRotarySpring
+iSum	include/chipmunk/constraints/cpGearJoint.h	/^	cpFloat iSum;$/;"	m	struct:cpGearJoint
+iSum	include/chipmunk/constraints/cpRatchetJoint.h	/^	cpFloat iSum;$/;"	m	struct:cpRatchetJoint
+iSum	include/chipmunk/constraints/cpRotaryLimitJoint.h	/^	cpFloat iSum;$/;"	m	struct:cpRotaryLimitJoint
+iSum	include/chipmunk/constraints/cpSimpleMotor.h	/^	cpFloat iSum;$/;"	m	struct:cpSimpleMotor
+i_inv	include/chipmunk/cpBody.h	/^	cpFloat i_inv;$/;"	m	struct:cpBody
+idleSpeedThreshold	include/chipmunk/cpSpace.h	/^	cpFloat idleSpeedThreshold;$/;"	m	struct:cpSpace
+idleTime	include/chipmunk/cpBody.h	/^	cpFloat idleTime;$/;"	m	struct:cpComponentNode
+insert	include/chipmunk/cpSpatialIndex.h	/^	cpSpatialIndexInsertImpl insert;$/;"	m	struct:cpSpatialIndexClass
+iterations	include/chipmunk/cpSpace.h	/^	int iterations;$/;"	m	struct:cpSpace
+jAcc	include/chipmunk/constraints/cpGearJoint.h	/^	cpFloat jAcc;$/;"	m	struct:cpGearJoint
+jAcc	include/chipmunk/constraints/cpGrooveJoint.h	/^	cpVect jAcc;$/;"	m	struct:cpGrooveJoint
+jAcc	include/chipmunk/constraints/cpPivotJoint.h	/^	cpVect jAcc;$/;"	m	struct:cpPivotJoint
+jAcc	include/chipmunk/constraints/cpRatchetJoint.h	/^	cpFloat jAcc;$/;"	m	struct:cpRatchetJoint
+jAcc	include/chipmunk/constraints/cpRotaryLimitJoint.h	/^	cpFloat jAcc;$/;"	m	struct:cpRotaryLimitJoint
+jAcc	include/chipmunk/constraints/cpSimpleMotor.h	/^	cpFloat jAcc;$/;"	m	struct:cpSimpleMotor
+jBias	include/chipmunk/chipmunk_private.h	/^	cpFloat jnAcc, jtAcc, jBias;$/;"	m	struct:cpContact
+jnAcc	include/chipmunk/chipmunk_private.h	/^	cpFloat jnAcc, jtAcc, jBias;$/;"	m	struct:cpContact
+jnAcc	include/chipmunk/constraints/cpPinJoint.h	/^	cpFloat jnAcc;$/;"	m	struct:cpPinJoint
+jnAcc	include/chipmunk/constraints/cpSlideJoint.h	/^	cpFloat jnAcc;$/;"	m	struct:cpSlideJoint
+jtAcc	include/chipmunk/chipmunk_private.h	/^	cpFloat jnAcc, jtAcc, jBias;$/;"	m	struct:cpContact
+k	include/chipmunk/constraints/cpGrooveJoint.h	/^	cpMat2x2 k;$/;"	m	struct:cpGrooveJoint
+k	include/chipmunk/constraints/cpPivotJoint.h	/^	cpMat2x2 k;$/;"	m	struct:cpPivotJoint
+k_scalar	include/chipmunk/constraints/util.h	/^k_scalar(cpBody *a, cpBody *b, cpVect r1, cpVect r2, cpVect n)$/;"	f
+k_scalar_body	include/chipmunk/constraints/util.h	/^k_scalar_body(cpBody *body, cpVect r, cpVect n)$/;"	f
+k_tensor	include/chipmunk/constraints/util.h	/^k_tensor(cpBody *a, cpBody *b, cpVect r1, cpVect r2)$/;"	f
+key	include/chipmunk/chipmunk_private.h	/^	void *key;$/;"	m	struct:cpPostStepCallback
+klass	include/chipmunk/cpSpatialIndex.h	/^	cpSpatialIndexClass *klass;$/;"	m	struct:cpSpatialIndex
+klass	src/constraints/cpDampedRotarySpring.c	/^static const cpConstraintClass klass = {$/;"	v	file:
+klass	src/constraints/cpDampedSpring.c	/^static const cpConstraintClass klass = {$/;"	v	file:
+klass	src/constraints/cpGearJoint.c	/^static const cpConstraintClass klass = {$/;"	v	file:
+klass	src/constraints/cpGrooveJoint.c	/^static const cpConstraintClass klass = {$/;"	v	file:
+klass	src/constraints/cpPinJoint.c	/^static const cpConstraintClass klass = {$/;"	v	file:
+klass	src/constraints/cpPivotJoint.c	/^static const cpConstraintClass klass = {$/;"	v	file:
+klass	src/constraints/cpRatchetJoint.c	/^static const cpConstraintClass klass = {$/;"	v	file:
+klass	src/constraints/cpRotaryLimitJoint.c	/^static const cpConstraintClass klass = {$/;"	v	file:
+klass	src/constraints/cpSimpleMotor.c	/^static const cpConstraintClass klass = {$/;"	v	file:
+klass	src/constraints/cpSlideJoint.c	/^static const cpConstraintClass klass = {$/;"	v	file:
+klass	src/cpBBTree.c	/^static cpSpatialIndexClass klass = {$/;"	v	file:
+klass	src/cpSpaceHash.c	/^static cpSpatialIndexClass klass = {$/;"	v	file:
+klass	src/cpSweep1D.c	/^static cpSpatialIndexClass klass = {$/;"	v	file:
+l	include/chipmunk/cpBB.h	/^	cpFloat l, b, r ,t;$/;"	m	struct:cpBB
+layers	include/chipmunk/cpShape.h	/^	cpLayers layers;$/;"	m	struct:cpShape
+layers	src/cpSpaceQuery.c	/^	cpLayers layers;$/;"	m	struct:BBQueryContext	file:
+layers	src/cpSpaceQuery.c	/^	cpLayers layers;$/;"	m	struct:NearestPointQueryContext	file:
+layers	src/cpSpaceQuery.c	/^	cpLayers layers;$/;"	m	struct:PointQueryContext	file:
+layers	src/cpSpaceQuery.c	/^	cpLayers layers;$/;"	m	struct:SegmentQueryContext	file:
+leaf	src/cpBBTree.c	/^		} leaf;$/;"	m	union:Node::__anon2	typeref:struct:Node::__anon2::__anon4	file:
+leaf	src/cpBBTree.c	/^	Node *leaf;$/;"	m	struct:Thread	file:
+leafSetEql	src/cpBBTree.c	/^leafSetEql(void *obj, Node *node)$/;"	f	file:
+leafSetTrans	src/cpBBTree.c	/^leafSetTrans(void *obj, cpBBTree *tree)$/;"	f	file:
+leaves	src/cpBBTree.c	/^	cpHashSet *leaves;$/;"	m	struct:cpBBTree	file:
+m	include/chipmunk/cpBody.h	/^	cpFloat m;$/;"	m	struct:cpBody
+m_inv	include/chipmunk/cpBody.h	/^	cpFloat m_inv;$/;"	m	struct:cpBody
+max	include/chipmunk/chipmunk_private.h	/^	int num, max;$/;"	m	struct:cpArray
+max	include/chipmunk/constraints/cpRotaryLimitJoint.h	/^	cpFloat min, max;$/;"	m	struct:cpRotaryLimitJoint
+max	include/chipmunk/constraints/cpSlideJoint.h	/^	cpFloat min, max;$/;"	m	struct:cpSlideJoint
+max	src/cpSweep1D.c	/^	cpFloat min, max;$/;"	m	struct:Bounds	file:
+max	src/cpSweep1D.c	/^	int max;$/;"	m	struct:cpSweep1D	file:
+maxBias	include/chipmunk/constraints/cpConstraint.h	/^	cpFloat maxBias;$/;"	m	struct:cpConstraint
+maxDistance	src/cpSpaceQuery.c	/^	cpFloat maxDistance;$/;"	m	struct:NearestPointQueryContext	file:
+maxForce	include/chipmunk/constraints/cpConstraint.h	/^	cpFloat maxForce;$/;"	m	struct:cpConstraint
+min	include/chipmunk/constraints/cpRotaryLimitJoint.h	/^	cpFloat min, max;$/;"	m	struct:cpRotaryLimitJoint
+min	include/chipmunk/constraints/cpSlideJoint.h	/^	cpFloat min, max;$/;"	m	struct:cpSlideJoint
+min	src/cpSweep1D.c	/^	cpFloat min, max;$/;"	m	struct:Bounds	file:
+n	include/chipmunk/chipmunk.h	/^typedef void (^cpSpaceSegmentQueryBlock)(cpShape *shape, cpFloat t, cpVect n);$/;"	v
+n	include/chipmunk/chipmunk_private.h	/^	cpVect p, n;$/;"	m	struct:cpContact
+n	include/chipmunk/constraints/cpDampedSpring.h	/^	cpVect n;$/;"	m	struct:cpDampedSpring
+n	include/chipmunk/constraints/cpPinJoint.h	/^	cpVect n;$/;"	m	struct:cpPinJoint
+n	include/chipmunk/constraints/cpSlideJoint.h	/^	cpVect n;$/;"	m	struct:cpSlideJoint
+n	include/chipmunk/cpPolyShape.h	/^	cpVect n;$/;"	m	struct:cpSplittingPlane
+n	include/chipmunk/cpShape.h	/^	cpVect a, b, n;$/;"	m	struct:cpSegmentShape
+n	include/chipmunk/cpShape.h	/^	cpVect n;$/;"	m	struct:cpSegmentQueryInfo
+nMass	include/chipmunk/chipmunk_private.h	/^	cpFloat nMass, tMass, bounce;$/;"	m	struct:cpContact
+nMass	include/chipmunk/constraints/cpDampedSpring.h	/^	cpFloat nMass;$/;"	m	struct:cpDampedSpring
+nMass	include/chipmunk/constraints/cpPinJoint.h	/^	cpFloat nMass;$/;"	m	struct:cpPinJoint
+nMass	include/chipmunk/constraints/cpSlideJoint.h	/^	cpFloat nMass;$/;"	m	struct:cpSlideJoint
+nearestPointQuery	include/chipmunk/cpShape.h	/^	cpShapeNearestPointQueryImpl nearestPointQuery;$/;"	m	struct:cpShapeClass
+next	include/chipmunk/cpArbiter.h	/^	struct cpArbiter *next, *prev;$/;"	m	struct:cpArbiterThread	typeref:struct:cpArbiterThread::cpArbiter
+next	include/chipmunk/cpBody.h	/^	cpBody *next;$/;"	m	struct:cpComponentNode
+next	src/cpBBTree.c	/^	Pair *next;$/;"	m	struct:Thread	file:
+next	src/cpHashSet.c	/^	struct cpHashSetBin *next;$/;"	m	struct:cpHashSetBin	typeref:struct:cpHashSetBin::cpHashSetBin	file:
+next	src/cpSpaceHash.c	/^	cpSpaceHashBin *next;$/;"	m	struct:cpSpaceHashBin	file:
+next	src/cpSpaceStep.c	/^	cpContactBufferHeader *next;$/;"	m	struct:cpContactBufferHeader	file:
+nextContactPoint	src/cpCollision.c	/^nextContactPoint(cpContact *arr, int *numPtr)$/;"	f	file:
+next_prime	src/prime.h	/^next_prime(int n)$/;"	f
+node	src/cpBBTree.c	/^	} node;$/;"	m	struct:Node	typeref:union:Node::__anon2	file:
+normal	include/chipmunk/cpArbiter.h	/^		cpVect normal;$/;"	m	struct:cpContactPointSet::__anon1
+normal_relative_velocity	include/chipmunk/constraints/util.h	/^normal_relative_velocity(cpBody *a, cpBody *b, cpVect r1, cpVect r2, cpVect n){$/;"	f
+nothing	src/cpSpace.c	/^static void nothing(cpArbiter *arb, cpSpace *space, void *data){}$/;"	f	file:
+num	include/chipmunk/chipmunk_private.h	/^	int num, max;$/;"	m	struct:cpArray
+num	src/cpSweep1D.c	/^	int num;$/;"	m	struct:cpSweep1D	file:
+numContacts	src/cpSpaceStep.c	/^	unsigned int numContacts;$/;"	m	struct:cpContactBufferHeader	file:
+numVerts	include/chipmunk/cpPolyShape.h	/^	int numVerts;$/;"	m	struct:cpPolyShape
+numcells	src/cpSpaceHash.c	/^	int numcells;$/;"	m	struct:cpSpaceHash	file:
+obj	src/cpBBTree.c	/^	void *obj;$/;"	m	struct:Node	file:
+obj	src/cpSpaceHash.c	/^	void *obj;$/;"	m	struct:cpHandle	file:
+obj	src/cpSweep1D.c	/^	void *obj;$/;"	m	struct:TableCell	file:
+operator *	include/chipmunk/chipmunk.h	/^static inline cpVect operator *(const cpVect v, const cpFloat s){return cpvmult(v, s);}$/;"	f
+operator +	include/chipmunk/chipmunk.h	/^static inline cpVect operator +(const cpVect v1, const cpVect v2){return cpvadd(v1, v2);}$/;"	f
+operator -	include/chipmunk/chipmunk.h	/^static inline cpVect operator -(const cpVect v){return cpvneg(v);}$/;"	f
+operator -	include/chipmunk/chipmunk.h	/^static inline cpVect operator -(const cpVect v1, const cpVect v2){return cpvsub(v1, v2);}$/;"	f
+operator ==	include/chipmunk/chipmunk.h	/^static inline cpBool operator ==(const cpVect v1, const cpVect v2){return cpveql(v1, v2);}$/;"	f
+p	include/chipmunk/chipmunk_private.h	/^	cpVect p, n;$/;"	m	struct:cpContact
+p	include/chipmunk/cpBody.h	/^	cpVect p;$/;"	m	struct:cpBody
+p	include/chipmunk/cpShape.h	/^	cpVect p;$/;"	m	struct:cpNearestPointQueryInfo
+pairs	src/cpBBTree.c	/^			Pair *pairs;$/;"	m	struct:Node::__anon2::__anon4	file:
+parent	src/cpBBTree.c	/^	Node *parent;$/;"	m	struct:Node	file:
+partitionNodes	src/cpBBTree.c	/^partitionNodes(cpBBTree *tree, Node **nodes, int count)$/;"	f	file:
+phase	include/chipmunk/constraints/cpGearJoint.h	/^	cpFloat phase, ratio;$/;"	m	struct:cpGearJoint
+phase	include/chipmunk/constraints/cpRatchetJoint.h	/^	cpFloat angle, phase, ratchet;$/;"	m	struct:cpRatchetJoint
+planes	include/chipmunk/cpPolyShape.h	/^	cpSplittingPlane *planes, *tPlanes;$/;"	m	struct:cpPolyShape
+point	include/chipmunk/chipmunk.h	/^typedef void (^cpSpaceNearestPointQueryBlock)(cpShape *shape, cpFloat distance, cpVect point);$/;"	v
+point	include/chipmunk/cpArbiter.h	/^		cpVect point;$/;"	m	struct:cpContactPointSet::__anon1
+point	src/cpSpaceQuery.c	/^	cpVect point;$/;"	m	struct:NearestPointQueryContext	file:
+point	src/cpSpaceQuery.c	/^	cpVect point;$/;"	m	struct:PointQueryContext	file:
+points	include/chipmunk/chipmunk.h	/^typedef void (^cpSpaceShapeQueryBlock)(cpShape *shape, cpContactPointSet *points);$/;"	v
+points	include/chipmunk/cpArbiter.h	/^	} points[CP_MAX_CONTACTS_PER_ARBITER];$/;"	m	struct:cpContactPointSet	typeref:struct:cpContactPointSet::__anon1
+poly2poly	src/cpCollision.c	/^poly2poly(const cpShape *shape1, const cpShape *shape2, cpContact *arr)$/;"	f	file:
+polyClass	src/cpPolyShape.c	/^static const cpShapeClass polyClass = {$/;"	v	file:
+pooledBins	src/cpHashSet.c	/^	cpHashSetBin *pooledBins;$/;"	m	struct:cpHashSet	file:
+pooledBins	src/cpSpaceHash.c	/^	cpSpaceHashBin *pooledBins;$/;"	m	struct:cpSpaceHash	file:
+pooledHandles	src/cpSpaceHash.c	/^	cpArray *pooledHandles;$/;"	m	struct:cpSpaceHash	file:
+pooledNodes	src/cpBBTree.c	/^	Node *pooledNodes;$/;"	m	struct:cpBBTree	file:
+pooledPairs	src/cpBBTree.c	/^	Pair *pooledPairs;$/;"	m	struct:cpBBTree	file:
+position_func	include/chipmunk/cpBody.h	/^	cpBodyPositionFunc position_func;$/;"	m	struct:cpBody
+postSolve	include/chipmunk/constraints/cpConstraint.h	/^	cpConstraintPostSolveFunc postSolve;$/;"	m	struct:cpConstraint
+postSolve	include/chipmunk/cpArbiter.h	/^	cpCollisionPostSolveFunc postSolve;$/;"	m	struct:cpCollisionHandler
+preSolve	include/chipmunk/constraints/cpConstraint.h	/^	cpConstraintPreSolveFunc preSolve;$/;"	m	struct:cpConstraint
+preSolve	include/chipmunk/cpArbiter.h	/^	cpCollisionPreSolveFunc preSolve;$/;"	m	struct:cpCollisionHandler
+preStep	include/chipmunk/constraints/cpConstraint.h	/^	cpConstraintPreStepImpl preStep;$/;"	m	struct:cpConstraintClass
+preStep	src/constraints/cpDampedRotarySpring.c	/^preStep(cpDampedRotarySpring *spring, cpFloat dt)$/;"	f	file:
+preStep	src/constraints/cpDampedSpring.c	/^preStep(cpDampedSpring *spring, cpFloat dt)$/;"	f	file:
+preStep	src/constraints/cpGearJoint.c	/^preStep(cpGearJoint *joint, cpFloat dt)$/;"	f	file:
+preStep	src/constraints/cpGrooveJoint.c	/^preStep(cpGrooveJoint *joint, cpFloat dt)$/;"	f	file:
+preStep	src/constraints/cpPinJoint.c	/^preStep(cpPinJoint *joint, cpFloat dt)$/;"	f	file:
+preStep	src/constraints/cpPivotJoint.c	/^preStep(cpPivotJoint *joint, cpFloat dt)$/;"	f	file:
+preStep	src/constraints/cpRatchetJoint.c	/^preStep(cpRatchetJoint *joint, cpFloat dt)$/;"	f	file:
+preStep	src/constraints/cpRotaryLimitJoint.c	/^preStep(cpRotaryLimitJoint *joint, cpFloat dt)$/;"	f	file:
+preStep	src/constraints/cpSimpleMotor.c	/^preStep(cpSimpleMotor *joint, cpFloat dt)$/;"	f	file:
+preStep	src/constraints/cpSlideJoint.c	/^preStep(cpSlideJoint *joint, cpFloat dt)$/;"	f	file:
+prev	include/chipmunk/cpArbiter.h	/^	struct cpArbiter *next, *prev;$/;"	m	struct:cpArbiterThread	typeref:struct:cpArbiterThread::
+prev	src/cpBBTree.c	/^	Pair *prev;$/;"	m	struct:Thread	file:
+primes	src/prime.h	/^static int primes[] = {$/;"	v
+query	include/chipmunk/cpSpatialIndex.h	/^	cpSpatialIndexQueryImpl query;$/;"	m	struct:cpSpatialIndexClass
+queryFunc	src/cpSpatialIndex.c	/^	cpSpatialIndexQueryFunc queryFunc;$/;"	m	struct:dynamicToStaticContext	file:
+queryRehashContext	src/cpSpaceHash.c	/^typedef struct queryRehashContext {$/;"	s	file:
+queryRehashContext	src/cpSpaceHash.c	/^} queryRehashContext;$/;"	t	typeref:struct:queryRehashContext	file:
+queryRehash_helper	src/cpSpaceHash.c	/^queryRehash_helper(cpHandle *hand, queryRehashContext *context)$/;"	f	file:
+queryReject	src/cpSpaceStep.c	/^queryReject(cpShape *a, cpShape *b)$/;"	f	file:
+query_helper	src/cpSpaceHash.c	/^query_helper(cpSpaceHash *hash, cpSpaceHashBin **bin_ptr, void *obj, cpSpatialIndexQueryFunc func, void *data)$/;"	f	file:
+r	include/chipmunk/cpBB.h	/^	cpFloat l, b, r ,t;$/;"	m	struct:cpBB
+r	include/chipmunk/cpShape.h	/^	cpFloat r;$/;"	m	struct:cpCircleShape
+r	include/chipmunk/cpShape.h	/^	cpFloat r;$/;"	m	struct:cpSegmentShape
+r1	include/chipmunk/chipmunk_private.h	/^	cpVect r1, r2;$/;"	m	struct:cpContact
+r1	include/chipmunk/constraints/cpDampedSpring.h	/^	cpVect r1, r2;$/;"	m	struct:cpDampedSpring
+r1	include/chipmunk/constraints/cpGrooveJoint.h	/^	cpVect r1, r2;$/;"	m	struct:cpGrooveJoint
+r1	include/chipmunk/constraints/cpPinJoint.h	/^	cpVect r1, r2;$/;"	m	struct:cpPinJoint
+r1	include/chipmunk/constraints/cpPivotJoint.h	/^	cpVect r1, r2;$/;"	m	struct:cpPivotJoint
+r1	include/chipmunk/constraints/cpSlideJoint.h	/^	cpVect r1, r2;$/;"	m	struct:cpSlideJoint
+r2	include/chipmunk/chipmunk_private.h	/^	cpVect r1, r2;$/;"	m	struct:cpContact
+r2	include/chipmunk/constraints/cpDampedSpring.h	/^	cpVect r1, r2;$/;"	m	struct:cpDampedSpring
+r2	include/chipmunk/constraints/cpGrooveJoint.h	/^	cpVect r1, r2;$/;"	m	struct:cpGrooveJoint
+r2	include/chipmunk/constraints/cpPinJoint.h	/^	cpVect r1, r2;$/;"	m	struct:cpPinJoint
+r2	include/chipmunk/constraints/cpPivotJoint.h	/^	cpVect r1, r2;$/;"	m	struct:cpPivotJoint
+r2	include/chipmunk/constraints/cpSlideJoint.h	/^	cpVect r1, r2;$/;"	m	struct:cpSlideJoint
+ratchet	include/chipmunk/constraints/cpRatchetJoint.h	/^	cpFloat angle, phase, ratchet;$/;"	m	struct:cpRatchetJoint
+rate	include/chipmunk/constraints/cpSimpleMotor.h	/^	cpFloat rate;$/;"	m	struct:cpSimpleMotor
+ratio	include/chipmunk/constraints/cpGearJoint.h	/^	cpFloat phase, ratio;$/;"	m	struct:cpGearJoint
+ratio_inv	include/chipmunk/constraints/cpGearJoint.h	/^	cpFloat ratio_inv;$/;"	m	struct:cpGearJoint
+recycleBin	src/cpHashSet.c	/^recycleBin(cpHashSet *set, cpHashSetBin *bin)$/;"	f	file:
+recycleBin	src/cpSpaceHash.c	/^recycleBin(cpSpaceHash *hash, cpSpaceHashBin *bin)$/;"	f	file:
+rehash_helper	src/cpSpaceHash.c	/^rehash_helper(cpHandle *hand, cpSpaceHash *hash)$/;"	f	file:
+reindex	include/chipmunk/cpSpatialIndex.h	/^	cpSpatialIndexReindexImpl reindex;$/;"	m	struct:cpSpatialIndexClass
+reindexObject	include/chipmunk/cpSpatialIndex.h	/^	cpSpatialIndexReindexObjectImpl reindexObject;$/;"	m	struct:cpSpatialIndexClass
+reindexQuery	include/chipmunk/cpSpatialIndex.h	/^	cpSpatialIndexReindexQueryImpl reindexQuery;$/;"	m	struct:cpSpatialIndexClass
+relative_velocity	include/chipmunk/constraints/util.h	/^relative_velocity(cpBody *a, cpBody *b, cpVect r1, cpVect r2){$/;"	f
+remove	include/chipmunk/cpSpatialIndex.h	/^	cpSpatialIndexRemoveImpl remove;$/;"	m	struct:cpSpatialIndexClass
+remove_orphaned_handles	src/cpSpaceHash.c	/^remove_orphaned_handles(cpSpaceHash *hash, cpSpaceHashBin **bin_ptr)$/;"	f	file:
+restAngle	include/chipmunk/constraints/cpDampedRotarySpring.h	/^	cpFloat restAngle;$/;"	m	struct:cpDampedRotarySpring
+restLength	include/chipmunk/constraints/cpDampedSpring.h	/^	cpFloat restLength;$/;"	m	struct:cpDampedSpring
+retain	src/cpSpaceHash.c	/^	int retain;$/;"	m	struct:cpHandle	file:
+root	include/chipmunk/cpBody.h	/^	cpBody *root;$/;"	m	struct:cpComponentNode
+root	src/cpBBTree.c	/^	Node *root;$/;"	m	struct:cpBBTree	file:
+rot	include/chipmunk/cpBody.h	/^	cpVect rot;$/;"	m	struct:cpBody
+seg2poly	src/cpCollision.c	/^seg2poly(const cpShape *shape1, const cpShape *shape2, cpContact *arr)$/;"	f	file:
+seg2seg	src/cpCollision.c	/^seg2seg(const cpShape* shape1, const cpShape* shape2, cpContact* con)$/;"	f	file:
+segValueOnAxis	src/cpCollision.c	/^segValueOnAxis(const cpSegmentShape *seg, const cpVect n, const cpFloat d)$/;"	f	file:
+segmentCollisions	src/cpCollision.c	/^static const collisionFunc segmentCollisions[9] = {$/;"	v	file:
+segmentQuery	include/chipmunk/cpShape.h	/^	cpShapeSegmentQueryImpl segmentQuery;$/;"	m	struct:cpShapeClass
+segmentQuery	include/chipmunk/cpSpatialIndex.h	/^	cpSpatialIndexSegmentQueryImpl segmentQuery;$/;"	m	struct:cpSpatialIndexClass
+segmentQuery_helper	src/cpSpaceHash.c	/^segmentQuery_helper(cpSpaceHash *hash, cpSpaceHashBin **bin_ptr, void *obj, cpSpatialIndexSegmentQueryFunc func, void *data)$/;"	f	file:
+sensor	include/chipmunk/cpShape.h	/^	cpBool sensor;$/;"	m	struct:cpShape
+separate	include/chipmunk/cpArbiter.h	/^	cpCollisionSeparateFunc separate;$/;"	m	struct:cpCollisionHandler
+setAngle	src/cpBody.c	/^setAngle(cpBody *body, cpFloat angle)$/;"	f	file:
+setIsFull	src/cpHashSet.c	/^setIsFull(cpHashSet *set)$/;"	f	file:
+setUpVerts	src/cpPolyShape.c	/^setUpVerts(cpPolyShape *poly, int numVerts, const cpVect *verts, cpVect offset)$/;"	f	file:
+shape	include/chipmunk/chipmunk.h	/^typedef void (^cpSpaceBBQueryBlock)(cpShape *shape);$/;"	v
+shape	include/chipmunk/chipmunk.h	/^typedef void (^cpSpaceNearestPointQueryBlock)(cpShape *shape, cpFloat distance, cpVect point);$/;"	v
+shape	include/chipmunk/chipmunk.h	/^typedef void (^cpSpaceSegmentQueryBlock)(cpShape *shape, cpFloat t, cpVect n);$/;"	v
+shape	include/chipmunk/chipmunk.h	/^typedef void (^cpSpaceShapeQueryBlock)(cpShape *shape, cpContactPointSet *points);$/;"	v
+shape	include/chipmunk/cpPolyShape.h	/^	cpShape shape;$/;"	m	struct:cpPolyShape
+shape	include/chipmunk/cpShape.h	/^	cpShape *shape;$/;"	m	struct:cpNearestPointQueryInfo
+shape	include/chipmunk/cpShape.h	/^	cpShape *shape;$/;"	m	struct:cpSegmentQueryInfo
+shape	include/chipmunk/cpShape.h	/^	cpShape shape;$/;"	m	struct:cpCircleShape
+shape	include/chipmunk/cpShape.h	/^	cpShape shape;$/;"	m	struct:cpSegmentShape
+shape	src/cpSpace.c	/^	cpShape *shape;$/;"	m	struct:arbiterFilterContext	file:
+shapeVelocityFunc	src/cpSpace.c	/^static cpVect shapeVelocityFunc(cpShape *shape){return shape->body->v;}$/;"	f	file:
+size	src/cpHashSet.c	/^	unsigned int entries, size;$/;"	m	struct:cpHashSet	file:
+sleepTimeThreshold	include/chipmunk/cpSpace.h	/^	cpFloat sleepTimeThreshold;$/;"	m	struct:cpSpace
+space	src/cpSpace.c	/^	cpSpace *space;$/;"	m	struct:arbiterFilterContext	file:
+spaceEachShapeIterator	src/cpSpace.c	/^spaceEachShapeIterator(cpShape *shape, spaceShapeContext *context)$/;"	f	file:
+spaceShapeContext	src/cpSpace.c	/^typedef struct spaceShapeContext {$/;"	s	file:
+spaceShapeContext	src/cpSpace.c	/^} spaceShapeContext;$/;"	t	typeref:struct:spaceShapeContext	file:
+spatialIndex	src/cpBBTree.c	/^	cpSpatialIndex spatialIndex;$/;"	m	struct:cpBBTree	file:
+spatialIndex	src/cpSpaceHash.c	/^	cpSpatialIndex spatialIndex;$/;"	m	struct:cpSpaceHash	file:
+spatialIndex	src/cpSweep1D.c	/^	cpSpatialIndex spatialIndex;$/;"	m	struct:cpSweep1D	file:
+springForceFunc	include/chipmunk/constraints/cpDampedSpring.h	/^	cpDampedSpringForceFunc springForceFunc;$/;"	m	struct:cpDampedSpring
+springTorqueFunc	include/chipmunk/constraints/cpDampedRotarySpring.h	/^	cpDampedRotarySpringTorqueFunc springTorqueFunc;$/;"	m	struct:cpDampedRotarySpring
+stamp	src/cpBBTree.c	/^			cpTimestamp stamp;$/;"	m	struct:Node::__anon2::__anon4	file:
+stamp	src/cpBBTree.c	/^	cpTimestamp stamp;$/;"	m	struct:cpBBTree	file:
+stamp	src/cpSpaceHash.c	/^	cpTimestamp stamp;$/;"	m	struct:cpHandle	file:
+stamp	src/cpSpaceHash.c	/^	cpTimestamp stamp;$/;"	m	struct:cpSpaceHash	file:
+stamp	src/cpSpaceStep.c	/^	cpTimestamp stamp;$/;"	m	struct:cpContactBufferHeader	file:
+start	src/cpSpaceQuery.c	/^	cpVect start, end;$/;"	m	struct:SegmentQueryContext	file:
+staticBody	include/chipmunk/cpSpace.h	/^	cpBody *staticBody;$/;"	m	struct:cpSpace
+staticIndex	include/chipmunk/cpSpatialIndex.h	/^	cpSpatialIndex *staticIndex, *dynamicIndex;$/;"	m	struct:cpSpatialIndex
+staticIndex	src/cpSpatialIndex.c	/^	cpSpatialIndex *staticIndex;$/;"	m	struct:dynamicToStaticContext	file:
+staticRoot	src/cpBBTree.c	/^	Node *staticRoot;$/;"	m	struct:MarkContext	file:
+stiffness	include/chipmunk/constraints/cpDampedRotarySpring.h	/^	cpFloat stiffness;$/;"	m	struct:cpDampedRotarySpring
+stiffness	include/chipmunk/constraints/cpDampedSpring.h	/^	cpFloat stiffness;$/;"	m	struct:cpDampedSpring
+surface_v	include/chipmunk/cpShape.h	/^	cpVect surface_v;$/;"	m	struct:cpShape
+surface_vr	include/chipmunk/cpArbiter.h	/^	cpVect surface_vr;$/;"	m	struct:cpArbiter
+t	include/chipmunk/chipmunk.h	/^typedef void (^cpSpaceSegmentQueryBlock)(cpShape *shape, cpFloat t, cpVect n);$/;"	v
+t	include/chipmunk/cpBB.h	/^	cpFloat l, b, r ,t;$/;"	m	struct:cpBB
+t	include/chipmunk/cpBody.h	/^	cpFloat t;$/;"	m	struct:cpBody
+t	include/chipmunk/cpShape.h	/^	cpFloat t;$/;"	m	struct:cpSegmentQueryInfo
+tMass	include/chipmunk/chipmunk_private.h	/^	cpFloat nMass, tMass, bounce;$/;"	m	struct:cpContact
+tPlanes	include/chipmunk/cpPolyShape.h	/^	cpSplittingPlane *planes, *tPlanes;$/;"	m	struct:cpPolyShape
+tVerts	include/chipmunk/cpPolyShape.h	/^	cpVect *verts, *tVerts;$/;"	m	struct:cpPolyShape
+ta	include/chipmunk/cpShape.h	/^	cpVect ta, tb, tn;$/;"	m	struct:cpSegmentShape
+table	src/cpHashSet.c	/^	cpHashSetBin **table;$/;"	m	struct:cpHashSet	file:
+table	src/cpSpaceHash.c	/^	cpSpaceHashBin **table;$/;"	m	struct:cpSpaceHash	file:
+table	src/cpSweep1D.c	/^	TableCell *table;$/;"	m	struct:cpSweep1D	file:
+target_vrn	include/chipmunk/constraints/cpDampedSpring.h	/^	cpFloat target_vrn;$/;"	m	struct:cpDampedSpring
+target_wrn	include/chipmunk/constraints/cpDampedRotarySpring.h	/^	cpFloat target_wrn;$/;"	m	struct:cpDampedRotarySpring
+tb	include/chipmunk/cpShape.h	/^	cpVect ta, tb, tn;$/;"	m	struct:cpSegmentShape
+tc	include/chipmunk/cpShape.h	/^	cpVect c, tc;$/;"	m	struct:cpCircleShape
+tn	include/chipmunk/cpShape.h	/^	cpVect ta, tb, tn;$/;"	m	struct:cpSegmentShape
+tree	src/cpBBTree.c	/^	cpBBTree *tree;$/;"	m	struct:MarkContext	file:
+type	include/chipmunk/cpShape.h	/^	cpShapeType type;$/;"	m	struct:cpShapeClass
+u	include/chipmunk/cpArbiter.h	/^	cpFloat u;$/;"	m	struct:cpArbiter
+u	include/chipmunk/cpShape.h	/^	cpFloat u;$/;"	m	struct:cpShape
+unthreadHelper	src/cpArbiter.c	/^unthreadHelper(cpArbiter *arb, cpBody *body)$/;"	f	file:
+updateBBCache	src/cpSpace.c	/^updateBBCache(cpShape *shape, void *unused)$/;"	f	file:
+v	include/chipmunk/cpBody.h	/^	cpVect v;$/;"	m	struct:cpBody
+v_coef	include/chipmunk/constraints/cpDampedSpring.h	/^	cpFloat v_coef;$/;"	m	struct:cpDampedSpring
+v_limit	include/chipmunk/cpBody.h	/^	cpFloat v_limit;$/;"	m	struct:cpBody
+velocityFunc	src/cpBBTree.c	/^	cpBBTreeVelocityFunc velocityFunc;$/;"	m	struct:cpBBTree	file:
+velocity_func	include/chipmunk/cpBody.h	/^	cpBodyVelocityFunc velocity_func;$/;"	m	struct:cpBody
+verts	include/chipmunk/cpPolyShape.h	/^	cpVect *verts, *tVerts;$/;"	m	struct:cpPolyShape
+w	include/chipmunk/cpBody.h	/^	cpFloat w;$/;"	m	struct:cpBody
+w_coef	include/chipmunk/constraints/cpDampedRotarySpring.h	/^	cpFloat w_coef;$/;"	m	struct:cpDampedRotarySpring
+w_limit	include/chipmunk/cpBody.h	/^	cpFloat w_limit;$/;"	m	struct:cpBody
+x	include/chipmunk/chipmunk_types.h	/^	typedef struct cpVect{cpFloat x,y;} cpVect;$/;"	m	struct:cpVect
+y	include/chipmunk/chipmunk_types.h	/^	typedef struct cpVect{cpFloat x,y;} cpVect;$/;"	m	struct:cpVect

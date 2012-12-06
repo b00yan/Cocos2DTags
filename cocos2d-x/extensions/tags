@@ -1,0 +1,1433 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ASSERT_FAIL_UNEXPECTED_PROPERTY	CCBReader/CCNodeLoader.h	19;"	d
+ASSERT_FAIL_UNEXPECTED_PROPERTYTYPE	CCBReader/CCNodeLoader.h	20;"	d
+BOUNCE_DURATION	GUI/CCScrollView/CCScrollView.cpp	42;"	d	file:
+BlockCCControlData	CCBReader/CCNodeLoader.h	/^struct BlockCCControlData {$/;"	s
+BlockData	CCBReader/CCNodeLoader.h	/^struct BlockData {$/;"	s
+CCArrayForObjectSorting	GUI/CCScrollView/CCSorting.h	/^    CCArrayForObjectSorting() : CCArray() {}$/;"	f	class:CCArrayForObjectSorting
+CCArrayForObjectSorting	GUI/CCScrollView/CCSorting.h	/^class CCArrayForObjectSorting : public CCArray$/;"	c
+CCBAnimationManager	CCBReader/CCBAnimationManager.cpp	/^CCBAnimationManager::CCBAnimationManager()$/;"	f	class:CCBAnimationManager
+CCBAnimationManager	CCBReader/CCBAnimationManager.h	/^class CCBAnimationManager : public CCObject$/;"	c
+CCBAnimationManagerDelegate	CCBReader/CCBAnimationManager.h	/^class CCBAnimationManagerDelegate$/;"	c
+CCBFile	CCBReader/CCBReader.cpp	/^CCBFile::CCBFile():mCCBFileNode(NULL) {}$/;"	f	class:CCBFile
+CCBFile	CCBReader/CCBReader.h	/^class CCBFile : public CCNode$/;"	c
+CCBFileLoader	CCBReader/CCBFileLoader.h	/^class CCBFileLoader : public CCNodeLoader {$/;"	c
+CCBKeyframe	CCBReader/CCBKeyframe.cpp	/^CCBKeyframe::CCBKeyframe()$/;"	f	class:CCBKeyframe
+CCBKeyframe	CCBReader/CCBKeyframe.h	/^class CCBKeyframe : public CCObject$/;"	c
+CCBMemberVariableAssigner	CCBReader/CCBMemberVariableAssigner.h	/^class CCBMemberVariableAssigner {$/;"	c
+CCBReader	CCBReader/CCBReader.cpp	/^CCBReader::CCBReader()$/;"	f	class:CCBReader
+CCBReader	CCBReader/CCBReader.cpp	/^CCBReader::CCBReader(CCBReader * pCCBReader) $/;"	f	class:CCBReader
+CCBReader	CCBReader/CCBReader.cpp	/^CCBReader::CCBReader(CCNodeLoaderLibrary * pCCNodeLoaderLibrary, CCBMemberVariableAssigner * pCCBMemberVariableAssigner, CCBSelectorResolver * pCCBSelectorResolver, CCNodeLoaderListener * pCCNodeLoaderListener) $/;"	f	class:CCBReader
+CCBReader	CCBReader/CCBReader.h	/^class CCBReader : public CCObject $/;"	c
+CCBRotateTo	CCBReader/CCBAnimationManager.h	/^class CCBRotateTo : public CCActionInterval$/;"	c
+CCBScriptOwnerProtocol	CCBReader/CCBSelectorResolver.h	/^class CCBScriptOwnerProtocol {$/;"	c
+CCBSelectorResolver	CCBReader/CCBSelectorResolver.h	/^class CCBSelectorResolver {$/;"	c
+CCBSequence	CCBReader/CCBSequence.cpp	/^CCBSequence::CCBSequence()$/;"	f	class:CCBSequence
+CCBSequence	CCBReader/CCBSequence.h	/^class CCBSequence : public CCObject$/;"	c
+CCBSequenceProperty	CCBReader/CCBSequenceProperty.cpp	/^CCBSequenceProperty::CCBSequenceProperty()$/;"	f	class:CCBSequenceProperty
+CCBSequenceProperty	CCBReader/CCBSequenceProperty.h	/^class CCBSequenceProperty : public CCObject$/;"	c
+CCBSetSpriteFrame	CCBReader/CCBAnimationManager.h	/^class CCBSetSpriteFrame : public CCActionInstant$/;"	c
+CCBValue	CCBReader/CCBValue.h	/^class CCBValue : public CCObject$/;"	c
+CCB_MEMBERVARIABLEASSIGNER_GLUE	CCBReader/CCBMemberVariableAssigner.h	8;"	d
+CCB_PURE_VIRTUAL_NEW_AUTORELEASE_CREATECCNODE_METHOD	CCBReader/CCNodeLoader.h	26;"	d
+CCB_SELECTORRESOLVER_CCCONTROL_GLUE	CCBReader/CCBSelectorResolver.h	15;"	d
+CCB_SELECTORRESOLVER_CCMENUITEM_GLUE	CCBReader/CCBSelectorResolver.h	11;"	d
+CCB_STATIC_NEW_AUTORELEASE_OBJECT_METHOD	CCBReader/CCBReader.h	9;"	d
+CCB_STATIC_NEW_AUTORELEASE_OBJECT_WITH_INIT_METHOD	CCBReader/CCBReader.h	19;"	d
+CCB_VIRTUAL_NEW_AUTORELEASE_CREATECCNODE_METHOD	CCBReader/CCNodeLoader.h	22;"	d
+CCColor3bObject	GUI/CCControlExtension/CCControlUtils.h	/^    CCColor3bObject(ccColor3B s_value):value(s_value){}$/;"	f	class:CCColor3bObject
+CCColor3bObject	GUI/CCControlExtension/CCControlUtils.h	/^class CCColor3bObject : public CCObject$/;"	c
+CCControl	GUI/CCControlExtension/CCControl.cpp	/^CCControl::CCControl()$/;"	f	class:CCControl
+CCControl	GUI/CCControlExtension/CCControl.h	/^class CCControl : public CCLayer, public CCRGBAProtocol$/;"	c
+CCControlButton	GUI/CCControlExtension/CCControlButton.cpp	/^CCControlButton::CCControlButton()$/;"	f	class:CCControlButton
+CCControlButton	GUI/CCControlExtension/CCControlButton.h	/^class CCControlButton : public CCControl$/;"	c
+CCControlButtonLoader	CCBReader/CCControlButtonLoader.h	/^class CCControlButtonLoader : public CCControlLoader {$/;"	c
+CCControlButtonMarginLR	GUI/CCControlExtension/CCControlButton.h	40;"	d
+CCControlButtonMarginTB	GUI/CCControlExtension/CCControlButton.h	42;"	d
+CCControlColourPicker	GUI/CCControlExtension/CCControlColourPicker.cpp	/^CCControlColourPicker::CCControlColourPicker()$/;"	f	class:CCControlColourPicker
+CCControlColourPicker	GUI/CCControlExtension/CCControlColourPicker.h	/^class CCControlColourPicker: public CCControl$/;"	c
+CCControlEvent	GUI/CCControlExtension/CCControl.h	/^typedef unsigned int CCControlEvent;$/;"	t
+CCControlEvent	GUI/CCControlExtension/CCInvocation.h	/^typedef unsigned int CCControlEvent;$/;"	t
+CCControlEventTouchCancel	GUI/CCControlExtension/CCControl.h	/^    CCControlEventTouchCancel         = 1 << 7,    \/\/ A system event canceling the current touches for the control.$/;"	e	enum:__anon11
+CCControlEventTouchDown	GUI/CCControlExtension/CCControl.h	/^    CCControlEventTouchDown           = 1 << 0,    \/\/ A touch-down event in the control.$/;"	e	enum:__anon11
+CCControlEventTouchDragEnter	GUI/CCControlExtension/CCControl.h	/^    CCControlEventTouchDragEnter      = 1 << 3,    \/\/ An event where a finger is dragged into the bounds of the control.$/;"	e	enum:__anon11
+CCControlEventTouchDragExit	GUI/CCControlExtension/CCControl.h	/^    CCControlEventTouchDragExit       = 1 << 4,    \/\/ An event where a finger is dragged from within a control to outside its bounds.$/;"	e	enum:__anon11
+CCControlEventTouchDragInside	GUI/CCControlExtension/CCControl.h	/^    CCControlEventTouchDragInside     = 1 << 1,    \/\/ An event where a finger is dragged inside the bounds of the control.$/;"	e	enum:__anon11
+CCControlEventTouchDragOutside	GUI/CCControlExtension/CCControl.h	/^    CCControlEventTouchDragOutside    = 1 << 2,    \/\/ An event where a finger is dragged just outside the bounds of the control. $/;"	e	enum:__anon11
+CCControlEventTouchUpInside	GUI/CCControlExtension/CCControl.h	/^    CCControlEventTouchUpInside       = 1 << 5,    \/\/ A touch-up event in the control where the finger is inside the bounds of the control. $/;"	e	enum:__anon11
+CCControlEventTouchUpOutside	GUI/CCControlExtension/CCControl.h	/^    CCControlEventTouchUpOutside      = 1 << 6,    \/\/ A touch-up event in the control where the finger is outside the bounds of the control.$/;"	e	enum:__anon11
+CCControlEventValueChanged	GUI/CCControlExtension/CCControl.h	/^    CCControlEventValueChanged        = 1 << 8      \/\/ A touch dragging or otherwise manipulating a control, causing it to emit a series of different values.$/;"	e	enum:__anon11
+CCControlHuePicker	GUI/CCControlExtension/CCControlHuePicker.cpp	/^CCControlHuePicker::CCControlHuePicker()$/;"	f	class:CCControlHuePicker
+CCControlHuePicker	GUI/CCControlExtension/CCControlHuePicker.h	/^class CCControlHuePicker : public CCControl$/;"	c
+CCControlLoader	CCBReader/CCControlLoader.h	/^class CCControlLoader : public CCNodeLoader {$/;"	c
+CCControlPotentiometer	GUI/CCControlExtension/CCControlPotentiometer.cpp	/^CCControlPotentiometer::CCControlPotentiometer()$/;"	f	class:CCControlPotentiometer
+CCControlPotentiometer	GUI/CCControlExtension/CCControlPotentiometer.h	/^class CCControlPotentiometer : public CCControl$/;"	c
+CCControlSaturationBrightnessPicker	GUI/CCControlExtension/CCControlSaturationBrightnessPicker.cpp	/^CCControlSaturationBrightnessPicker::CCControlSaturationBrightnessPicker()$/;"	f	class:CCControlSaturationBrightnessPicker
+CCControlSaturationBrightnessPicker	GUI/CCControlExtension/CCControlSaturationBrightnessPicker.h	/^class CCControlSaturationBrightnessPicker : public CCControl$/;"	c
+CCControlSlider	GUI/CCControlExtension/CCControlSlider.cpp	/^CCControlSlider::CCControlSlider()$/;"	f	class:CCControlSlider
+CCControlSlider	GUI/CCControlExtension/CCControlSlider.h	/^class CCControlSlider: public CCControl$/;"	c
+CCControlState	GUI/CCControlExtension/CCControl.h	/^typedef unsigned int CCControlState;$/;"	t
+CCControlStateDisabled	GUI/CCControlExtension/CCControl.h	/^    CCControlStateDisabled     = 1 << 2, \/\/ Disabled state of a control. This state indicates that the control is currently disabled. You can retrieve and set this value through the enabled property.$/;"	e	enum:__anon12
+CCControlStateHighlighted	GUI/CCControlExtension/CCControl.h	/^    CCControlStateHighlighted  = 1 << 1, \/\/ Highlighted state of a control. A control enters this state when a touch down, drag inside or drag enter is performed. You can retrieve and set this value through the highlighted property.$/;"	e	enum:__anon12
+CCControlStateNormal	GUI/CCControlExtension/CCControl.h	/^    CCControlStateNormal       = 1 << 0, \/\/ The normal, or default state of a control¡ªthat is, enabled but neither selected nor highlighted.$/;"	e	enum:__anon12
+CCControlStateSelected	GUI/CCControlExtension/CCControl.h	/^    CCControlStateSelected     = 1 << 3  \/\/ Selected state of a control. This state indicates that the control is currently selected. You can retrieve and set this value through the selected property.$/;"	e	enum:__anon12
+CCControlStepper	GUI/CCControlExtension/CCControlStepper.cpp	/^CCControlStepper::CCControlStepper()$/;"	f	class:CCControlStepper
+CCControlStepper	GUI/CCControlExtension/CCControlStepper.h	/^class CCControlStepper : public CCControl$/;"	c
+CCControlStepperLabelColorDisabled	GUI/CCControlExtension/CCControlStepper.cpp	33;"	d	file:
+CCControlStepperLabelColorEnabled	GUI/CCControlExtension/CCControlStepper.cpp	32;"	d	file:
+CCControlStepperLabelFont	GUI/CCControlExtension/CCControlStepper.cpp	35;"	d	file:
+CCControlStepperPart	GUI/CCControlExtension/CCControlStepper.h	/^} CCControlStepperPart;$/;"	t	typeref:enum:__anon14
+CCControlSwitch	GUI/CCControlExtension/CCControlSwitch.cpp	/^CCControlSwitch::CCControlSwitch()$/;"	f	class:CCControlSwitch
+CCControlSwitch	GUI/CCControlExtension/CCControlSwitch.h	/^class CCControlSwitch : public CCControl$/;"	c
+CCControlSwitchSprite	GUI/CCControlExtension/CCControlSwitch.cpp	/^CCControlSwitchSprite::CCControlSwitchSprite()$/;"	f	class:CCControlSwitchSprite
+CCControlSwitchSprite	GUI/CCControlExtension/CCControlSwitch.cpp	/^class CCControlSwitchSprite : public CCSprite, public CCActionTweenDelegate$/;"	c	file:
+CCControlUtils	GUI/CCControlExtension/CCControlUtils.h	/^class CCControlUtils$/;"	c
+CCData	CCBReader/CCData.cpp	/^CCData::CCData(CCData *pData)$/;"	f	class:CCData
+CCData	CCBReader/CCData.cpp	/^CCData::CCData(unsigned char *pBytes, const unsigned long nSize)$/;"	f	class:CCData
+CCData	CCBReader/CCData.h	/^class CCData : public CCObject$/;"	c
+CCEditBox	GUI/CCEditBox/CCEditBox.cpp	/^CCEditBox::CCEditBox(void)$/;"	f	class:CCEditBox
+CCEditBox	GUI/CCEditBox/CCEditBox.h	/^class CCEditBox$/;"	c
+CCEditBoxDelegate	GUI/CCEditBox/CCEditBox.h	/^class CCEditBoxDelegate $/;"	c
+CCEditBoxImpl	GUI/CCEditBox/CCEditBoxImpl.h	/^    CCEditBoxImpl(CCEditBox* pEditBox) : m_pEditBox(pEditBox), m_pDelegate(NULL)  {}$/;"	f	class:CCEditBoxImpl
+CCEditBoxImpl	GUI/CCEditBox/CCEditBoxImpl.h	/^class CCEditBoxImpl$/;"	c
+CCEditBoxImplAndroid	GUI/CCEditBox/CCEditBoxImplAndroid.cpp	/^CCEditBoxImplAndroid::CCEditBoxImplAndroid(CCEditBox* pEditText)$/;"	f	class:CCEditBoxImplAndroid
+CCEditBoxImplAndroid	GUI/CCEditBox/CCEditBoxImplAndroid.h	/^class CCEditBoxImplAndroid : public CCEditBoxImpl$/;"	c
+CCEditBoxImplIOS	GUI/CCEditBox/CCEditBoxImplIOS.h	/^class CCEditBoxImplIOS : public CCEditBoxImpl$/;"	c
+CCHttpClient	network/HttpClient.cpp	/^CCHttpClient::CCHttpClient()$/;"	f	class:CCHttpClient
+CCHttpClient	network/HttpClient.h	/^class CCHttpClient : public CCObject$/;"	c
+CCHttpRequest	network/HttpRequest.h	/^    CCHttpRequest()$/;"	f	class:CCHttpRequest
+CCHttpRequest	network/HttpRequest.h	/^class CCHttpRequest : public CCObject$/;"	c
+CCHttpResponse	network/HttpResponse.h	/^    CCHttpResponse(CCHttpRequest* request)$/;"	f	class:CCHttpResponse
+CCHttpResponse	network/HttpResponse.h	/^class CCHttpResponse : public CCObject$/;"	c
+CCInvocation	GUI/CCControlExtension/CCInvocation.cpp	/^CCInvocation::CCInvocation(CCObject* target, SEL_CCControlHandler action, CCControlEvent controlEvent)$/;"	f	class:CCInvocation
+CCInvocation	GUI/CCControlExtension/CCInvocation.h	/^class CCInvocation : public CCObject$/;"	c
+CCLabelBMFontLoader	CCBReader/CCLabelBMFontLoader.h	/^class CCLabelBMFontLoader : public CCNodeLoader {$/;"	c
+CCLabelTTFLoader	CCBReader/CCLabelTTFLoader.h	/^class CCLabelTTFLoader : public CCNodeLoader {$/;"	c
+CCLayerColorLoader	CCBReader/CCLayerColorLoader.h	/^class CCLayerColorLoader : public CCLayerLoader {$/;"	c
+CCLayerGradientLoader	CCBReader/CCLayerGradientLoader.h	/^class CCLayerGradientLoader : public CCLayerLoader {$/;"	c
+CCLayerLoader	CCBReader/CCLayerLoader.h	/^class CCLayerLoader : public CCNodeLoader {$/;"	c
+CCMenuItemImageLoader	CCBReader/CCMenuItemImageLoader.h	/^class CCMenuItemImageLoader : public CCMenuItemLoader {$/;"	c
+CCMenuItemLoader	CCBReader/CCMenuItemLoader.h	/^class CCMenuItemLoader : public CCNodeLoader {$/;"	c
+CCMenuLoader	CCBReader/CCMenuLoader.h	/^class CCMenuLoader : public CCLayerLoader {$/;"	c
+CCNodeLoader	CCBReader/CCNodeLoader.h	/^class CCNodeLoader : public CCObject {$/;"	c
+CCNodeLoaderLibrary	CCBReader/CCNodeLoaderLibrary.cpp	/^CCNodeLoaderLibrary::CCNodeLoaderLibrary() {$/;"	f	class:CCNodeLoaderLibrary
+CCNodeLoaderLibrary	CCBReader/CCNodeLoaderLibrary.h	/^class CCNodeLoaderLibrary : public CCObject {$/;"	c
+CCNodeLoaderListener	CCBReader/CCNodeLoaderListener.h	/^class CCNodeLoaderListener {$/;"	c
+CCNodeLoaderMap	CCBReader/CCNodeLoaderLibrary.h	/^typedef std::map<std::string, CCNodeLoader *> CCNodeLoaderMap;$/;"	t
+CCNodeLoaderMapEntry	CCBReader/CCNodeLoaderLibrary.h	/^typedef std::pair<std::string, CCNodeLoader *> CCNodeLoaderMapEntry;$/;"	t
+CCParticleSystemQuadLoader	CCBReader/CCParticleSystemQuadLoader.h	/^class CCParticleSystemQuadLoader : public CCNodeLoader {$/;"	c
+CCPhysicsDebugNode	physics_nodes/CCPhysicsDebugNode.cpp	/^CCPhysicsDebugNode::CCPhysicsDebugNode()$/;"	f	class:CCPhysicsDebugNode
+CCPhysicsDebugNode	physics_nodes/CCPhysicsDebugNode.h	/^class CCPhysicsDebugNode : public CCDrawNode$/;"	c
+CCPhysicsSprite	physics_nodes/CCPhysicsSprite.cpp	/^CCPhysicsSprite::CCPhysicsSprite()$/;"	f	class:CCPhysicsSprite
+CCPhysicsSprite	physics_nodes/CCPhysicsSprite.h	/^class CCPhysicsSprite : public CCSprite$/;"	c
+CCRectUnion	GUI/CCControlExtension/CCControlUtils.cpp	/^CCRect CCControlUtils::CCRectUnion(const CCRect& src1, const CCRect& src2) $/;"	f	class:CCControlUtils
+CCScale9Sprite	GUI/CCControlExtension/CCScale9Sprite.cpp	/^CCScale9Sprite::CCScale9Sprite()$/;"	f	class:CCScale9Sprite
+CCScale9Sprite	GUI/CCControlExtension/CCScale9Sprite.h	/^class CCScale9Sprite : public CCNode, public CCRGBAProtocol$/;"	c
+CCScale9SpriteLoader	CCBReader/CCScale9SpriteLoader.h	/^class CCScale9SpriteLoader : public CCNodeLoader {$/;"	c
+CCScrollView	GUI/CCScrollView/CCScrollView.cpp	/^CCScrollView::CCScrollView()$/;"	f	class:CCScrollView
+CCScrollView	GUI/CCScrollView/CCScrollView.h	/^class CCScrollView : public CCLayer$/;"	c
+CCScrollViewDelegate	GUI/CCScrollView/CCScrollView.h	/^class CCScrollViewDelegate$/;"	c
+CCScrollViewDirection	GUI/CCScrollView/CCScrollView.h	/^} CCScrollViewDirection;$/;"	t	typeref:enum:__anon17
+CCScrollViewLoader	CCBReader/CCScrollViewLoader.h	/^class CCScrollViewLoader : public CCNodeLoader {$/;"	c
+CCSortableObject	GUI/CCScrollView/CCSorting.h	/^class CCSortableObject$/;"	c
+CCSortedObject	GUI/CCScrollView/CCSorting.cpp	/^    CCSortedObject() : objectID(0) {}$/;"	f	class:CCSortedObject
+CCSortedObject	GUI/CCScrollView/CCSorting.cpp	/^class CCSortedObject : public CCObject, public CCSortableObject$/;"	c	file:
+CCSpriteLoader	CCBReader/CCSpriteLoader.h	/^class CCSpriteLoader : public CCNodeLoader {$/;"	c
+CCTableView	GUI/CCScrollView/CCTableView.cpp	/^CCTableView::CCTableView()$/;"	f	class:CCTableView
+CCTableView	GUI/CCScrollView/CCTableView.h	/^class CCTableView : public CCScrollView, public CCScrollViewDelegate$/;"	c
+CCTableViewCell	GUI/CCScrollView/CCTableViewCell.h	/^    CCTableViewCell() {}$/;"	f	class:CCTableViewCell
+CCTableViewCell	GUI/CCScrollView/CCTableViewCell.h	/^class CCTableViewCell: public CCNode, public CCSortableObject$/;"	c
+CCTableViewDataSource	GUI/CCScrollView/CCTableView.h	/^class CCTableViewDataSource$/;"	c
+CCTableViewDelegate	GUI/CCScrollView/CCTableView.h	/^class CCTableViewDelegate : public CCScrollViewDelegate$/;"	c
+CCTableViewVerticalFillOrder	GUI/CCScrollView/CCTableView.h	/^} CCTableViewVerticalFillOrder;$/;"	t	typeref:enum:__anon18
+CC_ASYNC_HTTPREQUEST_SEMAPHORE	network/HttpClient.cpp	51;"	d	file:
+CC_ASYNC_HTTPREQUEST_USE_NAMED_SEMAPHORE	network/HttpClient.cpp	45;"	d	file:
+CC_ASYNC_HTTPREQUEST_USE_NAMED_SEMAPHORE	network/HttpClient.cpp	47;"	d	file:
+CONSTRAINT_COLOR	physics_nodes/CCPhysicsDebugNode.cpp	/^static ccColor4F CONSTRAINT_COLOR = {0, 1, 0, 0.5};$/;"	v	file:
+ColorForBody	physics_nodes/CCPhysicsDebugNode.cpp	/^static ccColor4F ColorForBody(cpBody *body)$/;"	f	file:
+DrawConstraint	physics_nodes/CCPhysicsDebugNode.cpp	/^static void DrawConstraint(cpConstraint *constraint, CCDrawNode *renderer)$/;"	f	file:
+DrawShape	physics_nodes/CCPhysicsDebugNode.cpp	/^static void DrawShape(cpShape *shape, CCDrawNode *renderer)$/;"	f	file:
+EditBoxInputFlag	GUI/CCEditBox/CCEditBox.h	/^enum EditBoxInputFlag$/;"	g
+EditBoxInputMode	GUI/CCEditBox/CCEditBox.h	/^enum EditBoxInputMode$/;"	g
+HSV	GUI/CCControlExtension/CCControlUtils.h	/^} HSV;$/;"	t	typeref:struct:__anon16
+HSVfromRGB	GUI/CCControlExtension/CCControlUtils.cpp	/^HSV CCControlUtils::HSVfromRGB(RGBA value)$/;"	f	class:CCControlUtils
+HttpRequestType	network/HttpRequest.h	/^    } HttpRequestType;$/;"	t	class:CCHttpRequest	typeref:enum:CCHttpRequest::__anon19
+INSET_RATIO	GUI/CCScrollView/CCScrollView.cpp	43;"	d	file:
+KeyboardReturnType	GUI/CCEditBox/CCEditBox.h	/^enum KeyboardReturnType {$/;"	g
+NS_CC_EXT_BEGIN	ExtensionMacros.h	28;"	d
+NS_CC_EXT_END	ExtensionMacros.h	29;"	d
+PROPERTY_ACCELEROMETER_ENABLED	CCBReader/CCLayerLoader.cpp	7;"	d	file:
+PROPERTY_ANCHORPOINT	CCBReader/CCNodeLoader.h	12;"	d
+PROPERTY_ANGLE	CCBReader/CCParticleSystemQuadLoader.cpp	15;"	d	file:
+PROPERTY_BACKGROUNDSPRITEFRAME_DISABLED	CCBReader/CCControlButtonLoader.cpp	23;"	d	file:
+PROPERTY_BACKGROUNDSPRITEFRAME_HIGHLIGHTED	CCBReader/CCControlButtonLoader.cpp	22;"	d	file:
+PROPERTY_BACKGROUNDSPRITEFRAME_NORMAL	CCBReader/CCControlButtonLoader.cpp	21;"	d	file:
+PROPERTY_BLENDFUNC	CCBReader/CCLabelBMFontLoader.cpp	9;"	d	file:
+PROPERTY_BLENDFUNC	CCBReader/CCLabelTTFLoader.cpp	7;"	d	file:
+PROPERTY_BLENDFUNC	CCBReader/CCLayerColorLoader.cpp	9;"	d	file:
+PROPERTY_BLENDFUNC	CCBReader/CCLayerGradientLoader.cpp	10;"	d	file:
+PROPERTY_BLENDFUNC	CCBReader/CCParticleSystemQuadLoader.cpp	18;"	d	file:
+PROPERTY_BLENDFUNC	CCBReader/CCScale9SpriteLoader.cpp	9;"	d	file:
+PROPERTY_BLENDFUNC	CCBReader/CCSpriteLoader.cpp	7;"	d	file:
+PROPERTY_BLOCK	CCBReader/CCMenuItemLoader.cpp	5;"	d	file:
+PROPERTY_BOUNCES	CCBReader/CCScrollViewLoader.cpp	8;"	d	file:
+PROPERTY_CCBFILE	CCBReader/CCBFileLoader.cpp	7;"	d	file:
+PROPERTY_CCCONTROL	CCBReader/CCControlLoader.cpp	8;"	d	file:
+PROPERTY_CLIPSTOBOUNDS	CCBReader/CCScrollViewLoader.cpp	7;"	d	file:
+PROPERTY_COLOR	CCBReader/CCLabelBMFontLoader.cpp	7;"	d	file:
+PROPERTY_COLOR	CCBReader/CCLabelTTFLoader.cpp	5;"	d	file:
+PROPERTY_COLOR	CCBReader/CCLayerColorLoader.cpp	7;"	d	file:
+PROPERTY_COLOR	CCBReader/CCScale9SpriteLoader.cpp	7;"	d	file:
+PROPERTY_COLOR	CCBReader/CCSpriteLoader.cpp	5;"	d	file:
+PROPERTY_CONTAINER	CCBReader/CCScrollViewLoader.cpp	5;"	d	file:
+PROPERTY_CONTENTSIZE	CCBReader/CCNodeLoader.h	11;"	d
+PROPERTY_CONTENTSIZE	CCBReader/CCScale9SpriteLoader.cpp	5;"	d	file:
+PROPERTY_DIMENSIONS	CCBReader/CCLabelTTFLoader.cpp	13;"	d	file:
+PROPERTY_DIRECTION	CCBReader/CCScrollViewLoader.cpp	6;"	d	file:
+PROPERTY_DISABLEDDISPLAYFRAME	CCBReader/CCMenuItemImageLoader.cpp	7;"	d	file:
+PROPERTY_DISPLAYFRAME	CCBReader/CCSpriteLoader.cpp	4;"	d	file:
+PROPERTY_DURATION	CCBReader/CCParticleSystemQuadLoader.cpp	8;"	d	file:
+PROPERTY_EMISSIONRATE	CCBReader/CCParticleSystemQuadLoader.cpp	7;"	d	file:
+PROPERTY_EMITERMODE	CCBReader/CCParticleSystemQuadLoader.cpp	5;"	d	file:
+PROPERTY_ENABLED	CCBReader/CCControlLoader.cpp	6;"	d	file:
+PROPERTY_ENDCOLOR	CCBReader/CCLayerGradientLoader.cpp	6;"	d	file:
+PROPERTY_ENDCOLOR	CCBReader/CCParticleSystemQuadLoader.cpp	17;"	d	file:
+PROPERTY_ENDOPACITY	CCBReader/CCLayerGradientLoader.cpp	8;"	d	file:
+PROPERTY_ENDRADIUS	CCBReader/CCParticleSystemQuadLoader.cpp	25;"	d	file:
+PROPERTY_ENDSIZE	CCBReader/CCParticleSystemQuadLoader.cpp	12;"	d	file:
+PROPERTY_ENDSPIN	CCBReader/CCParticleSystemQuadLoader.cpp	14;"	d	file:
+PROPERTY_FLIP	CCBReader/CCSpriteLoader.cpp	3;"	d	file:
+PROPERTY_FNTFILE	CCBReader/CCLabelBMFontLoader.cpp	10;"	d	file:
+PROPERTY_FONTNAME	CCBReader/CCLabelTTFLoader.cpp	8;"	d	file:
+PROPERTY_FONTSIZE	CCBReader/CCLabelTTFLoader.cpp	9;"	d	file:
+PROPERTY_GRAVITY	CCBReader/CCParticleSystemQuadLoader.cpp	19;"	d	file:
+PROPERTY_HORIZONTALALIGNMENT	CCBReader/CCLabelTTFLoader.cpp	10;"	d	file:
+PROPERTY_IGNOREANCHORPOINTFORPOSITION	CCBReader/CCNodeLoader.h	16;"	d
+PROPERTY_INSETBOTTOM	CCBReader/CCScale9SpriteLoader.cpp	14;"	d	file:
+PROPERTY_INSETLEFT	CCBReader/CCScale9SpriteLoader.cpp	11;"	d	file:
+PROPERTY_INSETRIGHT	CCBReader/CCScale9SpriteLoader.cpp	13;"	d	file:
+PROPERTY_INSETTOP	CCBReader/CCScale9SpriteLoader.cpp	12;"	d	file:
+PROPERTY_ISENABLED	CCBReader/CCMenuItemLoader.cpp	6;"	d	file:
+PROPERTY_KEYBOARD_ENABLED	CCBReader/CCLayerLoader.cpp	9;"	d	file:
+PROPERTY_LABELANCHORPOINT	CCBReader/CCControlButtonLoader.cpp	19;"	d	file:
+PROPERTY_LIFE	CCBReader/CCParticleSystemQuadLoader.cpp	10;"	d	file:
+PROPERTY_MOUSE_ENABLED	CCBReader/CCLayerLoader.cpp	8;"	d	file:
+PROPERTY_NORMALDISPLAYFRAME	CCBReader/CCMenuItemImageLoader.cpp	5;"	d	file:
+PROPERTY_OPACITY	CCBReader/CCLabelBMFontLoader.cpp	8;"	d	file:
+PROPERTY_OPACITY	CCBReader/CCLabelTTFLoader.cpp	6;"	d	file:
+PROPERTY_OPACITY	CCBReader/CCLayerColorLoader.cpp	8;"	d	file:
+PROPERTY_OPACITY	CCBReader/CCScale9SpriteLoader.cpp	8;"	d	file:
+PROPERTY_OPACITY	CCBReader/CCSpriteLoader.cpp	6;"	d	file:
+PROPERTY_POSITION	CCBReader/CCNodeLoader.h	10;"	d
+PROPERTY_POSVAR	CCBReader/CCParticleSystemQuadLoader.cpp	6;"	d	file:
+PROPERTY_PREFEREDSIZE	CCBReader/CCControlButtonLoader.cpp	20;"	d	file:
+PROPERTY_PREFEREDSIZE	CCBReader/CCScale9SpriteLoader.cpp	10;"	d	file:
+PROPERTY_RADIALACCEL	CCBReader/CCParticleSystemQuadLoader.cpp	22;"	d	file:
+PROPERTY_ROTATEPERSECOND	CCBReader/CCParticleSystemQuadLoader.cpp	26;"	d	file:
+PROPERTY_ROTATION	CCBReader/CCNodeLoader.h	14;"	d
+PROPERTY_SCALE	CCBReader/CCNodeLoader.h	13;"	d
+PROPERTY_SCALE	CCBReader/CCScrollViewLoader.cpp	9;"	d	file:
+PROPERTY_SELECTED	CCBReader/CCControlLoader.cpp	7;"	d	file:
+PROPERTY_SELECTEDDISPLAYFRAME	CCBReader/CCMenuItemImageLoader.cpp	6;"	d	file:
+PROPERTY_SPEED	CCBReader/CCParticleSystemQuadLoader.cpp	20;"	d	file:
+PROPERTY_SPRITEFRAME	CCBReader/CCScale9SpriteLoader.cpp	6;"	d	file:
+PROPERTY_STARTCOLOR	CCBReader/CCLayerGradientLoader.cpp	5;"	d	file:
+PROPERTY_STARTCOLOR	CCBReader/CCParticleSystemQuadLoader.cpp	16;"	d	file:
+PROPERTY_STARTOPACITY	CCBReader/CCLayerGradientLoader.cpp	7;"	d	file:
+PROPERTY_STARTRADIUS	CCBReader/CCParticleSystemQuadLoader.cpp	24;"	d	file:
+PROPERTY_STARTSIZE	CCBReader/CCParticleSystemQuadLoader.cpp	11;"	d	file:
+PROPERTY_STARTSPIN	CCBReader/CCParticleSystemQuadLoader.cpp	13;"	d	file:
+PROPERTY_STRING	CCBReader/CCLabelBMFontLoader.cpp	11;"	d	file:
+PROPERTY_STRING	CCBReader/CCLabelTTFLoader.cpp	12;"	d	file:
+PROPERTY_TAG	CCBReader/CCNodeLoader.h	15;"	d
+PROPERTY_TANGENTIALACCEL	CCBReader/CCParticleSystemQuadLoader.cpp	21;"	d	file:
+PROPERTY_TEXTURE	CCBReader/CCParticleSystemQuadLoader.cpp	23;"	d	file:
+PROPERTY_TITLECOLOR_DISABLED	CCBReader/CCControlButtonLoader.cpp	12;"	d	file:
+PROPERTY_TITLECOLOR_HIGHLIGHTED	CCBReader/CCControlButtonLoader.cpp	11;"	d	file:
+PROPERTY_TITLECOLOR_NORMAL	CCBReader/CCControlButtonLoader.cpp	10;"	d	file:
+PROPERTY_TITLETTFSIZE_DISABLED	CCBReader/CCControlButtonLoader.cpp	18;"	d	file:
+PROPERTY_TITLETTFSIZE_HIGHLIGHTED	CCBReader/CCControlButtonLoader.cpp	17;"	d	file:
+PROPERTY_TITLETTFSIZE_NORMAL	CCBReader/CCControlButtonLoader.cpp	16;"	d	file:
+PROPERTY_TITLETTF_DISABLED	CCBReader/CCControlButtonLoader.cpp	15;"	d	file:
+PROPERTY_TITLETTF_HIGHLIGHTED	CCBReader/CCControlButtonLoader.cpp	14;"	d	file:
+PROPERTY_TITLETTF_NORMAL	CCBReader/CCControlButtonLoader.cpp	13;"	d	file:
+PROPERTY_TITLE_DISABLED	CCBReader/CCControlButtonLoader.cpp	9;"	d	file:
+PROPERTY_TITLE_HIGHLIGHTED	CCBReader/CCControlButtonLoader.cpp	8;"	d	file:
+PROPERTY_TITLE_NORMAL	CCBReader/CCControlButtonLoader.cpp	7;"	d	file:
+PROPERTY_TOTALPARTICLES	CCBReader/CCParticleSystemQuadLoader.cpp	9;"	d	file:
+PROPERTY_TOUCH_ENABLED	CCBReader/CCLayerLoader.cpp	6;"	d	file:
+PROPERTY_VECTOR	CCBReader/CCLayerGradientLoader.cpp	9;"	d	file:
+PROPERTY_VERTICALALIGNMENT	CCBReader/CCLabelTTFLoader.cpp	11;"	d	file:
+PROPERTY_VISIBLE	CCBReader/CCNodeLoader.h	17;"	d
+PROPERTY_ZOOMONTOUCHDOWN	CCBReader/CCControlButtonLoader.cpp	6;"	d	file:
+RGBA	GUI/CCControlExtension/CCControlUtils.h	/^} RGBA;$/;"	t	typeref:struct:__anon15
+RGBfromHSV	GUI/CCControlExtension/CCControlUtils.cpp	/^RGBA CCControlUtils::RGBfromHSV(HSV value)$/;"	f	class:CCControlUtils
+SCROLL_DEACCEL_DIST	GUI/CCScrollView/CCScrollView.cpp	41;"	d	file:
+SCROLL_DEACCEL_RATE	GUI/CCScrollView/CCScrollView.cpp	40;"	d	file:
+SEL_CCControlHandler	GUI/CCControlExtension/CCInvocation.h	/^typedef void (CCObject::*SEL_CCControlHandler)(CCObject*, CCControlEvent);$/;"	t
+USING_NS_CC_EXT	ExtensionMacros.h	30;"	d
+_CCB_CCBFILELOADER_H_	CCBReader/CCBFileLoader.h	2;"	d
+_CCB_CCBMEMBERVARIABLEASSIGNER_H_	CCBReader/CCBMemberVariableAssigner.h	2;"	d
+_CCB_CCBREADER_H_	CCBReader/CCBReader.h	2;"	d
+_CCB_CCBSELECTORRESOLVER_H_	CCBReader/CCBSelectorResolver.h	2;"	d
+_CCB_CCCONTROLBUTTONLOADER_H_	CCBReader/CCControlButtonLoader.h	2;"	d
+_CCB_CCCONTROLLOADER_H_	CCBReader/CCControlLoader.h	2;"	d
+_CCB_CCLABELBMFONTLOADER_H_	CCBReader/CCLabelBMFontLoader.h	2;"	d
+_CCB_CCLABELTTFLOADER_H_	CCBReader/CCLabelTTFLoader.h	2;"	d
+_CCB_CCLAYERCOLORLOADER_H_	CCBReader/CCLayerColorLoader.h	2;"	d
+_CCB_CCLAYERGRADIENTLOADER_H_	CCBReader/CCLayerGradientLoader.h	2;"	d
+_CCB_CCLAYERLOADER_H_	CCBReader/CCLayerLoader.h	2;"	d
+_CCB_CCMENUITEMIMAGELOADER_H_	CCBReader/CCMenuItemImageLoader.h	2;"	d
+_CCB_CCMENUITEMLOADER_H_	CCBReader/CCMenuItemLoader.h	2;"	d
+_CCB_CCMENULOADER_H_	CCBReader/CCMenuLoader.h	2;"	d
+_CCB_CCNODELOADERLIBRARY_H_	CCBReader/CCNodeLoaderLibrary.h	2;"	d
+_CCB_CCNODELOADERLISTENER_H_	CCBReader/CCNodeLoaderListener.h	2;"	d
+_CCB_CCNODELOADER_H_	CCBReader/CCNodeLoader.h	2;"	d
+_CCB_CCPARTICLESYSTEMQUADLOADER_H_	CCBReader/CCParticleSystemQuadLoader.h	2;"	d
+_CCB_CCSCALE9SPRITELOADER_H_	CCBReader/CCScale9SpriteLoader.h	2;"	d
+_CCB_CCSCROLLVIEWLOADER_H_	CCBReader/CCScrollViewLoader.h	2;"	d
+_CCB_CCSPRITELOADER_H_	CCBReader/CCSpriteLoader.h	2;"	d
+__CCB_CCBANIMATION_MANAGER_H__	CCBReader/CCBAnimationManager.h	2;"	d
+__CCB_CCDATA_H__	CCBReader/CCData.h	3;"	d
+__CCB_CCNODE_RELATIVEPOSITIONING_H__	CCBReader/CCNode+CCBRelativePositioning.h	2;"	d
+__CCB_CCSEQUENCE_H__	CCBReader/CCBSequence.h	2;"	d
+__CCB_KEYFRAME_H__	CCBReader/CCBKeyframe.h	2;"	d
+__CCB_SEQUENCE_PROPERTY_H__	CCBReader/CCBSequenceProperty.h	2;"	d
+__CCB_VALUE_H__	CCBReader/CCBValue.h	2;"	d
+__CCCONTROLPOTENTIOMETER_H__	GUI/CCControlExtension/CCControlPotentiometer.h	28;"	d
+__CCCONTROLSTEPPER_H__	GUI/CCControlExtension/CCControlStepper.h	29;"	d
+__CCCONTROLSWITCH_H__	GUI/CCControlExtension/CCControlSwitch.h	29;"	d
+__CCCONTROL_BUTTON_H__	GUI/CCControlExtension/CCControlButton.h	31;"	d
+__CCCONTROL_COLOUR_PICKER_H__	GUI/CCControlExtension/CCControlColourPicker.h	33;"	d
+__CCCONTROL_EXTENSIONS_H__	GUI/CCControlExtension/CCControlExtensions.h	26;"	d
+__CCCONTROL_HUE_PICKER_H__	GUI/CCControlExtension/CCControlHuePicker.h	34;"	d
+__CCCONTROL_H__	GUI/CCControlExtension/CCControl.h	31;"	d
+__CCCONTROL_SATURATION_PICKER_H__	GUI/CCControlExtension/CCControlSaturationBrightnessPicker.h	34;"	d
+__CCCONTROL_SLIDER_H__	GUI/CCControlExtension/CCControlSlider.h	31;"	d
+__CCCONTROL_UTILS_H__	GUI/CCControlExtension/CCControlUtils.h	35;"	d
+__CCEDITBOXIMPLANDROID_H__	GUI/CCEditBox/CCEditBoxImplAndroid.h	27;"	d
+__CCEDITTEXT_H__	GUI/CCEditBox/CCEditBox.h	27;"	d
+__CCEditBoxIMPLIOS_H__	GUI/CCEditBox/CCEditBoxImplIOS.h	27;"	d
+__CCEditBoxIMPL_H__	GUI/CCEditBox/CCEditBoxImpl.h	27;"	d
+__CCHTTPREQUEST_H__	network/HttpClient.h	27;"	d
+__CCINVOCATION_H__	GUI/CCControlExtension/CCInvocation.h	31;"	d
+__CCSCROLLVIEW_H__	GUI/CCScrollView/CCScrollView.h	27;"	d
+__CCSORTING_H__	GUI/CCScrollView/CCSorting.h	27;"	d
+__CCScale9Sprite_H__	GUI/CCControlExtension/CCScale9Sprite.h	29;"	d
+__CCTABLEVIEWCELL_H__	GUI/CCScrollView/CCTableViewCell.h	27;"	d
+__CCTABLEVIEW_H__	GUI/CCScrollView/CCTableView.h	27;"	d
+__COCOS2D_EXT_H__	cocos-ext.h	2;"	d
+__EXTENSIONMARCROS_H__	ExtensionMacros.h	26;"	d
+__HTTP_REQUEST_H__	network/HttpRequest.h	26;"	d
+__HTTP_RESPONSE__	network/HttpResponse.h	26;"	d
+__PHYSICSNODES_CCPHYSICSSPRITE_H__	physics_nodes/CCPhysicsSprite.h	23;"	d
+__PHYSICSNODES_DEBUGNODE_H__	physics_nodes/CCPhysicsDebugNode.h	24;"	d
+__createSystemEditBox	GUI/CCEditBox/CCEditBoxImplAndroid.cpp	/^CCEditBoxImpl* __createSystemEditBox(CCEditBox* pEditBox)$/;"	f
+__indexFromOffset	GUI/CCScrollView/CCTableView.cpp	/^int CCTableView::__indexFromOffset(CCPoint offset)$/;"	f	class:CCTableView
+__offsetFromIndex	GUI/CCScrollView/CCTableView.cpp	/^CCPoint CCTableView::__offsetFromIndex(unsigned int index)$/;"	f	class:CCTableView
+_addCellIfNecessary	GUI/CCScrollView/CCTableView.cpp	/^void CCTableView::_addCellIfNecessary(CCTableViewCell * cell)$/;"	f	class:CCTableView
+_cellWithIndex	GUI/CCScrollView/CCTableView.cpp	/^CCTableViewCell* CCTableView::_cellWithIndex(unsigned int cellIndex)$/;"	f	class:CCTableView
+_compareObject	GUI/CCScrollView/CCSorting.cpp	/^static int _compareObject(const void * val1, const void * val2)$/;"	f	file:
+_errorBuffer	network/HttpResponse.h	/^    std::string         _errorBuffer;   \/\/\/ if _responseCode != 200, please read _errorBuffer to find the reason $/;"	m	class:CCHttpResponse
+_headers	network/HttpRequest.h	/^    std::vector<std::string>    _headers;		      \/\/\/ custom http headers$/;"	m	class:CCHttpRequest
+_indexFromOffset	GUI/CCScrollView/CCTableView.cpp	/^unsigned int CCTableView::_indexFromOffset(CCPoint offset)$/;"	f	class:CCTableView
+_moveCellOutOfSight	GUI/CCScrollView/CCTableView.cpp	/^void CCTableView::_moveCellOutOfSight(CCTableViewCell *cell)$/;"	f	class:CCTableView
+_offsetFromIndex	GUI/CCScrollView/CCTableView.cpp	/^CCPoint CCTableView::_offsetFromIndex(unsigned int index)$/;"	f	class:CCTableView
+_pHttpRequest	network/HttpResponse.h	/^    CCHttpRequest*        _pHttpRequest;  \/\/\/ the corresponding HttpRequest pointer who leads to this response $/;"	m	class:CCHttpResponse
+_pSelector	network/HttpRequest.h	/^    SEL_CallFuncND     _pSelector;      \/\/\/ callback function, e.g. MyLayer::onHttpResponse(CCObject *sender, void *data)$/;"	m	class:CCHttpRequest
+_pTarget	network/HttpRequest.h	/^    CCObject*          _pTarget;        \/\/\/ callback target of pSelector function$/;"	m	class:CCHttpRequest
+_pUserData	network/HttpRequest.h	/^    void*                       _pUserData;      \/\/\/ You can add your customed data here $/;"	m	class:CCHttpRequest
+_requestData	network/HttpRequest.h	/^    std::vector<char>           _requestData;    \/\/\/ used for POST$/;"	m	class:CCHttpRequest
+_requestType	network/HttpRequest.h	/^    HttpRequestType             _requestType;    \/\/\/ kHttpRequestGet, kHttpRequestPost or other enums$/;"	m	class:CCHttpRequest
+_responseCode	network/HttpResponse.h	/^    int                 _responseCode;    \/\/\/ the status code returned from libcurl, e.g. 200, 404$/;"	m	class:CCHttpResponse
+_responseData	network/HttpResponse.h	/^    std::vector<char>   _responseData;  \/\/\/ the returned raw data. You can also dump it as a string$/;"	m	class:CCHttpResponse
+_setIndexForCell	GUI/CCScrollView/CCTableView.cpp	/^void CCTableView::_setIndexForCell(unsigned int index, CCTableViewCell *cell)$/;"	f	class:CCTableView
+_succeed	network/HttpResponse.h	/^    bool                _succeed;       \/\/\/ to indecate if the http reqeust is successful simply$/;"	m	class:CCHttpResponse
+_tag	network/HttpRequest.h	/^    std::string                 _tag;            \/\/\/ user defined tag, to identify different requests in response callback$/;"	m	class:CCHttpRequest
+_timeoutForConnect	network/HttpClient.h	/^    int _timeoutForConnect;$/;"	m	class:CCHttpClient
+_timeoutForRead	network/HttpClient.h	/^    int _timeoutForRead;$/;"	m	class:CCHttpClient
+_updateContentSize	GUI/CCScrollView/CCTableView.cpp	/^void CCTableView::_updateContentSize()$/;"	f	class:CCTableView
+_url	network/HttpRequest.h	/^    std::string                 _url;            \/\/\/ target url that this request is sent to$/;"	m	class:CCHttpRequest
+a	GUI/CCControlExtension/CCControlUtils.h	/^    double a;       \/\/ percent$/;"	m	struct:__anon15
+addChild	GUI/CCScrollView/CCScrollView.cpp	/^void CCScrollView::addChild(CCNode * child)$/;"	f	class:CCScrollView
+addChild	GUI/CCScrollView/CCScrollView.cpp	/^void CCScrollView::addChild(CCNode * child, int zOrder)$/;"	f	class:CCScrollView
+addChild	GUI/CCScrollView/CCScrollView.cpp	/^void CCScrollView::addChild(CCNode * child, int zOrder, int tag)$/;"	f	class:CCScrollView
+addDocumentCallbackName	CCBReader/CCBAnimationManager.cpp	/^void CCBAnimationManager::addDocumentCallbackName(std::string name) {$/;"	f	class:CCBAnimationManager
+addDocumentCallbackName	CCBReader/CCBReader.cpp	/^void CCBReader::addDocumentCallbackName(std::string name) {$/;"	f	class:CCBReader
+addDocumentCallbackNode	CCBReader/CCBAnimationManager.cpp	/^void CCBAnimationManager::addDocumentCallbackNode(CCNode *node) {$/;"	f	class:CCBAnimationManager
+addDocumentCallbackNode	CCBReader/CCBReader.cpp	/^void CCBReader::addDocumentCallbackNode(CCNode *node) {$/;"	f	class:CCBReader
+addDocumentOutletName	CCBReader/CCBAnimationManager.cpp	/^void CCBAnimationManager::addDocumentOutletName(std::string name) {$/;"	f	class:CCBAnimationManager
+addDocumentOutletNode	CCBReader/CCBAnimationManager.cpp	/^void CCBAnimationManager::addDocumentOutletNode(CCNode *node) {$/;"	f	class:CCBAnimationManager
+addNode	CCBReader/CCBAnimationManager.cpp	/^void CCBAnimationManager::addNode(CCNode *pNode, CCDictionary *pSeq)$/;"	f	class:CCBAnimationManager
+addOwnerCallbackName	CCBReader/CCBReader.cpp	/^void CCBReader::addOwnerCallbackName(std::string name) {$/;"	f	class:CCBReader
+addOwnerCallbackNode	CCBReader/CCBReader.cpp	/^void CCBReader::addOwnerCallbackNode(CCNode *node) {$/;"	f	class:CCBReader
+addSpriteToTargetWithPosAndAnchor	GUI/CCControlExtension/CCControlUtils.cpp	/^CCSprite* CCControlUtils::addSpriteToTargetWithPosAndAnchor(const char* spriteName, CCNode * target, CCPoint pos, CCPoint anchor)$/;"	f	class:CCControlUtils
+addTargetWithActionForControlEvent	GUI/CCControlExtension/CCControl.cpp	/^void CCControl::addTargetWithActionForControlEvent(CCObject* target, SEL_CCControlHandler action, CCControlEvent controlEvent)$/;"	f	class:CCControl
+addTargetWithActionForControlEvents	GUI/CCControlExtension/CCControl.cpp	/^void CCControl::addTargetWithActionForControlEvents(CCObject* target, SEL_CCControlHandler action, CCControlEvent controlEvents)$/;"	f	class:CCControl
+afterDraw	GUI/CCScrollView/CCScrollView.cpp	/^void CCScrollView::afterDraw()$/;"	f	class:CCScrollView
+alignBits	CCBReader/CCBReader.cpp	/^void CCBReader::alignBits() {$/;"	f	class:CCBReader
+angleInDegreesBetweenLineFromPoint_toPoint_toLineFromPoint_toPoint	GUI/CCControlExtension/CCControlPotentiometer.cpp	/^float CCControlPotentiometer::angleInDegreesBetweenLineFromPoint_toPoint_toLineFromPoint_toPoint($/;"	f	class:CCControlPotentiometer
+autorelease	network/HttpRequest.h	/^    CCObject* autorelease(void)$/;"	f	class:CCHttpRequest
+autorelease	network/HttpResponse.h	/^    CCObject* autorelease(void)$/;"	f	class:CCHttpResponse
+b	GUI/CCControlExtension/CCControlUtils.h	/^    double b;       \/\/ percent$/;"	m	struct:__anon15
+beforeDraw	GUI/CCScrollView/CCScrollView.cpp	/^void CCScrollView::beforeDraw()$/;"	f	class:CCScrollView
+bottom	GUI/CCControlExtension/CCScale9Sprite.h	/^    CCSprite* bottom;$/;"	m	class:CCScale9Sprite
+bottomLeft	GUI/CCControlExtension/CCScale9Sprite.h	/^    CCSprite* bottomLeft;$/;"	m	class:CCScale9Sprite
+bottomRight	GUI/CCControlExtension/CCScale9Sprite.h	/^    CCSprite* bottomRight;$/;"	m	class:CCScale9Sprite
+boxPos	GUI/CCControlExtension/CCControlSaturationBrightnessPicker.h	/^    int         boxPos;$/;"	m	class:CCControlSaturationBrightnessPicker
+boxSize	GUI/CCControlExtension/CCControlSaturationBrightnessPicker.h	/^    int         boxSize;$/;"	m	class:CCControlSaturationBrightnessPicker
+buttonWithBackgroundSprite	GUI/CCControlExtension/CCControlButton.cpp	/^CCControlButton* CCControlButton::buttonWithBackgroundSprite(CCScale9Sprite* sprite)$/;"	f	class:CCControlButton
+buttonWithLabelAndBackgroundSprite	GUI/CCControlExtension/CCControlButton.cpp	/^CCControlButton* CCControlButton::buttonWithLabelAndBackgroundSprite(CCNode* label, CCScale9Sprite* backgroundSprite)$/;"	f	class:CCControlButton
+buttonWithTitleAndFontNameAndFontSize	GUI/CCControlExtension/CCControlButton.cpp	/^CCControlButton* CCControlButton::buttonWithTitleAndFontNameAndFontSize(string title, const char * fontName, float fontSize)$/;"	f	class:CCControlButton
+ccColor3BWapper	CCBReader/CCBValue.h	/^class ccColor3BWapper : public CCObject$/;"	c
+ccTouchBegan	GUI/CCControlExtension/CCControlButton.cpp	/^bool CCControlButton::ccTouchBegan(CCTouch *pTouch, CCEvent *pEvent)$/;"	f	class:CCControlButton
+ccTouchBegan	GUI/CCControlExtension/CCControlColourPicker.cpp	/^bool CCControlColourPicker::ccTouchBegan(CCTouch* touch, CCEvent* pEvent)$/;"	f	class:CCControlColourPicker
+ccTouchBegan	GUI/CCControlExtension/CCControlHuePicker.cpp	/^bool CCControlHuePicker::ccTouchBegan(CCTouch* touch, CCEvent* event)$/;"	f	class:CCControlHuePicker
+ccTouchBegan	GUI/CCControlExtension/CCControlPotentiometer.cpp	/^bool CCControlPotentiometer::ccTouchBegan(CCTouch *pTouch, CCEvent *pEvent)$/;"	f	class:CCControlPotentiometer
+ccTouchBegan	GUI/CCControlExtension/CCControlSaturationBrightnessPicker.cpp	/^bool CCControlSaturationBrightnessPicker::ccTouchBegan(CCTouch* touch, CCEvent* event)$/;"	f	class:CCControlSaturationBrightnessPicker
+ccTouchBegan	GUI/CCControlExtension/CCControlSlider.cpp	/^bool CCControlSlider::ccTouchBegan(CCTouch* touch, CCEvent* pEvent)$/;"	f	class:CCControlSlider
+ccTouchBegan	GUI/CCControlExtension/CCControlStepper.cpp	/^bool CCControlStepper::ccTouchBegan(CCTouch *pTouch, CCEvent *pEvent)$/;"	f	class:CCControlStepper
+ccTouchBegan	GUI/CCControlExtension/CCControlSwitch.cpp	/^bool CCControlSwitch::ccTouchBegan(CCTouch *pTouch, CCEvent *pEvent)$/;"	f	class:CCControlSwitch
+ccTouchBegan	GUI/CCScrollView/CCScrollView.cpp	/^bool CCScrollView::ccTouchBegan(CCTouch* touch, CCEvent* event)$/;"	f	class:CCScrollView
+ccTouchCancelled	GUI/CCControlExtension/CCControlButton.cpp	/^void CCControlButton::ccTouchCancelled(CCTouch *pTouch, CCEvent *pEvent)$/;"	f	class:CCControlButton
+ccTouchCancelled	GUI/CCControlExtension/CCControlSwitch.cpp	/^void CCControlSwitch::ccTouchCancelled(CCTouch *pTouch, CCEvent *pEvent)$/;"	f	class:CCControlSwitch
+ccTouchCancelled	GUI/CCScrollView/CCScrollView.cpp	/^void CCScrollView::ccTouchCancelled(CCTouch* touch, CCEvent* event)$/;"	f	class:CCScrollView
+ccTouchEnded	GUI/CCControlExtension/CCControlButton.cpp	/^void CCControlButton::ccTouchEnded(CCTouch *pTouch, CCEvent *pEvent)$/;"	f	class:CCControlButton
+ccTouchEnded	GUI/CCControlExtension/CCControlPotentiometer.cpp	/^void CCControlPotentiometer::ccTouchEnded(CCTouch *pTouch, CCEvent *pEvent)$/;"	f	class:CCControlPotentiometer
+ccTouchEnded	GUI/CCControlExtension/CCControlSlider.cpp	/^void CCControlSlider::ccTouchEnded(CCTouch *pTouch, CCEvent *pEvent)$/;"	f	class:CCControlSlider
+ccTouchEnded	GUI/CCControlExtension/CCControlStepper.cpp	/^void CCControlStepper::ccTouchEnded(CCTouch *pTouch, CCEvent *pEvent)$/;"	f	class:CCControlStepper
+ccTouchEnded	GUI/CCControlExtension/CCControlSwitch.cpp	/^void CCControlSwitch::ccTouchEnded(CCTouch *pTouch, CCEvent *pEvent)$/;"	f	class:CCControlSwitch
+ccTouchEnded	GUI/CCScrollView/CCScrollView.cpp	/^void CCScrollView::ccTouchEnded(CCTouch* touch, CCEvent* event)$/;"	f	class:CCScrollView
+ccTouchEnded	GUI/CCScrollView/CCTableView.cpp	/^void CCTableView::ccTouchEnded(CCTouch *pTouch, CCEvent *pEvent)$/;"	f	class:CCTableView
+ccTouchMoved	GUI/CCControlExtension/CCControlButton.cpp	/^void CCControlButton::ccTouchMoved(CCTouch *pTouch, CCEvent *pEvent)$/;"	f	class:CCControlButton
+ccTouchMoved	GUI/CCControlExtension/CCControlHuePicker.cpp	/^void CCControlHuePicker::ccTouchMoved(CCTouch* touch, CCEvent* event)$/;"	f	class:CCControlHuePicker
+ccTouchMoved	GUI/CCControlExtension/CCControlPotentiometer.cpp	/^void CCControlPotentiometer::ccTouchMoved(CCTouch *pTouch, CCEvent *pEvent)$/;"	f	class:CCControlPotentiometer
+ccTouchMoved	GUI/CCControlExtension/CCControlSaturationBrightnessPicker.cpp	/^void CCControlSaturationBrightnessPicker::ccTouchMoved(CCTouch* touch, CCEvent* event)$/;"	f	class:CCControlSaturationBrightnessPicker
+ccTouchMoved	GUI/CCControlExtension/CCControlSlider.cpp	/^void CCControlSlider::ccTouchMoved(CCTouch *pTouch, CCEvent *pEvent)$/;"	f	class:CCControlSlider
+ccTouchMoved	GUI/CCControlExtension/CCControlStepper.cpp	/^void CCControlStepper::ccTouchMoved(CCTouch *pTouch, CCEvent *pEvent)$/;"	f	class:CCControlStepper
+ccTouchMoved	GUI/CCControlExtension/CCControlSwitch.cpp	/^void CCControlSwitch::ccTouchMoved(CCTouch *pTouch, CCEvent *pEvent)$/;"	f	class:CCControlSwitch
+ccTouchMoved	GUI/CCScrollView/CCScrollView.cpp	/^void CCScrollView::ccTouchMoved(CCTouch* touch, CCEvent* event)$/;"	f	class:CCScrollView
+cccontrol_selector	GUI/CCControlExtension/CCInvocation.h	49;"	d
+cellAtIndex	GUI/CCScrollView/CCTableView.cpp	/^CCTableViewCell *CCTableView::cellAtIndex(unsigned int idx)$/;"	f	class:CCTableView
+centre	GUI/CCControlExtension/CCScale9Sprite.h	/^    CCSprite* centre;$/;"	m	class:CCScale9Sprite
+checkSliderPosition	GUI/CCControlExtension/CCControlHuePicker.cpp	/^bool CCControlHuePicker::checkSliderPosition(CCPoint location)$/;"	f	class:CCControlHuePicker
+checkSliderPosition	GUI/CCControlExtension/CCControlSaturationBrightnessPicker.cpp	/^bool CCControlSaturationBrightnessPicker::checkSliderPosition(CCPoint location)$/;"	f	class:CCControlSaturationBrightnessPicker
+cleanUpNodeGraph	CCBReader/CCBReader.cpp	/^void CCBReader::cleanUpNodeGraph(CCNode *pNode)$/;"	f	class:CCBReader
+closeKeyboard	GUI/CCEditBox/CCEditBoxImplAndroid.cpp	/^void CCEditBoxImplAndroid::closeKeyboard()$/;"	f	class:CCEditBoxImplAndroid
+cocos2d	GUI/CCControlExtension/CCControlSwitch.h	/^namespace cocos2d { class CCLabelTTF; }$/;"	n
+cocos2d	GUI/CCControlExtension/CCControlSwitch.h	/^namespace cocos2d { class CCSprite; }$/;"	n
+color	CCBReader/CCBValue.h	/^    ccColor3B color;$/;"	m	class:ccColor3BWapper
+colourPicker	GUI/CCControlExtension/CCControlColourPicker.cpp	/^CCControlColourPicker* CCControlColourPicker::colourPicker()$/;"	f	class:CCControlColourPicker
+colourSliderValueChanged	GUI/CCControlExtension/CCControlColourPicker.cpp	/^void CCControlColourPicker::colourSliderValueChanged(CCObject * sender, CCControlEvent controlEvent)$/;"	f	class:CCControlColourPicker
+configureCURL	network/HttpClient.cpp	/^bool configureCURL(CURL *handle)$/;"	f
+copyWithZone	CCBReader/CCBAnimationManager.cpp	/^CCObject* CCBRotateTo::copyWithZone(CCZone *pZone)$/;"	f	class:CCBRotateTo
+copyWithZone	CCBReader/CCBAnimationManager.cpp	/^CCObject* CCBSetSpriteFrame::copyWithZone(CCZone *pZone)$/;"	f	class:CCBSetSpriteFrame
+cpVert2ccp	physics_nodes/CCPhysicsDebugNode.cpp	/^static CCPoint cpVert2ccp(const cpVect &vert)$/;"	f	file:
+cpVertArray2ccpArrayN	physics_nodes/CCPhysicsDebugNode.cpp	/^static CCPoint* cpVertArray2ccpArrayN(const cpVect* cpVertArray, unsigned int count)$/;"	f	file:
+create	CCBReader/CCBAnimationManager.cpp	/^CCBRotateTo* CCBRotateTo::create(float fDuration, float fAngle)$/;"	f	class:CCBRotateTo
+create	CCBReader/CCBAnimationManager.cpp	/^CCBSetSpriteFrame* CCBSetSpriteFrame::create(CCSpriteFrame *pSpriteFrame)$/;"	f	class:CCBSetSpriteFrame
+create	CCBReader/CCBReader.cpp	/^CCBFile* CCBFile::create()$/;"	f	class:CCBFile
+create	CCBReader/CCBValue.cpp	/^CCBValue* CCBValue::create(bool vValue)$/;"	f	class:CCBValue
+create	CCBReader/CCBValue.cpp	/^CCBValue* CCBValue::create(const void *pPointer)$/;"	f	class:CCBValue
+create	CCBReader/CCBValue.cpp	/^CCBValue* CCBValue::create(float fValue)$/;"	f	class:CCBValue
+create	CCBReader/CCBValue.cpp	/^CCBValue* CCBValue::create(int nValue)$/;"	f	class:CCBValue
+create	CCBReader/CCBValue.cpp	/^CCBValue* CCBValue::create(unsigned char byte)$/;"	f	class:CCBValue
+create	CCBReader/CCBValue.cpp	/^ccColor3BWapper* ccColor3BWapper::create(const ccColor3B& color)$/;"	f	class:ccColor3BWapper
+create	GUI/CCControlExtension/CCControl.cpp	/^CCControl* CCControl::create()$/;"	f	class:CCControl
+create	GUI/CCControlExtension/CCControlButton.cpp	/^CCControlButton* CCControlButton::create()$/;"	f	class:CCControlButton
+create	GUI/CCControlExtension/CCControlButton.cpp	/^CCControlButton* CCControlButton::create(CCNode* label, CCScale9Sprite* backgroundSprite)$/;"	f	class:CCControlButton
+create	GUI/CCControlExtension/CCControlButton.cpp	/^CCControlButton* CCControlButton::create(CCScale9Sprite* sprite)$/;"	f	class:CCControlButton
+create	GUI/CCControlExtension/CCControlButton.cpp	/^CCControlButton* CCControlButton::create(string title, const char * fontName, float fontSize)$/;"	f	class:CCControlButton
+create	GUI/CCControlExtension/CCControlColourPicker.cpp	/^CCControlColourPicker* CCControlColourPicker::create()$/;"	f	class:CCControlColourPicker
+create	GUI/CCControlExtension/CCControlHuePicker.cpp	/^CCControlHuePicker* CCControlHuePicker::create(CCNode* target, CCPoint pos)$/;"	f	class:CCControlHuePicker
+create	GUI/CCControlExtension/CCControlPotentiometer.cpp	/^CCControlPotentiometer* CCControlPotentiometer::create(const char* backgroundFile, const char* progressFile, const char* thumbFile)$/;"	f	class:CCControlPotentiometer
+create	GUI/CCControlExtension/CCControlSaturationBrightnessPicker.cpp	/^CCControlSaturationBrightnessPicker* CCControlSaturationBrightnessPicker::create(CCNode* target, CCPoint pos)$/;"	f	class:CCControlSaturationBrightnessPicker
+create	GUI/CCControlExtension/CCControlSlider.cpp	/^CCControlSlider* CCControlSlider::create(CCSprite * backgroundSprite, CCSprite* pogressSprite, CCSprite* thumbSprite)$/;"	f	class:CCControlSlider
+create	GUI/CCControlExtension/CCControlSlider.cpp	/^CCControlSlider* CCControlSlider::create(const char* bgFile, const char* progressFile, const char* thumbFile)$/;"	f	class:CCControlSlider
+create	GUI/CCControlExtension/CCControlStepper.cpp	/^CCControlStepper* CCControlStepper::create(CCSprite *minusSprite, CCSprite *plusSprite)$/;"	f	class:CCControlStepper
+create	GUI/CCControlExtension/CCControlSwitch.cpp	/^CCControlSwitch* CCControlSwitch::create(CCSprite *maskSprite, CCSprite * onSprite, CCSprite * offSprite, CCSprite * thumbSprite)$/;"	f	class:CCControlSwitch
+create	GUI/CCControlExtension/CCControlSwitch.cpp	/^CCControlSwitch* CCControlSwitch::create(CCSprite *maskSprite, CCSprite * onSprite, CCSprite * offSprite, CCSprite * thumbSprite, CCLabelTTF* onLabel, CCLabelTTF* offLabel)$/;"	f	class:CCControlSwitch
+create	GUI/CCControlExtension/CCInvocation.cpp	/^CCInvocation* CCInvocation::create(CCObject* target, SEL_CCControlHandler action, CCControlEvent controlEvent)$/;"	f	class:CCInvocation
+create	GUI/CCControlExtension/CCScale9Sprite.cpp	/^CCScale9Sprite* CCScale9Sprite::create()$/;"	f	class:CCScale9Sprite
+create	GUI/CCControlExtension/CCScale9Sprite.cpp	/^CCScale9Sprite* CCScale9Sprite::create(CCRect capInsets, const char* file)$/;"	f	class:CCScale9Sprite
+create	GUI/CCControlExtension/CCScale9Sprite.cpp	/^CCScale9Sprite* CCScale9Sprite::create(const char* file)$/;"	f	class:CCScale9Sprite
+create	GUI/CCControlExtension/CCScale9Sprite.cpp	/^CCScale9Sprite* CCScale9Sprite::create(const char* file, CCRect rect)$/;"	f	class:CCScale9Sprite
+create	GUI/CCControlExtension/CCScale9Sprite.cpp	/^CCScale9Sprite* CCScale9Sprite::create(const char* file, CCRect rect,  CCRect capInsets)$/;"	f	class:CCScale9Sprite
+create	GUI/CCEditBox/CCEditBox.cpp	/^CCEditBox* CCEditBox::create(const CCSize& size, CCScale9Sprite* pNormal9SpriteBg, CCScale9Sprite* pPressed9SpriteBg\/* = NULL*\/, CCScale9Sprite* pDisabled9SpriteBg\/* = NULL*\/)$/;"	f	class:CCEditBox
+create	GUI/CCScrollView/CCScrollView.cpp	/^CCScrollView* CCScrollView::create()$/;"	f	class:CCScrollView
+create	GUI/CCScrollView/CCScrollView.cpp	/^CCScrollView* CCScrollView::create(CCSize size, CCNode* container\/* = NULL*\/)$/;"	f	class:CCScrollView
+create	GUI/CCScrollView/CCTableView.cpp	/^CCTableView* CCTableView::create(CCTableViewDataSource* dataSource, CCSize size)$/;"	f	class:CCTableView
+create	GUI/CCScrollView/CCTableView.cpp	/^CCTableView* CCTableView::create(CCTableViewDataSource* dataSource, CCSize size, CCNode *container)$/;"	f	class:CCTableView
+create	physics_nodes/CCPhysicsDebugNode.cpp	/^CCPhysicsDebugNode* CCPhysicsDebugNode::create(cpSpace *space)$/;"	f	class:CCPhysicsDebugNode
+create	physics_nodes/CCPhysicsSprite.cpp	/^CCPhysicsSprite* CCPhysicsSprite::create()$/;"	f	class:CCPhysicsSprite
+create	physics_nodes/CCPhysicsSprite.cpp	/^CCPhysicsSprite* CCPhysicsSprite::create(const char *pszFileName)$/;"	f	class:CCPhysicsSprite
+create	physics_nodes/CCPhysicsSprite.cpp	/^CCPhysicsSprite* CCPhysicsSprite::create(const char *pszFileName, const CCRect& rect)$/;"	f	class:CCPhysicsSprite
+createSceneWithNodeGraphFromFile	CCBReader/CCBReader.cpp	/^CCScene* CCBReader::createSceneWithNodeGraphFromFile(const char *pCCBFileName)$/;"	f	class:CCBReader
+createSceneWithNodeGraphFromFile	CCBReader/CCBReader.cpp	/^CCScene* CCBReader::createSceneWithNodeGraphFromFile(const char *pCCBFileName, CCObject *pOwner)$/;"	f	class:CCBReader
+createSceneWithNodeGraphFromFile	CCBReader/CCBReader.cpp	/^CCScene* CCBReader::createSceneWithNodeGraphFromFile(const char *pCCBFileName, CCObject *pOwner, const CCSize &parentSize)$/;"	f	class:CCBReader
+createWithSpriteFrame	GUI/CCControlExtension/CCScale9Sprite.cpp	/^CCScale9Sprite* CCScale9Sprite::createWithSpriteFrame(CCSpriteFrame* spriteFrame)$/;"	f	class:CCScale9Sprite
+createWithSpriteFrame	GUI/CCControlExtension/CCScale9Sprite.cpp	/^CCScale9Sprite* CCScale9Sprite::createWithSpriteFrame(CCSpriteFrame* spriteFrame, CCRect capInsets)$/;"	f	class:CCScale9Sprite
+createWithSpriteFrame	physics_nodes/CCPhysicsSprite.cpp	/^CCPhysicsSprite* CCPhysicsSprite::createWithSpriteFrame(CCSpriteFrame *pSpriteFrame)$/;"	f	class:CCPhysicsSprite
+createWithSpriteFrameName	GUI/CCControlExtension/CCScale9Sprite.cpp	/^CCScale9Sprite* CCScale9Sprite::createWithSpriteFrameName(const char* spriteFrameName)$/;"	f	class:CCScale9Sprite
+createWithSpriteFrameName	GUI/CCControlExtension/CCScale9Sprite.cpp	/^CCScale9Sprite* CCScale9Sprite::createWithSpriteFrameName(const char* spriteFrameName, CCRect capInsets)$/;"	f	class:CCScale9Sprite
+createWithSpriteFrameName	physics_nodes/CCPhysicsSprite.cpp	/^CCPhysicsSprite* CCPhysicsSprite::createWithSpriteFrameName(const char *pszSpriteFrameName)$/;"	f	class:CCPhysicsSprite
+createWithTexture	physics_nodes/CCPhysicsSprite.cpp	/^CCPhysicsSprite* CCPhysicsSprite::createWithTexture(CCTexture2D *pTexture)$/;"	f	class:CCPhysicsSprite
+createWithTexture	physics_nodes/CCPhysicsSprite.cpp	/^CCPhysicsSprite* CCPhysicsSprite::createWithTexture(CCTexture2D *pTexture, const CCRect& rect)$/;"	f	class:CCPhysicsSprite
+deaccelerateScrolling	GUI/CCScrollView/CCScrollView.cpp	/^void CCScrollView::deaccelerateScrolling(float dt)$/;"	f	class:CCScrollView
+debug	CCBReader/CCBAnimationManager.cpp	/^void CCBAnimationManager::debug()$/;"	f	class:CCBAnimationManager
+deletePathExtension	CCBReader/CCBReader.cpp	/^std::string CCBReader::deletePathExtension(const char* pPath) {$/;"	f	class:CCBReader
+dequeueCell	GUI/CCScrollView/CCTableView.cpp	/^CCTableViewCell *CCTableView::dequeueCell()$/;"	f	class:CCTableView
+destroyInstance	network/HttpClient.cpp	/^void CCHttpClient::destroyInstance()$/;"	f	class:CCHttpClient
+dispatchListforControlEvent	GUI/CCControlExtension/CCControl.cpp	/^CCArray* CCControl::dispatchListforControlEvent(CCControlEvent controlEvent)$/;"	f	class:CCControl
+dispatchResponseCallbacks	network/HttpClient.cpp	/^void CCHttpClient::dispatchResponseCallbacks(float delta)$/;"	f	class:CCHttpClient
+distanceBetweenPointAndPoint	GUI/CCControlExtension/CCControlPotentiometer.cpp	/^float CCControlPotentiometer::distanceBetweenPointAndPoint(CCPoint point1, CCPoint point2)$/;"	f	class:CCControlPotentiometer
+doAnimationWhenKeyboardMove	GUI/CCEditBox/CCEditBoxImplAndroid.cpp	/^void CCEditBoxImplAndroid::doAnimationWhenKeyboardMove(float duration, float distance)$/;"	f	class:CCEditBoxImplAndroid
+doesAdjustBackgroundImage	GUI/CCControlExtension/CCControlButton.cpp	/^bool CCControlButton::doesAdjustBackgroundImage()$/;"	f	class:CCControlButton
+draw	GUI/CCControlExtension/CCControlSwitch.cpp	/^void CCControlSwitchSprite::draw()$/;"	f	class:CCControlSwitchSprite
+draw	physics_nodes/CCPhysicsDebugNode.cpp	/^void CCPhysicsDebugNode::draw()$/;"	f	class:CCPhysicsDebugNode
+editBox	GUI/CCEditBox/EditBoxImplIOS.h	/^@property(nonatomic, assign) void* editBox;$/;"	v
+editBoxCallbackFunc	GUI/CCEditBox/CCEditBoxImplAndroid.cpp	/^static void editBoxCallbackFunc(const char* pText, void* ctx)$/;"	f	file:
+editBoxEditingDidBegin	GUI/CCEditBox/CCEditBox.h	/^    virtual void editBoxEditingDidBegin(CCEditBox* editBox) {};$/;"	f	class:CCEditBoxDelegate
+editBoxEditingDidEnd	GUI/CCEditBox/CCEditBox.h	/^    virtual void editBoxEditingDidEnd(CCEditBox* editBox) {};$/;"	f	class:CCEditBoxDelegate
+editBoxTextChanged	GUI/CCEditBox/CCEditBox.h	/^    virtual void editBoxTextChanged(CCEditBox* editBox, const std::string& text) {};$/;"	f	class:CCEditBoxDelegate
+editState	GUI/CCEditBox/EditBoxImplIOS.h	/^@property(nonatomic, readonly, getter = isEditState) BOOL editState;$/;"	v
+endsWith	CCBReader/CCBReader.cpp	/^bool CCBReader::endsWith(const char* pString, const char* pEnding) {$/;"	f	class:CCBReader
+fValue	CCBReader/CCBValue.h	/^        float fValue;$/;"	m	union:CCBValue::__anon10
+g	GUI/CCControlExtension/CCControlUtils.h	/^    double g;       \/\/ percent$/;"	m	struct:__anon15
+getAbsolutePosition	CCBReader/CCNode+CCBRelativePositioning.cpp	/^CCPoint getAbsolutePosition(const CCPoint &pt, int nType, const CCSize &containerSize, const char *pPropName)$/;"	f
+getAction	CCBReader/CCBAnimationManager.cpp	/^CCActionInterval* CCBAnimationManager::getAction(CCBKeyframe *pKeyframe0, CCBKeyframe *pKeyframe1, const char *pPropName, CCNode *pNode)$/;"	f	class:CCBAnimationManager
+getAnimatedProperties	CCBReader/CCBReader.cpp	/^set<string>* CCBReader::getAnimatedProperties()$/;"	f	class:CCBReader
+getAnimationManager	CCBReader/CCBReader.cpp	/^CCBAnimationManager* CCBReader::getAnimationManager()$/;"	f	class:CCBReader
+getAnimationManagers	CCBReader/CCBReader.cpp	/^CCDictionary* CCBReader::getAnimationManagers()$/;"	f	class:CCBReader
+getAnimationManagersForNodes	CCBReader/CCBReader.cpp	/^CCArray* CCBReader::getAnimationManagersForNodes() {$/;"	f	class:CCBReader
+getAutoPlaySequenceId	CCBReader/CCBAnimationManager.cpp	/^int CCBAnimationManager::getAutoPlaySequenceId()$/;"	f	class:CCBAnimationManager
+getBackgroundSpriteForState	GUI/CCControlExtension/CCControlButton.cpp	/^CCScale9Sprite* CCControlButton::getBackgroundSpriteForState(CCControlState state)$/;"	f	class:CCControlButton
+getBaseValue	CCBReader/CCBAnimationManager.cpp	/^CCObject* CCBAnimationManager::getBaseValue(CCNode *pNode, const char* pPropName)$/;"	f	class:CCBAnimationManager
+getBit	CCBReader/CCBReader.cpp	/^bool CCBReader::getBit() {$/;"	f	class:CCBReader
+getBody	physics_nodes/CCPhysicsSprite.cpp	/^b2Body* CCPhysicsSprite::getBody() const$/;"	f	class:CCPhysicsSprite
+getBody	physics_nodes/CCPhysicsSprite.cpp	/^cpBody* CCPhysicsSprite::getBody() const$/;"	f	class:CCPhysicsSprite
+getBoolValue	CCBReader/CCBValue.cpp	/^bool CCBValue::getBoolValue()$/;"	f	class:CCBValue
+getByteValue	CCBReader/CCBValue.cpp	/^unsigned char CCBValue::getByteValue()$/;"	f	class:CCBValue
+getBytes	CCBReader/CCData.cpp	/^unsigned char* CCData::getBytes()$/;"	f	class:CCData
+getCCBFileNode	CCBReader/CCBReader.cpp	/^CCNode* CCBFile::getCCBFileNode()$/;"	f	class:CCBFile
+getCCBMemberVariableAssigner	CCBReader/CCBReader.cpp	/^CCBMemberVariableAssigner * CCBReader::getCCBMemberVariableAssigner() {$/;"	f	class:CCBReader
+getCCBRootPath	CCBReader/CCBReader.cpp	/^const std::string& CCBReader::getCCBRootPath() const$/;"	f	class:CCBReader
+getCCBSelectorResolver	CCBReader/CCBReader.cpp	/^CCBSelectorResolver * CCBReader::getCCBSelectorResolver() {$/;"	f	class:CCBReader
+getCCEditBox	GUI/CCEditBox/CCEditBoxImpl.h	/^    CCEditBox* getCCEditBox() { return m_pEditBox; };$/;"	f	class:CCEditBoxImpl
+getCCNodeLoader	CCBReader/CCNodeLoaderLibrary.cpp	/^CCNodeLoader * CCNodeLoaderLibrary::getCCNodeLoader(const char* pClassName) {$/;"	f	class:CCNodeLoaderLibrary
+getCapInsets	GUI/CCControlExtension/CCScale9Sprite.cpp	/^CCRect CCScale9Sprite::getCapInsets()$/;"	f	class:CCScale9Sprite
+getChainedSequenceId	CCBReader/CCBSequence.cpp	/^int CCBSequence::getChainedSequenceId()$/;"	f	class:CCBSequence
+getColor	CCBReader/CCBValue.cpp	/^ccColor3B ccColor3BWapper::getColor()$/;"	f	class:ccColor3BWapper
+getColor	GUI/CCControlExtension/CCControl.cpp	/^ccColor3B CCControl::getColor(void)$/;"	f	class:CCControl
+getColor	GUI/CCControlExtension/CCScale9Sprite.cpp	/^ccColor3B CCScale9Sprite::getColor(void)$/;"	f	class:CCScale9Sprite
+getContainer	GUI/CCScrollView/CCScrollView.cpp	/^CCNode * CCScrollView::getContainer()$/;"	f	class:CCScrollView
+getContainerSize	CCBReader/CCBAnimationManager.cpp	/^CCSize CCBAnimationManager::getContainerSize(CCNode *pNode)$/;"	f	class:CCBAnimationManager
+getContentOffset	GUI/CCScrollView/CCScrollView.cpp	/^CCPoint CCScrollView::getContentOffset()$/;"	f	class:CCScrollView
+getContentSize	GUI/CCScrollView/CCScrollView.cpp	/^CCSize CCScrollView::getContentSize()$/;"	f	class:CCScrollView
+getDataSource	GUI/CCScrollView/CCTableView.h	/^    CCTableViewDataSource* getDataSource() { return m_pDataSource; }$/;"	f	class:CCTableView
+getDelegate	CCBReader/CCBAnimationManager.cpp	/^CCBAnimationManagerDelegate* CCBAnimationManager::getDelegate()$/;"	f	class:CCBAnimationManager
+getDelegate	GUI/CCEditBox/CCEditBoxImpl.h	/^    CCEditBoxDelegate* getDelegate() { return m_pDelegate; };$/;"	f	class:CCEditBoxImpl
+getDelegate	GUI/CCScrollView/CCScrollView.h	/^    CCScrollViewDelegate* getDelegate() { return m_pDelegate; }$/;"	f	class:CCScrollView
+getDelegate	GUI/CCScrollView/CCTableView.h	/^    CCTableViewDelegate* getDelegate() { return m_pTableViewDelegate; } $/;"	f	class:CCTableView
+getDirection	GUI/CCScrollView/CCScrollView.h	/^    CCScrollViewDirection getDirection() { return m_eDirection; }$/;"	f	class:CCScrollView
+getDocumentCallbackNames	CCBReader/CCBAnimationManager.cpp	/^CCArray* CCBAnimationManager::getDocumentCallbackNames() {$/;"	f	class:CCBAnimationManager
+getDocumentCallbackNodes	CCBReader/CCBAnimationManager.cpp	/^CCArray* CCBAnimationManager::getDocumentCallbackNodes() {$/;"	f	class:CCBAnimationManager
+getDocumentControllerName	CCBReader/CCBAnimationManager.cpp	/^std::string CCBAnimationManager::getDocumentControllerName() {$/;"	f	class:CCBAnimationManager
+getDocumentOutletNames	CCBReader/CCBAnimationManager.cpp	/^CCArray* CCBAnimationManager::getDocumentOutletNames() {$/;"	f	class:CCBAnimationManager
+getDocumentOutletNodes	CCBReader/CCBAnimationManager.cpp	/^CCArray* CCBAnimationManager::getDocumentOutletNodes() {$/;"	f	class:CCBAnimationManager
+getDuration	CCBReader/CCBSequence.cpp	/^float CCBSequence::getDuration()$/;"	f	class:CCBSequence
+getEaseAction	CCBReader/CCBAnimationManager.cpp	/^CCActionInterval* CCBAnimationManager::getEaseAction(CCActionInterval *pAction, int nEasingType, float fEasingOpt)$/;"	f	class:CCBAnimationManager
+getEasingOpt	CCBReader/CCBKeyframe.cpp	/^float CCBKeyframe::getEasingOpt()$/;"	f	class:CCBKeyframe
+getEasingType	CCBReader/CCBKeyframe.cpp	/^int CCBKeyframe::getEasingType()$/;"	f	class:CCBKeyframe
+getErrorBuffer	network/HttpResponse.h	/^    inline const char* getErrorBuffer()$/;"	f	class:CCHttpResponse
+getFloatValue	CCBReader/CCBValue.cpp	/^float CCBValue::getFloatValue()$/;"	f	class:CCBValue
+getHeaders	network/HttpRequest.h	/^   	inline std::vector<std::string> getHeaders()$/;"	f	class:CCHttpRequest
+getHttpRequest	network/HttpResponse.h	/^    inline CCHttpRequest* getHttpRequest()$/;"	f	class:CCHttpResponse
+getIdx	GUI/CCScrollView/CCTableViewCell.cpp	/^unsigned int CCTableViewCell::getIdx()$/;"	f	class:CCTableViewCell
+getInsetBottom	GUI/CCControlExtension/CCScale9Sprite.cpp	/^float CCScale9Sprite::getInsetBottom()$/;"	f	class:CCScale9Sprite
+getInsetLeft	GUI/CCControlExtension/CCScale9Sprite.cpp	/^float CCScale9Sprite::getInsetLeft()$/;"	f	class:CCScale9Sprite
+getInsetRight	GUI/CCControlExtension/CCScale9Sprite.cpp	/^float CCScale9Sprite::getInsetRight()$/;"	f	class:CCScale9Sprite
+getInsetTop	GUI/CCControlExtension/CCScale9Sprite.cpp	/^float CCScale9Sprite::getInsetTop()$/;"	f	class:CCScale9Sprite
+getInstance	network/HttpClient.cpp	/^CCHttpClient* CCHttpClient::getInstance()$/;"	f	class:CCHttpClient
+getIntValue	CCBReader/CCBValue.cpp	/^int CCBValue::getIntValue()$/;"	f	class:CCBValue
+getKeyframes	CCBReader/CCBSequenceProperty.cpp	/^CCArray* CCBSequenceProperty::getKeyframes()$/;"	f	class:CCBSequenceProperty
+getLabelAnchorPoint	GUI/CCControlExtension/CCControlButton.cpp	/^CCPoint CCControlButton::getLabelAnchorPoint()$/;"	f	class:CCControlButton
+getLastCompletedSequenceName	CCBReader/CCBAnimationManager.cpp	/^std::string CCBAnimationManager::getLastCompletedSequenceName() {$/;"	f	class:CCBAnimationManager
+getLoadedSpriteSheet	CCBReader/CCBReader.cpp	/^set<string>& CCBReader::getLoadedSpriteSheet()$/;"	f	class:CCBReader
+getMaxLength	GUI/CCEditBox/CCEditBox.cpp	/^int CCEditBox::getMaxLength()$/;"	f	class:CCEditBox
+getMaxLength	GUI/CCEditBox/CCEditBoxImplAndroid.cpp	/^int CCEditBoxImplAndroid::getMaxLength()$/;"	f	class:CCEditBoxImplAndroid
+getMaximumValue	GUI/CCControlExtension/CCControlPotentiometer.cpp	/^float CCControlPotentiometer::getMaximumValue()$/;"	f	class:CCControlPotentiometer
+getMinimumValue	GUI/CCControlExtension/CCControlPotentiometer.cpp	/^float CCControlPotentiometer::getMinimumValue()$/;"	f	class:CCControlPotentiometer
+getName	CCBReader/CCBSequence.cpp	/^const char* CCBSequence::getName()$/;"	f	class:CCBSequence
+getName	CCBReader/CCBSequenceProperty.cpp	/^const char* CCBSequenceProperty::getName()$/;"	f	class:CCBSequenceProperty
+getNodesWithAnimationManagers	CCBReader/CCBReader.cpp	/^CCArray* CCBReader::getNodesWithAnimationManagers() {$/;"	f	class:CCBReader
+getObjectID	GUI/CCScrollView/CCSorting.cpp	/^    virtual unsigned int getObjectID() { return objectID; }$/;"	f	class:CCSortedObject
+getObjectID	GUI/CCScrollView/CCTableViewCell.cpp	/^unsigned int CCTableViewCell::getObjectID()$/;"	f	class:CCTableViewCell
+getOpacity	GUI/CCControlExtension/CCControl.cpp	/^GLubyte CCControl::getOpacity()$/;"	f	class:CCControl
+getOpacity	GUI/CCControlExtension/CCControlButton.cpp	/^GLubyte CCControlButton::getOpacity()$/;"	f	class:CCControlButton
+getOpacity	GUI/CCControlExtension/CCScale9Sprite.cpp	/^GLubyte CCScale9Sprite::getOpacity()$/;"	f	class:CCScale9Sprite
+getOwner	CCBReader/CCBReader.cpp	/^CCObject* CCBReader::getOwner()$/;"	f	class:CCBReader
+getOwnerCallbackNames	CCBReader/CCBReader.cpp	/^CCArray* CCBReader::getOwnerCallbackNames() {$/;"	f	class:CCBReader
+getOwnerCallbackNodes	CCBReader/CCBReader.cpp	/^CCArray* CCBReader::getOwnerCallbackNodes() {$/;"	f	class:CCBReader
+getOwnerOutletNames	CCBReader/CCBReader.cpp	/^CCArray* CCBReader::getOwnerOutletNames() {$/;"	f	class:CCBReader
+getOwnerOutletNodes	CCBReader/CCBReader.cpp	/^CCArray* CCBReader::getOwnerOutletNodes() {$/;"	f	class:CCBReader
+getPTMRatio	physics_nodes/CCPhysicsSprite.cpp	/^float CCPhysicsSprite::getPTMRatio() const$/;"	f	class:CCPhysicsSprite
+getPlaceHolder	GUI/CCEditBox/CCEditBox.cpp	/^const char* CCEditBox::getPlaceHolder(void)$/;"	f	class:CCEditBox
+getPointer	CCBReader/CCBValue.cpp	/^const void* CCBValue::getPointer()$/;"	f	class:CCBValue
+getPosition	physics_nodes/CCPhysicsSprite.cpp	/^CCPoint CCPhysicsSprite::getPosition()$/;"	f	class:CCPhysicsSprite
+getPreferredSize	GUI/CCControlExtension/CCControlButton.cpp	/^CCSize CCControlButton::getPreferredSize()$/;"	f	class:CCControlButton
+getPreferredSize	GUI/CCControlExtension/CCScale9Sprite.cpp	/^CCSize CCScale9Sprite::getPreferredSize()$/;"	f	class:CCScale9Sprite
+getRect	GUI/CCEditBox/CCEditBox.cpp	/^static CCRect getRect(CCNode * pNode)$/;"	f	file:
+getRequestData	network/HttpRequest.h	/^    inline char* getRequestData()$/;"	f	class:CCHttpRequest
+getRequestDataSize	network/HttpRequest.h	/^    inline int getRequestDataSize()$/;"	f	class:CCHttpRequest
+getRequestType	network/HttpRequest.h	/^    inline HttpRequestType getRequestType()$/;"	f	class:CCHttpRequest
+getResolutionScale	CCBReader/CCBReader.cpp	/^float CCBReader::getResolutionScale()$/;"	f	class:CCBReader
+getResponseCode	network/HttpResponse.h	/^    inline int getResponseCode()$/;"	f	class:CCHttpResponse
+getResponseData	network/HttpResponse.h	/^    inline std::vector<char>* getResponseData()$/;"	f	class:CCHttpResponse
+getRootContainerSize	CCBReader/CCBAnimationManager.cpp	/^const CCSize& CCBAnimationManager::getRootContainerSize()$/;"	f	class:CCBAnimationManager
+getRootNode	CCBReader/CCBAnimationManager.cpp	/^CCNode* CCBAnimationManager::getRootNode()$/;"	f	class:CCBAnimationManager
+getRotation	physics_nodes/CCPhysicsSprite.cpp	/^float CCPhysicsSprite::getRotation()$/;"	f	class:CCPhysicsSprite
+getRunningSequenceName	CCBReader/CCBAnimationManager.cpp	/^const char* CCBAnimationManager::getRunningSequenceName()$/;"	f	class:CCBAnimationManager
+getSelector	network/HttpRequest.h	/^    inline SEL_CallFuncND getSelector()$/;"	f	class:CCHttpRequest
+getSequence	CCBReader/CCBAnimationManager.cpp	/^CCBSequence* CCBAnimationManager::getSequence(int nSequenceId)$/;"	f	class:CCBAnimationManager
+getSequenceId	CCBReader/CCBAnimationManager.cpp	/^int CCBAnimationManager::getSequenceId(const char* pSequenceName)$/;"	f	class:CCBAnimationManager
+getSequenceId	CCBReader/CCBSequence.cpp	/^int CCBSequence::getSequenceId()$/;"	f	class:CCBSequence
+getSequences	CCBReader/CCBAnimationManager.cpp	/^CCArray* CCBAnimationManager::getSequences()$/;"	f	class:CCBAnimationManager
+getSliderXPosition	GUI/CCControlExtension/CCControlSwitch.cpp	/^    float getSliderXPosition() {return m_fSliderXPosition;}$/;"	f	class:CCControlSwitchSprite
+getSpace	physics_nodes/CCPhysicsDebugNode.cpp	/^cpSpace* CCPhysicsDebugNode::getSpace() const$/;"	f	class:CCPhysicsDebugNode
+getTag	network/HttpRequest.h	/^    inline const char* getTag()$/;"	f	class:CCHttpRequest
+getTarget	network/HttpRequest.h	/^    inline CCObject* getTarget()$/;"	f	class:CCHttpRequest
+getText	GUI/CCEditBox/CCEditBox.cpp	/^const char* CCEditBox::getText(void)$/;"	f	class:CCEditBox
+getText	GUI/CCEditBox/CCEditBoxImplAndroid.cpp	/^const char*  CCEditBoxImplAndroid::getText(void)$/;"	f	class:CCEditBoxImplAndroid
+getTime	CCBReader/CCBKeyframe.cpp	/^float CCBKeyframe::getTime()$/;"	f	class:CCBKeyframe
+getTimeoutForConnect	network/HttpClient.h	/^    inline int getTimeoutForConnect() {return _timeoutForConnect;}$/;"	f	class:CCHttpClient
+getTimeoutForRead	network/HttpClient.h	/^    inline int getTimeoutForRead() {return _timeoutForRead;};$/;"	f	class:CCHttpClient
+getTitleBMFontForState	GUI/CCControlExtension/CCControlButton.cpp	/^const char * CCControlButton::getTitleBMFontForState(CCControlState state)$/;"	f	class:CCControlButton
+getTitleColorForState	GUI/CCControlExtension/CCControlButton.cpp	/^const ccColor3B CCControlButton::getTitleColorForState(CCControlState state)$/;"	f	class:CCControlButton
+getTitleForState	GUI/CCControlExtension/CCControlButton.cpp	/^CCString* CCControlButton::getTitleForState(CCControlState state)$/;"	f	class:CCControlButton
+getTitleLabelForState	GUI/CCControlExtension/CCControlButton.cpp	/^CCNode* CCControlButton::getTitleLabelForState(CCControlState state)$/;"	f	class:CCControlButton
+getTitleTTFForState	GUI/CCControlExtension/CCControlButton.cpp	/^const char * CCControlButton::getTitleTTFForState(CCControlState state)$/;"	f	class:CCControlButton
+getTitleTTFSizeForState	GUI/CCControlExtension/CCControlButton.cpp	/^float CCControlButton::getTitleTTFSizeForState(CCControlState state)$/;"	f	class:CCControlButton
+getTouchLocation	GUI/CCControlExtension/CCControl.cpp	/^CCPoint CCControl::getTouchLocation(CCTouch* touch)$/;"	f	class:CCControl
+getType	CCBReader/CCBSequenceProperty.cpp	/^int CCBSequenceProperty::getType()$/;"	f	class:CCBSequenceProperty
+getUrl	network/HttpRequest.h	/^    inline const char* getUrl()$/;"	f	class:CCHttpRequest
+getUserData	network/HttpRequest.h	/^    inline void* getUserData()$/;"	f	class:CCHttpRequest
+getValue	CCBReader/CCBKeyframe.cpp	/^CCObject* CCBKeyframe::getValue()$/;"	f	class:CCBKeyframe
+getValue	GUI/CCControlExtension/CCControlPotentiometer.cpp	/^float CCControlPotentiometer::getValue()$/;"	f	class:CCControlPotentiometer
+getValue	GUI/CCControlExtension/CCControlStepper.cpp	/^double CCControlStepper::getValue()$/;"	f	class:CCControlStepper
+getVerticalFillOrder	GUI/CCScrollView/CCTableView.cpp	/^CCTableViewVerticalFillOrder CCTableView::getVerticalFillOrder()$/;"	f	class:CCTableView
+getViewSize	GUI/CCScrollView/CCScrollView.h	/^    CCSize getViewSize() { return m_tViewSize; } $/;"	f	class:CCScrollView
+getZoomOnTouchDown	GUI/CCControlExtension/CCControlButton.cpp	/^bool CCControlButton::getZoomOnTouchDown()$/;"	f	class:CCControlButton
+getZoomScale	GUI/CCScrollView/CCScrollView.cpp	/^float CCScrollView::getZoomScale()$/;"	f	class:CCScrollView
+h	GUI/CCControlExtension/CCControlUtils.h	/^    double h;       \/\/ angle in degrees$/;"	m	struct:__anon16
+hasMoved	GUI/CCControlExtension/CCControlSwitch.h	/^    bool hasMoved() { return m_bMoved; }$/;"	f	class:CCControlSwitch
+hasScriptingOwner	CCBReader/CCBReader.h	/^    bool hasScriptingOwner;    $/;"	m	class:CCBReader
+hasVisibleParents	GUI/CCControlExtension/CCControl.cpp	/^bool CCControl::hasVisibleParents()$/;"	f	class:CCControl
+hueSliderValueChanged	GUI/CCControlExtension/CCControlColourPicker.cpp	/^void CCControlColourPicker::hueSliderValueChanged(CCObject * sender, CCControlEvent controlEvent)$/;"	f	class:CCControlColourPicker
+indexOfSortedObject	GUI/CCScrollView/CCSorting.cpp	/^unsigned int CCArrayForObjectSorting::indexOfSortedObject(CCSortableObject* object)$/;"	f	class:CCArrayForObjectSorting
+init	CCBReader/CCBAnimationManager.cpp	/^bool CCBAnimationManager::init()$/;"	f	class:CCBAnimationManager
+init	CCBReader/CCBReader.cpp	/^bool CCBReader::init()$/;"	f	class:CCBReader
+init	CCBReader/CCBSequenceProperty.cpp	/^bool CCBSequenceProperty::init()$/;"	f	class:CCBSequenceProperty
+init	GUI/CCControlExtension/CCControl.cpp	/^bool CCControl::init()$/;"	f	class:CCControl
+init	GUI/CCControlExtension/CCControlButton.cpp	/^bool CCControlButton::init()$/;"	f	class:CCControlButton
+init	GUI/CCControlExtension/CCControlColourPicker.cpp	/^bool CCControlColourPicker::init()$/;"	f	class:CCControlColourPicker
+init	GUI/CCControlExtension/CCScale9Sprite.cpp	/^bool CCScale9Sprite::init()$/;"	f	class:CCScale9Sprite
+init	GUI/CCScrollView/CCScrollView.cpp	/^bool CCScrollView::init()$/;"	f	class:CCScrollView
+initWithBackgroundSprite	GUI/CCControlExtension/CCControlButton.cpp	/^bool CCControlButton::initWithBackgroundSprite(CCScale9Sprite* sprite)$/;"	f	class:CCControlButton
+initWithBatchNode	GUI/CCControlExtension/CCScale9Sprite.cpp	/^bool CCScale9Sprite::initWithBatchNode(CCSpriteBatchNode* batchnode, CCRect rect, CCRect capInsets)$/;"	f	class:CCScale9Sprite
+initWithBatchNode	GUI/CCControlExtension/CCScale9Sprite.cpp	/^bool CCScale9Sprite::initWithBatchNode(CCSpriteBatchNode* batchnode, CCRect rect, bool rotated, CCRect capInsets)$/;"	f	class:CCScale9Sprite
+initWithDuration	CCBReader/CCBAnimationManager.cpp	/^bool CCBRotateTo::initWithDuration(float fDuration, float fAngle)$/;"	f	class:CCBRotateTo
+initWithFile	GUI/CCControlExtension/CCScale9Sprite.cpp	/^bool CCScale9Sprite::initWithFile(CCRect capInsets, const char* file)$/;"	f	class:CCScale9Sprite
+initWithFile	GUI/CCControlExtension/CCScale9Sprite.cpp	/^bool CCScale9Sprite::initWithFile(const char* file)$/;"	f	class:CCScale9Sprite
+initWithFile	GUI/CCControlExtension/CCScale9Sprite.cpp	/^bool CCScale9Sprite::initWithFile(const char* file, CCRect rect)$/;"	f	class:CCScale9Sprite
+initWithFile	GUI/CCControlExtension/CCScale9Sprite.cpp	/^bool CCScale9Sprite::initWithFile(const char* file, CCRect rect,  CCRect capInsets)$/;"	f	class:CCScale9Sprite
+initWithLabelAndBackgroundSprite	GUI/CCControlExtension/CCControlButton.cpp	/^bool CCControlButton::initWithLabelAndBackgroundSprite(CCNode* node, CCScale9Sprite* backgroundSprite)$/;"	f	class:CCControlButton
+initWithMaskSprite	GUI/CCControlExtension/CCControlSwitch.cpp	/^bool CCControlSwitch::initWithMaskSprite(CCSprite *maskSprite, CCSprite * onSprite, CCSprite * offSprite, CCSprite * thumbSprite)$/;"	f	class:CCControlSwitch
+initWithMaskSprite	GUI/CCControlExtension/CCControlSwitch.cpp	/^bool CCControlSwitch::initWithMaskSprite(CCSprite *maskSprite, CCSprite * onSprite, CCSprite * offSprite, CCSprite * thumbSprite, CCLabelTTF* onLabel, CCLabelTTF* offLabel)$/;"	f	class:CCControlSwitch
+initWithMaskSprite	GUI/CCControlExtension/CCControlSwitch.cpp	/^bool CCControlSwitchSprite::initWithMaskSprite($/;"	f	class:CCControlSwitchSprite
+initWithMinusSpriteAndPlusSprite	GUI/CCControlExtension/CCControlStepper.cpp	/^bool CCControlStepper::initWithMinusSpriteAndPlusSprite(CCSprite *minusSprite, CCSprite *plusSprite)$/;"	f	class:CCControlStepper
+initWithSize	GUI/CCEditBox/CCEditBoxImplAndroid.cpp	/^bool CCEditBoxImplAndroid::initWithSize(const CCSize& size)$/;"	f	class:CCEditBoxImplAndroid
+initWithSizeAndBackgroundSprite	GUI/CCEditBox/CCEditBox.cpp	/^bool CCEditBox::initWithSizeAndBackgroundSprite(const CCSize& size, CCScale9Sprite* pPressed9SpriteBg)$/;"	f	class:CCEditBox
+initWithSpriteFrame	CCBReader/CCBAnimationManager.cpp	/^bool CCBSetSpriteFrame::initWithSpriteFrame(CCSpriteFrame *pSpriteFrame)$/;"	f	class:CCBSetSpriteFrame
+initWithSpriteFrame	GUI/CCControlExtension/CCScale9Sprite.cpp	/^bool CCScale9Sprite::initWithSpriteFrame(CCSpriteFrame* spriteFrame)$/;"	f	class:CCScale9Sprite
+initWithSpriteFrame	GUI/CCControlExtension/CCScale9Sprite.cpp	/^bool CCScale9Sprite::initWithSpriteFrame(CCSpriteFrame* spriteFrame, CCRect capInsets)$/;"	f	class:CCScale9Sprite
+initWithSpriteFrameName	GUI/CCControlExtension/CCScale9Sprite.cpp	/^bool CCScale9Sprite::initWithSpriteFrameName(const char* spriteFrameName)$/;"	f	class:CCScale9Sprite
+initWithSpriteFrameName	GUI/CCControlExtension/CCScale9Sprite.cpp	/^bool CCScale9Sprite::initWithSpriteFrameName(const char* spriteFrameName, CCRect capInsets)$/;"	f	class:CCScale9Sprite
+initWithSprites	GUI/CCControlExtension/CCControlSlider.cpp	/^ bool CCControlSlider::initWithSprites(CCSprite * backgroundSprite, CCSprite* progressSprite, CCSprite* thumbSprite)$/;"	f	class:CCControlSlider
+initWithTargetAndPos	GUI/CCControlExtension/CCControlHuePicker.cpp	/^bool CCControlHuePicker::initWithTargetAndPos(CCNode* target, CCPoint pos)$/;"	f	class:CCControlHuePicker
+initWithTargetAndPos	GUI/CCControlExtension/CCControlSaturationBrightnessPicker.cpp	/^bool CCControlSaturationBrightnessPicker::initWithTargetAndPos(CCNode* target, CCPoint pos)$/;"	f	class:CCControlSaturationBrightnessPicker
+initWithTitleAndFontNameAndFontSize	GUI/CCControlExtension/CCControlButton.cpp	/^bool CCControlButton::initWithTitleAndFontNameAndFontSize(string title, const char * fontName, float fontSize)$/;"	f	class:CCControlButton
+initWithTrackSprite_ProgressTimer_ThumbSprite	GUI/CCControlExtension/CCControlPotentiometer.cpp	/^bool CCControlPotentiometer::initWithTrackSprite_ProgressTimer_ThumbSprite(CCSprite* trackSprite, CCProgressTimer* progressTimer, CCSprite* thumbSprite)$/;"	f	class:CCControlPotentiometer
+initWithViewSize	GUI/CCScrollView/CCScrollView.cpp	/^bool CCScrollView::initWithViewSize(CCSize size, CCNode *container\/* = NULL*\/)$/;"	f	class:CCScrollView
+initWithViewSize	GUI/CCScrollView/CCTableView.cpp	/^bool CCTableView::initWithViewSize(CCSize size, CCNode* container\/* = NULL*\/)$/;"	f	class:CCTableView
+insertCellAtIndex	GUI/CCScrollView/CCTableView.cpp	/^void CCTableView::insertCellAtIndex(unsigned  int idx)$/;"	f	class:CCTableView
+insertSortedObject	GUI/CCScrollView/CCSorting.cpp	/^void CCArrayForObjectSorting::insertSortedObject(CCSortableObject* object)$/;"	f	class:CCArrayForObjectSorting
+int32_t	network/HttpClient.cpp	/^typedef int int32_t;$/;"	t	file:
+invoke	GUI/CCControlExtension/CCInvocation.cpp	/^void CCInvocation::invoke(CCObject* sender)$/;"	f	class:CCInvocation
+isBounceable	GUI/CCScrollView/CCScrollView.h	/^    bool isBounceable() { return m_bBounceable; }$/;"	f	class:CCScrollView
+isClippingToBounds	GUI/CCScrollView/CCScrollView.h	/^    bool isClippingToBounds() { return m_bClippingToBounds; }$/;"	f	class:CCScrollView
+isContinuous	GUI/CCControlExtension/CCControlStepper.cpp	/^bool CCControlStepper::isContinuous()$/;"	f	class:CCControlStepper
+isDirty	physics_nodes/CCPhysicsSprite.cpp	/^bool CCPhysicsSprite::isDirty()$/;"	f	class:CCPhysicsSprite
+isDragging	GUI/CCScrollView/CCScrollView.h	/^    bool isDragging() {return m_bDragging;}$/;"	f	class:CCScrollView
+isEditing	GUI/CCEditBox/CCEditBoxImplAndroid.cpp	/^bool CCEditBoxImplAndroid::isEditing()$/;"	f	class:CCEditBoxImplAndroid
+isEnabled	GUI/CCControlExtension/CCControl.cpp	/^bool CCControl::isEnabled()$/;"	f	class:CCControl
+isHighlighted	GUI/CCControlExtension/CCControl.cpp	/^bool CCControl::isHighlighted()$/;"	f	class:CCControl
+isIgnoreBodyRotation	physics_nodes/CCPhysicsSprite.cpp	/^bool CCPhysicsSprite::isIgnoreBodyRotation() const$/;"	f	class:CCPhysicsSprite
+isJSControlled	CCBReader/CCBReader.cpp	/^bool CCBReader::isJSControlled() {$/;"	f	class:CCBReader
+isNodeVisible	GUI/CCScrollView/CCScrollView.cpp	/^bool CCScrollView::isNodeVisible(CCNode* node)$/;"	f	class:CCScrollView
+isOn	GUI/CCControlExtension/CCControlSwitch.h	/^    bool isOn(void) { return m_bOn; }$/;"	f	class:CCControlSwitch
+isOpacityModifyRGB	GUI/CCControlExtension/CCControl.cpp	/^bool CCControl::isOpacityModifyRGB()$/;"	f	class:CCControl
+isOpacityModifyRGB	GUI/CCControlExtension/CCScale9Sprite.cpp	/^bool CCScale9Sprite::isOpacityModifyRGB()$/;"	f	class:CCScale9Sprite
+isPushed	GUI/CCControlExtension/CCControlButton.h	/^    bool isPushed() { return m_isPushed; }$/;"	f	class:CCControlButton
+isSelected	GUI/CCControlExtension/CCControl.cpp	/^bool CCControl::isSelected()$/;"	f	class:CCControl
+isSucceed	network/HttpResponse.h	/^    inline bool isSucceed()$/;"	f	class:CCHttpResponse
+isTouchInside	GUI/CCControlExtension/CCControl.cpp	/^bool CCControl::isTouchInside(CCTouch* touch)$/;"	f	class:CCControl
+isTouchInside	GUI/CCControlExtension/CCControlPotentiometer.cpp	/^bool CCControlPotentiometer::isTouchInside(CCTouch * touch)$/;"	f	class:CCControlPotentiometer
+isTouchInside	GUI/CCControlExtension/CCControlSlider.cpp	/^bool CCControlSlider::isTouchInside(CCTouch * touch)$/;"	f	class:CCControlSlider
+isTouchMoved	GUI/CCScrollView/CCScrollView.h	/^    bool isTouchMoved() { return m_bTouchMoved; }$/;"	f	class:CCScrollView
+jsControlled	CCBReader/CCBReader.h	/^    bool jsControlled;$/;"	m	class:CCBReader
+kAutorepeatDeltaTime	GUI/CCControlExtension/CCControlStepper.cpp	38;"	d	file:
+kAutorepeatIncreaseTimeIncrement	GUI/CCControlExtension/CCControlStepper.cpp	39;"	d	file:
+kBoolValue	CCBReader/CCBValue.h	/^    kBoolValue,$/;"	e	enum:__anon9
+kCCBFloat0	CCBReader/CCBReader.h	/^    kCCBFloat0 = 0,$/;"	e	enum:__anon2
+kCCBFloat05	CCBReader/CCBReader.h	/^    kCCBFloat05,$/;"	e	enum:__anon2
+kCCBFloat1	CCBReader/CCBReader.h	/^    kCCBFloat1,$/;"	e	enum:__anon2
+kCCBFloatFull	CCBReader/CCBReader.h	/^    kCCBFloatFull$/;"	e	enum:__anon2
+kCCBFloatInteger	CCBReader/CCBReader.h	/^    kCCBFloatInteger,$/;"	e	enum:__anon2
+kCCBFloatMinus1	CCBReader/CCBReader.h	/^    kCCBFloatMinus1,$/;"	e	enum:__anon2
+kCCBKeyframeEasingBackIn	CCBReader/CCBReader.h	/^    kCCBKeyframeEasingBackIn,$/;"	e	enum:__anon5
+kCCBKeyframeEasingBackInOut	CCBReader/CCBReader.h	/^    kCCBKeyframeEasingBackInOut,$/;"	e	enum:__anon5
+kCCBKeyframeEasingBackOut	CCBReader/CCBReader.h	/^    kCCBKeyframeEasingBackOut,$/;"	e	enum:__anon5
+kCCBKeyframeEasingBounceIn	CCBReader/CCBReader.h	/^    kCCBKeyframeEasingBounceIn,$/;"	e	enum:__anon5
+kCCBKeyframeEasingBounceInOut	CCBReader/CCBReader.h	/^    kCCBKeyframeEasingBounceInOut,$/;"	e	enum:__anon5
+kCCBKeyframeEasingBounceOut	CCBReader/CCBReader.h	/^    kCCBKeyframeEasingBounceOut,$/;"	e	enum:__anon5
+kCCBKeyframeEasingCubicIn	CCBReader/CCBReader.h	/^    kCCBKeyframeEasingCubicIn,$/;"	e	enum:__anon5
+kCCBKeyframeEasingCubicInOut	CCBReader/CCBReader.h	/^    kCCBKeyframeEasingCubicInOut,$/;"	e	enum:__anon5
+kCCBKeyframeEasingCubicOut	CCBReader/CCBReader.h	/^    kCCBKeyframeEasingCubicOut,$/;"	e	enum:__anon5
+kCCBKeyframeEasingElasticIn	CCBReader/CCBReader.h	/^    kCCBKeyframeEasingElasticIn,$/;"	e	enum:__anon5
+kCCBKeyframeEasingElasticInOut	CCBReader/CCBReader.h	/^    kCCBKeyframeEasingElasticInOut,$/;"	e	enum:__anon5
+kCCBKeyframeEasingElasticOut	CCBReader/CCBReader.h	/^    kCCBKeyframeEasingElasticOut,$/;"	e	enum:__anon5
+kCCBKeyframeEasingInstant	CCBReader/CCBReader.h	/^    kCCBKeyframeEasingInstant,$/;"	e	enum:__anon5
+kCCBKeyframeEasingLinear	CCBReader/CCBReader.h	/^    kCCBKeyframeEasingLinear,$/;"	e	enum:__anon5
+kCCBPlatformAll	CCBReader/CCBReader.h	/^    kCCBPlatformAll = 0,$/;"	e	enum:__anon3
+kCCBPlatformIOS	CCBReader/CCBReader.h	/^    kCCBPlatformIOS,$/;"	e	enum:__anon3
+kCCBPlatformMac	CCBReader/CCBReader.h	/^    kCCBPlatformMac$/;"	e	enum:__anon3
+kCCBPositionTypeMultiplyResolution	CCBReader/CCBReader.h	/^    kCCBPositionTypeMultiplyResolution,$/;"	e	enum:__anon6
+kCCBPositionTypePercent	CCBReader/CCBReader.h	/^    kCCBPositionTypePercent,$/;"	e	enum:__anon6
+kCCBPositionTypeRelativeBottomLeft	CCBReader/CCBReader.h	/^    kCCBPositionTypeRelativeBottomLeft,$/;"	e	enum:__anon6
+kCCBPositionTypeRelativeBottomRight	CCBReader/CCBReader.h	/^    kCCBPositionTypeRelativeBottomRight,$/;"	e	enum:__anon6
+kCCBPositionTypeRelativeTopLeft	CCBReader/CCBReader.h	/^    kCCBPositionTypeRelativeTopLeft,$/;"	e	enum:__anon6
+kCCBPositionTypeRelativeTopRight	CCBReader/CCBReader.h	/^    kCCBPositionTypeRelativeTopRight,$/;"	e	enum:__anon6
+kCCBPropTypeAnimation	CCBReader/CCBReader.h	/^	kCCBPropTypeAnimation,$/;"	e	enum:__anon1
+kCCBPropTypeBlendmode	CCBReader/CCBReader.h	/^    kCCBPropTypeBlendmode,$/;"	e	enum:__anon1
+kCCBPropTypeBlock	CCBReader/CCBReader.h	/^    kCCBPropTypeBlock,$/;"	e	enum:__anon1
+kCCBPropTypeBlockCCControl	CCBReader/CCBReader.h	/^    kCCBPropTypeBlockCCControl,$/;"	e	enum:__anon1
+kCCBPropTypeByte	CCBReader/CCBReader.h	/^    kCCBPropTypeByte,$/;"	e	enum:__anon1
+kCCBPropTypeCCBFile	CCBReader/CCBReader.h	/^    kCCBPropTypeCCBFile,$/;"	e	enum:__anon1
+kCCBPropTypeCheck	CCBReader/CCBReader.h	/^    kCCBPropTypeCheck,$/;"	e	enum:__anon1
+kCCBPropTypeColor3	CCBReader/CCBReader.h	/^    kCCBPropTypeColor3,$/;"	e	enum:__anon1
+kCCBPropTypeColor4FVar	CCBReader/CCBReader.h	/^    kCCBPropTypeColor4FVar,$/;"	e	enum:__anon1
+kCCBPropTypeDegrees	CCBReader/CCBReader.h	/^    kCCBPropTypeDegrees,$/;"	e	enum:__anon1
+kCCBPropTypeFlip	CCBReader/CCBReader.h	/^    kCCBPropTypeFlip,$/;"	e	enum:__anon1
+kCCBPropTypeFloat	CCBReader/CCBReader.h	/^    kCCBPropTypeFloat,$/;"	e	enum:__anon1
+kCCBPropTypeFloatScale	CCBReader/CCBReader.h	/^    kCCBPropTypeFloatScale$/;"	e	enum:__anon1
+kCCBPropTypeFloatVar	CCBReader/CCBReader.h	/^    kCCBPropTypeFloatVar,$/;"	e	enum:__anon1
+kCCBPropTypeFntFile	CCBReader/CCBReader.h	/^    kCCBPropTypeFntFile,$/;"	e	enum:__anon1
+kCCBPropTypeFontTTF	CCBReader/CCBReader.h	/^    kCCBPropTypeFontTTF,$/;"	e	enum:__anon1
+kCCBPropTypeInteger	CCBReader/CCBReader.h	/^    kCCBPropTypeInteger,$/;"	e	enum:__anon1
+kCCBPropTypeIntegerLabeled	CCBReader/CCBReader.h	/^    kCCBPropTypeIntegerLabeled,$/;"	e	enum:__anon1
+kCCBPropTypePoint	CCBReader/CCBReader.h	/^    kCCBPropTypePoint,$/;"	e	enum:__anon1
+kCCBPropTypePointLock	CCBReader/CCBReader.h	/^    kCCBPropTypePointLock,$/;"	e	enum:__anon1
+kCCBPropTypePosition	CCBReader/CCBReader.h	/^    kCCBPropTypePosition = 0,$/;"	e	enum:__anon1
+kCCBPropTypeScaleLock	CCBReader/CCBReader.h	/^    kCCBPropTypeScaleLock,$/;"	e	enum:__anon1
+kCCBPropTypeSize	CCBReader/CCBReader.h	/^    kCCBPropTypeSize,$/;"	e	enum:__anon1
+kCCBPropTypeSpriteFrame	CCBReader/CCBReader.h	/^    kCCBPropTypeSpriteFrame,$/;"	e	enum:__anon1
+kCCBPropTypeString	CCBReader/CCBReader.h	/^    kCCBPropTypeString,$/;"	e	enum:__anon1
+kCCBPropTypeText	CCBReader/CCBReader.h	/^    kCCBPropTypeText,$/;"	e	enum:__anon1
+kCCBPropTypeTexture	CCBReader/CCBReader.h	/^    kCCBPropTypeTexture,$/;"	e	enum:__anon1
+kCCBScaleTypeAbsolute	CCBReader/CCBReader.h	/^    kCCBScaleTypeAbsolute,$/;"	e	enum:__anon8
+kCCBScaleTypeMultiplyResolution	CCBReader/CCBReader.h	/^    kCCBScaleTypeMultiplyResolution$/;"	e	enum:__anon8
+kCCBSizeTypeAbsolute	CCBReader/CCBReader.h	/^    kCCBSizeTypeAbsolute,$/;"	e	enum:__anon7
+kCCBSizeTypeHorizontalPercent	CCBReader/CCBReader.h	/^    kCCBSizeTypeHorizontalPercent,$/;"	e	enum:__anon7
+kCCBSizeTypeMultiplyResolution	CCBReader/CCBReader.h	/^    kCCBSizeTypeMultiplyResolution,$/;"	e	enum:__anon7
+kCCBSizeTypePercent	CCBReader/CCBReader.h	/^    kCCBSizeTypePercent,$/;"	e	enum:__anon7
+kCCBSizeTypeRelativeContainer	CCBReader/CCBReader.h	/^    kCCBSizeTypeRelativeContainer,$/;"	e	enum:__anon7
+kCCBSizeTypeVerticalPercent	CCBReader/CCBReader.h	/^    kCCBSizeTypeVerticalPercent,$/;"	e	enum:__anon7
+kCCBTargetTypeDocumentRoot	CCBReader/CCBReader.h	/^    kCCBTargetTypeDocumentRoot = 1,$/;"	e	enum:__anon4
+kCCBTargetTypeNone	CCBReader/CCBReader.h	/^    kCCBTargetTypeNone = 0,$/;"	e	enum:__anon4
+kCCBTargetTypeOwner	CCBReader/CCBReader.h	/^    kCCBTargetTypeOwner = 2,$/;"	e	enum:__anon4
+kCCBVersion	CCBReader/CCBReader.h	29;"	d
+kCCControlStepperPartMinus	GUI/CCControlExtension/CCControlStepper.h	/^    kCCControlStepperPartMinus,$/;"	e	enum:__anon14
+kCCControlStepperPartNone	GUI/CCControlExtension/CCControlStepper.h	/^    kCCControlStepperPartNone,$/;"	e	enum:__anon14
+kCCControlStepperPartPlus	GUI/CCControlExtension/CCControlStepper.h	/^    kCCControlStepperPartPlus,$/;"	e	enum:__anon14
+kCCScrollViewDirectionBoth	GUI/CCScrollView/CCScrollView.h	/^    kCCScrollViewDirectionBoth$/;"	e	enum:__anon17
+kCCScrollViewDirectionHorizontal	GUI/CCScrollView/CCScrollView.h	/^    kCCScrollViewDirectionHorizontal = 0,$/;"	e	enum:__anon17
+kCCScrollViewDirectionNone	GUI/CCScrollView/CCScrollView.h	/^	kCCScrollViewDirectionNone = -1,$/;"	e	enum:__anon17
+kCCScrollViewDirectionVertical	GUI/CCScrollView/CCScrollView.h	/^    kCCScrollViewDirectionVertical,$/;"	e	enum:__anon17
+kCCTableViewFillBottomUp	GUI/CCScrollView/CCTableView.h	/^    kCCTableViewFillBottomUp$/;"	e	enum:__anon18
+kCCTableViewFillTopDown	GUI/CCScrollView/CCTableView.h	/^    kCCTableViewFillTopDown,$/;"	e	enum:__anon18
+kControlEventTotalNumber	GUI/CCControlExtension/CCControl.h	49;"	d
+kEditBoxInputFlagInitialCapsAllCharacters	GUI/CCEditBox/CCEditBox.h	/^    kEditBoxInputFlagInitialCapsAllCharacters$/;"	e	enum:EditBoxInputFlag
+kEditBoxInputFlagInitialCapsSentence	GUI/CCEditBox/CCEditBox.h	/^    kEditBoxInputFlagInitialCapsSentence,$/;"	e	enum:EditBoxInputFlag
+kEditBoxInputFlagInitialCapsWord	GUI/CCEditBox/CCEditBox.h	/^    kEditBoxInputFlagInitialCapsWord,$/;"	e	enum:EditBoxInputFlag
+kEditBoxInputFlagPassword	GUI/CCEditBox/CCEditBox.h	/^    kEditBoxInputFlagPassword = 0,$/;"	e	enum:EditBoxInputFlag
+kEditBoxInputFlagSensitive	GUI/CCEditBox/CCEditBox.h	/^    kEditBoxInputFlagSensitive,$/;"	e	enum:EditBoxInputFlag
+kEditBoxInputModeAny	GUI/CCEditBox/CCEditBox.h	/^    kEditBoxInputModeAny = 0,$/;"	e	enum:EditBoxInputMode
+kEditBoxInputModeDecimal	GUI/CCEditBox/CCEditBox.h	/^    kEditBoxInputModeDecimal,$/;"	e	enum:EditBoxInputMode
+kEditBoxInputModeEmailAddr	GUI/CCEditBox/CCEditBox.h	/^    kEditBoxInputModeEmailAddr,$/;"	e	enum:EditBoxInputMode
+kEditBoxInputModeNumeric	GUI/CCEditBox/CCEditBox.h	/^    kEditBoxInputModeNumeric,$/;"	e	enum:EditBoxInputMode
+kEditBoxInputModePhoneNumber	GUI/CCEditBox/CCEditBox.h	/^    kEditBoxInputModePhoneNumber,$/;"	e	enum:EditBoxInputMode
+kEditBoxInputModeSingleLine	GUI/CCEditBox/CCEditBox.h	/^    kEditBoxInputModeSingleLine$/;"	e	enum:EditBoxInputMode
+kEditBoxInputModeUrl	GUI/CCEditBox/CCEditBox.h	/^    kEditBoxInputModeUrl,$/;"	e	enum:EditBoxInputMode
+kFloatValue	CCBReader/CCBValue.h	/^    kFloatValue,$/;"	e	enum:__anon9
+kHttpGet	network/HttpRequest.h	/^        kHttpGet,$/;"	e	enum:CCHttpRequest::__anon19
+kHttpPost	network/HttpRequest.h	/^        kHttpPost,$/;"	e	enum:CCHttpRequest::__anon19
+kHttpUnkown	network/HttpRequest.h	/^        kHttpUnkown,$/;"	e	enum:CCHttpRequest::__anon19
+kIntValue	CCBReader/CCBValue.h	/^    kIntValue,$/;"	e	enum:__anon9
+kKeyboardReturnTypeDefault	GUI/CCEditBox/CCEditBox.h	/^    kKeyboardReturnTypeDefault = 0,$/;"	e	enum:KeyboardReturnType
+kKeyboardReturnTypeDone	GUI/CCEditBox/CCEditBox.h	/^    kKeyboardReturnTypeDone,$/;"	e	enum:KeyboardReturnType
+kKeyboardReturnTypeGo	GUI/CCEditBox/CCEditBox.h	/^    kKeyboardReturnTypeGo$/;"	e	enum:KeyboardReturnType
+kKeyboardReturnTypeSearch	GUI/CCEditBox/CCEditBox.h	/^    kKeyboardReturnTypeSearch,$/;"	e	enum:KeyboardReturnType
+kKeyboardReturnTypeSend	GUI/CCEditBox/CCEditBox.h	/^    kKeyboardReturnTypeSend,$/;"	e	enum:KeyboardReturnType
+kPointerValue	CCBReader/CCBValue.h	/^    kPointerValue,$/;"	e	enum:__anon9
+kQuadSize	GUI/CCControlExtension/CCControlSwitch.cpp	172;"	d	file:
+kUnsignedCharValue	CCBReader/CCBValue.h	/^    kUnsignedCharValue,$/;"	e	enum:__anon9
+kZoomActionTag	GUI/CCControlExtension/CCControlButton.cpp	/^    kZoomActionTag = 0xCCCB0001,$/;"	e	enum:__anon13	file:
+keyboardDidHide	GUI/CCEditBox/CCEditBox.cpp	/^void CCEditBox::keyboardDidHide(CCIMEKeyboardNotificationInfo& info)$/;"	f	class:CCEditBox
+keyboardDidShow	GUI/CCEditBox/CCEditBox.cpp	/^void CCEditBox::keyboardDidShow(CCIMEKeyboardNotificationInfo& info)$/;"	f	class:CCEditBox
+keyboardWillHide	GUI/CCEditBox/CCEditBox.cpp	/^void CCEditBox::keyboardWillHide(CCIMEKeyboardNotificationInfo& info)$/;"	f	class:CCEditBox
+keyboardWillShow	GUI/CCEditBox/CCEditBox.cpp	/^void CCEditBox::keyboardWillShow(CCIMEKeyboardNotificationInfo& info)$/;"	f	class:CCEditBox
+lastCompletedSequenceName	CCBReader/CCBAnimationManager.h	/^    std::string lastCompletedSequenceName;$/;"	m	class:CCBAnimationManager
+lastPathComponent	CCBReader/CCBReader.cpp	/^std::string CCBReader::lastPathComponent(const char* pPath) {$/;"	f	class:CCBReader
+lazyInitThreadSemphore	network/HttpClient.cpp	/^bool CCHttpClient::lazyInitThreadSemphore()$/;"	f	class:CCHttpClient
+left	GUI/CCControlExtension/CCScale9Sprite.h	/^    CCSprite* left;$/;"	m	class:CCScale9Sprite
+loadCCNode	CCBReader/CCNodeLoader.cpp	/^CCNode * CCNodeLoader::loadCCNode(CCNode * pParent, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+locationFromTouch	GUI/CCControlExtension/CCControlSlider.cpp	/^CCPoint CCControlSlider::locationFromTouch(CCTouch* touch)$/;"	f	class:CCControlSlider
+locationFromTouch	GUI/CCControlExtension/CCControlSwitch.cpp	/^CCPoint CCControlSwitch::locationFromTouch(CCTouch* pTouch)$/;"	f	class:CCControlSwitch
+mActionManager	CCBReader/CCBReader.h	/^    CCBAnimationManager *mActionManager; \/\/retain$/;"	m	class:CCBReader
+mActionManagers	CCBReader/CCBReader.h	/^    CCDictionary* mActionManagers;$/;"	m	class:CCBReader
+mAnimatedProps	CCBReader/CCBReader.h	/^    std::set<std::string> *mAnimatedProps;$/;"	m	class:CCBReader
+mAnimationCompleteCallbackFunc	CCBReader/CCBAnimationManager.h	/^    SEL_CallFunc mAnimationCompleteCallbackFunc;$/;"	m	class:CCBAnimationManager
+mAnimationManagersForNodes	CCBReader/CCBReader.h	/^    CCArray* mAnimationManagersForNodes;$/;"	m	class:CCBReader
+mAutoPlaySequenceId	CCBReader/CCBAnimationManager.h	/^    int mAutoPlaySequenceId;$/;"	m	class:CCBAnimationManager
+mBaseValues	CCBReader/CCBAnimationManager.h	/^    CCDictionary *mBaseValues;$/;"	m	class:CCBAnimationManager
+mBytes	CCBReader/CCBReader.h	/^    unsigned char *mBytes;$/;"	m	class:CCBReader
+mCCBFileNode	CCBReader/CCBReader.h	/^    CCNode *mCCBFileNode;$/;"	m	class:CCBFile
+mCCBMemberVariableAssigner	CCBReader/CCBReader.h	/^    CCBMemberVariableAssigner *mCCBMemberVariableAssigner;$/;"	m	class:CCBReader
+mCCBRootPath	CCBReader/CCBReader.h	/^    std::string mCCBRootPath;$/;"	m	class:CCBReader
+mCCBSelectorResolver	CCBReader/CCBReader.h	/^    CCBSelectorResolver *mCCBSelectorResolver;$/;"	m	class:CCBReader
+mCCNodeLoaderLibrary	CCBReader/CCBReader.h	/^    CCNodeLoaderLibrary *mCCNodeLoaderLibrary;$/;"	m	class:CCBReader
+mCCNodeLoaderListener	CCBReader/CCBReader.h	/^    CCNodeLoaderListener *mCCNodeLoaderListener;$/;"	m	class:CCBReader
+mCCNodeLoaders	CCBReader/CCNodeLoaderLibrary.h	/^        CCNodeLoaderMap mCCNodeLoaders;$/;"	m	class:CCNodeLoaderLibrary
+mChainedSequenceId	CCBReader/CCBSequence.h	/^    int mChainedSequenceId;$/;"	m	class:CCBSequence
+mControlEvents	CCBReader/CCNodeLoader.h	/^    int mControlEvents;$/;"	m	struct:BlockCCControlData
+mCurrentBit	CCBReader/CCBReader.h	/^    int mCurrentBit;$/;"	m	class:CCBReader
+mCurrentByte	CCBReader/CCBReader.h	/^    int mCurrentByte;$/;"	m	class:CCBReader
+mData	CCBReader/CCBReader.h	/^    CCData *mData;$/;"	m	class:CCBReader
+mDelegate	CCBReader/CCBAnimationManager.h	/^    CCBAnimationManagerDelegate *mDelegate;$/;"	m	class:CCBAnimationManager
+mDiffAngle	CCBReader/CCBAnimationManager.h	/^    float mDiffAngle;$/;"	m	class:CCBRotateTo
+mDocumentCallbackNames	CCBReader/CCBAnimationManager.h	/^    CCArray *mDocumentCallbackNames;$/;"	m	class:CCBAnimationManager
+mDocumentCallbackNodes	CCBReader/CCBAnimationManager.h	/^    CCArray *mDocumentCallbackNodes;$/;"	m	class:CCBAnimationManager
+mDocumentControllerName	CCBReader/CCBAnimationManager.h	/^    std::string mDocumentControllerName;$/;"	m	class:CCBAnimationManager
+mDocumentOutletNames	CCBReader/CCBAnimationManager.h	/^    CCArray *mDocumentOutletNames;$/;"	m	class:CCBAnimationManager
+mDocumentOutletNodes	CCBReader/CCBAnimationManager.h	/^    CCArray *mDocumentOutletNodes;$/;"	m	class:CCBAnimationManager
+mDstAngle	CCBReader/CCBAnimationManager.h	/^    float mDstAngle;$/;"	m	class:CCBRotateTo
+mDuration	CCBReader/CCBSequence.h	/^    float mDuration;$/;"	m	class:CCBSequence
+mEasingOpt	CCBReader/CCBKeyframe.h	/^    float mEasingOpt;$/;"	m	class:CCBKeyframe
+mEasingType	CCBReader/CCBKeyframe.h	/^    int mEasingType;$/;"	m	class:CCBKeyframe
+mKeyframes	CCBReader/CCBSequenceProperty.h	/^    CCArray *mKeyframes;$/;"	m	class:CCBSequenceProperty
+mLoadedSpriteSheets	CCBReader/CCBReader.h	/^    std::set<std::string> mLoadedSpriteSheets;$/;"	m	class:CCBReader
+mName	CCBReader/CCBSequence.h	/^    std::string mName;$/;"	m	class:CCBSequence
+mName	CCBReader/CCBSequenceProperty.h	/^    std::string mName;$/;"	m	class:CCBSequenceProperty
+mNodeSequences	CCBReader/CCBAnimationManager.h	/^    CCDictionary *mNodeSequences;$/;"	m	class:CCBAnimationManager
+mNodesWithAnimationManagers	CCBReader/CCBReader.h	/^    CCArray* mNodesWithAnimationManagers;$/;"	m	class:CCBReader
+mOwner	CCBReader/CCBReader.h	/^    CCObject *mOwner;$/;"	m	class:CCBReader
+mOwnerCallbackNames	CCBReader/CCBReader.h	/^    std::vector<std::string> mOwnerCallbackNames;$/;"	m	class:CCBReader
+mOwnerCallbackNodes	CCBReader/CCBReader.h	/^    CCArray* mOwnerCallbackNodes;$/;"	m	class:CCBReader
+mOwnerOutletNames	CCBReader/CCBReader.h	/^    std::vector<std::string> mOwnerOutletNames;$/;"	m	class:CCBReader
+mOwnerOutletNodes	CCBReader/CCBReader.h	/^    CCArray* mOwnerOutletNodes;$/;"	m	class:CCBReader
+mRootContainerSize	CCBReader/CCBAnimationManager.h	/^    CCSize mRootContainerSize;$/;"	m	class:CCBAnimationManager
+mRootNode	CCBReader/CCBAnimationManager.h	/^    CCNode *mRootNode;$/;"	m	class:CCBAnimationManager
+mRunningSequence	CCBReader/CCBAnimationManager.h	/^    CCBSequence *mRunningSequence;$/;"	m	class:CCBAnimationManager
+mSELCCControlHandler	CCBReader/CCNodeLoader.h	/^    SEL_CCControlHandler mSELCCControlHandler;$/;"	m	struct:BlockCCControlData
+mSELMenuHandler	CCBReader/CCNodeLoader.h	/^    SEL_MenuHandler mSELMenuHandler;$/;"	m	struct:BlockData
+mSequenceId	CCBReader/CCBSequence.h	/^    int mSequenceId;$/;"	m	class:CCBSequence
+mSequences	CCBReader/CCBAnimationManager.h	/^    CCArray *mSequences;$/;"	m	class:CCBAnimationManager
+mSpriteFrame	CCBReader/CCBAnimationManager.h	/^    CCSpriteFrame *mSpriteFrame;$/;"	m	class:CCBSetSpriteFrame
+mStartAngle	CCBReader/CCBAnimationManager.h	/^    float mStartAngle;$/;"	m	class:CCBRotateTo
+mStringCache	CCBReader/CCBReader.h	/^    std::vector<std::string> mStringCache;$/;"	m	class:CCBReader
+mTarget	CCBReader/CCBAnimationManager.h	/^    CCObject *mTarget;$/;"	m	class:CCBAnimationManager
+mTarget	CCBReader/CCNodeLoader.h	/^    CCObject * mTarget;$/;"	m	struct:BlockCCControlData
+mTarget	CCBReader/CCNodeLoader.h	/^    CCObject * mTarget;$/;"	m	struct:BlockData
+mTime	CCBReader/CCBKeyframe.h	/^    float mTime;$/;"	m	class:CCBKeyframe
+mType	CCBReader/CCBSequenceProperty.h	/^    int mType;$/;"	m	class:CCBSequenceProperty
+mType	CCBReader/CCBValue.h	/^    int mType;$/;"	m	class:CCBValue
+mValue	CCBReader/CCBKeyframe.h	/^    CCObject *mValue;$/;"	m	class:CCBKeyframe
+mValue	CCBReader/CCBValue.h	/^    } mValue;$/;"	m	class:CCBValue	typeref:union:CCBValue::__anon10
+m_EditSize	GUI/CCEditBox/CCEditBoxImplAndroid.h	/^    CCSize m_EditSize;$/;"	m	class:CCEditBoxImplAndroid
+m_bAutorepeat	GUI/CCControlExtension/CCControlStepper.h	/^    bool                    m_bAutorepeat;$/;"	m	class:CCControlStepper
+m_bBounceable	GUI/CCScrollView/CCScrollView.h	/^    bool m_bBounceable;$/;"	m	class:CCScrollView
+m_bClippingToBounds	GUI/CCScrollView/CCScrollView.h	/^    bool m_bClippingToBounds;$/;"	m	class:CCScrollView
+m_bContinuous	GUI/CCControlExtension/CCControlStepper.h	/^    bool                    m_bContinuous;$/;"	m	class:CCControlStepper
+m_bDragging	GUI/CCScrollView/CCScrollView.h	/^    bool m_bDragging;$/;"	m	class:CCScrollView
+m_bEnabled	GUI/CCControlExtension/CCControl.h	/^    bool m_bEnabled;$/;"	m	class:CCControl
+m_bHighlighted	GUI/CCControlExtension/CCControl.h	/^    bool m_bHighlighted;$/;"	m	class:CCControl
+m_bIgnoreBodyRotation	physics_nodes/CCPhysicsSprite.h	/^    bool    m_bIgnoreBodyRotation;$/;"	m	class:CCPhysicsSprite
+m_bInRetinaMode	GUI/CCEditBox/CCEditBoxImplIOS.h	/^    bool       m_bInRetinaMode;$/;"	m	class:CCEditBoxImplIOS
+m_bIsOpacityModifyRGB	GUI/CCControlExtension/CCControl.h	/^    bool m_bIsOpacityModifyRGB;$/;"	m	class:CCControl
+m_bIsOpacityModifyRGB	GUI/CCControlExtension/CCScale9Sprite.h	/^    bool m_bIsOpacityModifyRGB;$/;"	m	class:CCScale9Sprite
+m_bMoved	GUI/CCControlExtension/CCControlSwitch.h	/^    bool m_bMoved;$/;"	m	class:CCControlSwitch
+m_bOn	GUI/CCControlExtension/CCControlSwitch.h	/^    bool m_bOn;$/;"	m	class:CCControlSwitch
+m_bParentInited	GUI/CCControlExtension/CCControlButton.h	/^    bool m_bParentInited;$/;"	m	class:CCControlButton
+m_bSelected	GUI/CCControlExtension/CCControl.h	/^    bool m_bSelected;$/;"	m	class:CCControl
+m_bSpriteFrameRotated	GUI/CCControlExtension/CCScale9Sprite.h	/^    bool   m_bSpriteFrameRotated;$/;"	m	class:CCScale9Sprite
+m_bSpritesGenerated	GUI/CCControlExtension/CCScale9Sprite.h	/^    bool m_bSpritesGenerated;$/;"	m	class:CCScale9Sprite
+m_bTouchInsideFlag	GUI/CCControlExtension/CCControlStepper.h	/^    bool                    m_bTouchInsideFlag;$/;"	m	class:CCControlStepper
+m_bTouchMoved	GUI/CCScrollView/CCScrollView.h	/^    bool m_bTouchMoved;$/;"	m	class:CCScrollView
+m_bWraps	GUI/CCControlExtension/CCControlStepper.h	/^    bool                    m_bWraps;$/;"	m	class:CCControlStepper
+m_capInsetsInternal	GUI/CCControlExtension/CCScale9Sprite.h	/^    CCRect m_capInsetsInternal;$/;"	m	class:CCScale9Sprite
+m_colPlaceHolder	GUI/CCEditBox/CCEditBox.h	/^    ccColor3B m_colPlaceHolder;$/;"	m	class:CCEditBox
+m_colPlaceHolder	GUI/CCEditBox/CCEditBoxImplAndroid.h	/^    ccColor3B m_colPlaceHolder;$/;"	m	class:CCEditBoxImplAndroid
+m_colText	GUI/CCEditBox/CCEditBox.h	/^    ccColor3B m_colText;$/;"	m	class:CCEditBox
+m_colText	GUI/CCEditBox/CCEditBoxImplAndroid.h	/^    ccColor3B m_colText;$/;"	m	class:CCEditBoxImplAndroid
+m_dMaximumValue	GUI/CCControlExtension/CCControlStepper.h	/^    double                  m_dMaximumValue;$/;"	m	class:CCControlStepper
+m_dMinimumValue	GUI/CCControlExtension/CCControlStepper.h	/^    double                  m_dMinimumValue;$/;"	m	class:CCControlStepper
+m_dStepValue	GUI/CCControlExtension/CCControlStepper.h	/^    double                  m_dStepValue;$/;"	m	class:CCControlStepper
+m_dValue	GUI/CCControlExtension/CCControlStepper.h	/^    double                  m_dValue;$/;"	m	class:CCControlStepper
+m_doesAdjustBackgroundImage	GUI/CCControlExtension/CCControlButton.h	/^    bool m_doesAdjustBackgroundImage;$/;"	m	class:CCControlButton
+m_eDirection	GUI/CCScrollView/CCScrollView.h	/^    CCScrollViewDirection m_eDirection;$/;"	m	class:CCScrollView
+m_eEditBoxInputFlag	GUI/CCEditBox/CCEditBox.h	/^    EditBoxInputFlag    m_eEditBoxInputFlag;$/;"	m	class:CCEditBox
+m_eEditBoxInputFlag	GUI/CCEditBox/CCEditBoxImplAndroid.h	/^    EditBoxInputFlag    m_eEditBoxInputFlag;$/;"	m	class:CCEditBoxImplAndroid
+m_eEditBoxInputMode	GUI/CCEditBox/CCEditBox.h	/^    EditBoxInputMode    m_eEditBoxInputMode;$/;"	m	class:CCEditBox
+m_eEditBoxInputMode	GUI/CCEditBox/CCEditBoxImplAndroid.h	/^    EditBoxInputMode    m_eEditBoxInputMode;$/;"	m	class:CCEditBoxImplAndroid
+m_eKeyboardReturnType	GUI/CCEditBox/CCEditBox.h	/^    KeyboardReturnType  m_eKeyboardReturnType;$/;"	m	class:CCEditBox
+m_eKeyboardReturnType	GUI/CCEditBox/CCEditBoxImplAndroid.h	/^    KeyboardReturnType  m_eKeyboardReturnType;$/;"	m	class:CCEditBoxImplAndroid
+m_eOldDirection	GUI/CCScrollView/CCTableView.h	/^	CCScrollViewDirection m_eOldDirection;$/;"	m	class:CCTableView
+m_eTouchedPart	GUI/CCControlExtension/CCControlStepper.h	/^    CCControlStepperPart    m_eTouchedPart;$/;"	m	class:CCControlStepper
+m_eVordering	GUI/CCScrollView/CCTableView.h	/^    CCTableViewVerticalFillOrder m_eVordering;$/;"	m	class:CCTableView
+m_fAdjustHeight	GUI/CCEditBox/CCEditBox.h	/^    float m_fAdjustHeight;$/;"	m	class:CCEditBox
+m_fInitialTouchXPosition	GUI/CCControlExtension/CCControlSwitch.h	/^    float m_fInitialTouchXPosition;$/;"	m	class:CCControlSwitch
+m_fMaxInset	GUI/CCScrollView/CCScrollView.h	/^    CCPoint m_fMaxInset;$/;"	m	class:CCScrollView
+m_fMaxScale	GUI/CCScrollView/CCScrollView.h	/^    float m_fMinScale, m_fMaxScale;$/;"	m	class:CCScrollView
+m_fMaxZoomScale	GUI/CCScrollView/CCScrollView.h	/^    float m_fMaxZoomScale;$/;"	m	class:CCScrollView
+m_fMaximumValue	GUI/CCControlExtension/CCControlPotentiometer.h	/^    float           m_fMaximumValue;$/;"	m	class:CCControlPotentiometer
+m_fMinInset	GUI/CCScrollView/CCScrollView.h	/^    CCPoint m_fMinInset;$/;"	m	class:CCScrollView
+m_fMinScale	GUI/CCScrollView/CCScrollView.h	/^    float m_fMinScale, m_fMaxScale;$/;"	m	class:CCScrollView
+m_fMinZoomScale	GUI/CCScrollView/CCScrollView.h	/^    float m_fMinZoomScale;$/;"	m	class:CCScrollView
+m_fMinimumValue	GUI/CCControlExtension/CCControlPotentiometer.h	/^    float           m_fMinimumValue;$/;"	m	class:CCControlPotentiometer
+m_fPTMRatio	physics_nodes/CCPhysicsSprite.h	/^    float   m_fPTMRatio;$/;"	m	class:CCPhysicsSprite
+m_fSliderXPosition	GUI/CCControlExtension/CCControlSwitch.cpp	/^    float m_fSliderXPosition;$/;"	m	class:CCControlSwitchSprite	file:
+m_fTouchLength	GUI/CCScrollView/CCScrollView.h	/^    float m_fTouchLength;$/;"	m	class:CCScrollView
+m_fValue	GUI/CCControlExtension/CCControlPotentiometer.h	/^    float           m_fValue; $/;"	m	class:CCControlPotentiometer
+m_fZoomScale	GUI/CCScrollView/CCScrollView.h	/^    float m_fZoomScale;$/;"	m	class:CCScrollView
+m_hasVisibleParents	GUI/CCControlExtension/CCControl.h	/^    bool m_hasVisibleParents;$/;"	m	class:CCControl
+m_hsv	GUI/CCControlExtension/CCControlColourPicker.h	/^    HSV m_hsv;$/;"	m	class:CCControlColourPicker
+m_isPushed	GUI/CCControlExtension/CCControlButton.h	/^    bool m_isPushed;$/;"	m	class:CCControlButton
+m_nAutorepeatCount	GUI/CCControlExtension/CCControlStepper.h	/^    int                     m_nAutorepeatCount;$/;"	m	class:CCControlStepper
+m_nMaxLength	GUI/CCEditBox/CCEditBox.h	/^    int   m_nMaxLength;$/;"	m	class:CCEditBox
+m_nMaxLength	GUI/CCEditBox/CCEditBoxImplAndroid.h	/^    int   m_nMaxLength;$/;"	m	class:CCEditBoxImplAndroid
+m_nMaxTextLength	GUI/CCEditBox/CCEditBoxImplIOS.h	/^    int        m_nMaxTextLength;$/;"	m	class:CCEditBoxImplIOS
+m_nSize	CCBReader/CCData.h	/^    unsigned long m_nSize;$/;"	m	class:CCData
+m_pBody	physics_nodes/CCPhysicsSprite.h	/^    b2Body  *m_pBody;$/;"	m	class:CCPhysicsSprite
+m_pBody	physics_nodes/CCPhysicsSprite.h	/^    cpBody  *m_pBody;$/;"	m	class:CCPhysicsSprite
+m_pBytes	CCBReader/CCData.h	/^    unsigned char* m_pBytes;$/;"	m	class:CCData
+m_pCellsFreed	GUI/CCScrollView/CCTableView.h	/^    CCArrayForObjectSorting* m_pCellsFreed;$/;"	m	class:CCTableView
+m_pCellsUsed	GUI/CCScrollView/CCTableView.h	/^    CCArrayForObjectSorting* m_pCellsUsed;$/;"	m	class:CCTableView
+m_pContainer	GUI/CCScrollView/CCScrollView.h	/^    CCNode* m_pContainer;$/;"	m	class:CCScrollView
+m_pDataSource	GUI/CCScrollView/CCTableView.h	/^    CCTableViewDataSource* m_pDataSource;$/;"	m	class:CCTableView
+m_pDelegate	GUI/CCEditBox/CCEditBox.h	/^    CCEditBoxDelegate*  m_pDelegate;$/;"	m	class:CCEditBox
+m_pDelegate	GUI/CCEditBox/CCEditBoxImpl.h	/^    CCEditBoxDelegate* m_pDelegate;$/;"	m	class:CCEditBoxImpl
+m_pDelegate	GUI/CCScrollView/CCScrollView.h	/^    CCScrollViewDelegate* m_pDelegate;$/;"	m	class:CCScrollView
+m_pDispatchTable	GUI/CCControlExtension/CCControl.h	/^    CCDictionary* m_pDispatchTable;$/;"	m	class:CCControl
+m_pEditBox	GUI/CCEditBox/CCEditBoxImpl.h	/^    CCEditBox* m_pEditBox;$/;"	m	class:CCEditBoxImpl
+m_pEditBoxImpl	GUI/CCEditBox/CCEditBox.h	/^    CCEditBoxImpl*      m_pEditBoxImpl;$/;"	m	class:CCEditBox
+m_pIndices	GUI/CCScrollView/CCTableView.h	/^    std::set<unsigned int>* m_pIndices;$/;"	m	class:CCTableView
+m_pLabel	GUI/CCEditBox/CCEditBoxImplAndroid.h	/^    CCLabelTTF* m_pLabel;$/;"	m	class:CCEditBoxImplAndroid
+m_pLabelPlaceHolder	GUI/CCEditBox/CCEditBoxImplAndroid.h	/^    CCLabelTTF* m_pLabelPlaceHolder;$/;"	m	class:CCEditBoxImplAndroid
+m_pSpacePtr	physics_nodes/CCPhysicsDebugNode.h	/^    cpSpace *m_pSpacePtr;$/;"	m	class:CCPhysicsDebugNode
+m_pSwitchSprite	GUI/CCControlExtension/CCControlSwitch.h	/^    CCControlSwitchSprite* m_pSwitchSprite;$/;"	m	class:CCControlSwitch
+m_pSysEdit	GUI/CCEditBox/CCEditBoxImplIOS.h	/^    void*      m_pSysEdit;$/;"	m	class:CCEditBoxImplIOS
+m_pTableViewDelegate	GUI/CCScrollView/CCTableView.h	/^    CCTableViewDelegate* m_pTableViewDelegate;$/;"	m	class:CCTableView
+m_pTouches	GUI/CCScrollView/CCScrollView.h	/^    CCArray* m_pTouches;$/;"	m	class:CCScrollView
+m_positionsAreDirty	GUI/CCControlExtension/CCScale9Sprite.h	/^    bool m_positionsAreDirty;$/;"	m	class:CCScale9Sprite
+m_sColorUnmodified	GUI/CCControlExtension/CCScale9Sprite.h	/^    ccColor3B m_sColorUnmodified;$/;"	m	class:CCScale9Sprite
+m_spriteRect	GUI/CCControlExtension/CCScale9Sprite.h	/^    CCRect m_spriteRect;$/;"	m	class:CCScale9Sprite
+m_strPlaceHolder	GUI/CCEditBox/CCEditBox.h	/^    std::string m_strPlaceHolder;$/;"	m	class:CCEditBox
+m_strPlaceHolder	GUI/CCEditBox/CCEditBoxImplAndroid.h	/^    std::string m_strPlaceHolder;$/;"	m	class:CCEditBoxImplAndroid
+m_strText	GUI/CCEditBox/CCEditBox.h	/^    std::string m_strText;$/;"	m	class:CCEditBox
+m_strText	GUI/CCEditBox/CCEditBoxImplAndroid.h	/^    std::string m_strText;$/;"	m	class:CCEditBoxImplAndroid
+m_tContentOffset	GUI/CCScrollView/CCScrollView.h	/^    CCPoint m_tContentOffset;$/;"	m	class:CCScrollView
+m_tContentSize	GUI/CCEditBox/CCEditBoxImplIOS.h	/^    CCSize     m_tContentSize;$/;"	m	class:CCEditBoxImplIOS
+m_tScrollDistance	GUI/CCScrollView/CCScrollView.h	/^    CCPoint m_tScrollDistance;$/;"	m	class:CCScrollView
+m_tTouchPoint	GUI/CCScrollView/CCScrollView.h	/^    CCPoint m_tTouchPoint;$/;"	m	class:CCScrollView
+m_tViewSize	GUI/CCScrollView/CCScrollView.h	/^    CCSize m_tViewSize;$/;"	m	class:CCScrollView
+m_uIdx	GUI/CCScrollView/CCTableViewCell.h	/^    unsigned int m_uIdx;$/;"	m	class:CCTableViewCell
+maxContainerOffset	GUI/CCScrollView/CCScrollView.cpp	/^CCPoint CCScrollView::maxContainerOffset()$/;"	f	class:CCScrollView
+minContainerOffset	GUI/CCScrollView/CCScrollView.cpp	/^CCPoint CCScrollView::minContainerOffset()$/;"	f	class:CCScrollView
+moveAnimationsFromNode	CCBReader/CCBAnimationManager.cpp	/^void CCBAnimationManager::moveAnimationsFromNode(CCNode* fromNode, CCNode* toNode) {$/;"	f	class:CCBAnimationManager
+nValue	CCBReader/CCBValue.h	/^        int nValue;$/;"	m	union:CCBValue::__anon10
+need_quit	network/HttpClient.cpp	/^static bool need_quit = false;$/;"	v	file:
+needsLayout	GUI/CCControlExtension/CCControl.cpp	/^void CCControl::needsLayout()$/;"	f	class:CCControl
+needsLayout	GUI/CCControlExtension/CCControlButton.cpp	/^void CCControlButton::needsLayout()$/;"	f	class:CCControlButton
+needsLayout	GUI/CCControlExtension/CCControlSlider.cpp	/^void CCControlSlider::needsLayout()$/;"	f	class:CCControlSlider
+needsLayout	GUI/CCControlExtension/CCControlSwitch.cpp	/^void CCControlSwitchSprite::needsLayout()$/;"	f	class:CCControlSwitchSprite
+networkThread	network/HttpClient.cpp	/^static void* networkThread(void *data)$/;"	f	file:
+newDefaultCCNodeLoaderLibrary	CCBReader/CCNodeLoaderLibrary.cpp	/^CCNodeLoaderLibrary * CCNodeLoaderLibrary::newDefaultCCNodeLoaderLibrary() {$/;"	f	class:CCNodeLoaderLibrary
+node	GUI/CCControlExtension/CCControlButton.cpp	/^CCControlButton* CCControlButton::node()$/;"	f	class:CCControlButton
+node	GUI/CCControlExtension/CCScale9Sprite.cpp	/^CCScale9Sprite* CCScale9Sprite::node()$/;"	f	class:CCScale9Sprite
+node	GUI/CCScrollView/CCScrollView.cpp	/^CCScrollView* CCScrollView::node()$/;"	f	class:CCScrollView
+nodeToParentTransform	physics_nodes/CCPhysicsSprite.cpp	/^CCAffineTransform CCPhysicsSprite::nodeToParentTransform()$/;"	f	class:CCPhysicsSprite
+objectID	GUI/CCScrollView/CCSorting.cpp	/^    unsigned int objectID;$/;"	m	class:CCSortedObject	file:
+objectWithObjectID	GUI/CCScrollView/CCSorting.cpp	/^CCSortableObject* CCArrayForObjectSorting::objectWithObjectID(unsigned int tag)$/;"	f	class:CCArrayForObjectSorting
+offSideWidth	GUI/CCControlExtension/CCControlSwitch.cpp	/^float CCControlSwitchSprite::offSideWidth()$/;"	f	class:CCControlSwitchSprite
+onEnter	GUI/CCControlExtension/CCControl.cpp	/^void CCControl::onEnter()$/;"	f	class:CCControl
+onExit	GUI/CCControlExtension/CCControl.cpp	/^void CCControl::onExit()$/;"	f	class:CCControl
+onExit	GUI/CCEditBox/CCEditBox.cpp	/^void CCEditBox::onExit(void)$/;"	f	class:CCEditBox
+onHandlePropTypeAnimation	CCBReader/CCNodeLoader.cpp	/^void CCNodeLoader::onHandlePropTypeAnimation(CCNode * pNode, CCNode * pParent, const char* pPropertyName, CCAnimation * pCCAnimation, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+onHandlePropTypeBlendFunc	CCBReader/CCLabelBMFontLoader.cpp	/^void CCLabelBMFontLoader::onHandlePropTypeBlendFunc(CCNode * pNode, CCNode * pParent, const char * pPropertyName, ccBlendFunc pCCBlendFunc, CCBReader * pCCBReader) {$/;"	f	class:CCLabelBMFontLoader
+onHandlePropTypeBlendFunc	CCBReader/CCLabelTTFLoader.cpp	/^void CCLabelTTFLoader::onHandlePropTypeBlendFunc(CCNode * pNode, CCNode * pParent, const char * pPropertyName, ccBlendFunc pCCBlendFunc, CCBReader * pCCBReader) {$/;"	f	class:CCLabelTTFLoader
+onHandlePropTypeBlendFunc	CCBReader/CCLayerColorLoader.cpp	/^void CCLayerColorLoader::onHandlePropTypeBlendFunc(CCNode * pNode, CCNode * pParent, const char * pPropertyName, ccBlendFunc pCCBlendFunc, CCBReader * pCCBReader) {$/;"	f	class:CCLayerColorLoader
+onHandlePropTypeBlendFunc	CCBReader/CCLayerGradientLoader.cpp	/^void CCLayerGradientLoader::onHandlePropTypeBlendFunc(CCNode * pNode, CCNode * pParent, const char * pPropertyName, ccBlendFunc pCCBlendFunc, CCBReader * pCCBReader) {$/;"	f	class:CCLayerGradientLoader
+onHandlePropTypeBlendFunc	CCBReader/CCNodeLoader.cpp	/^void CCNodeLoader::onHandlePropTypeBlendFunc(CCNode * pNode, CCNode * pParent, const char* pPropertyName, ccBlendFunc pCCBlendFunc, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+onHandlePropTypeBlendFunc	CCBReader/CCParticleSystemQuadLoader.cpp	/^void CCParticleSystemQuadLoader::onHandlePropTypeBlendFunc(CCNode * pNode, CCNode * pParent, const char * pPropertyName, ccBlendFunc pCCBlendFunc, CCBReader * pCCBReader) {$/;"	f	class:CCParticleSystemQuadLoader
+onHandlePropTypeBlendFunc	CCBReader/CCScale9SpriteLoader.cpp	/^void CCScale9SpriteLoader::onHandlePropTypeBlendFunc(CCNode * pNode, CCNode * pParent, const char * pPropertyName, ccBlendFunc pCCBlendFunc, CCBReader * pCCBReader) {$/;"	f	class:CCScale9SpriteLoader
+onHandlePropTypeBlendFunc	CCBReader/CCSpriteLoader.cpp	/^void CCSpriteLoader::onHandlePropTypeBlendFunc(CCNode * pNode, CCNode * pParent, const char * pPropertyName, ccBlendFunc pCCBlendFunc, CCBReader * pCCBReader) {$/;"	f	class:CCSpriteLoader
+onHandlePropTypeBlock	CCBReader/CCMenuItemLoader.cpp	/^void CCMenuItemLoader::onHandlePropTypeBlock(CCNode * pNode, CCNode * pParent, const char * pPropertyName, BlockData * pBlockData, CCBReader * pCCBReader) {$/;"	f	class:CCMenuItemLoader
+onHandlePropTypeBlock	CCBReader/CCNodeLoader.cpp	/^void CCNodeLoader::onHandlePropTypeBlock(CCNode * pNode, CCNode * pParent, const char* pPropertyName, BlockData * pBlockData, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+onHandlePropTypeBlockCCControl	CCBReader/CCControlLoader.cpp	/^void CCControlLoader::onHandlePropTypeBlockCCControl(CCNode * pNode, CCNode * pParent, const char * pPropertyName, BlockCCControlData * pBlockCCControlData, CCBReader * pCCBReader) {$/;"	f	class:CCControlLoader
+onHandlePropTypeBlockCCControl	CCBReader/CCNodeLoader.cpp	/^void CCNodeLoader::onHandlePropTypeBlockCCControl(CCNode * pNode, CCNode * pParent, const char* pPropertyName, BlockCCControlData * pBlockCCControlData, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+onHandlePropTypeByte	CCBReader/CCLabelBMFontLoader.cpp	/^void CCLabelBMFontLoader::onHandlePropTypeByte(CCNode * pNode, CCNode * pParent, const char * pPropertyName, unsigned char pByte, CCBReader * pCCBReader) {$/;"	f	class:CCLabelBMFontLoader
+onHandlePropTypeByte	CCBReader/CCLabelTTFLoader.cpp	/^void CCLabelTTFLoader::onHandlePropTypeByte(CCNode * pNode, CCNode * pParent, const char * pPropertyName, unsigned char pByte, CCBReader * pCCBReader) {$/;"	f	class:CCLabelTTFLoader
+onHandlePropTypeByte	CCBReader/CCLayerColorLoader.cpp	/^void CCLayerColorLoader::onHandlePropTypeByte(CCNode * pNode, CCNode * pParent, const char * pPropertyName, unsigned char pByte, CCBReader * pCCBReader) {$/;"	f	class:CCLayerColorLoader
+onHandlePropTypeByte	CCBReader/CCLayerGradientLoader.cpp	/^void CCLayerGradientLoader::onHandlePropTypeByte(CCNode * pNode, CCNode * pParent, const char * pPropertyName, unsigned char pByte, CCBReader * pCCBReader) {$/;"	f	class:CCLayerGradientLoader
+onHandlePropTypeByte	CCBReader/CCNodeLoader.cpp	/^void CCNodeLoader::onHandlePropTypeByte(CCNode * pNode, CCNode * pParent, const char* pPropertyName, unsigned char pByte, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+onHandlePropTypeByte	CCBReader/CCScale9SpriteLoader.cpp	/^void CCScale9SpriteLoader::onHandlePropTypeByte(CCNode * pNode, CCNode * pParent, const char * pPropertyName, unsigned char pByte, CCBReader * pCCBReader) {$/;"	f	class:CCScale9SpriteLoader
+onHandlePropTypeByte	CCBReader/CCSpriteLoader.cpp	/^void CCSpriteLoader::onHandlePropTypeByte(CCNode * pNode, CCNode * pParent, const char * pPropertyName, unsigned char pByte, CCBReader * pCCBReader) {$/;"	f	class:CCSpriteLoader
+onHandlePropTypeCCBFile	CCBReader/CCBFileLoader.cpp	/^void CCBFileLoader::onHandlePropTypeCCBFile(CCNode * pNode, CCNode * pParent, const char * pPropertyName, CCNode * pCCBFileNode, CCBReader * pCCBReader) {$/;"	f	class:CCBFileLoader
+onHandlePropTypeCCBFile	CCBReader/CCNodeLoader.cpp	/^void CCNodeLoader::onHandlePropTypeCCBFile(CCNode * pNode, CCNode * pParent, const char* pPropertyName, CCNode * pCCBFileNode, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+onHandlePropTypeCCBFile	CCBReader/CCScrollViewLoader.cpp	/^void CCScrollViewLoader::onHandlePropTypeCCBFile(CCNode * pNode, CCNode * pParent, const char * pPropertyName, CCNode * pCCBFileNode, CCBReader * pCCBReader) {$/;"	f	class:CCScrollViewLoader
+onHandlePropTypeCheck	CCBReader/CCControlButtonLoader.cpp	/^void CCControlButtonLoader::onHandlePropTypeCheck(CCNode * pNode, CCNode * pParent, const char * pPropertyName, bool pCheck, CCBReader * pCCBReader) {$/;"	f	class:CCControlButtonLoader
+onHandlePropTypeCheck	CCBReader/CCControlLoader.cpp	/^void CCControlLoader::onHandlePropTypeCheck(CCNode * pNode, CCNode * pParent, const char * pPropertyName, bool pCheck, CCBReader * pCCBReader) {$/;"	f	class:CCControlLoader
+onHandlePropTypeCheck	CCBReader/CCLayerLoader.cpp	/^void CCLayerLoader::onHandlePropTypeCheck(CCNode * pNode, CCNode * pParent, const char * pPropertyName, bool pCheck, CCBReader * pCCBReader) {$/;"	f	class:CCLayerLoader
+onHandlePropTypeCheck	CCBReader/CCMenuItemLoader.cpp	/^void CCMenuItemLoader::onHandlePropTypeCheck(CCNode * pNode, CCNode * pParent, const char * pPropertyName, bool pCheck, CCBReader * pCCBReader) {$/;"	f	class:CCMenuItemLoader
+onHandlePropTypeCheck	CCBReader/CCNodeLoader.cpp	/^void CCNodeLoader::onHandlePropTypeCheck(CCNode * pNode, CCNode * pParent, const char* pPropertyName, bool pCheck, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+onHandlePropTypeCheck	CCBReader/CCScrollViewLoader.cpp	/^void CCScrollViewLoader::onHandlePropTypeCheck(CCNode * pNode, CCNode * pParent, const char * pPropertyName, bool pCheck, CCBReader * pCCBReader) {$/;"	f	class:CCScrollViewLoader
+onHandlePropTypeColor3	CCBReader/CCControlButtonLoader.cpp	/^void CCControlButtonLoader::onHandlePropTypeColor3(CCNode * pNode, CCNode * pParent, const char * pPropertyName, ccColor3B pCCColor3B, CCBReader * pCCBReader) {$/;"	f	class:CCControlButtonLoader
+onHandlePropTypeColor3	CCBReader/CCLabelBMFontLoader.cpp	/^void CCLabelBMFontLoader::onHandlePropTypeColor3(CCNode * pNode, CCNode * pParent, const char * pPropertyName, ccColor3B pCCColor3B, CCBReader * pCCBReader) {$/;"	f	class:CCLabelBMFontLoader
+onHandlePropTypeColor3	CCBReader/CCLabelTTFLoader.cpp	/^void CCLabelTTFLoader::onHandlePropTypeColor3(CCNode * pNode, CCNode * pParent, const char * pPropertyName, ccColor3B pCCColor3B, CCBReader * pCCBReader) {$/;"	f	class:CCLabelTTFLoader
+onHandlePropTypeColor3	CCBReader/CCLayerColorLoader.cpp	/^void CCLayerColorLoader::onHandlePropTypeColor3(CCNode * pNode, CCNode * pParent, const char * pPropertyName, ccColor3B pCCColor3B, CCBReader * pCCBReader) {$/;"	f	class:CCLayerColorLoader
+onHandlePropTypeColor3	CCBReader/CCLayerGradientLoader.cpp	/^void CCLayerGradientLoader::onHandlePropTypeColor3(CCNode * pNode, CCNode * pParent, const char * pPropertyName, ccColor3B pCCColor3B, CCBReader * pCCBReader) {$/;"	f	class:CCLayerGradientLoader
+onHandlePropTypeColor3	CCBReader/CCNodeLoader.cpp	/^void CCNodeLoader::onHandlePropTypeColor3(CCNode * pNode, CCNode * pParent, const char* pPropertyName, ccColor3B pCCColor3B, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+onHandlePropTypeColor3	CCBReader/CCScale9SpriteLoader.cpp	/^void CCScale9SpriteLoader::onHandlePropTypeColor3(CCNode * pNode, CCNode * pParent, const char * pPropertyName, ccColor3B pCCColor3B, CCBReader * pCCBReader) {$/;"	f	class:CCScale9SpriteLoader
+onHandlePropTypeColor3	CCBReader/CCSpriteLoader.cpp	/^void CCSpriteLoader::onHandlePropTypeColor3(CCNode * pNode, CCNode * pParent, const char * pPropertyName, ccColor3B pCCColor3B, CCBReader * pCCBReader) {$/;"	f	class:CCSpriteLoader
+onHandlePropTypeColor4FVar	CCBReader/CCNodeLoader.cpp	/^void CCNodeLoader::onHandlePropTypeColor4FVar(CCNode * pNode, CCNode * pParent, const char* pPropertyName, ccColor4F * pCCColor4FVar, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+onHandlePropTypeColor4FVar	CCBReader/CCParticleSystemQuadLoader.cpp	/^void CCParticleSystemQuadLoader::onHandlePropTypeColor4FVar(CCNode * pNode, CCNode * pParent, const char * pPropertyName, ccColor4F * pCCColor4FVar, CCBReader * pCCBReader) {$/;"	f	class:CCParticleSystemQuadLoader
+onHandlePropTypeDegrees	CCBReader/CCNodeLoader.cpp	/^void CCNodeLoader::onHandlePropTypeDegrees(CCNode * pNode, CCNode * pParent, const char* pPropertyName, float pDegrees, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+onHandlePropTypeFlip	CCBReader/CCNodeLoader.cpp	/^void CCNodeLoader::onHandlePropTypeFlip(CCNode * pNode, CCNode * pParent, const char* pPropertyName, bool * pFlip, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+onHandlePropTypeFlip	CCBReader/CCSpriteLoader.cpp	/^void CCSpriteLoader::onHandlePropTypeFlip(CCNode * pNode, CCNode * pParent, const char * pPropertyName, bool * pFlip, CCBReader * pCCBReader) {$/;"	f	class:CCSpriteLoader
+onHandlePropTypeFloat	CCBReader/CCNodeLoader.cpp	/^void CCNodeLoader::onHandlePropTypeFloat(CCNode * pNode, CCNode * pParent, const char* pPropertyName, float pFloat, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+onHandlePropTypeFloat	CCBReader/CCParticleSystemQuadLoader.cpp	/^void CCParticleSystemQuadLoader::onHandlePropTypeFloat(CCNode * pNode, CCNode * pParent, const char * pPropertyName, float pFloat, CCBReader * pCCBReader) {$/;"	f	class:CCParticleSystemQuadLoader
+onHandlePropTypeFloat	CCBReader/CCScale9SpriteLoader.cpp	/^void CCScale9SpriteLoader::onHandlePropTypeFloat(CCNode * pNode, CCNode * pParent, const char * pPropertyName, float pFloat, CCBReader * pCCBReader) {$/;"	f	class:CCScale9SpriteLoader
+onHandlePropTypeFloat	CCBReader/CCScrollViewLoader.cpp	/^void CCScrollViewLoader::onHandlePropTypeFloat(CCNode * pNode, CCNode * pParent, const char * pPropertyName, float pFloat, CCBReader * pCCBReader) {$/;"	f	class:CCScrollViewLoader
+onHandlePropTypeFloatScale	CCBReader/CCControlButtonLoader.cpp	/^void CCControlButtonLoader::onHandlePropTypeFloatScale(CCNode * pNode, CCNode * pParent, const char * pPropertyName, float pFloatScale, CCBReader * pCCBReader) {$/;"	f	class:CCControlButtonLoader
+onHandlePropTypeFloatScale	CCBReader/CCLabelTTFLoader.cpp	/^void CCLabelTTFLoader::onHandlePropTypeFloatScale(CCNode * pNode, CCNode * pParent, const char * pPropertyName, float pFloatScale, CCBReader * pCCBReader) {$/;"	f	class:CCLabelTTFLoader
+onHandlePropTypeFloatScale	CCBReader/CCNodeLoader.cpp	/^void CCNodeLoader::onHandlePropTypeFloatScale(CCNode * pNode, CCNode * pParent, const char* pPropertyName, float pFloatScale, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+onHandlePropTypeFloatVar	CCBReader/CCNodeLoader.cpp	/^void CCNodeLoader::onHandlePropTypeFloatVar(CCNode * pNode, CCNode * pParent, const char* pPropertyName, float * pFloatVar, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+onHandlePropTypeFloatVar	CCBReader/CCParticleSystemQuadLoader.cpp	/^void CCParticleSystemQuadLoader::onHandlePropTypeFloatVar(CCNode * pNode, CCNode * pParent, const char * pPropertyName, float * pFloatVar, CCBReader * pCCBReader) {$/;"	f	class:CCParticleSystemQuadLoader
+onHandlePropTypeFntFile	CCBReader/CCLabelBMFontLoader.cpp	/^void CCLabelBMFontLoader::onHandlePropTypeFntFile(CCNode * pNode, CCNode * pParent, const char * pPropertyName, const char* pFntFile, CCBReader * pCCBReader) {$/;"	f	class:CCLabelBMFontLoader
+onHandlePropTypeFntFile	CCBReader/CCNodeLoader.cpp	/^void CCNodeLoader::onHandlePropTypeFntFile(CCNode * pNode, CCNode * pParent, const char* pPropertyName, const char* pFntFile, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+onHandlePropTypeFontTTF	CCBReader/CCControlButtonLoader.cpp	/^void CCControlButtonLoader::onHandlePropTypeFontTTF(CCNode * pNode, CCNode * pParent, const char * pPropertyName, const char * pFontTTF, CCBReader * pCCBReader) {$/;"	f	class:CCControlButtonLoader
+onHandlePropTypeFontTTF	CCBReader/CCLabelTTFLoader.cpp	/^void CCLabelTTFLoader::onHandlePropTypeFontTTF(CCNode * pNode, CCNode * pParent, const char * pPropertyName, const char * pFontTTF, CCBReader * pCCBReader) {$/;"	f	class:CCLabelTTFLoader
+onHandlePropTypeFontTTF	CCBReader/CCNodeLoader.cpp	/^void CCNodeLoader::onHandlePropTypeFontTTF(CCNode * pNode, CCNode * pParent, const char* pPropertyName, const char * pFontTTF, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+onHandlePropTypeInteger	CCBReader/CCNodeLoader.cpp	/^void CCNodeLoader::onHandlePropTypeInteger(CCNode * pNode, CCNode * pParent, const char* pPropertyName, int pInteger, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+onHandlePropTypeInteger	CCBReader/CCParticleSystemQuadLoader.cpp	/^void CCParticleSystemQuadLoader::onHandlePropTypeInteger(CCNode * pNode, CCNode * pParent, const char * pPropertyName, int pInteger, CCBReader * pCCBReader) {$/;"	f	class:CCParticleSystemQuadLoader
+onHandlePropTypeIntegerLabeled	CCBReader/CCLabelTTFLoader.cpp	/^void CCLabelTTFLoader::onHandlePropTypeIntegerLabeled(CCNode * pNode, CCNode * pParent, const char * pPropertyName, int pIntegerLabeled, CCBReader * pCCBReader) {$/;"	f	class:CCLabelTTFLoader
+onHandlePropTypeIntegerLabeled	CCBReader/CCNodeLoader.cpp	/^void CCNodeLoader::onHandlePropTypeIntegerLabeled(CCNode * pNode, CCNode * pParent, const char* pPropertyName, int pIntegerLabeled, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+onHandlePropTypeIntegerLabeled	CCBReader/CCParticleSystemQuadLoader.cpp	/^void CCParticleSystemQuadLoader::onHandlePropTypeIntegerLabeled(CCNode * pNode, CCNode * pParent, const char * pPropertyName, int pIntegerLabeled, CCBReader * pCCBReader) {$/;"	f	class:CCParticleSystemQuadLoader
+onHandlePropTypeIntegerLabeled	CCBReader/CCScrollViewLoader.cpp	/^void CCScrollViewLoader::onHandlePropTypeIntegerLabeled(CCNode * pNode, CCNode * pParent, const char * pPropertyName, int pIntegerLabeled, CCBReader * pCCBReader) {$/;"	f	class:CCScrollViewLoader
+onHandlePropTypePoint	CCBReader/CCControlButtonLoader.cpp	/^void CCControlButtonLoader::onHandlePropTypePoint(CCNode * pNode, CCNode * pParent, const char * pPropertyName, CCPoint pPoint, CCBReader * pCCBReader) {$/;"	f	class:CCControlButtonLoader
+onHandlePropTypePoint	CCBReader/CCLayerGradientLoader.cpp	/^void CCLayerGradientLoader::onHandlePropTypePoint(CCNode * pNode, CCNode * pParent, const char * pPropertyName, CCPoint pPoint, CCBReader * pCCBReader) {$/;"	f	class:CCLayerGradientLoader
+onHandlePropTypePoint	CCBReader/CCNodeLoader.cpp	/^void CCNodeLoader::onHandlePropTypePoint(CCNode * pNode, CCNode * pParent, const char* pPropertyName, CCPoint pPoint, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+onHandlePropTypePoint	CCBReader/CCParticleSystemQuadLoader.cpp	/^void CCParticleSystemQuadLoader::onHandlePropTypePoint(CCNode * pNode, CCNode * pParent, const char * pPropertyName, CCPoint pPoint, CCBReader * pCCBReader) {$/;"	f	class:CCParticleSystemQuadLoader
+onHandlePropTypePointLock	CCBReader/CCNodeLoader.cpp	/^void CCNodeLoader::onHandlePropTypePointLock(CCNode * pNode, CCNode * pParent, const char* pPropertyName, CCPoint pPointLock, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+onHandlePropTypePosition	CCBReader/CCNodeLoader.cpp	/^void CCNodeLoader::onHandlePropTypePosition(CCNode * pNode, CCNode * pParent, const char* pPropertyName, CCPoint pPosition, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+onHandlePropTypeScaleLock	CCBReader/CCNodeLoader.cpp	/^void CCNodeLoader::onHandlePropTypeScaleLock(CCNode * pNode, CCNode * pParent, const char* pPropertyName, float * pScaleLock, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+onHandlePropTypeSize	CCBReader/CCControlButtonLoader.cpp	/^void CCControlButtonLoader::onHandlePropTypeSize(CCNode * pNode, CCNode * pParent, const char * pPropertyName, CCSize pSize, CCBReader * pCCBReader) {$/;"	f	class:CCControlButtonLoader
+onHandlePropTypeSize	CCBReader/CCLabelTTFLoader.cpp	/^void CCLabelTTFLoader::onHandlePropTypeSize(CCNode * pNode, CCNode * pParent, const char * pPropertyName, CCSize pSize, CCBReader * pCCBReader) {$/;"	f	class:CCLabelTTFLoader
+onHandlePropTypeSize	CCBReader/CCNodeLoader.cpp	/^void CCNodeLoader::onHandlePropTypeSize(CCNode * pNode, CCNode * pParent, const char* pPropertyName, CCSize pSize, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+onHandlePropTypeSize	CCBReader/CCScale9SpriteLoader.cpp	/^void CCScale9SpriteLoader::onHandlePropTypeSize(CCNode * pNode, CCNode * pParent, const char * pPropertyName, CCSize pSize, CCBReader * pCCBReader) {$/;"	f	class:CCScale9SpriteLoader
+onHandlePropTypeSize	CCBReader/CCScrollViewLoader.cpp	/^void CCScrollViewLoader::onHandlePropTypeSize(CCNode * pNode, CCNode * pParent, const char * pPropertyName, CCSize pSize, CCBReader * pCCBReader) {$/;"	f	class:CCScrollViewLoader
+onHandlePropTypeSpriteFrame	CCBReader/CCControlButtonLoader.cpp	/^void CCControlButtonLoader::onHandlePropTypeSpriteFrame(CCNode * pNode, CCNode * pParent, const char * pPropertyName, CCSpriteFrame * pCCSpriteFrame, CCBReader * pCCBReader) {$/;"	f	class:CCControlButtonLoader
+onHandlePropTypeSpriteFrame	CCBReader/CCMenuItemImageLoader.cpp	/^void CCMenuItemImageLoader::onHandlePropTypeSpriteFrame(CCNode * pNode, CCNode * pParent, const char * pPropertyName, CCSpriteFrame * pCCSpriteFrame, CCBReader * pCCBReader) {$/;"	f	class:CCMenuItemImageLoader
+onHandlePropTypeSpriteFrame	CCBReader/CCNodeLoader.cpp	/^void CCNodeLoader::onHandlePropTypeSpriteFrame(CCNode * pNode, CCNode * pParent, const char* pPropertyName, CCSpriteFrame * pCCSpriteFrame, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+onHandlePropTypeSpriteFrame	CCBReader/CCScale9SpriteLoader.cpp	/^void CCScale9SpriteLoader::onHandlePropTypeSpriteFrame(CCNode * pNode, CCNode * pParent, const char * pPropertyName, CCSpriteFrame * pCCSpriteFrame, CCBReader * pCCBReader) {$/;"	f	class:CCScale9SpriteLoader
+onHandlePropTypeSpriteFrame	CCBReader/CCSpriteLoader.cpp	/^void CCSpriteLoader::onHandlePropTypeSpriteFrame(CCNode * pNode, CCNode * pParent, const char * pPropertyName, CCSpriteFrame * pCCSpriteFrame, CCBReader * pCCBReader) {$/;"	f	class:CCSpriteLoader
+onHandlePropTypeString	CCBReader/CCControlButtonLoader.cpp	/^void CCControlButtonLoader::onHandlePropTypeString(CCNode * pNode, CCNode * pParent, const char * pPropertyName, const char * pString, CCBReader * pCCBReader) {$/;"	f	class:CCControlButtonLoader
+onHandlePropTypeString	CCBReader/CCNodeLoader.cpp	/^void CCNodeLoader::onHandlePropTypeString(CCNode * pNode, CCNode * pParent, const char* pPropertyName, const char * pString, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+onHandlePropTypeText	CCBReader/CCLabelBMFontLoader.cpp	/^void CCLabelBMFontLoader::onHandlePropTypeText(CCNode * pNode, CCNode * pParent, const char * pPropertyName, const char* pText, CCBReader * pCCBReader) {$/;"	f	class:CCLabelBMFontLoader
+onHandlePropTypeText	CCBReader/CCLabelTTFLoader.cpp	/^void CCLabelTTFLoader::onHandlePropTypeText(CCNode * pNode, CCNode * pParent, const char * pPropertyName, const char * pText, CCBReader * pCCBReader) {$/;"	f	class:CCLabelTTFLoader
+onHandlePropTypeText	CCBReader/CCNodeLoader.cpp	/^void CCNodeLoader::onHandlePropTypeText(CCNode * pNode, CCNode * pParent, const char* pPropertyName, const char * pText, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+onHandlePropTypeTexture	CCBReader/CCNodeLoader.cpp	/^void CCNodeLoader::onHandlePropTypeTexture(CCNode * pNode, CCNode * pParent, const char* pPropertyName, CCTexture2D * pCCTexture2D, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+onHandlePropTypeTexture	CCBReader/CCParticleSystemQuadLoader.cpp	/^void CCParticleSystemQuadLoader::onHandlePropTypeTexture(CCNode * pNode, CCNode * pParent, const char * pPropertyName, CCTexture2D * pCCTexture2D, CCBReader * pCCBReader) {$/;"	f	class:CCParticleSystemQuadLoader
+onSideWidth	GUI/CCControlExtension/CCControlSwitch.cpp	/^float CCControlSwitchSprite::onSideWidth()$/;"	f	class:CCControlSwitchSprite
+openKeyboard	GUI/CCEditBox/CCEditBoxImplAndroid.cpp	/^void CCEditBoxImplAndroid::openKeyboard()$/;"	f	class:CCEditBoxImplAndroid
+pBottom	GUI/CCControlExtension/CCScale9Sprite.cpp	/^    pBottom,$/;"	e	enum:positions	file:
+pBottomLeft	GUI/CCControlExtension/CCScale9Sprite.cpp	/^    pBottomLeft$/;"	e	enum:positions	file:
+pBottomRight	GUI/CCControlExtension/CCScale9Sprite.cpp	/^    pBottomRight,$/;"	e	enum:positions	file:
+pCentre	GUI/CCControlExtension/CCScale9Sprite.cpp	/^    pCentre = 0,$/;"	e	enum:positions	file:
+pLeft	GUI/CCControlExtension/CCScale9Sprite.cpp	/^    pLeft,$/;"	e	enum:positions	file:
+pRight	GUI/CCControlExtension/CCScale9Sprite.cpp	/^    pRight,$/;"	e	enum:positions	file:
+pTop	GUI/CCControlExtension/CCScale9Sprite.cpp	/^    pTop,$/;"	e	enum:positions	file:
+pTopLeft	GUI/CCControlExtension/CCScale9Sprite.cpp	/^    pTopLeft,$/;"	e	enum:positions	file:
+pTopRight	GUI/CCControlExtension/CCScale9Sprite.cpp	/^    pTopRight,$/;"	e	enum:positions	file:
+parsePropTypeAnimation	CCBReader/CCNodeLoader.cpp	/^CCAnimation * CCNodeLoader::parsePropTypeAnimation(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+parsePropTypeBlendFunc	CCBReader/CCNodeLoader.cpp	/^ccBlendFunc CCNodeLoader::parsePropTypeBlendFunc(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader) $/;"	f	class:CCNodeLoader
+parsePropTypeBlock	CCBReader/CCNodeLoader.cpp	/^BlockData * CCNodeLoader::parsePropTypeBlock(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+parsePropTypeBlockCCControl	CCBReader/CCNodeLoader.cpp	/^BlockCCControlData * CCNodeLoader::parsePropTypeBlockCCControl(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+parsePropTypeByte	CCBReader/CCNodeLoader.cpp	/^unsigned char CCNodeLoader::parsePropTypeByte(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader, const char *pPropertyName) $/;"	f	class:CCNodeLoader
+parsePropTypeCCBFile	CCBReader/CCNodeLoader.cpp	/^CCNode * CCNodeLoader::parsePropTypeCCBFile(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+parsePropTypeCheck	CCBReader/CCNodeLoader.cpp	/^bool CCNodeLoader::parsePropTypeCheck(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader, const char *pPropertyName) $/;"	f	class:CCNodeLoader
+parsePropTypeColor3	CCBReader/CCNodeLoader.cpp	/^ccColor3B CCNodeLoader::parsePropTypeColor3(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader, const char *pPropertyName) {$/;"	f	class:CCNodeLoader
+parsePropTypeColor4FVar	CCBReader/CCNodeLoader.cpp	/^ccColor4F * CCNodeLoader::parsePropTypeColor4FVar(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+parsePropTypeDegrees	CCBReader/CCNodeLoader.cpp	/^float CCNodeLoader::parsePropTypeDegrees(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader, const char *pPropertyName) {$/;"	f	class:CCNodeLoader
+parsePropTypeFlip	CCBReader/CCNodeLoader.cpp	/^bool * CCNodeLoader::parsePropTypeFlip(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+parsePropTypeFloat	CCBReader/CCNodeLoader.cpp	/^float CCNodeLoader::parsePropTypeFloat(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+parsePropTypeFloatScale	CCBReader/CCNodeLoader.cpp	/^float CCNodeLoader::parsePropTypeFloatScale(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader) $/;"	f	class:CCNodeLoader
+parsePropTypeFloatVar	CCBReader/CCNodeLoader.cpp	/^float * CCNodeLoader::parsePropTypeFloatVar(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader) $/;"	f	class:CCNodeLoader
+parsePropTypeFntFile	CCBReader/CCNodeLoader.cpp	/^std::string CCNodeLoader::parsePropTypeFntFile(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader) $/;"	f	class:CCNodeLoader
+parsePropTypeFontTTF	CCBReader/CCNodeLoader.cpp	/^std::string CCNodeLoader::parsePropTypeFontTTF(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+parsePropTypeInteger	CCBReader/CCNodeLoader.cpp	/^int CCNodeLoader::parsePropTypeInteger(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader) $/;"	f	class:CCNodeLoader
+parsePropTypeIntegerLabeled	CCBReader/CCNodeLoader.cpp	/^int CCNodeLoader::parsePropTypeIntegerLabeled(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader) $/;"	f	class:CCNodeLoader
+parsePropTypePoint	CCBReader/CCNodeLoader.cpp	/^CCPoint CCNodeLoader::parsePropTypePoint(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader) $/;"	f	class:CCNodeLoader
+parsePropTypePointLock	CCBReader/CCNodeLoader.cpp	/^CCPoint CCNodeLoader::parsePropTypePointLock(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+parsePropTypePosition	CCBReader/CCNodeLoader.cpp	/^CCPoint CCNodeLoader::parsePropTypePosition(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader, const char *pPropertyName) {$/;"	f	class:CCNodeLoader
+parsePropTypeScaleLock	CCBReader/CCNodeLoader.cpp	/^float * CCNodeLoader::parsePropTypeScaleLock(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader, const char *pPropertyName) {$/;"	f	class:CCNodeLoader
+parsePropTypeSize	CCBReader/CCNodeLoader.cpp	/^CCSize CCNodeLoader::parsePropTypeSize(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+parsePropTypeSpriteFrame	CCBReader/CCNodeLoader.cpp	/^CCSpriteFrame * CCNodeLoader::parsePropTypeSpriteFrame(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader, const char *pPropertyName) $/;"	f	class:CCNodeLoader
+parsePropTypeString	CCBReader/CCNodeLoader.cpp	/^std::string CCNodeLoader::parsePropTypeString(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+parsePropTypeText	CCBReader/CCNodeLoader.cpp	/^std::string CCNodeLoader::parsePropTypeText(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+parsePropTypeTexture	CCBReader/CCNodeLoader.cpp	/^CCTexture2D * CCNodeLoader::parsePropTypeTexture(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+parseProperties	CCBReader/CCNodeLoader.cpp	/^void CCNodeLoader::parseProperties(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader) {$/;"	f	class:CCNodeLoader
+pause	GUI/CCScrollView/CCScrollView.cpp	/^void CCScrollView::pause(CCObject* sender)$/;"	f	class:CCScrollView
+performedAnimatedScroll	GUI/CCScrollView/CCScrollView.cpp	/^void CCScrollView::performedAnimatedScroll(float dt)$/;"	f	class:CCScrollView
+pickerWithTargetAndPos	GUI/CCControlExtension/CCControlHuePicker.cpp	/^CCControlHuePicker* CCControlHuePicker::pickerWithTargetAndPos(CCNode* target, CCPoint pos)$/;"	f	class:CCControlHuePicker
+pickerWithTargetAndPos	GUI/CCControlExtension/CCControlSaturationBrightnessPicker.cpp	/^CCControlSaturationBrightnessPicker* CCControlSaturationBrightnessPicker::pickerWithTargetAndPos(CCNode* target, CCPoint pos)$/;"	f	class:CCControlSaturationBrightnessPicker
+pointer	CCBReader/CCBValue.h	/^        const void *pointer;$/;"	m	union:CCBValue::__anon10
+positions	GUI/CCControlExtension/CCScale9Sprite.cpp	/^enum positions$/;"	g	file:
+potentiometerBegan	GUI/CCControlExtension/CCControlPotentiometer.cpp	/^void CCControlPotentiometer::potentiometerBegan(CCPoint location)$/;"	f	class:CCControlPotentiometer
+potentiometerEnded	GUI/CCControlExtension/CCControlPotentiometer.cpp	/^void CCControlPotentiometer::potentiometerEnded(CCPoint location)$/;"	f	class:CCControlPotentiometer
+potentiometerMoved	GUI/CCControlExtension/CCControlPotentiometer.cpp	/^void CCControlPotentiometer::potentiometerMoved(CCPoint location)$/;"	f	class:CCControlPotentiometer
+processGetTask	network/HttpClient.cpp	/^int processGetTask(CCHttpRequest *request, write_callback callback, void *stream, int *responseCode)$/;"	f
+processPostTask	network/HttpClient.cpp	/^int processPostTask(CCHttpRequest *request, write_callback callback, void *stream, int32_t *responseCode)$/;"	f
+purge	CCBReader/CCNodeLoaderLibrary.cpp	/^void CCNodeLoaderLibrary::purge(bool pReleaseCCNodeLoaders) {$/;"	f	class:CCNodeLoaderLibrary
+purgeSharedCCNodeLoaderLibrary	CCBReader/CCNodeLoaderLibrary.cpp	/^void CCNodeLoaderLibrary::purgeSharedCCNodeLoaderLibrary() {$/;"	f	class:CCNodeLoaderLibrary
+r	GUI/CCControlExtension/CCControlUtils.h	/^    double r;       \/\/ percent$/;"	m	struct:__anon15
+readBool	CCBReader/CCBReader.cpp	/^bool CCBReader::readBool() {$/;"	f	class:CCBReader
+readByte	CCBReader/CCBReader.cpp	/^unsigned char CCBReader::readByte() {$/;"	f	class:CCBReader
+readCachedString	CCBReader/CCBReader.cpp	/^std::string CCBReader::readCachedString() {$/;"	f	class:CCBReader
+readFileWithCleanUp	CCBReader/CCBReader.cpp	/^CCNode* CCBReader::readFileWithCleanUp(bool bCleanUp, CCDictionary* am)$/;"	f	class:CCBReader
+readFloat	CCBReader/CCBReader.cpp	/^float CCBReader::readFloat() {$/;"	f	class:CCBReader
+readHeader	CCBReader/CCBReader.cpp	/^bool CCBReader::readHeader()$/;"	f	class:CCBReader
+readInt	CCBReader/CCBReader.cpp	/^int CCBReader::readInt(bool pSigned) {$/;"	f	class:CCBReader
+readKeyframe	CCBReader/CCBReader.cpp	/^CCBKeyframe* CCBReader::readKeyframe(int type)$/;"	f	class:CCBReader
+readNodeGraph	CCBReader/CCBReader.cpp	/^CCNode * CCBReader::readNodeGraph() {$/;"	f	class:CCBReader
+readNodeGraph	CCBReader/CCBReader.cpp	/^CCNode * CCBReader::readNodeGraph(CCNode * pParent) {$/;"	f	class:CCBReader
+readNodeGraphFromData	CCBReader/CCBReader.cpp	/^CCNode* CCBReader::readNodeGraphFromData(CCData *pData, CCObject *pOwner, const CCSize &parentSize)$/;"	f	class:CCBReader
+readNodeGraphFromFile	CCBReader/CCBReader.cpp	/^CCNode* CCBReader::readNodeGraphFromFile(const char *pCCBFileName)$/;"	f	class:CCBReader
+readNodeGraphFromFile	CCBReader/CCBReader.cpp	/^CCNode* CCBReader::readNodeGraphFromFile(const char *pCCBFileName, CCObject *pOwner, const CCSize &parentSize)$/;"	f	class:CCBReader
+readNodeGraphFromFile	CCBReader/CCBReader.cpp	/^CCNode* CCBReader::readNodeGraphFromFile(const char* pCCBFileName, CCObject* pOwner) $/;"	f	class:CCBReader
+readSequences	CCBReader/CCBReader.cpp	/^bool CCBReader::readSequences()$/;"	f	class:CCBReader
+readStringCache	CCBReader/CCBReader.cpp	/^bool CCBReader::readStringCache() {$/;"	f	class:CCBReader
+readUTF8	CCBReader/CCBReader.cpp	/^std::string CCBReader::readUTF8()$/;"	f	class:CCBReader
+registerCCNodeLoader	CCBReader/CCNodeLoaderLibrary.cpp	/^void CCNodeLoaderLibrary::registerCCNodeLoader(const char * pClassName, CCNodeLoader * pCCNodeLoader) {$/;"	f	class:CCNodeLoaderLibrary
+registerDefaultCCNodeLoaders	CCBReader/CCNodeLoaderLibrary.cpp	/^void CCNodeLoaderLibrary::registerDefaultCCNodeLoaders() {$/;"	f	class:CCNodeLoaderLibrary
+registerWithTouchDispatcher	GUI/CCControlExtension/CCControl.cpp	/^void CCControl::registerWithTouchDispatcher()$/;"	f	class:CCControl
+registerWithTouchDispatcher	GUI/CCScrollView/CCScrollView.cpp	/^void CCScrollView::registerWithTouchDispatcher()$/;"	f	class:CCScrollView
+reloadData	GUI/CCScrollView/CCTableView.cpp	/^void CCTableView::reloadData()$/;"	f	class:CCTableView
+relocateContainer	GUI/CCScrollView/CCScrollView.cpp	/^void CCScrollView::relocateContainer(bool animated)$/;"	f	class:CCScrollView
+removeCellAtIndex	GUI/CCScrollView/CCTableView.cpp	/^void CCTableView::removeCellAtIndex(unsigned int idx)$/;"	f	class:CCTableView
+removeSortedObject	GUI/CCScrollView/CCSorting.cpp	/^void CCArrayForObjectSorting::removeSortedObject(CCSortableObject* object)$/;"	f	class:CCArrayForObjectSorting
+removeTargetWithActionForControlEvent	GUI/CCControlExtension/CCControl.cpp	/^void CCControl::removeTargetWithActionForControlEvent(CCObject* target, SEL_CCControlHandler action, CCControlEvent controlEvent)$/;"	f	class:CCControl
+removeTargetWithActionForControlEvents	GUI/CCControlExtension/CCControl.cpp	/^void CCControl::removeTargetWithActionForControlEvents(CCObject* target, SEL_CCControlHandler action, CCControlEvent controlEvents)$/;"	f	class:CCControl
+reset	GUI/CCScrollView/CCTableViewCell.cpp	/^void CCTableViewCell::reset()$/;"	f	class:CCTableViewCell
+resizableSpriteWithCapInsets	GUI/CCControlExtension/CCScale9Sprite.cpp	/^CCScale9Sprite* CCScale9Sprite::resizableSpriteWithCapInsets(CCRect capInsets)$/;"	f	class:CCScale9Sprite
+resume	GUI/CCScrollView/CCScrollView.cpp	/^void CCScrollView::resume(CCObject* sender)$/;"	f	class:CCScrollView
+right	GUI/CCControlExtension/CCScale9Sprite.h	/^    CCSprite* right;$/;"	m	class:CCScale9Sprite
+runAction	CCBReader/CCBAnimationManager.cpp	/^void CCBAnimationManager::runAction(CCNode *pNode, CCBSequenceProperty *pSeqProp, float fTweenDuration)$/;"	f	class:CCBAnimationManager
+runAnimations	CCBReader/CCBAnimationManager.cpp	/^void CCBAnimationManager::runAnimations(const char *pName)$/;"	f	class:CCBAnimationManager
+runAnimations	CCBReader/CCBAnimationManager.cpp	/^void CCBAnimationManager::runAnimations(const char *pName, float fTweenDuration)$/;"	f	class:CCBAnimationManager
+runAnimations	CCBReader/CCBAnimationManager.cpp	/^void CCBAnimationManager::runAnimations(int nSeqId, float fTweenDuraiton)$/;"	f	class:CCBAnimationManager
+runAnimationsForSequenceIdTweenDuration	CCBReader/CCBAnimationManager.cpp	/^void CCBAnimationManager::runAnimationsForSequenceIdTweenDuration(int nSeqId, float fTweenDuration)$/;"	f	class:CCBAnimationManager
+runAnimationsForSequenceNamed	CCBReader/CCBAnimationManager.cpp	/^void CCBAnimationManager::runAnimationsForSequenceNamed(const char *pName)$/;"	f	class:CCBAnimationManager
+runAnimationsForSequenceNamedTweenDuration	CCBReader/CCBAnimationManager.cpp	/^void CCBAnimationManager::runAnimationsForSequenceNamedTweenDuration(const char *pName, float fTweenDuration)$/;"	f	class:CCBAnimationManager
+s	GUI/CCControlExtension/CCControlUtils.h	/^    double s;       \/\/ percent$/;"	m	struct:__anon16
+sSharedCCNodeLoaderLibrary	CCBReader/CCNodeLoaderLibrary.cpp	/^static CCNodeLoaderLibrary * sSharedCCNodeLoaderLibrary = NULL;$/;"	v	file:
+s_asyncRequestCount	network/HttpClient.cpp	/^static unsigned long    s_asyncRequestCount = 0;$/;"	v	file:
+s_errorBuffer	network/HttpClient.cpp	/^static char s_errorBuffer[CURL_ERROR_SIZE];$/;"	v	file:
+s_networkThread	network/HttpClient.cpp	/^static pthread_t        s_networkThread;$/;"	v	file:
+s_pHttpClient	network/HttpClient.cpp	/^static CCHttpClient *s_pHttpClient = NULL; \/\/ pointer to singleton$/;"	v	file:
+s_pSem	network/HttpClient.cpp	/^static sem_t *          s_pSem = NULL;$/;"	v	file:
+s_requestQueue	network/HttpClient.cpp	/^static CCArray* s_requestQueue = NULL;$/;"	v	file:
+s_requestQueueMutex	network/HttpClient.cpp	/^static pthread_mutex_t  s_requestQueueMutex;$/;"	v	file:
+s_responseQueue	network/HttpClient.cpp	/^static CCArray* s_responseQueue = NULL;$/;"	v	file:
+s_responseQueueMutex	network/HttpClient.cpp	/^static pthread_mutex_t  s_responseQueueMutex;$/;"	v	file:
+s_sem	network/HttpClient.cpp	/^static sem_t s_sem;$/;"	v	file:
+scale9Image	GUI/CCControlExtension/CCScale9Sprite.h	/^    CCSpriteBatchNode* scale9Image;$/;"	m	class:CCScale9Sprite
+scrollViewDidScroll	GUI/CCScrollView/CCTableView.cpp	/^void CCTableView::scrollViewDidScroll(CCScrollView* view)$/;"	f	class:CCTableView
+scrollViewDidZoom	GUI/CCScrollView/CCTableView.h	/^    virtual void scrollViewDidZoom(CCScrollView* view) {}$/;"	f	class:CCTableView
+send	network/HttpClient.cpp	/^void CCHttpClient::send(CCHttpRequest* request)$/;"	f	class:CCHttpClient
+sendActionsForControlEvents	GUI/CCControlExtension/CCControl.cpp	/^void CCControl::sendActionsForControlEvents(CCControlEvent controlEvents)$/;"	f	class:CCControl
+sequenceCompleted	CCBReader/CCBAnimationManager.cpp	/^void CCBAnimationManager::sequenceCompleted()$/;"	f	class:CCBAnimationManager
+setAdjustBackgroundImage	GUI/CCControlExtension/CCControlButton.cpp	/^void CCControlButton::setAdjustBackgroundImage(bool adjustBackgroundImage)$/;"	f	class:CCControlButton
+setAnimatedProperty	CCBReader/CCBAnimationManager.cpp	/^void CCBAnimationManager::setAnimatedProperty(const char *pPropName, CCNode *pNode, CCObject *pValue, float fTweenDuration)$/;"	f	class:CCBAnimationManager
+setAnimationCompletedCallback	CCBReader/CCBAnimationManager.cpp	/^void CCBAnimationManager::setAnimationCompletedCallback(CCObject *target, SEL_CallFunc callbackFunc) {$/;"	f	class:CCBAnimationManager
+setAnimationManager	CCBReader/CCBReader.cpp	/^void CCBReader::setAnimationManager(CCBAnimationManager *pAnimationManager)$/;"	f	class:CCBReader
+setAnimationManagers	CCBReader/CCBReader.cpp	/^void CCBReader::setAnimationManagers(CCDictionary* x)$/;"	f	class:CCBReader
+setAutoPlaySequenceId	CCBReader/CCBAnimationManager.cpp	/^void CCBAnimationManager::setAutoPlaySequenceId(int autoPlaySequenceId)$/;"	f	class:CCBAnimationManager
+setBackgroundSpriteForState	GUI/CCControlExtension/CCControlButton.cpp	/^void CCControlButton::setBackgroundSpriteForState(CCScale9Sprite* sprite, CCControlState state)$/;"	f	class:CCControlButton
+setBackgroundSpriteFrameForState	GUI/CCControlExtension/CCControlButton.cpp	/^void CCControlButton::setBackgroundSpriteFrameForState(CCSpriteFrame * spriteFrame, CCControlState state)$/;"	f	class:CCControlButton
+setBaseValue	CCBReader/CCBAnimationManager.cpp	/^void CCBAnimationManager::setBaseValue(CCObject *pValue, CCNode *pNode, const char *pPropName)$/;"	f	class:CCBAnimationManager
+setBody	physics_nodes/CCPhysicsSprite.cpp	/^void CCPhysicsSprite::setBody(b2Body *pBody)$/;"	f	class:CCPhysicsSprite
+setBody	physics_nodes/CCPhysicsSprite.cpp	/^void CCPhysicsSprite::setBody(cpBody *pBody)$/;"	f	class:CCPhysicsSprite
+setBounceable	GUI/CCScrollView/CCScrollView.h	/^    void setBounceable(bool bBounceable) { m_bBounceable = bBounceable; }$/;"	f	class:CCScrollView
+setCCBFileNode	CCBReader/CCBReader.cpp	/^void CCBFile::setCCBFileNode(CCNode *pNode)$/;"	f	class:CCBFile
+setCCBRootPath	CCBReader/CCBReader.cpp	/^void CCBReader::setCCBRootPath(const char* pCCBRootPath)$/;"	f	class:CCBReader
+setCapInsets	GUI/CCControlExtension/CCScale9Sprite.cpp	/^void CCScale9Sprite::setCapInsets(CCRect capInsets)$/;"	f	class:CCScale9Sprite
+setChainedSequenceId	CCBReader/CCBSequence.cpp	/^void CCBSequence::setChainedSequenceId(int nChainedSequenceId)$/;"	f	class:CCBSequence
+setClippingToBounds	GUI/CCScrollView/CCScrollView.h	/^    void setClippingToBounds(bool bClippingToBounds) { m_bClippingToBounds = bClippingToBounds; }$/;"	f	class:CCScrollView
+setColor	GUI/CCControlExtension/CCControl.cpp	/^void CCControl::setColor(const ccColor3B& color)$/;"	f	class:CCControl
+setColor	GUI/CCControlExtension/CCControlColourPicker.cpp	/^void CCControlColourPicker::setColor(const ccColor3B& color)$/;"	f	class:CCControlColourPicker
+setColor	GUI/CCControlExtension/CCScale9Sprite.cpp	/^void CCScale9Sprite::setColor(const ccColor3B& color3)$/;"	f	class:CCScale9Sprite
+setContainer	GUI/CCScrollView/CCScrollView.cpp	/^void CCScrollView::setContainer(CCNode * pContainer)$/;"	f	class:CCScrollView
+setContentOffset	GUI/CCScrollView/CCScrollView.cpp	/^void CCScrollView::setContentOffset(CCPoint offset, bool animated\/* = false*\/)$/;"	f	class:CCScrollView
+setContentOffsetInDuration	GUI/CCScrollView/CCScrollView.cpp	/^void CCScrollView::setContentOffsetInDuration(CCPoint offset, float dt)$/;"	f	class:CCScrollView
+setContentSize	GUI/CCControlExtension/CCScale9Sprite.cpp	/^void CCScale9Sprite::setContentSize(const CCSize &size)$/;"	f	class:CCScale9Sprite
+setContentSize	GUI/CCEditBox/CCEditBox.cpp	/^void CCEditBox::setContentSize(const CCSize& size)$/;"	f	class:CCEditBox
+setContentSize	GUI/CCEditBox/CCEditBoxImplAndroid.cpp	/^void CCEditBoxImplAndroid::setContentSize(const CCSize& size)$/;"	f	class:CCEditBoxImplAndroid
+setContentSize	GUI/CCScrollView/CCScrollView.cpp	/^void CCScrollView::setContentSize(const CCSize & size)$/;"	f	class:CCScrollView
+setDataSource	GUI/CCScrollView/CCTableView.h	/^    void setDataSource(CCTableViewDataSource* source) { m_pDataSource = source; }$/;"	f	class:CCTableView
+setDelegate	CCBReader/CCBAnimationManager.cpp	/^void CCBAnimationManager::setDelegate(CCBAnimationManagerDelegate *pDelegate)$/;"	f	class:CCBAnimationManager
+setDelegate	GUI/CCEditBox/CCEditBox.cpp	/^void CCEditBox::setDelegate(CCEditBoxDelegate* pDelegate)$/;"	f	class:CCEditBox
+setDelegate	GUI/CCEditBox/CCEditBoxImpl.h	/^    void setDelegate(CCEditBoxDelegate* pDelegate) { m_pDelegate = pDelegate; };$/;"	f	class:CCEditBoxImpl
+setDelegate	GUI/CCScrollView/CCScrollView.h	/^    void setDelegate(CCScrollViewDelegate* pDelegate) { m_pDelegate = pDelegate; }$/;"	f	class:CCScrollView
+setDelegate	GUI/CCScrollView/CCTableView.h	/^    void setDelegate(CCTableViewDelegate* pDelegate) { m_pTableViewDelegate = pDelegate; }$/;"	f	class:CCTableView
+setDirection	GUI/CCScrollView/CCScrollView.h	/^    virtual void setDirection(CCScrollViewDirection eDirection) { m_eDirection = eDirection; }$/;"	f	class:CCScrollView
+setDocumentControllerName	CCBReader/CCBAnimationManager.cpp	/^void CCBAnimationManager::setDocumentControllerName(const std::string &name) {$/;"	f	class:CCBAnimationManager
+setDuration	CCBReader/CCBSequence.cpp	/^void CCBSequence::setDuration(float fDuration)$/;"	f	class:CCBSequence
+setEasingOpt	CCBReader/CCBKeyframe.cpp	/^void CCBKeyframe::setEasingOpt(float fEasingOpt)$/;"	f	class:CCBKeyframe
+setEasingType	CCBReader/CCBKeyframe.cpp	/^void CCBKeyframe::setEasingType(int nEasingType)$/;"	f	class:CCBKeyframe
+setEnabled	GUI/CCControlExtension/CCControl.cpp	/^void CCControl::setEnabled(bool bEnabled)$/;"	f	class:CCControl
+setEnabled	GUI/CCControlExtension/CCControlButton.cpp	/^void CCControlButton::setEnabled(bool enabled)$/;"	f	class:CCControlButton
+setEnabled	GUI/CCControlExtension/CCControlColourPicker.cpp	/^void CCControlColourPicker::setEnabled(bool enabled)$/;"	f	class:CCControlColourPicker
+setEnabled	GUI/CCControlExtension/CCControlHuePicker.cpp	/^void CCControlHuePicker::setEnabled(bool enabled)$/;"	f	class:CCControlHuePicker
+setEnabled	GUI/CCControlExtension/CCControlPotentiometer.cpp	/^void CCControlPotentiometer::setEnabled(bool enabled)$/;"	f	class:CCControlPotentiometer
+setEnabled	GUI/CCControlExtension/CCControlSaturationBrightnessPicker.cpp	/^void CCControlSaturationBrightnessPicker::setEnabled(bool enabled)$/;"	f	class:CCControlSaturationBrightnessPicker
+setEnabled	GUI/CCControlExtension/CCControlSlider.cpp	/^void CCControlSlider::setEnabled(bool enabled)$/;"	f	class:CCControlSlider
+setEnabled	GUI/CCControlExtension/CCControlSwitch.cpp	/^void CCControlSwitch::setEnabled(bool enabled)$/;"	f	class:CCControlSwitch
+setErrorBuffer	network/HttpResponse.h	/^    inline void setErrorBuffer(const char* value)$/;"	f	class:CCHttpResponse
+setFirstFrame	CCBReader/CCBAnimationManager.cpp	/^void CCBAnimationManager::setFirstFrame(CCNode *pNode, CCBSequenceProperty *pSeqProp, float fTweenDuration)$/;"	f	class:CCBAnimationManager
+setFontColor	GUI/CCEditBox/CCEditBox.cpp	/^void CCEditBox::setFontColor(const ccColor3B& color)$/;"	f	class:CCEditBox
+setFontColor	GUI/CCEditBox/CCEditBoxImplAndroid.cpp	/^void CCEditBoxImplAndroid::setFontColor(const ccColor3B& color)$/;"	f	class:CCEditBoxImplAndroid
+setHeaders	network/HttpRequest.h	/^    inline void setHeaders(std::vector<std::string> pHeaders)$/;"	f	class:CCHttpRequest
+setHighlighted	GUI/CCControlExtension/CCControl.cpp	/^void CCControl::setHighlighted(bool bHighlighted)$/;"	f	class:CCControl
+setHighlighted	GUI/CCControlExtension/CCControlButton.cpp	/^void CCControlButton::setHighlighted(bool enabled)$/;"	f	class:CCControlButton
+setHue	GUI/CCControlExtension/CCControlHuePicker.cpp	/^void CCControlHuePicker::setHue(float hueValue)$/;"	f	class:CCControlHuePicker
+setHuePercentage	GUI/CCControlExtension/CCControlHuePicker.cpp	/^void CCControlHuePicker::setHuePercentage(float hueValueInPercent)$/;"	f	class:CCControlHuePicker
+setIdx	GUI/CCScrollView/CCTableViewCell.cpp	/^void CCTableViewCell::setIdx(unsigned int uIdx)$/;"	f	class:CCTableViewCell
+setIgnoreBodyRotation	physics_nodes/CCPhysicsSprite.cpp	/^void CCPhysicsSprite::setIgnoreBodyRotation(bool bIgnoreBodyRotation)$/;"	f	class:CCPhysicsSprite
+setInputFlag	GUI/CCEditBox/CCEditBox.cpp	/^void CCEditBox::setInputFlag(EditBoxInputFlag inputFlag)$/;"	f	class:CCEditBox
+setInputFlag	GUI/CCEditBox/CCEditBoxImplAndroid.cpp	/^void CCEditBoxImplAndroid::setInputFlag(EditBoxInputFlag inputFlag)$/;"	f	class:CCEditBoxImplAndroid
+setInputMode	GUI/CCEditBox/CCEditBox.cpp	/^void CCEditBox::setInputMode(EditBoxInputMode inputMode)$/;"	f	class:CCEditBox
+setInputMode	GUI/CCEditBox/CCEditBoxImplAndroid.cpp	/^void CCEditBoxImplAndroid::setInputMode(EditBoxInputMode inputMode)$/;"	f	class:CCEditBoxImplAndroid
+setInsetBottom	GUI/CCControlExtension/CCScale9Sprite.cpp	/^void CCScale9Sprite::setInsetBottom(float insetBottom)$/;"	f	class:CCScale9Sprite
+setInsetLeft	GUI/CCControlExtension/CCScale9Sprite.cpp	/^void CCScale9Sprite::setInsetLeft(float insetLeft)$/;"	f	class:CCScale9Sprite
+setInsetRight	GUI/CCControlExtension/CCScale9Sprite.cpp	/^void CCScale9Sprite::setInsetRight(float insetRight)$/;"	f	class:CCScale9Sprite
+setInsetTop	GUI/CCControlExtension/CCScale9Sprite.cpp	/^void CCScale9Sprite::setInsetTop(float insetTop)$/;"	f	class:CCScale9Sprite
+setLabelAnchorPoint	GUI/CCControlExtension/CCControlButton.cpp	/^void CCControlButton::setLabelAnchorPoint(CCPoint labelAnchorPoint)$/;"	f	class:CCControlButton
+setMargins	GUI/CCControlExtension/CCControlButton.cpp	/^void CCControlButton::setMargins(int marginH, int marginV)$/;"	f	class:CCControlButton
+setMaxLength	GUI/CCEditBox/CCEditBox.cpp	/^void CCEditBox::setMaxLength(int maxLength)$/;"	f	class:CCEditBox
+setMaxLength	GUI/CCEditBox/CCEditBoxImplAndroid.cpp	/^void CCEditBoxImplAndroid::setMaxLength(int maxLength)$/;"	f	class:CCEditBoxImplAndroid
+setMaximumValue	GUI/CCControlExtension/CCControlPotentiometer.cpp	/^void CCControlPotentiometer::setMaximumValue(float maximumValue)$/;"	f	class:CCControlPotentiometer
+setMaximumValue	GUI/CCControlExtension/CCControlSlider.cpp	/^ void CCControlSlider::setMaximumValue(float maximumValue)$/;"	f	class:CCControlSlider
+setMaximumValue	GUI/CCControlExtension/CCControlStepper.cpp	/^void CCControlStepper::setMaximumValue(double maximumValue)$/;"	f	class:CCControlStepper
+setMinimumValue	GUI/CCControlExtension/CCControlPotentiometer.cpp	/^void CCControlPotentiometer::setMinimumValue(float minimumValue)$/;"	f	class:CCControlPotentiometer
+setMinimumValue	GUI/CCControlExtension/CCControlSlider.cpp	/^ void CCControlSlider::setMinimumValue(float minimumValue)$/;"	f	class:CCControlSlider
+setMinimumValue	GUI/CCControlExtension/CCControlStepper.cpp	/^void CCControlStepper::setMinimumValue(double minimumValue)$/;"	f	class:CCControlStepper
+setName	CCBReader/CCBSequence.cpp	/^void CCBSequence::setName(const char *pName)$/;"	f	class:CCBSequence
+setName	CCBReader/CCBSequenceProperty.cpp	/^void CCBSequenceProperty::setName(const char *pName)$/;"	f	class:CCBSequenceProperty
+setObjectID	GUI/CCScrollView/CCSorting.cpp	/^    virtual void setObjectID(unsigned int objectID) { this->objectID = objectID; }$/;"	f	class:CCSortedObject
+setObjectID	GUI/CCScrollView/CCTableViewCell.cpp	/^void CCTableViewCell::setObjectID(unsigned int uIdx)$/;"	f	class:CCTableViewCell
+setObjectID_ofSortedObject	GUI/CCScrollView/CCSorting.cpp	/^void CCArrayForObjectSorting::setObjectID_ofSortedObject(unsigned int tag, CCSortableObject* object)$/;"	f	class:CCArrayForObjectSorting
+setOn	GUI/CCControlExtension/CCControlSwitch.cpp	/^void CCControlSwitch::setOn(bool isOn)$/;"	f	class:CCControlSwitch
+setOn	GUI/CCControlExtension/CCControlSwitch.cpp	/^void CCControlSwitch::setOn(bool isOn, bool animated)$/;"	f	class:CCControlSwitch
+setOpacity	GUI/CCControlExtension/CCControl.cpp	/^void CCControl::setOpacity(GLubyte opacity)$/;"	f	class:CCControl
+setOpacity	GUI/CCControlExtension/CCControlButton.cpp	/^void CCControlButton::setOpacity(GLubyte opacity)$/;"	f	class:CCControlButton
+setOpacity	GUI/CCControlExtension/CCScale9Sprite.cpp	/^void CCScale9Sprite::setOpacity(GLubyte var)$/;"	f	class:CCScale9Sprite
+setOpacityModifyRGB	GUI/CCControlExtension/CCControl.cpp	/^void CCControl::setOpacityModifyRGB(bool bOpacityModifyRGB)$/;"	f	class:CCControl
+setOpacityModifyRGB	GUI/CCControlExtension/CCScale9Sprite.cpp	/^void CCScale9Sprite::setOpacityModifyRGB(bool var)$/;"	f	class:CCScale9Sprite
+setPTMRatio	physics_nodes/CCPhysicsSprite.cpp	/^void CCPhysicsSprite::setPTMRatio(float fRatio)$/;"	f	class:CCPhysicsSprite
+setPlaceHolder	GUI/CCEditBox/CCEditBox.cpp	/^void CCEditBox::setPlaceHolder(const char* pText)$/;"	f	class:CCEditBox
+setPlaceHolder	GUI/CCEditBox/CCEditBoxImplAndroid.cpp	/^void CCEditBoxImplAndroid::setPlaceHolder(const char* pText)$/;"	f	class:CCEditBoxImplAndroid
+setPlaceholderFontColor	GUI/CCEditBox/CCEditBox.cpp	/^void CCEditBox::setPlaceholderFontColor(const ccColor3B& color)$/;"	f	class:CCEditBox
+setPlaceholderFontColor	GUI/CCEditBox/CCEditBoxImplAndroid.cpp	/^void CCEditBoxImplAndroid::setPlaceholderFontColor(const ccColor3B& color)$/;"	f	class:CCEditBoxImplAndroid
+setPosition	GUI/CCEditBox/CCEditBox.cpp	/^void CCEditBox::setPosition(const CCPoint& pos)$/;"	f	class:CCEditBox
+setPosition	GUI/CCEditBox/CCEditBoxImplAndroid.cpp	/^void CCEditBoxImplAndroid::setPosition(const CCPoint& pos)$/;"	f	class:CCEditBoxImplAndroid
+setPosition	physics_nodes/CCPhysicsSprite.cpp	/^void CCPhysicsSprite::setPosition(const CCPoint &pos)$/;"	f	class:CCPhysicsSprite
+setPreferredSize	GUI/CCControlExtension/CCControlButton.cpp	/^void CCControlButton::setPreferredSize(CCSize size)$/;"	f	class:CCControlButton
+setPreferredSize	GUI/CCControlExtension/CCScale9Sprite.cpp	/^void CCScale9Sprite::setPreferredSize(CCSize preferedSize)$/;"	f	class:CCScale9Sprite
+setRelativeScale	CCBReader/CCNode+CCBRelativePositioning.cpp	/^void setRelativeScale(CCNode *pNode, float fScaleX, float fScaleY, int nType, const char* pPropName)$/;"	f
+setRequestData	network/HttpRequest.h	/^    inline void setRequestData(const char* buffer, unsigned int len)$/;"	f	class:CCHttpRequest
+setRequestType	network/HttpRequest.h	/^    inline void setRequestType(HttpRequestType type)$/;"	f	class:CCHttpRequest
+setResponseCallback	network/HttpRequest.h	/^    inline void setResponseCallback(CCObject* pTarget, SEL_CallFuncND pSelector)$/;"	f	class:CCHttpRequest
+setResponseCode	network/HttpResponse.h	/^    inline void setResponseCode(int value)$/;"	f	class:CCHttpResponse
+setResponseData	network/HttpResponse.h	/^    inline void setResponseData(std::vector<char>* data)$/;"	f	class:CCHttpResponse
+setReturnType	GUI/CCEditBox/CCEditBox.cpp	/^void CCEditBox::setReturnType(KeyboardReturnType returnType)$/;"	f	class:CCEditBox
+setReturnType	GUI/CCEditBox/CCEditBoxImplAndroid.cpp	/^void CCEditBoxImplAndroid::setReturnType(KeyboardReturnType returnType)$/;"	f	class:CCEditBoxImplAndroid
+setRootContainerSize	CCBReader/CCBAnimationManager.cpp	/^void CCBAnimationManager::setRootContainerSize(const CCSize &rootContainerSize)$/;"	f	class:CCBAnimationManager
+setRootNode	CCBReader/CCBAnimationManager.cpp	/^void CCBAnimationManager::setRootNode(CCNode *pRootNode)$/;"	f	class:CCBAnimationManager
+setRotation	physics_nodes/CCPhysicsSprite.cpp	/^void CCPhysicsSprite::setRotation(float fRotation)$/;"	f	class:CCPhysicsSprite
+setSelected	GUI/CCControlExtension/CCControl.cpp	/^void CCControl::setSelected(bool bSelected)$/;"	f	class:CCControl
+setSelected	GUI/CCControlExtension/CCControlButton.cpp	/^void CCControlButton::setSelected(bool enabled)$/;"	f	class:CCControlButton
+setSequenceId	CCBReader/CCBSequence.cpp	/^void CCBSequence::setSequenceId(int nSequenceId)$/;"	f	class:CCBSequence
+setSequences	CCBReader/CCBAnimationManager.cpp	/^void CCBAnimationManager::setSequences(CCArray* seq)$/;"	f	class:CCBAnimationManager
+setSliderXPosition	GUI/CCControlExtension/CCControlSwitch.cpp	/^void CCControlSwitchSprite::setSliderXPosition(float sliderXPosition)$/;"	f	class:CCControlSwitchSprite
+setSpace	physics_nodes/CCPhysicsDebugNode.cpp	/^void CCPhysicsDebugNode::setSpace(cpSpace *space)$/;"	f	class:CCPhysicsDebugNode
+setSpriteFrame	GUI/CCControlExtension/CCScale9Sprite.cpp	/^void CCScale9Sprite::setSpriteFrame(CCSpriteFrame * spriteFrame)$/;"	f	class:CCScale9Sprite
+setStepValue	GUI/CCControlExtension/CCControlStepper.cpp	/^void CCControlStepper::setStepValue(double stepValue)$/;"	f	class:CCControlStepper
+setSucceed	network/HttpResponse.h	/^    inline void setSucceed(bool value)$/;"	f	class:CCHttpResponse
+setTag	network/HttpRequest.h	/^    inline void setTag(const char* tag)$/;"	f	class:CCHttpRequest
+setText	GUI/CCEditBox/CCEditBox.cpp	/^void CCEditBox::setText(const char* pText)$/;"	f	class:CCEditBox
+setText	GUI/CCEditBox/CCEditBoxImplAndroid.cpp	/^void CCEditBoxImplAndroid::setText(const char* pText)$/;"	f	class:CCEditBoxImplAndroid
+setTime	CCBReader/CCBKeyframe.cpp	/^void CCBKeyframe::setTime(float fTime)$/;"	f	class:CCBKeyframe
+setTimeoutForConnect	network/HttpClient.h	/^    inline void setTimeoutForConnect(int value) {_timeoutForConnect = value;};$/;"	f	class:CCHttpClient
+setTimeoutForRead	network/HttpClient.h	/^    inline void setTimeoutForRead(int value) {_timeoutForRead = value;};$/;"	f	class:CCHttpClient
+setTitleBMFontForState	GUI/CCControlExtension/CCControlButton.cpp	/^void CCControlButton::setTitleBMFontForState(const char * fntFile, CCControlState state)$/;"	f	class:CCControlButton
+setTitleColorForState	GUI/CCControlExtension/CCControlButton.cpp	/^void CCControlButton::setTitleColorForState(ccColor3B color, CCControlState state)$/;"	f	class:CCControlButton
+setTitleForState	GUI/CCControlExtension/CCControlButton.cpp	/^void CCControlButton::setTitleForState(CCString* title, CCControlState state)$/;"	f	class:CCControlButton
+setTitleLabelForState	GUI/CCControlExtension/CCControlButton.cpp	/^void CCControlButton::setTitleLabelForState(CCNode* titleLabel, CCControlState state)$/;"	f	class:CCControlButton
+setTitleTTFForState	GUI/CCControlExtension/CCControlButton.cpp	/^void CCControlButton::setTitleTTFForState(const char * fntFile, CCControlState state)$/;"	f	class:CCControlButton
+setTitleTTFSizeForState	GUI/CCControlExtension/CCControlButton.cpp	/^void CCControlButton::setTitleTTFSizeForState(float size, CCControlState state)$/;"	f	class:CCControlButton
+setTouchEnabled	GUI/CCScrollView/CCScrollView.cpp	/^void CCScrollView::setTouchEnabled(bool e)$/;"	f	class:CCScrollView
+setType	CCBReader/CCBSequenceProperty.cpp	/^void CCBSequenceProperty::setType(int nType)$/;"	f	class:CCBSequenceProperty
+setUrl	network/HttpRequest.h	/^    inline void setUrl(const char* url)$/;"	f	class:CCHttpRequest
+setUserData	network/HttpRequest.h	/^    inline void setUserData(void* pUserData)$/;"	f	class:CCHttpRequest
+setValue	CCBReader/CCBKeyframe.cpp	/^void CCBKeyframe::setValue(CCObject *pValue)$/;"	f	class:CCBKeyframe
+setValue	GUI/CCControlExtension/CCControlPotentiometer.cpp	/^void CCControlPotentiometer::setValue(float value)$/;"	f	class:CCControlPotentiometer
+setValue	GUI/CCControlExtension/CCControlSlider.cpp	/^ void CCControlSlider::setValue(float value)$/;"	f	class:CCControlSlider
+setValue	GUI/CCControlExtension/CCControlStepper.cpp	/^void CCControlStepper::setValue(double value)$/;"	f	class:CCControlStepper
+setValueWithSendingEvent	GUI/CCControlExtension/CCControlStepper.cpp	/^void CCControlStepper::setValueWithSendingEvent(double value, bool send)$/;"	f	class:CCControlStepper
+setVerticalFillOrder	GUI/CCScrollView/CCTableView.cpp	/^void CCTableView::setVerticalFillOrder(CCTableViewVerticalFillOrder fillOrder)$/;"	f	class:CCTableView
+setViewSize	GUI/CCScrollView/CCScrollView.cpp	/^void CCScrollView::setViewSize(CCSize size)$/;"	f	class:CCScrollView
+setWraps	GUI/CCControlExtension/CCControlStepper.cpp	/^void CCControlStepper::setWraps(bool wraps)$/;"	f	class:CCControlStepper
+setZoomOnTouchDown	GUI/CCControlExtension/CCControlButton.cpp	/^void CCControlButton::setZoomOnTouchDown(bool zoomOnTouchDown)$/;"	f	class:CCControlButton
+setZoomScale	GUI/CCScrollView/CCScrollView.cpp	/^void CCScrollView::setZoomScale(float s)$/;"	f	class:CCScrollView
+setZoomScale	GUI/CCScrollView/CCScrollView.cpp	/^void CCScrollView::setZoomScale(float s, bool animated)$/;"	f	class:CCScrollView
+setZoomScaleInDuration	GUI/CCScrollView/CCScrollView.cpp	/^void CCScrollView::setZoomScaleInDuration(float s, float dt)$/;"	f	class:CCScrollView
+sharedCCNodeLoaderLibrary	CCBReader/CCNodeLoaderLibrary.cpp	/^CCNodeLoaderLibrary * CCNodeLoaderLibrary::sharedCCNodeLoaderLibrary() {$/;"	f	class:CCNodeLoaderLibrary
+sliderBegan	GUI/CCControlExtension/CCControlSlider.cpp	/^void CCControlSlider::sliderBegan(CCPoint location)$/;"	f	class:CCControlSlider
+sliderEnded	GUI/CCControlExtension/CCControlSlider.cpp	/^void CCControlSlider::sliderEnded(CCPoint location)$/;"	f	class:CCControlSlider
+sliderMoved	GUI/CCControlExtension/CCControlSlider.cpp	/^void CCControlSlider::sliderMoved(CCPoint location)$/;"	f	class:CCControlSlider
+sliderWithFiles	GUI/CCControlExtension/CCControlSlider.cpp	/^CCControlSlider* CCControlSlider::sliderWithFiles(const char* bgFile, const char* progressFile, const char* thumbFile)$/;"	f	class:CCControlSlider
+sliderWithSprites	GUI/CCControlExtension/CCControlSlider.cpp	/^CCControlSlider* CCControlSlider::sliderWithSprites(CCSprite * backgroundSprite, CCSprite* pogressSprite, CCSprite* thumbSprite)$/;"	f	class:CCControlSlider
+spriteWithFile	GUI/CCControlExtension/CCScale9Sprite.cpp	/^CCScale9Sprite* CCScale9Sprite::spriteWithFile(CCRect capInsets, const char* file)$/;"	f	class:CCScale9Sprite
+spriteWithFile	GUI/CCControlExtension/CCScale9Sprite.cpp	/^CCScale9Sprite* CCScale9Sprite::spriteWithFile(const char* file)$/;"	f	class:CCScale9Sprite
+spriteWithFile	GUI/CCControlExtension/CCScale9Sprite.cpp	/^CCScale9Sprite* CCScale9Sprite::spriteWithFile(const char* file, CCRect rect)$/;"	f	class:CCScale9Sprite
+spriteWithFile	GUI/CCControlExtension/CCScale9Sprite.cpp	/^CCScale9Sprite* CCScale9Sprite::spriteWithFile(const char* file, CCRect rect,  CCRect capInsets)$/;"	f	class:CCScale9Sprite
+spriteWithSpriteFrame	GUI/CCControlExtension/CCScale9Sprite.cpp	/^CCScale9Sprite* CCScale9Sprite::spriteWithSpriteFrame(CCSpriteFrame* spriteFrame)$/;"	f	class:CCScale9Sprite
+spriteWithSpriteFrame	GUI/CCControlExtension/CCScale9Sprite.cpp	/^CCScale9Sprite* CCScale9Sprite::spriteWithSpriteFrame(CCSpriteFrame* spriteFrame, CCRect capInsets)$/;"	f	class:CCScale9Sprite
+spriteWithSpriteFrameName	GUI/CCControlExtension/CCScale9Sprite.cpp	/^CCScale9Sprite* CCScale9Sprite::spriteWithSpriteFrameName(const char* spriteFrameName)$/;"	f	class:CCScale9Sprite
+spriteWithSpriteFrameName	GUI/CCControlExtension/CCScale9Sprite.cpp	/^CCScale9Sprite* CCScale9Sprite::spriteWithSpriteFrameName(const char* spriteFrameName, CCRect capInsets)$/;"	f	class:CCScale9Sprite
+startAutorepeat	GUI/CCControlExtension/CCControlStepper.cpp	/^void CCControlStepper::startAutorepeat()$/;"	f	class:CCControlStepper
+startWithTarget	CCBReader/CCBAnimationManager.cpp	/^void CCBRotateTo::startWithTarget(CCNode *pNode)$/;"	f	class:CCBRotateTo
+stopAutorepeat	GUI/CCControlExtension/CCControlStepper.cpp	/^void CCControlStepper::stopAutorepeat()$/;"	f	class:CCControlStepper
+stoppedAnimatedScroll	GUI/CCScrollView/CCScrollView.cpp	/^void CCScrollView::stoppedAnimatedScroll(CCNode * node)$/;"	f	class:CCScrollView
+switchWithMaskSprite	GUI/CCControlExtension/CCControlSwitch.cpp	/^CCControlSwitch* CCControlSwitch::switchWithMaskSprite(CCSprite *maskSprite, CCSprite * onSprite, CCSprite * offSprite, CCSprite * thumbSprite)$/;"	f	class:CCControlSwitch
+switchWithMaskSprite	GUI/CCControlExtension/CCControlSwitch.cpp	/^CCControlSwitch* CCControlSwitch::switchWithMaskSprite(CCSprite *maskSprite, CCSprite * onSprite, CCSprite * offSprite, CCSprite * thumbSprite, CCLabelTTF* onLabel, CCLabelTTF* offLabel)$/;"	f	class:CCControlSwitch
+textField	GUI/CCEditBox/EditBoxImplIOS.h	/^@property(nonatomic, retain) UITextField* textField;$/;"	v
+toLowerCase	CCBReader/CCBReader.cpp	/^std::string CCBReader::toLowerCase(const char* pString) {$/;"	f	class:CCBReader
+top	GUI/CCControlExtension/CCScale9Sprite.h	/^    CCSprite* top;$/;"	m	class:CCScale9Sprite
+topLeft	GUI/CCControlExtension/CCScale9Sprite.h	/^    CCSprite* topLeft;$/;"	m	class:CCScale9Sprite
+topRight	GUI/CCControlExtension/CCScale9Sprite.h	/^    CCSprite* topRight;$/;"	m	class:CCScale9Sprite
+touchDownAction	GUI/CCEditBox/CCEditBox.cpp	/^void CCEditBox::touchDownAction(CCObject *sender, CCControlEvent controlEvent)$/;"	f	class:CCEditBox
+unregisterCCNodeLoader	CCBReader/CCNodeLoaderLibrary.cpp	/^void CCNodeLoaderLibrary::unregisterCCNodeLoader(const char * pClassName) {$/;"	f	class:CCNodeLoaderLibrary
+update	CCBReader/CCBAnimationManager.cpp	/^void CCBRotateTo::update(float time)$/;"	f	class:CCBRotateTo
+update	CCBReader/CCBAnimationManager.cpp	/^void CCBSetSpriteFrame::update(float time)$/;"	f	class:CCBSetSpriteFrame
+update	GUI/CCControlExtension/CCControlStepper.cpp	/^void CCControlStepper::update(float dt)$/;"	f	class:CCControlStepper
+updateCapInset	GUI/CCControlExtension/CCScale9Sprite.cpp	/^void CCScale9Sprite::updateCapInset()$/;"	f	class:CCScale9Sprite
+updateCellAtIndex	GUI/CCScrollView/CCTableView.cpp	/^void CCTableView::updateCellAtIndex(unsigned int idx)$/;"	f	class:CCTableView
+updateControlPicker	GUI/CCControlExtension/CCControlColourPicker.cpp	/^void CCControlColourPicker::updateControlPicker()$/;"	f	class:CCControlColourPicker
+updateDraggerWithHSV	GUI/CCControlExtension/CCControlSaturationBrightnessPicker.cpp	/^void CCControlSaturationBrightnessPicker::updateDraggerWithHSV(HSV hsv)$/;"	f	class:CCControlSaturationBrightnessPicker
+updateHueAndControlPicker	GUI/CCControlExtension/CCControlColourPicker.cpp	/^void CCControlColourPicker::updateHueAndControlPicker()$/;"	f	class:CCControlColourPicker
+updateInset	GUI/CCScrollView/CCScrollView.cpp	/^void CCScrollView::updateInset()$/;"	f	class:CCScrollView
+updateLayoutUsingTouchLocation	GUI/CCControlExtension/CCControlStepper.cpp	/^void CCControlStepper::updateLayoutUsingTouchLocation(CCPoint location)$/;"	f	class:CCControlStepper
+updatePositions	GUI/CCControlExtension/CCScale9Sprite.cpp	/^void CCScale9Sprite::updatePositions()$/;"	f	class:CCScale9Sprite
+updateSliderPosition	GUI/CCControlExtension/CCControlHuePicker.cpp	/^void CCControlHuePicker::updateSliderPosition(CCPoint location)$/;"	f	class:CCControlHuePicker
+updateSliderPosition	GUI/CCControlExtension/CCControlSaturationBrightnessPicker.cpp	/^void CCControlSaturationBrightnessPicker::updateSliderPosition(CCPoint sliderPosition)$/;"	f	class:CCControlSaturationBrightnessPicker
+updateTweenAction	GUI/CCControlExtension/CCControlSwitch.cpp	/^void CCControlSwitchSprite::updateTweenAction(float value, const char* key)$/;"	f	class:CCControlSwitchSprite
+updateWithBatchNode	GUI/CCControlExtension/CCScale9Sprite.cpp	/^bool CCScale9Sprite::updateWithBatchNode(CCSpriteBatchNode* batchnode, CCRect rect, bool rotated, CCRect capInsets)$/;"	f	class:CCScale9Sprite
+updateWithHSV	GUI/CCControlExtension/CCControlSaturationBrightnessPicker.cpp	/^void CCControlSaturationBrightnessPicker::updateWithHSV(HSV hsv)$/;"	f	class:CCControlSaturationBrightnessPicker
+v	GUI/CCControlExtension/CCControlUtils.h	/^    double v;       \/\/ percent$/;"	m	struct:__anon16
+value	GUI/CCControlExtension/CCControlUtils.h	/^    ccColor3B value;$/;"	m	class:CCColor3bObject
+valueForLocation	GUI/CCControlExtension/CCControlSlider.cpp	/^float CCControlSlider::valueForLocation(CCPoint location)$/;"	f	class:CCControlSlider
+viewWithViewSize	GUI/CCScrollView/CCScrollView.cpp	/^CCScrollView* CCScrollView::viewWithViewSize(CCSize size, CCNode* container\/* = NULL*\/)$/;"	f	class:CCScrollView
+visit	GUI/CCControlExtension/CCScale9Sprite.cpp	/^void CCScale9Sprite::visit()$/;"	f	class:CCScale9Sprite
+visit	GUI/CCEditBox/CCEditBox.cpp	/^void CCEditBox::visit(void)$/;"	f	class:CCEditBox
+visit	GUI/CCEditBox/CCEditBoxImplAndroid.cpp	/^void CCEditBoxImplAndroid::visit(void)$/;"	f	class:CCEditBoxImplAndroid
+visit	GUI/CCScrollView/CCScrollView.cpp	/^void CCScrollView::visit()$/;"	f	class:CCScrollView
+writeData	network/HttpClient.cpp	/^size_t writeData(void *ptr, size_t size, size_t nmemb, void *stream)$/;"	f
+write_callback	network/HttpClient.cpp	/^typedef size_t (*write_callback)(void *ptr, size_t size, size_t nmemb, void *stream);$/;"	t	file:
+~CCBAnimationManager	CCBReader/CCBAnimationManager.cpp	/^CCBAnimationManager::~CCBAnimationManager()$/;"	f	class:CCBAnimationManager
+~CCBFileLoader	CCBReader/CCBFileLoader.h	/^        virtual ~CCBFileLoader() {};$/;"	f	class:CCBFileLoader
+~CCBKeyframe	CCBReader/CCBKeyframe.cpp	/^CCBKeyframe::~CCBKeyframe()$/;"	f	class:CCBKeyframe
+~CCBMemberVariableAssigner	CCBReader/CCBMemberVariableAssigner.h	/^        virtual ~CCBMemberVariableAssigner() {};$/;"	f	class:CCBMemberVariableAssigner
+~CCBReader	CCBReader/CCBReader.cpp	/^CCBReader::~CCBReader() {$/;"	f	class:CCBReader
+~CCBScriptOwnerProtocol	CCBReader/CCBSelectorResolver.h	/^    virtual ~CCBScriptOwnerProtocol() {};$/;"	f	class:CCBScriptOwnerProtocol
+~CCBSelectorResolver	CCBReader/CCBSelectorResolver.h	/^        virtual ~CCBSelectorResolver() {};$/;"	f	class:CCBSelectorResolver
+~CCBSequenceProperty	CCBReader/CCBSequenceProperty.cpp	/^CCBSequenceProperty::~CCBSequenceProperty()$/;"	f	class:CCBSequenceProperty
+~CCBSetSpriteFrame	CCBReader/CCBAnimationManager.cpp	/^CCBSetSpriteFrame::~CCBSetSpriteFrame()$/;"	f	class:CCBSetSpriteFrame
+~CCControl	GUI/CCControlExtension/CCControl.cpp	/^CCControl::~CCControl()$/;"	f	class:CCControl
+~CCControlButton	GUI/CCControlExtension/CCControlButton.cpp	/^CCControlButton::~CCControlButton()$/;"	f	class:CCControlButton
+~CCControlButtonLoader	CCBReader/CCControlButtonLoader.h	/^        virtual ~CCControlButtonLoader() {};$/;"	f	class:CCControlButtonLoader
+~CCControlColourPicker	GUI/CCControlExtension/CCControlColourPicker.cpp	/^CCControlColourPicker::~CCControlColourPicker()$/;"	f	class:CCControlColourPicker
+~CCControlHuePicker	GUI/CCControlExtension/CCControlHuePicker.cpp	/^CCControlHuePicker::~CCControlHuePicker()$/;"	f	class:CCControlHuePicker
+~CCControlLoader	CCBReader/CCControlLoader.h	/^        virtual ~CCControlLoader() {};$/;"	f	class:CCControlLoader
+~CCControlPotentiometer	GUI/CCControlExtension/CCControlPotentiometer.cpp	/^CCControlPotentiometer::~CCControlPotentiometer()$/;"	f	class:CCControlPotentiometer
+~CCControlSaturationBrightnessPicker	GUI/CCControlExtension/CCControlSaturationBrightnessPicker.cpp	/^CCControlSaturationBrightnessPicker::~CCControlSaturationBrightnessPicker()$/;"	f	class:CCControlSaturationBrightnessPicker
+~CCControlSlider	GUI/CCControlExtension/CCControlSlider.cpp	/^CCControlSlider::~CCControlSlider()$/;"	f	class:CCControlSlider
+~CCControlStepper	GUI/CCControlExtension/CCControlStepper.cpp	/^CCControlStepper::~CCControlStepper()$/;"	f	class:CCControlStepper
+~CCControlSwitch	GUI/CCControlExtension/CCControlSwitch.cpp	/^CCControlSwitch::~CCControlSwitch()$/;"	f	class:CCControlSwitch
+~CCControlSwitchSprite	GUI/CCControlExtension/CCControlSwitch.cpp	/^CCControlSwitchSprite::~CCControlSwitchSprite()$/;"	f	class:CCControlSwitchSprite
+~CCData	CCBReader/CCData.cpp	/^CCData::~CCData()$/;"	f	class:CCData
+~CCEditBox	GUI/CCEditBox/CCEditBox.cpp	/^CCEditBox::~CCEditBox(void)$/;"	f	class:CCEditBox
+~CCEditBoxDelegate	GUI/CCEditBox/CCEditBox.h	/^    virtual ~CCEditBoxDelegate() {};$/;"	f	class:CCEditBoxDelegate
+~CCEditBoxImpl	GUI/CCEditBox/CCEditBoxImpl.h	/^    virtual ~CCEditBoxImpl() {}$/;"	f	class:CCEditBoxImpl
+~CCEditBoxImplAndroid	GUI/CCEditBox/CCEditBoxImplAndroid.cpp	/^CCEditBoxImplAndroid::~CCEditBoxImplAndroid()$/;"	f	class:CCEditBoxImplAndroid
+~CCHttpClient	network/HttpClient.cpp	/^CCHttpClient::~CCHttpClient()$/;"	f	class:CCHttpClient
+~CCHttpRequest	network/HttpRequest.h	/^    virtual ~CCHttpRequest()$/;"	f	class:CCHttpRequest
+~CCHttpResponse	network/HttpResponse.h	/^    virtual ~CCHttpResponse()$/;"	f	class:CCHttpResponse
+~CCLabelBMFontLoader	CCBReader/CCLabelBMFontLoader.h	/^        virtual ~CCLabelBMFontLoader() {};$/;"	f	class:CCLabelBMFontLoader
+~CCLabelTTFLoader	CCBReader/CCLabelTTFLoader.h	/^        virtual ~CCLabelTTFLoader() {};$/;"	f	class:CCLabelTTFLoader
+~CCLayerColorLoader	CCBReader/CCLayerColorLoader.h	/^        virtual ~CCLayerColorLoader() {};$/;"	f	class:CCLayerColorLoader
+~CCLayerGradientLoader	CCBReader/CCLayerGradientLoader.h	/^        virtual ~CCLayerGradientLoader() {};$/;"	f	class:CCLayerGradientLoader
+~CCLayerLoader	CCBReader/CCLayerLoader.h	/^        virtual ~CCLayerLoader() {};$/;"	f	class:CCLayerLoader
+~CCMenuItemImageLoader	CCBReader/CCMenuItemImageLoader.h	/^        virtual ~CCMenuItemImageLoader() {};$/;"	f	class:CCMenuItemImageLoader
+~CCMenuItemLoader	CCBReader/CCMenuItemLoader.h	/^        virtual ~CCMenuItemLoader() {};$/;"	f	class:CCMenuItemLoader
+~CCMenuLoader	CCBReader/CCMenuLoader.h	/^        virtual ~CCMenuLoader() {};$/;"	f	class:CCMenuLoader
+~CCNodeLoader	CCBReader/CCNodeLoader.h	/^        virtual ~CCNodeLoader() {};$/;"	f	class:CCNodeLoader
+~CCNodeLoaderLibrary	CCBReader/CCNodeLoaderLibrary.cpp	/^CCNodeLoaderLibrary::~CCNodeLoaderLibrary() {$/;"	f	class:CCNodeLoaderLibrary
+~CCNodeLoaderListener	CCBReader/CCNodeLoaderListener.h	/^        virtual ~CCNodeLoaderListener() {};$/;"	f	class:CCNodeLoaderListener
+~CCParticleSystemQuadLoader	CCBReader/CCParticleSystemQuadLoader.h	/^        virtual ~CCParticleSystemQuadLoader() {};$/;"	f	class:CCParticleSystemQuadLoader
+~CCPhysicsDebugNode	physics_nodes/CCPhysicsDebugNode.cpp	/^CCPhysicsDebugNode::~CCPhysicsDebugNode()$/;"	f	class:CCPhysicsDebugNode
+~CCScale9Sprite	GUI/CCControlExtension/CCScale9Sprite.cpp	/^CCScale9Sprite::~CCScale9Sprite()$/;"	f	class:CCScale9Sprite
+~CCScale9SpriteLoader	CCBReader/CCScale9SpriteLoader.h	/^        virtual ~CCScale9SpriteLoader() {};$/;"	f	class:CCScale9SpriteLoader
+~CCScrollView	GUI/CCScrollView/CCScrollView.cpp	/^CCScrollView::~CCScrollView()$/;"	f	class:CCScrollView
+~CCScrollViewDelegate	GUI/CCScrollView/CCScrollView.h	/^    virtual ~CCScrollViewDelegate() {}$/;"	f	class:CCScrollViewDelegate
+~CCScrollViewLoader	CCBReader/CCScrollViewLoader.h	/^        virtual ~CCScrollViewLoader() {};$/;"	f	class:CCScrollViewLoader
+~CCSortableObject	GUI/CCScrollView/CCSorting.h	/^    virtual ~CCSortableObject() {}$/;"	f	class:CCSortableObject
+~CCSpriteLoader	CCBReader/CCSpriteLoader.h	/^        virtual ~CCSpriteLoader() {};$/;"	f	class:CCSpriteLoader
+~CCTableView	GUI/CCScrollView/CCTableView.cpp	/^CCTableView::~CCTableView()$/;"	f	class:CCTableView
