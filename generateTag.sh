@@ -41,22 +41,22 @@ echo "generate tags for cocos2d-x"
 cd cocos2d-x
 echo "generate tags for cocos2d"
 cd cocos2dx
-ctags -R *
+ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .
 cd ..
 echo "generate tags for box2d"
 cd Box2D
-ctags -R *
+ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .
 cd ..
 echo "generate tags for chipmunk"
 cd chipmunk
-ctags -R *
+ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .
 cd ..
 echo "generate tags for CocosDenshion"
 cd CocosDenshion
-ctags -R *
+ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .
 cd ..
 echo "generate tags for extensions"
 cd extensions
-ctags -R *
+ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .
 cd ..
 cd .. #back to root dir
