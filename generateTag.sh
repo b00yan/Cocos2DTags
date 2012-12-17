@@ -60,3 +60,12 @@ cd extensions
 ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .
 cd ..
 cd .. #back to root dir
+
+#generate opencv tags
+echo "generate tags for opencv2.4.2"
+cd opencv
+ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .
+cd ..
+cd ..  #back to root dir
+
+
