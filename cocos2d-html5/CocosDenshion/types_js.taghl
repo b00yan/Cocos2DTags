@@ -1,3 +1,0 @@
-syn keyword CTagsGlobalVariable cc
-syn keyword CTagsFunction stopAllEffects getMusicVolume isMusicPlaying getEffectsVolume setMusicVolume stopEffect _getEffectList ctor stopMusic end getInstance _getSupportedAudioFormat init playMusic resumeAllEffects pauseAllEffects preloadMusic resumeMusic playEffect rewindMusic willPlayMusic _checkAudioFormatSupported _getPathWithoutExt unloadEffect preloadEffect pauseEffect setEffectsVolume pauseMusic _getExtFromFullPath resumeEffect
-
