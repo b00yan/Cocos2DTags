@@ -398,14 +398,14 @@ CCHttpClient* CCHttpClient::getInstance()
 
 void CCHttpClient::destroyInstance()
 {
-    CC_ASSERT(s_pHttpClient);
+    CCAssert(s_pHttpClient, "");
     CCDirector::sharedDirector()->getScheduler()->unscheduleSelector(schedule_selector(CCHttpClient::dispatchResponseCallbacks), s_pHttpClient);
     s_pHttpClient->release();
 }
 
 CCHttpClient::CCHttpClient()
-:_timeoutForRead(60)
-,_timeoutForConnect(30)
+: _timeoutForConnect(30)
+, _timeoutForRead(60)
 {
     CCDirector::sharedDirector()->getScheduler()->scheduleSelector(
                     schedule_selector(CCHttpClient::dispatchResponseCallbacks), this, 0, false);

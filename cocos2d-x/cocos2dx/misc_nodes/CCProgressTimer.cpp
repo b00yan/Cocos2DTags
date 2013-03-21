@@ -56,11 +56,6 @@ CCProgressTimer::CCProgressTimer()
 ,m_bReverseDirection(false)
 {}
 
-CCProgressTimer* CCProgressTimer::progressWithSprite(CCSprite* sp)
-{
-    return CCProgressTimer::create(sp);
-}
-
 CCProgressTimer* CCProgressTimer::create(CCSprite* sp)
 {
     CCProgressTimer *pProgressTimer = new CCProgressTimer();
@@ -152,28 +147,6 @@ void CCProgressTimer::setReverseProgress(bool reverse)
         CC_SAFE_FREE(m_pVertexData);
         m_nVertexDataCount = 0;
     }
-}
-
-void CCProgressTimer::setColor(const ccColor3B& color)
-{
-    m_pSprite->setColor(color);
-    updateColor();
-}
-
-ccColor3B CCProgressTimer::getColor(void)
-{
-    return m_pSprite->getColor();
-}
-
-void CCProgressTimer::setOpacity(GLubyte opacity)
-{
-    m_pSprite->setOpacity(opacity);
-    updateColor();
-}
-
-GLubyte CCProgressTimer::getOpacity(void)
-{
-    return m_pSprite->getOpacity();
 }
 
 void CCProgressTimer::setOpacityModifyRGB(bool bValue)

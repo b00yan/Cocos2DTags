@@ -40,7 +40,7 @@ NS_CC_EXT_BEGIN
  * @{
  */
 
-class CCScale9Sprite : public CCNode, public CCRGBAProtocol
+class CCScale9Sprite : public CCNodeRGBA
 {
 public:
     CCScale9Sprite();
@@ -67,11 +67,6 @@ public:
     CC_PROPERTY(float, m_insetRight, InsetRight);
     /** Sets the bottom side inset */
     CC_PROPERTY(float, m_insetBottom, InsetBottom);
-
-    /** Opacity: conforms to CCRGBAProtocol protocol */
-    CC_PROPERTY(GLubyte, m_cOpacity, Opacity)
-    /** Color: conforms to CCRGBAProtocol protocol */
-    CC_PROPERTY_PASS_BY_REF(ccColor3B, m_tColor, Color)
 
 protected:
     bool m_bSpritesGenerated;
@@ -127,15 +122,6 @@ public:
      * with the specified cap insets.
      *
      * @see initWithFile:rect:centerRegion:
-     @deprecated: This interface will be deprecated sooner or later.
-     */
-    CC_DEPRECATED_ATTRIBUTE static CCScale9Sprite* spriteWithFile(const char* file, CCRect rect,  CCRect capInsets);
-    
-    /** 
-     * Creates a 9-slice sprite with a texture file, a delimitation zone and
-     * with the specified cap insets.
-     *
-     * @see initWithFile:rect:centerRegion:
      */
     static CCScale9Sprite* create(const char* file, CCRect rect,  CCRect capInsets);
 
@@ -152,15 +138,6 @@ public:
      * texture's full rect.
      */
     virtual bool initWithFile(const char* file, CCRect rect);
-    
-    /** 
-     * Creates a 9-slice sprite with a texture file and a delimitation zone. The
-     * texture will be broken down into a 3×3 grid of equal blocks.
-     *
-     * @see initWithFile:rect:
-     @deprecated: This interface will be deprecated sooner or later.
-     */
-    CC_DEPRECATED_ATTRIBUTE static CCScale9Sprite* spriteWithFile(const char* file, CCRect rect);
     
      /** 
      * Creates a 9-slice sprite with a texture file and a delimitation zone. The
@@ -181,15 +158,7 @@ public:
      * @param capInsets The values to use for the cap insets.
      */
     virtual bool initWithFile(CCRect capInsets, const char* file);
-    
-    /** 
-     * Creates a 9-slice sprite with a texture file. The whole texture will be
-     * broken down into a 3×3 grid of equal blocks.
-     *
-     * @see initWithFile:capInsets:
-     @deprecated: This interface will be deprecated sooner or later.
-     */
-    CC_DEPRECATED_ATTRIBUTE static CCScale9Sprite* spriteWithFile(CCRect capInsets, const char* file);
+
     /** 
      * Creates a 9-slice sprite with a texture file. The whole texture will be
      * broken down into a 3×3 grid of equal blocks.
@@ -209,15 +178,6 @@ public:
      * @param file The name of the texture file.
      */
     virtual bool initWithFile(const char* file);
-    
-    /** 
-     * Creates a 9-slice sprite with a texture file. The whole texture will be
-     * broken down into a 3×3 grid of equal blocks.
-     *
-     * @see initWithFile:
-     @deprecated: This interface will be deprecated sooner or later.
-     */
-    CC_DEPRECATED_ATTRIBUTE static CCScale9Sprite* spriteWithFile(const char* file);
 
     /** 
      * Creates a 9-slice sprite with a texture file. The whole texture will be
@@ -238,19 +198,8 @@ public:
      * @param capInsets The values to use for the cap insets.
      */
     virtual bool initWithSpriteFrame(CCSpriteFrame* spriteFrame, CCRect capInsets);
-    
-    /**
-     * Creates a 9-slice sprite with an sprite frame and the centre of its zone.
-     * Once the sprite is created, you can then call its "setContentSize:" method
-     * to resize the sprite will all it's 9-slice goodness intract.
-     * It respects the anchorPoint too.
-     *
-     * @see initWithSpriteFrame:centerRegion:
-     @deprecated: This interface will be deprecated sooner or later.
-     */
-    CC_DEPRECATED_ATTRIBUTE static CCScale9Sprite* spriteWithSpriteFrame(CCSpriteFrame* spriteFrame, CCRect capInsets);
 
-        /**
+    /**
      * Creates a 9-slice sprite with an sprite frame and the centre of its zone.
      * Once the sprite is created, you can then call its "setContentSize:" method
      * to resize the sprite will all it's 9-slice goodness intract.
@@ -268,17 +217,6 @@ public:
      * @param spriteFrame The sprite frame object.
      */
     virtual bool initWithSpriteFrame(CCSpriteFrame* spriteFrame);
-    
-    /**
-     * Creates a 9-slice sprite with an sprite frame.
-     * Once the sprite is created, you can then call its "setContentSize:" method
-     * to resize the sprite will all it's 9-slice goodness intract.
-     * It respects the anchorPoint too.
-     *
-     * @see initWithSpriteFrame:
-     @deprecated: This interface will be deprecated sooner or later.
-     */
-    CC_DEPRECATED_ATTRIBUTE static CCScale9Sprite* spriteWithSpriteFrame(CCSpriteFrame* spriteFrame);    
 
     /**
      * Creates a 9-slice sprite with an sprite frame.
@@ -301,19 +239,8 @@ public:
      * @param capInsets The values to use for the cap insets.
      */
     virtual bool initWithSpriteFrameName(const char*spriteFrameName, CCRect capInsets);
-    /**
-     * Creates a 9-slice sprite with an sprite frame name and the centre of its
-     * zone.
-     * Once the sprite is created, you can then call its "setContentSize:" method
-     * to resize the sprite will all it's 9-slice goodness intract.
-     * It respects the anchorPoint too.
-     *
-     * @see initWithSpriteFrameName:centerRegion:
-     @deprecated: This interface will be deprecated sooner or later.
-     */
-    CC_DEPRECATED_ATTRIBUTE static CCScale9Sprite* spriteWithSpriteFrameName(const char*spriteFrameName, CCRect capInsets);  
 
-       /**
+    /**
      * Creates a 9-slice sprite with an sprite frame name and the centre of its
      * zone.
      * Once the sprite is created, you can then call its "setContentSize:" method
@@ -333,17 +260,6 @@ public:
      * @param spriteFrameName The sprite frame name.
      */
     virtual bool initWithSpriteFrameName(const char*spriteFrameName);
-    
-    /**
-     * Creates a 9-slice sprite with an sprite frame name.
-     * Once the sprite is created, you can then call its "setContentSize:" method
-     * to resize the sprite will all it's 9-slice goodness intract.
-     * It respects the anchorPoint too.
-     *
-     * @see initWithSpriteFrameName:
-     @deprecated: This interface will be deprecated sooner or later.
-     */
-    CC_DEPRECATED_ATTRIBUTE static CCScale9Sprite* spriteWithSpriteFrameName(const char*spriteFrameName);
 
     /**
      * Creates a 9-slice sprite with an sprite frame name.
@@ -364,9 +280,6 @@ public:
      * @param capInsets The values to use for the cap insets.
      */
     CCScale9Sprite* resizableSpriteWithCapInsets(CCRect capInsets);
-    
-    //@deprecated: This interface will be deprecated sooner or later.
-    CC_DEPRECATED_ATTRIBUTE static CCScale9Sprite* node();
     
     static CCScale9Sprite* create();
 
