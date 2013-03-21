@@ -59,18 +59,18 @@ cc.TGA_ERROR_MEMORY = 4;
  */
 cc.TGA_ERROR_COMPRESSED_FILE = 5;
 
-function cc.ImageTGA(status, type, pixelDepth, width, height, imageData, flipped) {
-    this.status = status;
-    this.type = type;
-    this.pixelDepth = pixelDepth;
-    /** map width */
-    this.width = width;
-    /** map height */
-    this.height = height;
-    /** raw data */
-    this.imageData = imageData;
-    this.flipped = flipped;
-}
+// function cc.ImageTGA(status, type, pixelDepth, width, height, imageData, flipped) {
+//     this.status = status;
+//     this.type = type;
+//     this.pixelDepth = pixelDepth;
+//     /** map width */
+//     this.width = width;
+//     /** map height */
+//     this.height = height;
+//     /** raw data */
+//     this.imageData = imageData;
+//     this.flipped = flipped;
+// }
 
 /**
  * <p>cc.TileMapAtlas is a subclass of cc.AtlasNode.</p>

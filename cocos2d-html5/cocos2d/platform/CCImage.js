@@ -115,9 +115,9 @@ cc.ALIGN_LEFT = 0x31;
  */
 cc.ALIGN_TOP_LEFT = 0x11;
 
-function cc.RGB_PREMULTIPLY_APLHA(vr, vg, vb, va) {
-    return ((vr * (va + 1)) >> 8) | ((vg * (va + 1) >> 8) << 8) | ((vb * (va + 1) >> 8) << 16) | ((va) << 24)
-}
+// function cc.RGB_PREMULTIPLY_APLHA(vr, vg, vb, va) {
+//     return ((vr * (va + 1)) >> 8) | ((vg * (va + 1) >> 8) << 8) | ((vb * (va + 1) >> 8) << 16) | ((va) << 24)
+// }
 
 /**
  * image source
