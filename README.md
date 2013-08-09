@@ -10,3 +10,8 @@
 - 2.copy each of the cocos2d/box2d/chipmunk/extension/cocosDenshion derectory to this repo's according dire
 
 - 3.delete unused platform dependent dirs, lik xxxx.ios, xxxx.linux etc. and delete some third_party dirs
+
+**Licence:**
+
+Do What The Fuck You Want To Public License ([WTFPL](http://www.wtfpl.net/)).
+
